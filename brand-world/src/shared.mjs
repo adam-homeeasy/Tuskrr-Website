@@ -333,8 +333,8 @@ ${MOTION_JS}
 export const NOT_FINAL = [
   'Product images are the renders supplied by Tuskrr, shown as they are. They are not final photography.',
   'City scenes on these pages are drawn stand-ins, not photography. The real shoot should be in Indian cities with Indian models. The moodboard photos in the PDF are reference only and are not used, because we do not hold the rights to them.',
-  'Anything marked "to confirm" is a placeholder: laptop sizes, warranty, returns, cash on delivery and gifting dates.',
-  'Initials embossing is shown as a custom order, as confirmed. Lead time and price are still to confirm.',
+  'Laptop sizes and the returns policy are sample values, marked as samples, for layout only. Replace them with real figures before launch.',
+  'Initials embossing is a custom order, ready in 2 weeks. The price is still to confirm.',
   'The logo is cut from the supplied JPEG files. Vector artwork is needed before anything goes to print or to the website.',
   '"Arrive like you mean it." needs a trademark search (IP India) before it is printed.',
   'Type choices are proposals. Every font shown is free for commercial use (SIL Open Font License).',

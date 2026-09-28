@@ -1,7 +1,8 @@
-// Option A, The Entrance. Organising idea: a door of light. Sticky top bar,
+// The Entrance: the Tuskrr brand world. Organising idea: a door of light, with
+// Linear Wilderness underneath. Sticky top bar,
 // numbered sections, the collection as an index with the product in the light.
-import { IMG, FONTS, PRODUCTS, esc, skylineSVG, lockup, wordmark, goldS, GOLD_S_CSS, page } from './shared.mjs';
-import { SECTIONS, WORLDS, TAGLINE } from './worlds.mjs';
+import { IMG, FONTS, PRODUCTS, esc, skylineSVG, strataSVG, goldS, GOLD_S_CSS, page } from './shared.mjs';
+import { SECTIONS, WORLDS, LAPTOP } from './worlds.mjs';
 import { LAYOUT_CSS, pad, altText, ideaBody, paletteBody, typeBody, deviceBody, photoBody, voiceBody, giftingBody, phoneBody, verdictBody, footer } from './sections.mjs';
 
 const W = WORLDS.a;
@@ -23,6 +24,7 @@ body{background:var(--bg);color:var(--fg);font-family:"Instrument Sans",system-u
 .top nav a:hover{color:var(--accent)}
 /* hero */
 .hero{min-height:calc(100vh - 64px);position:relative;overflow:hidden;display:flex;align-items:stretch}
+.hero .strata{position:absolute;inset:0;width:100%;height:100%;color:#EFE9E1;opacity:.05}
 .hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 40% 70% at 70% 55%,rgba(246,227,189,.12),rgba(19,17,16,0) 70%)}
 .hero .wrap{position:relative;width:100%;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.75fr);gap:48px;align-items:center;padding-top:56px;padding-bottom:56px}
 .hero .kick{color:var(--muted);display:flex;gap:24px;flex-wrap:wrap}
@@ -43,6 +45,7 @@ body{background:var(--bg);color:var(--fg);font-family:"Instrument Sans",system-u
 .sh .lab{color:var(--muted)}
 /* device art */
 .room{position:absolute;inset:0;background:#0d0b0a}
+.room .wall{position:absolute;inset:0;width:100%;height:100%;color:#EFE9E1;opacity:.07}
 .room .slit{position:absolute;top:8%;bottom:0;left:56%;width:15%;background:linear-gradient(180deg,#f6e3bd,#e9c98f);box-shadow:0 0 80px 18px rgba(246,227,189,.35)}
 .room .floor{position:absolute;left:0;right:0;bottom:0;height:22%;background:linear-gradient(180deg,#1b1714,#0d0b0a)}
 .room .spill{position:absolute;bottom:0;left:40%;width:47%;height:22%;background:linear-gradient(180deg,rgba(246,227,189,.35),rgba(246,227,189,0));clip-path:polygon(34% 0,66% 0,100% 100%,0 100%)}
@@ -75,6 +78,7 @@ body{background:var(--bg);color:var(--fg);font-family:"Instrument Sans",system-u
 .index .more p.line{font-size:21px;color:var(--fg);font-weight:600}
 .index .more p:last-child{padding-bottom:22px}
 .index .mob{display:none}
+.smp{border:1px solid var(--muted);padding:2px 5px;margin-left:6px;font-size:10px}
 .pane{position:sticky;top:96px;height:min(70vh,640px);box-shadow:0 0 120px 10px rgba(246,227,189,.12)}
 .pane img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .25s var(--ease)}
 .pane img.on{opacity:1}
@@ -118,19 +122,19 @@ const sec = (i, inner) => {
   return `<section class="sec" id="${id}" aria-labelledby="h-${id}"><div class="wrap"><header class="sh" data-r><span class="n disp" aria-hidden="true">${pad(i + 1)}</span><h2 class="disp" id="h-${id}">${esc(label)}</h2><span class="lab">${esc(W.name)}</span></header>${inner}</div></section>`;
 };
 
-export function renderA() {
+export function renderEntrance() {
   const header = `<header class="top"><div class="wrap"><a class="home" href="#top" aria-label="Tuskrr, back to top">${goldS()}</a><nav aria-label="Sections">${SECTIONS.map(([id, label], i) => `<a href="#${id}" title="${esc(label)}"><span class="sr">${esc(label)} </span>${pad(i + 1)}</a>`).join('')}</nav></div></header>`;
 
-  const hero = `<section class="hero" id="top" aria-label="${esc(W.name)}"><div class="wrap">
+  const hero = `<section class="hero" id="top" aria-label="${esc(W.name)}">${strataSVG({ w: 1440, h: 900, lines: 34, seed: 11, cls: 'strata' })}<div class="wrap">
     <div>
-      <div class="kick lab" data-r><span>Tuskrr</span><span>Brand world, option ${W.letter}</span><span>${esc(W.name)}</span></div>
+      <div class="kick lab" data-r><span>Tuskrr</span><span>Brand world</span><span>${esc(W.name)}</span></div>
       <h1 class="disp" data-r><span>Arrive like</span><span>you <span class="b" style="display:inline">mean it.</span></span></h1>
       <p class="intro" data-r>${esc(W.intro)}</p>
     </div>
     <div class="doorway" data-r><div class="frame"><img src="${IMG.ridge}" alt="${esc(altText(PRODUCTS[0]))}"></div><span class="spill" aria-hidden="true"></span><span class="cap">Supplied render</span></div>
   </div></section>`;
 
-  const art = `<div class="room" aria-hidden="true"><span class="slit"></span><span class="floor"></span><span class="spill"></span>${goldS()}</div>`;
+  const art = `<div class="room" aria-hidden="true">${strataSVG({ w: 800, h: 600, lines: 28, seed: 23, cls: 'wall' })}<span class="slit"></span><span class="floor"></span><span class="spill"></span>${goldS()}</div>`;
 
   const frames = [
     `<div class="frame fa"><span class="slit"></span><span class="fig"></span><span class="cap">Drawn stand-in</span></div>`,
@@ -148,7 +152,8 @@ export function renderA() {
           <p class="line">${esc(p.line)}</p>
           ${p.alt ? `<p>Alternative line: ${esc(p.alt)}</p>` : ''}
           <p>${esc(p.idea)}</p>
-          <p class="lab">${esc(p.finish)}. Genuine leather.${p.note ? ' ' + esc(p.note) + '.' : ''}</p>
+          <p class="lab">Inspired by ${esc(p.inspired)} / ${esc(p.finish)} / Genuine leather</p>
+          <p class="lab">Fits a ${esc(LAPTOP[p.id])} <span class="smp">sample</span>${p.note ? ' / ' + esc(p.note) : ''}</p>
         </div></div>
       </li>`).join('')}</ol>
       <div class="pane" data-r>${PRODUCTS.map((p, i) => `<img src="${IMG[p.id]}" alt="${esc(altText(p))}" class="${i === 0 ? 'on' : ''}"${i === 0 ? '' : ' aria-hidden="true"'}>`).join('')}<span class="cap">Supplied render</span></div>
@@ -175,8 +180,8 @@ export function renderA() {
   </main>${footer(W)}`;
 
   return page({
-    title: `Tuskrr brand world A: ${W.name}`,
-    description: `Brand world option A for Tuskrr. ${W.reading}`,
+    title: `Tuskrr brand world: ${W.name}`,
+    description: `The Tuskrr brand world. ${W.reading}`,
     fonts: FONTS.instrumentSans,
     css: LAYOUT_CSS + CSS,
     body,

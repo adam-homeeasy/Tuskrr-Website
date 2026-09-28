@@ -1,6 +1,6 @@
-// START-HERE (v2): the brand foundation first, then the three options, the
-// comparison, open items, a five-person test kit and exactly what we need back.
-import { IMG, FONTS, esc, skylineSVG, wildLinesSVG, lockup, goldS, GOLD_S_CSS, page, NOT_FINAL } from './shared.mjs';
+// START-HERE: the brand foundation, the brand world (The Entrance), a
+// five-person test kit, open items and exactly what we need back.
+import { FONTS, esc, lockup, GOLD_S_CSS, page, NOT_FINAL } from './shared.mjs';
 import { WORLDS, FOUNDATION as F, TAGLINE } from './worlds.mjs';
 
 const CSS = `
@@ -67,6 +67,15 @@ h2{font-size:clamp(38px,4.6vw,60px);margin-bottom:12px}
 .pc .wild{stroke:#E0492A}
 .pc .h{top:20px;right:44%;font-stretch:62%;font-weight:800;text-transform:uppercase;font-size:44px;color:#111}
 .pc .h em{font-style:normal;color:#B83418}
+.world{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);border:1px solid var(--ink);background:#fff;text-decoration:none;color:inherit}
+.world .prev{aspect-ratio:auto;min-height:420px}
+.world .body{padding:32px;display:flex;flex-direction:column;gap:14px}
+.world h3{font-size:56px}
+.world .big{font-size:22px;line-height:1.35}
+.world .chips{display:flex;height:18px;border:1px solid var(--line)}
+.world .chips i{flex:1}
+.world .go{margin-top:auto;border:1px solid var(--ink);padding:0 16px;min-height:52px;display:flex;align-items:center;justify-content:space-between}
+.world:hover .go{background:var(--ink);color:var(--paper)}
 .opt .body{padding:20px 20px 0;display:flex;flex-direction:column;gap:10px;flex:1}
 .opt h3{font-size:32px}
 .opt .chips{display:flex;height:18px;border:1px solid var(--line)}
@@ -90,7 +99,8 @@ tr:last-child th,tr:last-child td{border-bottom:0}
 .kit li b{display:block}
 .kit li span{color:var(--muted);font-size:15px}
 .listen{margin-top:24px;background:#fff;border:1px solid var(--line);padding:18px 22px}
-.listen li{padding:6px 0;font-size:15px}
+.kit .listen li{padding:6px 0;font-size:15px;border-top:0;counter-increment:none}
+.kit .listen li::before{content:none}
 .ask{background:var(--ink);color:var(--paper);padding:72px 0;border-top:0}
 .ask ol{counter-reset:q;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 48px;margin-top:32px}
 .ask li{counter-increment:q;border-top:1px solid #3c3a36;padding:18px 0 18px 48px;position:relative;font-size:17px}
@@ -106,7 +116,8 @@ footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:2
 footer .lockup{font-size:20px}
 ${GOLD_S_CSS}
 @media (max-width:1000px){
-.opts{grid-template-columns:1fr;max-width:560px}
+.world{grid-template-columns:1fr}
+.world .prev{min-height:320px}
 .f-icp,.f-sec,.f-trig,.f-pers,.f-voice,.f-proof,.f-biz{grid-column:span 12}
 .changed{grid-template-columns:1fr 1fr}
 .kit{grid-template-columns:1fr}
@@ -131,7 +142,7 @@ const TESTERS = [
 ];
 
 const SCRIPT = [
-  ['Show the three first screens on a phone, ten seconds each.', 'Ask: "Which one would you buy from?" First instinct, one letter.'],
+  ['Show The Entrance\u2019s first screen on a phone for ten seconds.', 'Ask: "What kind of brand is this? Would you buy from it?"'],
   ['Ask: "What kind of person carries this bag?"', 'Listen for "someone like me" or "for my office".'],
   ['Read the tagline aloud: "Arrive like you mean it."', 'Ask: "What does that make you think of?" Hope for a meeting, a first day, a pitch.'],
   ['Ask: "Would you buy this for yourself at ₹6,000? Would you gift it, and to whom?"', 'Note the hesitation, not only the answer.'],
@@ -139,42 +150,19 @@ const SCRIPT = [
 ];
 
 export function renderStart() {
-  const A = WORLDS.a, B = WORLDS.b, C = WORLDS.c;
+  const A = WORLDS.a;
   const chips = (w) => `<span class="chips" aria-hidden="true">${w.palette.map((c) => `<i style="background:${c.hex}"></i>`).join('')}</span>`;
-  const card = (w, prev) => `<a class="opt" href="${w.file}" data-r>
-    ${prev}
-    <div class="body"><span class="mono muted">Option ${w.letter}</span><h3 class="cond">${esc(w.name)}</h3><p>${esc(w.reading)}</p>${chips(w)}<p class="mono muted">${w.feeling.map(esc).join(' / ')}</p></div>
-    <span class="go mono">Open option ${w.letter}<span aria-hidden="true">&rarr;</span></span>
-  </a>`;
-  const cards = [
-    card(A, `<div class="prev pa" aria-hidden="true"><span class="slit"></span><span class="h">Arrive like<br>you <em>mean it.</em></span></div>`),
-    card(B, `<div class="prev pb" aria-hidden="true">${skylineSVG({ w: 800, h: 300, seed: 21, fill: '#1C2433', lit: '#E7A554', litRate: 0.05 })}<span class="h">Arrive like you <em>mean it.</em></span></div>`),
-    card(C, `<div class="prev pc" aria-hidden="true"><div class="lines">${wildLinesSVG({ w: 200, h: 300, n: 7, wild: 4, seed: 9 })}</div><span class="h">Arrive like you <em>mean it.</em></span></div>`),
-  ].join('');
-
-  const rows = [
-    ['The idea', A.reading, B.reading, C.reading],
-    ['Feeling', A.feeling.join(', '), B.feeling.join(', '), C.feeling.join(', ')],
-    ['Look', 'Dark rooms, warm light, the gold S', 'Sand by day, navy by night, terracotta accent', 'Paper and ink, one wild red line'],
-    ['Type', 'Instrument Sans, one family', 'Instrument Serif, Hanken Grotesk', 'Archivo Condensed, IBM Plex Mono'],
-    ['Signature', 'The door of light', 'The route, with times of the week', 'The wild line among straight ones'],
-    ['On the phone', 'Index of names, bag steps into the light', 'The week walked stop by stop', 'Magazine grid with editor’s captions'],
-    ['Strongest for', 'Premium feel at ₹5,000 to ₹7,000, the tagline at full weight', 'Everyday relevance, Reels, gifting by moment', 'Standing out on Instagram, the youngest buyers'],
-    ['Watch for', A.watch[0], B.watch[0], C.watch[0]],
-    ['Cost to shoot', 'Low to medium: controlled light, interiors', 'Highest: several city locations and people', 'Medium: street editorial and details'],
-  ];
-
-  const body = `<header class="top"><div class="wrap"><a href="#" aria-label="Tuskrr" style="display:flex;align-items:center;min-height:44px;text-decoration:none;color:inherit">${lockup()}</a><span class="mono muted">Brand world v2 / working draft / 28 September 2026</span></div></header>
+  const body = `<header class="top"><div class="wrap"><a href="#" aria-label="Tuskrr" style="display:flex;align-items:center;min-height:44px;text-decoration:none;color:inherit">${lockup()}</a><span class="mono muted">Brand world / working draft / 28 September 2026</span></div></header>
 <main>
   <div class="wrap intro">
     <p class="mono muted" data-r>Start here</p>
     <h1 class="cond" data-r>Arrive like you <em>mean it.</em></h1>
-    <p data-r>Version 2 of the Tuskrr brand world. It starts from who buys Tuskrr and why, and every option is built on the same foundation and the same tagline.</p>
+    <p data-r>The Tuskrr brand world. It starts from who buys Tuskrr and why, carries Linear Wilderness from round 1 underneath, and comes to life in one direction: The Entrance.</p>
   </div>
 
   <section aria-labelledby="h-found"><div class="wrap">
     <h2 id="h-found" class="cond" data-r>The foundation</h2>
-    <p class="sub" data-r>Shared by all three options. This is what the brand is; the options are three ways to show it.</p>
+    <p class="sub" data-r>What the brand is. The Entrance is how it looks, sounds and behaves.</p>
     <div class="fgrid">
       <div class="fbox f-tag" data-r><span class="mono">Tagline</span><p class="t cond">${esc(TAGLINE)}</p><p class="s">Promise: ${esc(F.promise)} Idea: ${esc(F.idea)}</p></div>
       <div class="fbox f-icp" data-r><span class="mono">Who buys it</span><h3>${esc(F.icp.title)}, ${esc(F.icp.age)}</h3><p>${esc(F.icp.who)}</p><p>${esc(F.icp.life)}</p><p>${esc(F.icp.money)} ${esc(F.icp.first)}</p></div>
@@ -185,27 +173,29 @@ export function renderStart() {
       <div class="fbox f-proof" data-r><span class="mono">Proof on every product page</span><ul class="proofl">${F.proof.map(([t, s]) => `<li>${esc(t)}<span class="mono ${s === 'confirmed' ? 'ok' : 'tc'}">${esc(s)}</span></li>`).join('')}</ul></div>
       <div class="fbox f-biz" data-r><span class="mono">Price, market, channel</span><ul class="biz"><li>${esc(F.price)}</li><li>${esc(F.market)}</li><li>${esc(F.material)} ${esc(F.gifting.initials)}</li></ul></div>
     </div>
-    <p class="mono muted" style="margin-top:40px" data-r>What changed from version 1</p>
+    <p class="mono muted" style="margin-top:40px" data-r>What changed</p>
     <ul class="changed">${F.changed.map((c) => `<li data-r>${esc(c)}</li>`).join('')}</ul>
   </div></section>
 
-  <section aria-labelledby="h-opts"><div class="wrap">
-    <h2 id="h-opts" class="cond" data-r>Three options</h2>
-    <p class="sub" data-r>Open each one on a phone as well as a laptop; the phone is where Tuskrr will be found and bought.</p>
-    <div class="opts">${cards}</div>
-  </div></section>
-
-  <section aria-labelledby="h-compare"><div class="wrap">
-    <h2 id="h-compare" class="cond" data-r>Side by side</h2>
-    <div class="table" data-r role="region" aria-labelledby="h-compare" tabindex="0"><table>
-      <thead><tr><th scope="col"><span class="sr">Aspect</span></th><th scope="col">A. ${esc(A.name)}</th><th scope="col">B. ${esc(B.name)}</th><th scope="col">C. ${esc(C.name)}</th></tr></thead>
-      <tbody>${rows.map(([k, a, b, c]) => `<tr><th scope="row">${esc(k)}</th><td>${esc(a)}</td><td>${esc(b)}</td><td>${esc(c)}</td></tr>`).join('')}</tbody>
-    </table></div>
+  <section aria-labelledby="h-world"><div class="wrap">
+    <h2 id="h-world" class="cond" data-r>The brand world</h2>
+    <p class="sub" data-r>Open it on a phone as well as a laptop; the phone is where Tuskrr will be found and bought.</p>
+    <a class="world" href="${A.file}" data-r>
+      <div class="prev pa" aria-hidden="true"><span class="slit"></span><span class="h">Arrive like<br>you <em>mean it.</em></span></div>
+      <div class="body">
+        <span class="mono muted">Brand world</span><h3 class="cond">${esc(A.name)}</h3><p class="big">${esc(A.reading)}</p>
+        <p>${esc(A.intro)}</p>
+        <p class="muted">Underneath: ${esc(A.linear.title.replace(', underneath', ''))}. ${esc(A.linear.pairs.map(([k, v]) => k + ': ' + v).join(' '))}</p>
+        ${chips(A)}
+        <p class="mono muted">${A.feeling.map(esc).join(' / ')}</p>
+        <span class="go mono">Open The Entrance<span aria-hidden="true">&rarr;</span></span>
+      </div>
+    </a>
   </div></section>
 
   <section aria-labelledby="h-kit"><div class="wrap">
     <h2 id="h-kit" class="cond" data-r>Test it with five people</h2>
-    <p class="sub" data-r>Before committing, show the options and the tagline to five or six people who match the buyer. Five minutes each, on their own phone if possible. Record their exact words.</p>
+    <p class="sub" data-r>Before the website is built, show The Entrance and the tagline to five or six people who match the buyer. Five minutes each, on their own phone if possible. Record their exact words.</p>
     <div class="kit">
       <div data-r><p class="mono muted" style="margin-bottom:10px">Who to ask</p><ol>${TESTERS.map(([h, t]) => `<li><b>${esc(h)}</b><span>${esc(t)}</span></li>`).join('')}</ol></div>
       <div data-r><p class="mono muted" style="margin-bottom:10px">What to ask</p><ol>${SCRIPT.map(([h, t]) => `<li><b>${esc(h)}</b><span>${esc(t)}</span></li>`).join('')}</ol>
@@ -218,12 +208,11 @@ export function renderStart() {
     <h2 id="h-found2" class="cond" data-r>Still open</h2>
     <ul class="notes">
       <li data-r><b>Two wordmarks on the badges</b><p>RIDGE and CREST carry the drawn Tuskrr wordmark; TRAVERSE, STRATA, AXIS and CONTOUR carry ordinary letters. Production should use one; we recommend the drawn one.</p></li>
-      <li data-r><b>The gold S</b><p>On RIDGE, TRAVERSE, STRATA and CONTOUR, missing on CREST and AXIS. Option A builds most on it.</p></li>
-      <li data-r><b>Proof points to confirm</b><p>Laptop size for each bag, the warranty, the returns policy and cash on delivery. Trust decides the sale at this price.</p></li>
-      <li data-r><b>Custom-order initials</b><p>Confirmed as possible. We need the lead time and any extra charge before it goes on the site.</p></li>
-      <li data-r><b>Diwali timing</b><p>Diwali is in early November. A gifting page could go live before the full site if we set the order cut-off date now.</p></li>
-      <li data-r><b>Logo files and photography</b><p>Vector logo files are needed, and a photo shoot in Indian cities with Indian models. The moodboard photos cannot be used.</p></li>
-      <li data-r><b>Tagline clearance</b><p>Run a trademark search on “Arrive like you mean it” (IP India) before anything is printed.</p></li>
+      <li data-r><b>The gold S</b><p>The Entrance uses it as the single accent. Today it is on RIDGE, TRAVERSE, STRATA and CONTOUR, and missing on CREST and AXIS. Confirm it goes on every badge.</p></li>
+      <li data-r><b>Sample values in place</b><p>Laptop sizes for each bag and the returns policy are sample values, labelled as samples. Real figures are needed before launch.</p></li>
+      <li data-r><b>Custom-order initials</b><p>Ready in 2 weeks. The price is still to confirm.</p></li>
+      <li data-r><b>Logo files and photography</b><p>Vector logo files are needed, and a photo shoot to The Entrance\u2019s brief: controlled warm light, interiors, Indian cities, Indian models. The moodboard photos cannot be used.</p></li>
+      <li data-r><b>Tagline clearance</b><p>Run a trademark search on \u201cArrive like you mean it\u201d (IP India) before anything is printed.</p></li>
       <li data-r><b>Campaign lines</b><p>TRAVERSE and CREST each still have two lines. The tagline now leads, so these become product lines only.</p></li>
     </ul>
   </div></section>
@@ -231,14 +220,14 @@ export function renderStart() {
   <section class="ask" aria-labelledby="h-ask"><div class="wrap">
     <h2 id="h-ask" class="cond" data-r>What we need back</h2>
     <ol>
-      <li class="first" data-r>Which one, first instinct? One letter is enough.</li>
-      <li data-r>Anything to steal from the other two? A colour, a device, a line.</li>
+      <li class="first" data-r>Does The Entrance feel like Tuskrr? What would you change?</li>
       <li data-r>Does the foundation feel true: the buyer, the triggers, the personality?</li>
-      <li data-r>Laptop sizes, warranty, returns and cash on delivery: the real answers.</li>
-      <li data-r>Initials: lead time and price on custom orders.</li>
-      <li data-r>Diwali: do we aim a gifting page at it, and what is the order cut-off?</li>
+      <li data-r>Which wordmark goes on the badges, and does the gold S go on every one?</li>
+      <li data-r>The price for custom initials.</li>
+      <li data-r>Real laptop sizes and the returns policy, when ready.</li>
+      <li data-r>The reference websites you want the Tuskrr site measured against.</li>
     </ol>
-    <div class="lean" data-r><p><b>Our lean:</b> A, The Entrance, as the brand, because it carries “Arrive like you mean it” at full weight and reads premium at ₹5,000 to ₹7,000. Borrow B’s week-of-moments idea for Instagram Reels and gifting (“for their first Monday”). But the five-person test should decide, not us.</p></div>
+    <div class="lean" data-r><p><b>Next:</b> the website, designed in The Entrance and checked against your reference sites.</p></div>
   </div></section>
 
   <section class="nf" aria-labelledby="h-nf"><div class="wrap">
@@ -246,11 +235,11 @@ export function renderStart() {
     <ul>${NOT_FINAL.map((n) => `<li data-r>${esc(n)}</li>`).join('')}</ul>
   </div></section>
 </main>
-<footer><div class="wrap">${lockup()}<span class="mono muted">Keep this file next to the three option files so the links work.</span></div></footer>`;
+<footer><div class="wrap">${lockup()}<span class="mono muted">Keep this file next to the-entrance.html so the link works.</span></div></footer>`;
 
   return page({
-    title: 'Tuskrr brand world v2',
-    description: 'The Tuskrr brand foundation and three brand world options built on the tagline Arrive like you mean it.',
+    title: 'Tuskrr brand world',
+    description: 'The Tuskrr brand foundation and brand world, The Entrance, built on the tagline Arrive like you mean it.',
     fonts: FONTS.archivo + FONTS.plexMono + FONTS.instrumentSans + FONTS.instrumentSerif,
     css: CSS,
     body,

@@ -10,9 +10,7 @@ const add = async (mod, fn, file) => {
   const m = await import(mod);
   out.push([file, m[fn]()]);
 };
-await add('./option-a.mjs', 'renderA', WORLDS.a.file);
-await add('./option-b.mjs', 'renderB', WORLDS.b.file);
-await add('./option-c.mjs', 'renderC', WORLDS.c.file);
+await add('./the-entrance.mjs', 'renderEntrance', WORLDS.a.file);
 await add('./start-here.mjs', 'renderStart', 'START-HERE.html');
 for (const [file, html] of out) {
   writeFileSync(join(ROOT, file), html);

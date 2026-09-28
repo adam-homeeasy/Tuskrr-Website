@@ -1,4 +1,4 @@
-// Section bodies shared by the three options. Each option wraps them in its own
+// Section bodies for the brand-world page. The page wraps them in its own
 // frame (header style, navigation, hero, collection) and restyles them through
 // the CSS variables in LAYOUT_CSS.
 import { IMG, PRODUCTS, esc, lockup, NOT_FINAL } from './shared.mjs';
@@ -18,6 +18,13 @@ export const LAYOUT_CSS = `
 .thesis article{border-top:1px solid var(--line);padding-top:16px}
 .thesis h3{font-size:22px;margin-bottom:8px}
 .thesis p{font-size:16px;color:var(--muted)}
+.linear{margin-top:64px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:48px;border-top:1px solid var(--line);padding-top:32px}
+.linear .lab{color:var(--muted)}
+.linear h3{font-size:clamp(30px,3.2vw,44px);margin:10px 0 14px}
+.linear p{color:var(--muted)}
+.linear dl div{padding:16px 0;border-bottom:1px solid var(--line)}
+.linear dt{font-size:34px;color:var(--accent)}
+.linear dd{margin-top:4px;font-size:16px}
 .found{margin-top:64px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--line);border-radius:var(--r,0)}
 .found div{padding:18px 20px;border-right:1px solid var(--line)}
 .found div:last-child{border-right:0}
@@ -110,7 +117,7 @@ footer.nf a{color:var(--fg);display:inline-flex;align-items:center;min-height:44
 }
 @media (max-width:700px){
 .wrap{padding:0 16px}
-.thesis,.photos,.giftgrid,.verdict{grid-template-columns:1fr}
+.thesis,.photos,.giftgrid,.verdict,.linear{grid-template-columns:1fr}
 .found{grid-template-columns:1fr}
 .found div{border-right:0!important;border-bottom:1px solid var(--line)}
 .found div:last-child{border-bottom:0}
@@ -124,6 +131,7 @@ footer.nf ul{grid-template-columns:1fr}
 export const ideaBody = (W) => `
   <p class="lead" data-r>${esc(W.reading)}</p>
   <div class="thesis">${W.thesis.map(([h, t]) => `<article data-r><h3>${esc(h)}</h3><p>${esc(t)}</p></article>`).join('')}</div>
+  ${W.linear ? `<div class="linear" data-r><div><span class="lab">From round 1</span><h3 class="disp">${esc(W.linear.title)}</h3><p>${esc(W.linear.text)}</p></div><dl>${W.linear.pairs.map(([k, v]) => `<div><dt class="disp">${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl></div>` : ''}
   <div class="found" data-r>
     <div><span class="lab">Tagline</span><p>${esc(TAGLINE)}</p></div>
     <div><span class="lab">For</span><p>${esc(FOUNDATION.icp.title)}, ${esc(FOUNDATION.icp.age)}, metro India</p></div>
@@ -172,7 +180,6 @@ export const giftingBody = (W, box) => {
   </div>
   <dl class="gift-rows" data-r>
     <div><dt class="lab">Corporate</dt><dd>${esc(g.corporate)}</dd></div>
-    <div><dt class="lab">Diwali</dt><dd>${esc(g.diwali)}</dd></div>
   </dl>`;
 };
 
@@ -187,12 +194,12 @@ export const phoneBody = (W, screen) => `
 
 export const verdictBody = (W) => `
   <div class="verdict">
-    <div data-r><h3 class="disp">Why choose it</h3><ul>${W.strengths.map((s) => `<li>${esc(s)}</li>`).join('')}</ul></div>
+    <div data-r><h3 class="disp">Why it works</h3><ul>${W.strengths.map((s) => `<li>${esc(s)}</li>`).join('')}</ul></div>
     <div data-r><h3 class="disp">Watch for</h3><ul>${W.watch.map((s) => `<li>${esc(s)}</li>`).join('')}</ul></div>
   </div>`;
 
 export const footer = (W) => `<footer class="nf" aria-label="What is not final"><div class="wrap">
   <h2 class="disp">Not final</h2>
   <ul>${NOT_FINAL.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>
-  <div class="end">${lockup()}<span class="lab">Option ${W.letter} of C / <a href="START-HERE.html">Back to all options</a></span></div>
+  <div class="end">${lockup()}<span class="lab"><a href="START-HERE.html">Back to the brand foundation</a></span></div>
 </div></footer>`;

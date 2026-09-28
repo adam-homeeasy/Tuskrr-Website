@@ -1,21 +1,19 @@
-TUSKRR BRAND WORLD OPTIONS
-==========================
+TUSKRR BRAND WORLD
+==================
 
-1. Keep these four files together in one folder:
+1. Keep these two files together in one folder:
      START-HERE.html
-     option-a-the-entrance.html
-     option-b-monday-to-monday.html
-     option-c-sharp-lines.html
+     the-entrance.html
 
 2. Double-click START-HERE.html. It opens in your web browser
    (Chrome, Safari, Edge or Firefox). No internet connection is needed.
 
-3. START-HERE shows the brand foundation first. Then open each option
-   and scroll all the way down, about three minutes each. Look at them on
-   a phone too: that is where Tuskrr will be found and bought.
+3. START-HERE shows the brand foundation. Then open The Entrance and
+   scroll all the way down, about three minutes. Look at it on a phone
+   too: that is where Tuskrr will be found and bought.
 
 4. Answer the questions at the bottom of START-HERE.
-   The first one matters most: which option, first instinct?
+   The first one matters most: does The Entrance feel like Tuskrr?
 
 IF NOTHING MOVES
 The pages fade in gently as you scroll. If they appear with no movement at
@@ -28,5 +26,5 @@ Or add ?motion=force to the end of the address in the browser bar.
 
 WHAT IS NOT FINAL
 Product images are the supplied renders. City scenes are drawn, not
-photographed. Items marked "to confirm" are placeholders. The logo is cut from JPEG files and needs vector artwork.
+photographed. Laptop sizes and the returns policy are sample values. The logo is cut from JPEG files and needs vector artwork.
 Voice samples show tone only. Full list at the bottom of every page.

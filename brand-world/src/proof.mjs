@@ -10,7 +10,7 @@ const require = createRequire(import.meta.url);
 let chromium;
 try { ({ chromium } = require('playwright')); } catch { ({ chromium } = require('/opt/node22/lib/node_modules/playwright')); }
 
-const FILES = process.env.PROOF_FILES ? process.env.PROOF_FILES.split(',') : ['START-HERE.html', 'option-a-the-entrance.html', 'option-b-monday-to-monday.html', 'option-c-sharp-lines.html'];
+const FILES = process.env.PROOF_FILES ? process.env.PROOF_FILES.split(',') : ['START-HERE.html', 'the-entrance.html'];
 const WIDTHS = [320, 375, 414, 600, 768, 1024, 1280, 1440, 1920];
 let failures = 0;
 const fail = (f, m) => { failures++; console.log(`  FAIL ${f}: ${m}`); };
