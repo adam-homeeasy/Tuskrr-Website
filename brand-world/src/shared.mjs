@@ -332,9 +332,41 @@ ${MOTION_JS}
 
 export const NOT_FINAL = [
   'Product images are the renders supplied by Tuskrr, shown as they are. They are not final photography.',
-  'All landscape art on these pages is generated line work, not photography. The moodboard photos in the PDF are reference only and are not used here, because we do not hold the rights to them.',
-  'The logo is cut from the supplied JPEG files. Final vector artwork is needed before anything goes to print or to the website.',
+  'City scenes on these pages are drawn stand-ins, not photography. The real shoot should be in Indian cities with Indian models. The moodboard photos in the PDF are reference only and are not used, because we do not hold the rights to them.',
+  'Anything marked "to confirm" is a placeholder: laptop sizes, warranty, returns, cash on delivery and gifting dates.',
+  'Initials embossing is shown as a custom order, as confirmed. Lead time and price are still to confirm.',
+  'The logo is cut from the supplied JPEG files. Vector artwork is needed before anything goes to print or to the website.',
+  '"Arrive like you mean it." needs a trademark search (IP India) before it is printed.',
   'Type choices are proposals. Every font shown is free for commercial use (SIL Open Font License).',
-  'Product type names (Backpack, Weekender and so on) are working descriptions read off the photos, not confirmed product names.',
-  'Voice samples are illustrations of tone, not approved copy.',
+  'Voice samples illustrate tone. They are not approved copy.',
 ];
+
+// A drawn city skyline: blocks of varying height with a few lit windows.
+export function skylineSVG({ w = 1440, h = 360, seed = 4, fill = '#000', lit = '#fff', litRate = 0.12, cls = '' }) {
+  const r = rng(seed);
+  let x = 0, blocks = '', wins = '';
+  while (x < w) {
+    const bw = 34 + r() * 70, bh = h * (0.28 + r() * 0.62), top = h - bh;
+    blocks += `M${r1(x)} ${h}V${r1(top)}H${r1(x + bw)}V${h}Z`;
+    for (let wy = top + 12; wy < h - 14; wy += 16) for (let wx = x + 8; wx < x + bw - 10; wx += 13) if (r() < litRate) wins += `M${r1(wx)} ${r1(wy)}h5v7h-5Z`;
+    x += bw + 2 + r() * 6;
+  }
+  return `<svg class="${cls}" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false"><path d="${blocks}" fill="${fill}"/><path d="${wins}" fill="${lit}"/></svg>`;
+}
+
+// Sharp lines, wild heart: evenly spaced straight lines with one that goes its own way.
+export function wildLinesSVG({ w = 600, h = 800, n = 11, wild = 7, seed = 9, cls = '' }) {
+  const nz = noise2(seed), gap = w / (n + 1);
+  let straight = '', wl = '';
+  for (let i = 1; i <= n; i++) {
+    const x = r1(i * gap);
+    if (i !== wild) { straight += `M${x} 0V${h}`; continue; }
+    const pts = [];
+    for (let k = 0; k <= 80; k++) {
+      const t = k / 80, amp = Math.sin(t * Math.PI) * gap * 1.6;
+      pts.push(r1(x + (fbm(nz, t * 3.2, 0.3, 4) - 0.5) * 2 * amp) + ' ' + r1(t * h));
+    }
+    wl = 'M' + pts.join('L');
+  }
+  return `<svg class="${cls}" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="${straight}" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke"/><path class="wild" d="${wl}" fill="none" stroke-width="3" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>`;
+}

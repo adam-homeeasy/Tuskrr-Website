@@ -1,312 +1,193 @@
-// Option B, Quiet Architecture. Organising idea: strata bands over a channel
-// field, with the collection as an index list and a product pane beside it.
-import { IMG, FONTS, PRODUCTS, esc, strataSVG, lockup, monogram, goldS, GOLD_S_CSS, page, NOT_FINAL } from './shared.mjs';
-import { SECTIONS, WORLDS } from './worlds.mjs';
+// Option B, Monday to Monday. Organising idea: the week as the journey. A fixed
+// route bar with a station per moment; the collection is walked in time order.
+import { IMG, FONTS, esc, skylineSVG, ridgesSVG, grain, wordmark, page } from './shared.mjs';
+import { SECTIONS, WORLDS, ROUTE } from './worlds.mjs';
+import { LAYOUT_CSS, pad, productById, altText, ideaBody, paletteBody, typeBody, deviceBody, photoBody, voiceBody, giftingBody, phoneBody, verdictBody, footer } from './sections.mjs';
 
 const W = WORLDS.b;
-const pad = (n) => String(n).padStart(2, '0');
+// station x positions on a 1000-wide route; the weekend leg bends
+const SX = [60, 230, 400, 570, 740, 930];
+const ROUTE_D = `M0 22H740C790 22 800 6 840 10S900 36 930 22H1000`;
 
 const CSS = `
-:root{--carbon:#121212;--graphite:#1E1E1E;--concrete:#D8D6D1;--bone:#ECEAE6;--stone:#9C988F;--shadow:#55524C;--brass:#C9A24A;--brass-deep:#7A5F1E;--gold-s:#C9A24A;
---sans:"Instrument Sans",system-ui,sans-serif}
-body{background:var(--carbon);color:var(--bone);font-family:var(--sans);font-size:17px;line-height:1.6}
-.wrap{max-width:1320px;margin:0 auto;padding:0 48px}
-.caps{font-stretch:75%;text-transform:uppercase;letter-spacing:.22em;font-size:12px;font-weight:500}
-.chan{background-image:linear-gradient(90deg,rgba(236,234,230,.075) 1px,transparent 1px);background-size:calc(100% / 12) 100%}
-.band{position:relative;padding:112px 0}
-.band.light{background:var(--concrete);color:var(--carbon)}
-.band.light .chan-l{position:absolute;inset:0;background-image:linear-gradient(90deg,rgba(18,18,18,.07) 1px,transparent 1px);background-size:calc(100% / 12) 100%;pointer-events:none}
-.band>.wrap{position:relative}
-.strata{display:block;width:100%;height:56px;color:var(--stone);opacity:.5}
-.band.light .strata{color:var(--shadow)}
-/* header */
-.top{position:sticky;top:0;z-index:5;background:rgba(18,18,18,.94);border-bottom:1px solid #2a2a2a}
-.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:64px}
-.top .home{display:block;width:120px;min-height:44px;display:flex;align-items:center;color:var(--bone)}
-.top .home .gs{width:120px}
-.top nav{display:flex}
-.top nav a{min-width:44px;min-height:44px;display:flex;align-items:center;justify-content:center;text-decoration:none;color:var(--stone);font-stretch:75%;font-size:13px;letter-spacing:.14em}
-.top nav a:hover{color:var(--brass)}
+:root{--bg:#F1E6D6;--fg:#1C2433;--muted:#6A5D4E;--line:rgba(28,36,51,.18);--accent:#AC4428;--card:#FBF5EC;--card-fg:#1C2433;--card-muted:#6A5D4E;--r:6px;
+--display:"Instrument Serif",Georgia,serif;--label:"Hanken Grotesk",system-ui,sans-serif;--label-weight:600;--label-track:.2em;--screen-bg:#F1E6D6;--note-font:"Instrument Serif",Georgia,serif;--grain:${grain(0.2, '0.1 0.1 0.15')}}
+body{background:var(--bg);color:var(--fg);font-family:"Hanken Grotesk",system-ui,sans-serif;font-size:17px;line-height:1.6;font-variant-numeric:tabular-nums}
+.night{--fg:#F1E6D6;--muted:#A9B0BE;--line:rgba(241,230,214,.2);--accent:#E7A554;--card:#243047;--card-fg:#F1E6D6;--card-muted:#A9B0BE;background:#1C2433;color:var(--fg)}
+.alt{background:var(--card)}
+.disp em{font-style:italic;color:var(--accent)}
+.lead{font-family:var(--display);font-size:clamp(26px,2.8vw,38px);line-height:1.25}
+.thesis h3,.tk h3,.ph h3,.gcard h3,.proof h3,.verdict h3{font-family:var(--display);font-weight:400;font-size:26px}
+.grain{position:relative;isolation:isolate}
+.grain::after{content:"";position:absolute;inset:0;background-image:var(--grain);pointer-events:none;z-index:2}
+/* route bar */
+.route{position:fixed;top:0;left:0;right:0;z-index:10;background:rgba(241,230,214,.95);border-bottom:1px solid var(--line)}
+.route .wrap{display:flex;align-items:center;gap:28px;height:64px;max-width:none}
+.route .home{display:flex;align-items:center;min-height:44px;color:#1C2433}
+.route .home .mk-word{height:20px;width:auto}
+.route .track{position:relative;flex:1;height:44px}
+.route svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.route .base{stroke:rgba(28,36,51,.25)}
+.route .done{stroke:#AC4428}
+.route .st{position:absolute;top:50%;transform:translate(-50%,-50%);min-width:44px;min-height:44px;display:flex;align-items:center;justify-content:center;text-decoration:none}
+.route .st i{display:block;width:10px;height:10px;border-radius:50%;background:#F1E6D6;border:2px solid #1C2433}
+.route .st.past i{background:#AC4428;border-color:#AC4428}
+.route .st span{position:absolute;top:32px;font-size:11px;font-weight:600;letter-spacing:.06em;color:#6A5D4E;white-space:nowrap}
+main{padding-top:64px}
 /* hero */
-.hero{min-height:calc(100vh - 64px);display:flex;flex-direction:column;justify-content:flex-end;padding:48px 0 64px;position:relative;overflow:hidden}
-.hero .mono-big{position:absolute;right:48px;top:56px;width:min(22vw,260px);color:#2a2a2a}
-.hero .kick{color:var(--stone);display:flex;gap:28px;flex-wrap:wrap}
-.hero h1{font-stretch:75%;font-weight:600;text-transform:uppercase;letter-spacing:.02em;font-size:clamp(56px,10.5vw,168px);line-height:.9;margin:28px 0 36px}
-.hero h1 span{display:block}
-.hero h1 .b{color:var(--brass)}
-.hero .row{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:0 24px;border-top:1px solid #333;padding-top:22px}
-.hero .row p{grid-column:1/7;font-size:19px;line-height:1.55;color:var(--bone)}
-.hero .row ul{grid-column:9/13;display:flex;flex-direction:column;gap:6px;color:var(--stone)}
-/* section heads */
-.sh{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:0 24px;margin-bottom:64px;align-items:end}
-.sh .n{grid-column:1/3;font-stretch:75%;font-size:88px;line-height:.8;font-weight:400;color:var(--stone)}
-.band.light .sh .n{color:var(--shadow)}
-.sh h2{grid-column:3/10;font-stretch:75%;text-transform:uppercase;letter-spacing:.14em;font-weight:500;font-size:clamp(28px,3.4vw,44px);line-height:1}
-.sh .caps{grid-column:10/13;text-align:right;color:var(--stone)}
-.band.light .sh .caps{color:var(--shadow)}
-.lead{font-size:clamp(22px,2.4vw,32px);line-height:1.35;font-weight:400;max-width:26em}
-.g12{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:40px 24px}
-/* world */
-.thesis p{grid-column:span 4;font-size:16px;color:var(--stone);border-top:1px solid #333;padding-top:16px}
-.thesis p b{display:block;color:var(--bone);font-weight:500;font-stretch:75%;letter-spacing:.18em;text-transform:uppercase;font-size:12px;margin-bottom:10px}
-.markrow{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;margin-top:80px;align-items:center}
-.markrow .m{grid-column:1/4;background:var(--graphite);aspect-ratio:1/1;display:flex;align-items:center;justify-content:center}
-.markrow .m .mk-mono{width:56%;height:auto;color:var(--bone)}
-.markrow .m.gold{grid-column:4/7;background:var(--carbon);border:1px solid #333}
-.markrow .m.gold .gs{width:78%}
-.markrow p{grid-column:7/13;font-size:19px}
-/* palette */
-.cols7{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:12px}
-.col{display:flex;flex-direction:column}
-.col .bar{height:340px;border:1px solid rgba(18,18,18,.18)}
-.col b{margin-top:14px;font-stretch:75%;text-transform:uppercase;letter-spacing:.16em;font-size:13px;font-weight:600}
-.col span{font-size:13px;color:var(--shadow)}
-.col p{font-size:14px;margin-top:6px;line-height:1.4}
-.col .note{color:var(--shadow);font-size:13px}
-/* type */
-.spec .display{grid-column:1/8;font-stretch:75%;text-transform:uppercase;font-weight:600;letter-spacing:.06em;font-size:clamp(48px,7vw,104px);line-height:.95}
-.spec .display .l{font-weight:400;color:var(--stone)}
-.spec .notes{grid-column:9/13;display:flex;flex-direction:column;gap:28px}
-.spec .notes div{border-top:1px solid #333;padding-top:14px}
-.spec .notes h3{font-size:18px;font-weight:600}
-.spec .notes p{font-size:15px;color:var(--stone);margin-top:6px}
-.spec .sample{color:var(--bone)!important}
-.tracking{grid-column:1/-1;display:flex;flex-wrap:wrap;gap:12px 48px;border-top:1px solid #333;padding-top:20px;color:var(--stone)}
+.hero{min-height:calc(100vh - 64px);position:relative;overflow:hidden;background:linear-gradient(180deg,#F1E6D6 0%,#F4DCC0 55%,#EFC7A0 100%);display:flex;flex-direction:column}
+.hero .sun{position:absolute;right:16%;top:34%;width:160px;height:160px;border-radius:50%;background:radial-gradient(circle,#F7C98F,rgba(247,201,143,0) 70%)}
+.hero .ground{position:relative;z-index:3;margin-top:auto;background:#1C2433;color:#F1E6D6;padding:22px 0 40px}
+.hero .ground .city{position:absolute;left:0;right:0;bottom:100%;width:100%;height:20vh;min-height:110px}
+.hero .top{padding-bottom:calc(20vh + 24px)}
+.hero .ground p{max-width:34em;font-size:18px}
+.hero .top{position:relative;z-index:3;padding-top:72px}
+.hero .kick{color:#1C2433;display:flex;gap:24px;flex-wrap:wrap}
+.hero h1{font-size:clamp(64px,10vw,168px);line-height:.92;margin-top:20px}
+.hero .when{position:relative;z-index:3;margin-top:28px;display:flex;align-items:baseline;gap:18px;flex-wrap:wrap}
+.hero .when b{font-family:var(--display);font-weight:400;font-size:44px;color:#AC4428}
+/* sections */
+.sec{padding:112px 0}
+.sh{display:flex;align-items:baseline;gap:24px;flex-wrap:wrap;margin-bottom:52px}
+.sh .lab{color:var(--muted)}
+.sh h2{font-size:clamp(44px,5.4vw,76px)}
 /* device */
-.device .fig{grid-column:1/8;aspect-ratio:4/3;background:var(--carbon);position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
-.device .fig .flute{position:absolute;inset:0;background:repeating-linear-gradient(90deg,#161616 0 18px,#1f1f1f 18px 20px,#0e0e0e 20px 22px,#161616 22px 40px)}
-.device .fig{color:#3a3a3a}.device .fig .gs{position:relative;width:52%}
-.device .txt{grid-column:9/13}
-.device .txt h3{font-stretch:75%;text-transform:uppercase;letter-spacing:.14em;font-size:28px;font-weight:500}
-.device .txt p{margin-top:14px;color:#3d3b37}
-.device .txt ul{margin-top:24px;border-top:1px solid rgba(18,18,18,.25)}
-.device .txt li{padding:12px 0;border-bottom:1px solid rgba(18,18,18,.25);font-stretch:75%;text-transform:uppercase;letter-spacing:.16em;font-size:13px;font-weight:500}
-.device .strip{grid-column:1/-1;height:120px;color:var(--shadow)}
-.device .strip svg{width:100%;height:100%}
-/* photo */
-.photos .ph{grid-column:span 3}
-.ph .frame{aspect-ratio:3/4;position:relative;overflow:hidden;background:var(--graphite)}
-.ph h3{font-size:17px;font-weight:600;margin-top:16px}
-.ph p{font-size:15px;color:var(--stone);margin-top:4px}
-.frame .cap{position:absolute;z-index:2;left:10px;bottom:10px;color:var(--bone)!important;background:rgba(18,18,18,.85);padding:3px 6px;font-size:10px}
-.f1{background:repeating-linear-gradient(90deg,#3a3936 0 26px,#6d6a64 26px 30px,#262523 30px 34px,#3a3936 34px 60px)!important}
-.f1::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(0,0,0,.65),rgba(0,0,0,0) 55%,rgba(255,255,255,.08))}
-.f2{display:flex;align-items:flex-end;justify-content:center;background:radial-gradient(ellipse at 25% 15%,#d9d7d2,#9e9b95 75%)!important}
-.f2 .plinth{width:64%;height:24%;background:linear-gradient(90deg,#3c3a37,#57544f 60%,#2a2927)}
-.f2 img{position:absolute;left:18%;bottom:22%;width:64%;mix-blend-mode:multiply;filter:contrast(1.08)}
-.f3{background:linear-gradient(180deg,#bdbab3,#a3a09a)!important}
-.f3 i{position:absolute;bottom:14%;left:58%;width:6%;height:46%;background:#1b1b1b;border-radius:30px 30px 4px 4px}
-.f3 i::before{content:"";position:absolute;top:-16%;left:10%;width:80%;height:14%;background:#1b1b1b;border-radius:50%}
-.f3::after{content:"";position:absolute;left:0;right:0;bottom:0;height:14%;background:#8f8c86}
-.f4{display:grid;grid-template-columns:repeat(6,1fr)}
-.f4 i:nth-child(1){background:#121212}.f4 i:nth-child(2){background:#2b2a28}.f4 i:nth-child(3){background:#55524C}.f4 i:nth-child(4){background:#8d8a84}.f4 i:nth-child(5){background:#D8D6D1}.f4 i:nth-child(6){background:#8A4722}
-/* collection: index */
-.index{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:start}
-.index ol{grid-column:1/7;border-top:1px solid rgba(18,18,18,.3)}
-.index li{border-bottom:1px solid rgba(18,18,18,.3)}
-.index button{all:unset;box-sizing:border-box;cursor:pointer;display:grid;grid-template-columns:56px minmax(0,1fr) auto;gap:16px;align-items:baseline;width:100%;padding:22px 0;min-height:44px}
-.index button:focus-visible{outline:2px solid var(--carbon);outline-offset:2px}
-.index .no{font-stretch:75%;font-size:14px;letter-spacing:.14em;color:var(--shadow)}
-.index .nm{font-stretch:75%;text-transform:uppercase;letter-spacing:.1em;font-size:clamp(28px,3.4vw,46px);font-weight:500;line-height:1}
-.index .ty{font-size:13px;color:var(--shadow);font-stretch:75%;letter-spacing:.14em;text-transform:uppercase}
-.index li .more{display:grid;grid-template-rows:0fr;transition:grid-template-rows .25s var(--ease)}
-.index li .more>div{overflow:hidden;visibility:hidden;transition:visibility .25s var(--ease)}.index li.on .more>div{visibility:visible}
-.index li.on .more{grid-template-rows:1fr}
-.index li.on .nm{color:var(--brass-deep)}
-.index .more p{padding:0 0 6px 72px;font-size:16px;color:#2e2d2a}
-.index .more p.line{font-size:21px;font-weight:600;color:var(--carbon)}
-.index .more p:last-child{padding-bottom:24px}
-.index .more .alt{font-size:14px;color:var(--shadow)}
-.index .more .mob{display:none}
-.pane{grid-column:8/13;position:sticky;top:96px;background:#fff;aspect-ratio:4/5;overflow:hidden}
-.pane img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity .25s var(--ease)}
-.pane img.on{opacity:1}
-.pane .cap{position:absolute;left:14px;bottom:12px;color:var(--bone);background:rgba(18,18,18,.85);padding:3px 6px;font-size:11px;z-index:1}
-/* voice */
-.vlist{border-top:1px solid #333}
-.vlist div{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;padding:28px 0;border-bottom:1px solid #333;align-items:baseline}
-.vlist .caps{grid-column:1/4;color:var(--stone)}
-.vlist p{grid-column:4/13;font-stretch:75%;text-transform:uppercase;letter-spacing:.06em;font-size:clamp(24px,3vw,40px);line-height:1.1;font-weight:500}
-.vsum{margin-bottom:56px}
-.vsum .words{display:flex;gap:28px;margin-top:22px;color:var(--brass);flex-wrap:wrap}
-/* touch */
-.touch .tp{grid-column:span 4}
-.tp .obj{aspect-ratio:1/1;background:var(--graphite);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
-.tp figcaption{margin-top:16px;border-top:1px solid rgba(18,18,18,.3);padding-top:12px}
-.tp figcaption b{display:block;font-size:17px}
-.tp figcaption span{font-size:14px;color:#3d3b37}
-.box{width:72%;aspect-ratio:1.3/1;background:var(--carbon);display:flex;align-items:center;justify-content:center;box-shadow:0 30px 40px -22px rgba(0,0,0,.7);position:relative}
-.box::before{content:"";position:absolute;inset:0;background-image:linear-gradient(90deg,rgba(236,234,230,.06) 1px,transparent 1px);background-size:calc(100% / 12) 100%}
-.box{color:#3a3a3a}.box .gs{width:46%;position:relative}
-.htag{width:48%;aspect-ratio:1/1.9;background:var(--bone);position:relative;display:flex;flex-direction:column;justify-content:space-between;padding:22% 10% 10%;color:var(--carbon);box-shadow:0 24px 30px -20px rgba(0,0,0,.6)}
-.htag::before{content:"";position:absolute;top:8%;left:50%;width:12px;height:12px;margin-left:-6px;border-radius:50%;background:var(--graphite)}
-.htag .gs{width:100%;--gold-s:#7A5F1E}
-.htag .l{font-stretch:75%;text-transform:uppercase;letter-spacing:.08em;font-size:11px;font-weight:600;line-height:1.5}
-.soc{width:78%;aspect-ratio:1/1;background:var(--carbon);display:grid;grid-template-rows:1fr auto;box-shadow:0 24px 30px -20px rgba(0,0,0,.6)}
-.soc .im{background:#fff;overflow:hidden;min-height:0}
-.soc .im img{width:100%;height:100%;object-fit:contain}
-.soc p{padding:12px 14px;font-stretch:75%;text-transform:uppercase;letter-spacing:.1em;font-size:14px;color:var(--bone)}
-/* web */
-.web .wire{grid-column:1/8;aspect-ratio:16/10;background:var(--graphite);border:1px solid #333;display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:22px}
-.wire .l i{display:block;height:14px;background:#2d2d2d;margin-bottom:14px}
-.wire .l i:nth-child(3){background:var(--brass)}
-.wire .r{background:#e9e8e4}
-.web dl{grid-column:9/13;border-top:1px solid #333}
-.web dl div{padding:14px 0;border-bottom:1px solid #333}
-.web dt{color:var(--brass)}
-.web dd{margin-top:6px;font-size:16px;color:var(--bone)}
-/* verdict */
-.verdict .c{grid-column:span 6}
-.verdict h3{font-stretch:75%;text-transform:uppercase;letter-spacing:.14em;font-size:22px;font-weight:500;padding-bottom:16px;border-bottom:1px solid rgba(18,18,18,.3)}
-.verdict li{padding:16px 0;border-bottom:1px solid rgba(18,18,18,.3);font-size:17px}
-footer.nf{padding:96px 0 64px;background:var(--carbon)}
-footer.nf h2{font-stretch:75%;text-transform:uppercase;letter-spacing:.14em;font-size:22px;font-weight:500}
-footer.nf ul{display:grid;grid-template-columns:1fr 1fr;gap:0 48px;margin-top:24px}
-footer.nf li{padding:14px 0;border-top:1px solid #333;font-size:14px;color:var(--stone)}
-footer.nf .end{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-top:48px;flex-wrap:wrap;color:var(--stone)}
-footer.nf .lockup{font-size:20px;color:var(--bone)}
-footer.nf a{color:var(--bone);display:inline-flex;align-items:center;min-height:44px}
-${GOLD_S_CSS}
+.art-route{position:absolute;inset:0;background:linear-gradient(180deg,#141b27,#26314a)}
+.art-route .city{position:absolute;left:0;right:0;bottom:0;width:100%;height:60%}
+.art-route .line{position:absolute;left:0;right:0;top:26%;height:60px}
+.art-route .line svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+/* photo frames */
+.fb1{background:linear-gradient(180deg,#F4DCC0,#E9B98A)}
+.fb3{background:linear-gradient(180deg,#121826,#2a3550)}
+.fb4{background:linear-gradient(180deg,#F4DCC0,#E7A554)}
+/* collection */
+.stops{counter-reset:s}
+.stop{padding:88px 0;border-top:1px solid var(--line);scroll-margin-top:64px}
+.stop .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px;align-items:center}
+.stop:nth-child(even) .card{order:-1}
+.stop .time{font-family:var(--display);font-size:clamp(72px,9vw,132px);line-height:.9;color:var(--accent)}
+.stop .day{margin-top:10px;color:var(--muted)}
+.stop h3{font-family:var(--display);font-weight:400;font-size:clamp(40px,4.6vw,64px);line-height:1;margin:22px 0 10px}
+.stop .line{font-family:var(--display);font-style:italic;font-size:26px;line-height:1.2}
+.stop .alt-line{font-size:15px;color:var(--muted);margin-top:6px}
+.stop .story{margin-top:18px;max-width:32em}
+.stop .facts{margin-top:18px;display:flex;flex-wrap:wrap;gap:6px 22px;color:var(--muted)}
+.card{aspect-ratio:4/5;border-radius:6px;overflow:hidden;position:relative;background:#e6e4e1}
+.card.wide{aspect-ratio:16/11}
+.card img{width:100%;height:100%;object-fit:cover}
+/* gifting box */
+.gbox{width:74%;aspect-ratio:1.3/1;background:#AC4428;position:relative;display:flex;align-items:center;justify-content:center;color:#F1E6D6;box-shadow:0 30px 40px -24px rgba(28,36,51,.6);overflow:hidden}
+.gbox svg{position:absolute;left:0;right:0;top:50%;width:100%;height:40px;transform:translateY(-50%)}
+.gbox .mk-word{position:relative;width:42%;height:auto;background:#AC4428;padding:0 10px;box-sizing:content-box}
+.note-obj{background:#E8D8C1}
+.note-card p{color:#1a1714}
+/* phone */
+.s-b{background:#F1E6D6;color:#1C2433;padding:40px 16px 16px}
+.s-b .bar{display:flex;justify-content:space-between;align-items:center}
+.s-b .bar .mk-word{width:66px;height:auto}
+.s-b .bar i{display:block;width:18px;height:2px;background:#1C2433;box-shadow:0 5px 0 #1C2433}
+.s-b .rt{height:18px;margin:14px 0 6px;position:relative}
+.s-b .rt svg{position:absolute;inset:0;width:100%;height:100%}
+.s-b h4{font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:38px;line-height:.95;margin:10px 0 8px}
+.s-b h4 em{color:#AC4428}
+.s-b .t{font-size:11px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:#6A5D4E}
+.s-b .im{flex:1;margin-top:12px;border-radius:6px;overflow:hidden}
+.s-b .im img{width:100%;height:100%;object-fit:cover}
+.s-b .btns{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}
+.s-b .btns span{text-align:center;padding:11px 0;font-size:12px;font-weight:600;letter-spacing:.08em;border-radius:40px;border:1.5px solid #1C2433}
+.s-b .btns span:first-child{background:#1C2433;color:#F1E6D6}
 @media (max-width:1000px){
-.cols7{grid-template-columns:repeat(4,minmax(0,1fr));row-gap:28px}
-.col .bar{height:180px}
-.thesis p,.photos .ph{grid-column:span 6}
-.spec .display,.spec .notes,.device .fig,.device .txt,.web .wire,.web dl{grid-column:1/-1}
-.touch .tp{grid-column:span 6}
+.stop .wrap{grid-template-columns:1fr;gap:36px}
+.stop:nth-child(even) .card{order:0}
 }
 @media (max-width:760px){
-.wrap{padding:0 16px}
-.band{padding:72px 0}
-.top nav{display:none}
-.hero .mono-big{right:16px;top:24px;width:34vw}
-.hero .row p,.hero .row ul{grid-column:1/-1}
-.hero .row ul{margin-top:16px}
-.sh{grid-template-columns:1fr;gap:10px;margin-bottom:40px}
-.sh .n,.sh h2,.sh .caps{grid-column:1/-1;text-align:left}
-.sh .n{font-size:56px}
-.thesis p,.photos .ph,.touch .tp,.verdict .c{grid-column:1/-1}
-.markrow{margin-top:48px}
-.markrow .m{grid-column:span 6}
-.markrow p{grid-column:1/-1}
-.cols7{grid-template-columns:repeat(2,minmax(0,1fr))}
-.index ol{grid-column:1/-1}
-.pane{display:none}
-.index .more .mob{display:block;background:#fff;margin:0 0 16px 72px;aspect-ratio:1/1}
-.index .more .mob img{width:100%;height:100%;object-fit:contain}
-.index .more p{padding-left:0}
-.index .more .mob{margin-left:0}
-.vlist .caps,.vlist p{grid-column:1/-1}
-footer.nf ul{grid-template-columns:1fr}
+.route .st span{display:none}
+.route .wrap{gap:14px}
+.route .home .mk-word{height:16px}
+.sec{padding:72px 0}
+.stop{padding:64px 0}
+.hero .top{padding-top:40px}
 }
 `;
 
-const sh = (i, light) => {
+const sec = (i, inner, cls = '') => {
   const [id, label] = SECTIONS[i];
-  return `<header class="sh" data-r><span class="n" aria-hidden="true">${pad(i + 1)}</span><h2 id="h-${id}">${esc(label)}</h2><span class="caps">${esc(W.name)}</span></header>`;
+  return `<section class="sec ${cls}" id="${id}" aria-labelledby="h-${id}"><div class="wrap"><header class="sh" data-r><span class="lab">${pad(i + 1)} / ${esc(label)}</span><h2 class="disp" id="h-${id}">${TITLES[i]}</h2></header>${inner}</div></section>`;
 };
-const band = (i, inner, light = false) => {
-  const id = SECTIONS[i][0];
-  return `<section class="band${light ? ' light' : ' chan'}" id="${id}" aria-labelledby="h-${id}">${light ? '<div class="chan-l" aria-hidden="true"></div>' : ''}<div class="wrap">${sh(i, light)}${inner}</div></section>`;
-};
+const TITLES = ['Your week is <em>the climb.</em>', 'Morning to <em>streetlight.</em>', 'Type with <em>a pulse.</em>', 'The <em>route.</em>', 'Real cities, <em>real days.</em>', 'Six <em>stops.</em>', 'A voice that <em>knows your week.</em>', 'For the one <em>who’s rising.</em>', 'Built for <em>the thumb.</em>', 'The <em>verdict.</em>'];
+
+const routeSvg = (stroke, extra = '') => `<svg viewBox="0 0 1000 44" preserveAspectRatio="none" aria-hidden="true"><path d="${ROUTE_D}" fill="none" stroke="${stroke}" stroke-width="3" vector-effect="non-scaling-stroke" stroke-linecap="round"${extra}/></svg>`;
 
 export function renderB() {
-  const header = `<header class="top"><div class="wrap"><a class="home" href="#top" aria-label="Tuskrr, back to top">${goldS()}</a><nav aria-label="Sections">${SECTIONS.map(([id, label], i) => `<a href="#${id}" title="${esc(label)}"><span class="sr">${esc(label)} </span>${pad(i + 1)}</a>`).join('')}</nav></div></header>`;
+  const bar = `<header class="route"><div class="wrap">
+    <a class="home" href="#top" aria-label="Tuskrr, back to top">${wordmark()}</a>
+    <div class="track"><svg viewBox="0 0 1000 44" preserveAspectRatio="none" aria-hidden="true"><defs><clipPath id="rt-clip"><rect id="rt-rect" x="0" y="-20" width="0" height="84"/></clipPath></defs><path class="base" d="${ROUTE_D}" fill="none" stroke-width="3" vector-effect="non-scaling-stroke"/><path class="done" d="${ROUTE_D}" fill="none" stroke-width="3" vector-effect="non-scaling-stroke" clip-path="url(#rt-clip)"/></svg>
+    ${ROUTE.map(([id, t, d], i) => `<a class="st" href="#t-${id}" style="left:${SX[i] / 10}%" aria-label="${esc(d)} ${t}, ${esc(productById(id).name)}"><i></i><span>${esc(d.slice(0, 3))} ${t}</span></a>`).join('')}</div>
+  </div></header>`;
 
-  const hero = `<section class="hero chan" id="top" aria-label="${esc(W.name)}"><div class="wrap" style="width:100%">
-    ${monogram('mono-big')}
-    <div class="kick caps" data-r><span>Tuskrr</span><span>Brand world, option ${W.letter}</span><span>${esc(W.name)}</span></div>
-    <h1 data-r><span>Every line</span><span>has <span class="b" style="display:inline">purpose.</span></span></h1>
-    <div class="row" data-r><p>${esc(W.intro)}</p><ul class="caps">${W.feeling.map((f) => `<li>${esc(f)}</li>`).join('')}</ul></div>
-  </div></section>`;
+  const hero = `<section class="hero grain" id="top" aria-label="${esc(W.name)}">
+    <span class="sun" aria-hidden="true"></span>
+    <div class="wrap top">
+      <div class="kick lab" data-r><span>Tuskrr</span><span>Brand world, option ${W.letter}</span><span>${esc(W.name)}</span></div>
+      <h1 class="disp" data-r>Arrive like<br>you <em>mean it.</em></h1>
+      <div class="when" data-r><b>08:40</b><span class="lab">Monday. The week starts now.</span></div>
+    </div>
+    <div class="ground">${skylineSVG({ w: 1440, h: 380, seed: 21, fill: '#1C2433', lit: '#E7A554', litRate: 0.05, cls: 'city' })}<div class="wrap"><p data-r>${esc(W.intro)}</p></div></div>
+  </section>`;
 
-  const world = band(0, `
-    <p class="lead" data-r>${esc(W.reading)}</p>
-    <div class="g12 thesis" style="margin-top:56px">${W.thesis.map((t, i) => `<p data-r><b>${['The channel', 'The colour', 'The place'][i]}</b>${esc(t)}</p>`).join('')}</div>
-    <div class="markrow" data-r><div class="m">${monogram()}</div><div class="m gold">${goldS()}</div><p>The monogram and the wordmark stay exactly as drawn. What changes is how sparingly they are used: one mark per view, generous space around it, and the S in brass wherever the wordmark is cast in metal.</p></div>`);
-
-  const palette = band(1, `
-    <div class="cols7">${W.palette.map((c) => `<div class="col" data-r><div class="bar" style="background:${c.hex}"></div><b>${esc(c.name)}</b><span>${c.hex}</span><p>${esc(c.role)}</p>${c.note ? `<p class="note">${esc(c.note)}</p>` : ''}</div>`).join('')}</div>
-    <p style="margin-top:40px;max-width:40em;color:#3d3b37" data-r>Seven values and almost no hue. Warmth comes from the leather in the photography, never from the page. Brass is reserved for the S and for a single call to action per view.</p>`, true);
-
-  const type = band(2, `
-    <div class="g12 spec">
-      <div class="display" data-r aria-hidden="true">Strata<br><span class="l">Contour</span><br>Axis</div>
-      <div class="notes">
-        <div data-r><h3>${esc(W.type.display)}</h3><p>${esc(W.type.displayWhy)}</p></div>
-        <div data-r><h3>${esc(W.type.text)}</h3><p>${esc(W.type.textWhy)}</p><p class="sample">Layers of earth. Layers of architecture. Layers of work, ambition and experience.</p></div>
-        <div data-r><h3>${esc(W.type.data)}</h3><p>${esc(W.type.dataWhy)}</p></div>
-      </div>
-      <div class="tracking caps" data-r><span>Tracking 0.22em for labels</span><span>0.14em for headings</span><span>0.06em for display</span></div>
-    </div>`);
-
-  const device = band(3, `
-    <div class="g12 device">
-      <div class="fig" data-r><div class="flute" aria-hidden="true"></div>${goldS()}</div>
-      <div class="txt" data-r><h3>${esc(W.device.title)}</h3><p>${esc(W.device.text)}</p><ul>${W.device.supports.map((s) => `<li>${esc(s)}</li>`).join('')}</ul></div>
-      <div class="strip" data-r>${strataSVG({ seed: 23, lines: 22, h: 120 })}</div>
-    </div>`, true);
+  const art = `<div class="art-route" aria-hidden="true">${skylineSVG({ w: 800, h: 360, seed: 8, fill: '#0e131d', lit: '#E7A554', litRate: 0.09, cls: 'city' })}<div class="line">${routeSvg('#E7A554')}${SX.map((x) => `<span style="position:absolute;left:${x / 10}%;top:50%;width:14px;height:14px;margin:-7px 0 0 -7px;border-radius:50%;background:#1C2433;border:3px solid #E7A554"></span>`).join('')}</div></div>`;
 
   const frames = [
-    `<div class="frame f1"><span class="cap caps">Drawn stand-in</span></div>`,
-    `<div class="frame f2"><span class="plinth"></span><img src="${IMG.strata}" alt="STRATA briefcase, supplied product render"><span class="cap caps" style="color:#3d3b37">Supplied render</span></div>`,
-    `<div class="frame f3"><i></i><span class="cap caps" style="color:#3d3b37">Drawn stand-in</span></div>`,
-    `<div class="frame f4" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>`,
+    `<div class="frame fb1">${skylineSVG({ w: 400, h: 400, seed: 3, fill: '#1C2433', lit: '#E7A554', litRate: 0.03 })}<span class="cap">Drawn stand-in</span></div>`,
+    `<div class="frame"><img src="${IMG.strata}" alt="STRATA briefcase, supplied product render"><span class="cap">Supplied render</span></div>`,
+    `<div class="frame fb3">${skylineSVG({ w: 400, h: 420, seed: 17, fill: '#0b0f18', lit: '#E7A554', litRate: 0.14 })}<span class="cap">Drawn stand-in</span></div>`,
+    `<div class="frame fb4">${ridgesSVG({ w: 400, h: 540, seed: 5, layers: [{ base: 0.6, amp: 0.3, freq: 2, fill: '#C9855A' }, { base: 0.8, amp: 0.3, freq: 3, fill: '#8A4722' }, { base: 1, amp: 0.25, freq: 4, fill: '#1C2433' }] })}<span class="cap">Drawn stand-in</span></div>`,
   ];
-  const photo = band(4, `<div class="g12 photos">${W.photo.map(([h, p], i) => `<div class="ph" data-r>${frames[i]}<h3>${esc(h)}</h3><p>${esc(p)}</p></div>`).join('')}</div>
-    <p style="margin-top:32px;color:var(--stone);font-size:15px" data-r>These frames describe the photography. They are not photographs. No stock images are used anywhere in this option.</p>`);
 
-  const collection = band(5, `
-    <div class="index">
-      <ol>${PRODUCTS.map((p, i) => `<li class="${i === 0 ? 'on' : ''}" data-r>
-        <button type="button" aria-expanded="${i === 0}" aria-controls="more-${p.id}" data-i="${i}"><span class="no">${pad(i + 1)}</span><span class="nm">${esc(p.name)}</span><span class="ty">${esc(p.type)}</span></button>
-        <div class="more" id="more-${p.id}"><div>
-          <div class="mob"><img src="${IMG[p.id]}" alt=""></div>
-          <p class="line">${esc(p.line)}</p>
-          ${p.alt ? `<p class="alt">Alternative line: ${esc(p.alt)}</p>` : ''}
-          <p>${esc(p.idea)}</p>
-          <p class="alt">Inspired by ${esc(p.inspired)}. ${esc(p.finish)}.${p.note ? ' ' + esc(p.note) + '.' : ''}</p>
-        </div></div>
-      </li>`).join('')}</ol>
-      <div class="pane" data-r aria-live="polite">${PRODUCTS.map((p, i) => `<img src="${IMG[p.id]}" alt="${esc(p.name)} ${esc(p.type.toLowerCase())}, ${esc(p.finish.toLowerCase())}. Supplied product render" class="${i === 0 ? 'on' : ''}"${i === 0 ? '' : ' aria-hidden="true"'}>`).join('')}<span class="cap caps">Supplied render</span></div>
-    </div>
-    <script>(function(){var lis=[].slice.call(document.querySelectorAll(".index li")),imgs=[].slice.call(document.querySelectorAll(".pane img"));
-    function pick(i){lis.forEach(function(li,j){li.classList.toggle("on",j===i);li.querySelector("button").setAttribute("aria-expanded",j===i)});imgs.forEach(function(im,j){im.classList.toggle("on",j===i);if(j===i)im.removeAttribute("aria-hidden");else im.setAttribute("aria-hidden","true")})}
-    lis.forEach(function(li,i){var b=li.querySelector("button");b.addEventListener("click",function(){pick(i)});b.addEventListener("mouseenter",function(){if(matchMedia("(hover:hover)").matches)pick(i)})})})();</script>`, true);
+  const collection = `</div><div class="stops">${ROUTE.map(([id, t, d, moment], i) => {
+    const p = productById(id);
+    const night = t >= '18' || d === 'Thursday';
+    return `<article class="stop ${night ? 'night' : i % 2 ? 'alt' : ''}" id="t-${id}" aria-label="${esc(p.name)}"><div class="wrap">
+      <div>
+        <p class="time" data-r>${t}</p>
+        <p class="day lab" data-r>${esc(d)} / ${esc(moment)}</p>
+        <h3 data-r>${esc(p.name)}</h3>
+        <p class="line" data-r>${esc(p.line)}</p>
+        ${p.alt ? `<p class="alt-line" data-r>Alternative line: ${esc(p.alt)}</p>` : ''}
+        <p class="story" data-r>${esc(p.idea)} ${esc(p.story)}</p>
+        <p class="facts lab" data-r><span>${esc(p.type)}</span><span>Genuine leather</span><span>${esc(p.finish)}</span></p>
+      </div>
+      <div class="card${['traverse', 'contour'].includes(id) ? ' wide' : ''}" data-r><img src="${IMG[id]}" alt="${esc(altText(p))}"><span class="cap">Supplied render</span></div>
+    </div></article>`;
+  }).join('')}</div><div class="wrap">`;
 
-  const voice = band(6, `
-    <div class="vsum" data-r><p class="lead">${esc(W.voice.summary)}</p><div class="words caps">${W.feeling.map((f) => `<span>${esc(f)}</span>`).join('')}</div></div>
-    <div class="vlist">${W.voice.samples.map(([k, v]) => `<div data-r><span class="caps">${esc(k)}</span><p>${esc(v)}</p></div>`).join('')}</div>`);
+  const box = `<div class="gbox">${routeSvg('#F1E6D6')}${wordmark()}</div>`;
 
-  const touch = band(7, `<div class="g12 touch">
-    <figure class="tp" data-r><div class="obj"><div class="box">${goldS()}</div></div><figcaption><b>Box</b><span>Carbon board, blind channel emboss, the wordmark foiled with a brass S.</span></figcaption></figure>
-    <figure class="tp" data-r><div class="obj" style="background:#c9c7c1"><div class="htag">${goldS()}<span class="l">STRATA<br>Laptop briefcase<br>Every line placed.<br>Nothing added.</span></div></div><figcaption><b>Hang tag</b><span>Bone card, deep brass S. Three lines of copy, no more.</span></figcaption></figure>
-    <figure class="tp" data-r><div class="obj"><div class="soc"><div class="im"><img src="${IMG.contour}" alt="CONTOUR folio, supplied product render"></div><p>CONTOUR. Now available.</p></div></div><figcaption><b>Social post</b><span>One object, one line, nothing else in the frame.</span></figcaption></figure>
-  </div>`, true);
+  const screen = `<div class="s-b screen"><div class="bar">${wordmark()}<i></i></div><div class="rt">${routeSvg('#AC4428')}</div><p class="t">Monday / 08:40</p><h4>Arrive like you <em>mean it.</em></h4><div class="im"><img src="${IMG.ridge}" alt=""></div><div class="btns"><span>Shop the week</span><span>Gift it</span></div></div>`;
 
-  const web = band(8, `<div class="g12 web">
-    <div class="wire" data-r aria-hidden="true"><div class="l"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="r"></div></div>
-    <dl data-r>${W.web.map(([k, v]) => `<div><dt class="caps">${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>
-  </div>
-  <p style="margin-top:28px;color:var(--stone);font-size:15px" data-r>This page is built the way the website would be: try the collection index above.</p>`);
+  const script = `<script>(function(){var rect=document.getElementById("rt-rect"),sts=[].slice.call(document.querySelectorAll(".route .st")),stops=[].slice.call(document.querySelectorAll(".stop")),q=false;
+  function up(){q=false;var h=document.documentElement.scrollHeight-innerHeight,p=h>0?Math.min(1,Math.max(0,scrollY/h)):0;rect.setAttribute("width",String(p*1000));
+  stops.forEach(function(s,i){sts[i]&&sts[i].classList.toggle("past",s.getBoundingClientRect().top<innerHeight*0.6)})}
+  addEventListener("scroll",function(){if(!q){q=true;requestAnimationFrame(up)}},{passive:true});addEventListener("resize",up);up()})();</script>`;
 
-  const verdict = band(9, `<div class="g12 verdict">
-    <div class="c" data-r><h3>Why choose it</h3><ul>${W.strengths.map((s) => `<li>${esc(s)}</li>`).join('')}</ul></div>
-    <div class="c" data-r><h3>Watch for</h3><ul>${W.watch.map((s) => `<li>${esc(s)}</li>`).join('')}</ul></div>
-  </div>`, true);
-
-  const footer = `<footer class="nf" aria-label="What is not final"><div class="wrap">
-    <h2>Not final</h2>
-    <ul>${NOT_FINAL.map((n) => `<li>${esc(n)}</li>`).join('')}</ul>
-    <div class="end">${lockup()}<span class="caps">Option ${W.letter} of C / <a href="START-HERE.html">Back to all options</a></span></div>
-  </div></footer>`;
-
-  const body = `${header}<main>${hero}${world}${palette}${type}${device}${photo}${collection}${voice}${touch}${web}${verdict}</main>${footer}`;
+  const body = `${bar}<main>${hero}
+    ${sec(0, ideaBody(W))}
+    ${sec(1, paletteBody(W, 'The palette follows the light through a day: sand in the morning, terracotta at the pitch, navy and streetlight after dark. Cognac is the leather in every hour.'), 'alt')}
+    ${sec(2, typeBody(W, 'Friday,<br><em>18:15.</em>', 'The journey leaves the line. You follow it.', 'Mon 08:40 / Tue 10:30 / Fri 18:15'))}
+    ${sec(3, deviceBody(W, art), 'night')}
+    ${sec(4, photoBody(W, frames))}
+    ${sec(5, collection)}
+    ${sec(6, voiceBody(W), 'night')}
+    ${sec(7, giftingBody(W, box))}
+    ${sec(8, phoneBody(W, screen), 'alt')}
+    ${sec(9, verdictBody(W), 'night')}
+  </main>${footer(W).replace('class="nf"', 'class="nf night"')}${script}`;
 
   return page({
     title: `Tuskrr brand world B: ${W.name}`,
     description: `Brand world option B for Tuskrr. ${W.reading}`,
-    fonts: FONTS.instrumentSans,
-    css: CSS,
+    fonts: FONTS.instrumentSerif + FONTS.hanken,
+    css: LAYOUT_CSS + CSS,
     body,
   });
 }

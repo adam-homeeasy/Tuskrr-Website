@@ -3,18 +3,18 @@ TUSKRR BRAND WORLD OPTIONS
 
 1. Keep these four files together in one folder:
      START-HERE.html
-     option-a-field-survey.html
-     option-b-quiet-architecture.html
-     option-c-high-ground.html
+     option-a-the-entrance.html
+     option-b-monday-to-monday.html
+     option-c-sharp-lines.html
 
 2. Double-click START-HERE.html. It opens in your web browser
    (Chrome, Safari, Edge or Firefox). No internet connection is needed.
 
-3. From START-HERE, open each option and scroll all the way down.
-   Each one takes about three minutes. A laptop or desktop screen shows
-   them best, but they also work on a phone.
+3. START-HERE shows the brand foundation first. Then open each option
+   and scroll all the way down, about three minutes each. Look at them on
+   a phone too: that is where Tuskrr will be found and bought.
 
-4. Answer the five questions at the bottom of START-HERE.
+4. Answer the questions at the bottom of START-HERE.
    The first one matters most: which option, first instinct?
 
 IF NOTHING MOVES
@@ -27,6 +27,6 @@ work either way. To see the motion anyway:
 Or add ?motion=force to the end of the address in the browser bar.
 
 WHAT IS NOT FINAL
-Product images are the supplied renders. Landscape art is drawn, not
-photographed. The logo is cut from JPEG files and needs vector artwork.
+Product images are the supplied renders. City scenes are drawn, not
+photographed. Items marked "to confirm" are placeholders. The logo is cut from JPEG files and needs vector artwork.
 Voice samples show tone only. Full list at the bottom of every page.
