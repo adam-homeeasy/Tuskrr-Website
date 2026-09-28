@@ -1,0 +1,33 @@
+{
+ "bodyBg": "rgb(239, 237, 230)",
+ "imgs": 13,
+ "noAlt": 0,
+ "emptyAlt": 0,
+ "srOnly": 6,
+ "ariaHidden": 280,
+ "skipLink": false,
+ "lang": "en",
+ "landmarks": "header:0 nav:1 main:1 footer:1",
+ "focus": {
+  "el": "a.nav-underline.font-sans.text-mist",
+  "text": "Flavors",
+  "outline": "rgb(106, 105, 101) auto 1px",
+  "outlineOffset": "1px",
+  "boxShadow": "none"
+ },
+ "meta": [
+  "theme-color = #efede6",
+  "description = A nootropic blend for sustained natural focus. Caffeine-free. Made in Wellington.",
+  "og:title = STILL. Stay still. Stay sharp.",
+  "og:description = A nootropic blend for sustained natural focus. Caffeine-free. Made in Wellington.",
+  "og:site_name = STILL.",
+  "og:image = https://www.drinkstill.nz/og.png",
+  "og:image:width = 2400",
+  "og:image:height = 1260",
+  "og:image:alt = STILL. A nootropic beverage. Stay still. Stay sharp.",
+  "og:type = website",
+  "icon = https://www.drinkstill.nz/icon.svg?icon.0utweua0gd~fe.svg?dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+  "apple-touch-icon = https://www.drinkstill.nz/apple-icon.png?apple-icon.0jmgywljzndo7.png?dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4"
+ ],
+ "hidden": "STILL. Stay still. Stay sharp."
+}

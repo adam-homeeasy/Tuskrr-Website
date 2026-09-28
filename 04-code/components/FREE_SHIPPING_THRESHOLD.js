@@ -1,0 +1,1 @@
+e=>{"use strict";let t=e.i(3767).flavors.map(e=>({sku:e.skuNumber,number:e.number,name:e.name,flavor:e.flavorPair,description:e.oneLiner,accent:e.bloomColor,fourPack:24,twelvePack:66}));e.s(["FREE_SHIPPING_THRESHOLD",0,50,"formatPrice",0,function(e){return e%1==0?`${e}`:e.toFixed(2)},"products",0,t,"subscriptionPrice",0,function(e){return Number((.85*e).toFixed(2))}])},66029,
