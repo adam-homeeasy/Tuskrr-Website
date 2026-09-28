@@ -47,3 +47,17 @@ See "Still open" and "What we need back" in `START-HERE.html`: badge wordmark,
 the gold S on every badge, the price for custom initials, real laptop sizes and
 returns policy, vector logo files, the photo shoot, a trademark search on the
 tagline, and the reference websites for the site build.
+
+## Explainer decks
+
+`explainer/` holds the brand world explainer as NoDecks-format decks (Grid
+theme), each with a PDF twin:
+
+- `tuskrr-brand-world-grid-client.html` / `.pdf`: 13 sections, for Tuskrr
+- `tuskrr-brand-world-grid-internal.html` / `.pdf`: 22 sections, for the team
+
+They present the foundation and two separate themes: Linear Wilderness (round
+1: Field Survey, Quiet Architecture, High Ground) and The Entrance (round 2).
+Rebuild with `node brand-world/src/explainer.mjs`; world data is read from
+`src/snapshots/` (copies of round 1 and round 2). PDFs:
+`python3 brand-world/src/render_pdf_local.py <deck.html> <deck.pdf> "<title>"`.
