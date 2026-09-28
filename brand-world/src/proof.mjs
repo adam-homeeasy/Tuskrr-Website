@@ -139,7 +139,7 @@ for (const f of FILES) {
           rs.sort((a, b) => a - b);
           const p5 = rs[Math.floor(rs.length * 0.05)];
           const need = bx.size >= 24 || (bx.size >= 18.66 && bx.weight >= 700) ? 3 : 4.5;
-          if (p5 < need) res.push(`${p5.toFixed(2)} < ${need} "${bx.text}" (${bx.size}px)`);
+          if (p5 < need) res.push(`${p5.toFixed(2)} < ${need} "${bx.text}" (${bx.size}px) at ${Math.round(bx.x)},${Math.round(bx.y)}`);
         }
         return res;
       }, { data: png.toString('base64'), boxes });

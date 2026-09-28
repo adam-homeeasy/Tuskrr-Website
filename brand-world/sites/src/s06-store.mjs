@@ -21,8 +21,9 @@ export function build() {
 <header class="sh-h mono"><span>Sheet ${b.n}</span><span>${esc(b.inspired)}</span></header>
 <div class="sh-stage" data-stage>
 ${contourSVG({ seed: 11 + i * 7, levels: 11 }, 'sh-ct')}
-<div class="mv mv-render sh-bag"><img class="mv-v" src="${b.img}" alt="${esc(b.name)}, ${esc(b.type.toLowerCase())}" decoding="async"><span class="tagx">Supplied render</span></div>
-<div class="mv sh-out"><img class="mv-v" src="${still(OUT[b.id])}" alt="" decoding="async"><span class="tagx">Stock stand-in</span></div>
+<div class="mv mv-render sh-bag"><img class="mv-v" src="${b.img}" alt="${esc(b.name)}, ${esc(b.type.toLowerCase())}" decoding="async"></div>
+<div class="mv sh-out"><img class="mv-v" src="${still(OUT[b.id])}" alt="" decoding="async"></div>
+<span class="tagx st-tag"><span class="t-a">Supplied render</span><span class="t-b">Stock stand-in</span></span>
 </div>
 <div class="sh-b"><h3 class="arch sh-n">${esc(b.name)}</h3><p class="sh-l">${esc(b.line)} <span>${esc(DRY[b.id])}</span></p>
 <p class="sh-p">${b.priceText} <span class="mono">sample</span></p>
@@ -72,7 +73,8 @@ body{background:${C.paper};color:${C.ink};font:400 17px/1.5 'Archivo',system-ui,
 .sh-bag{position:absolute;inset:14% 12% 10%;transition:opacity .5s ${EASE},transform .5s ${EASE}}
 .sh-out{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity .5s ${EASE},visibility .5s}
 .sh-stage.out .sh-out{opacity:1;visibility:visible}.sh-stage.out .sh-bag{opacity:0}
-@media (hover:hover){.sh-stage:hover .sh-out{opacity:1;visibility:visible}.sh-stage:hover .sh-bag{opacity:0}}
+@media (hover:hover){.sh-stage:hover .sh-out{opacity:1;visibility:visible}.sh-stage:hover .sh-bag{opacity:0}.sh-stage:hover .t-a{display:none}.sh-stage:hover .t-b{display:inline}}
+.st-tag{z-index:4}.t-b{display:none}.sh-stage.out .t-a{display:none}.sh-stage.out .t-b{display:inline}
 .sh-b{padding:12px 12px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
 .sh-n{font-size:clamp(38px,5vw,64px)}
 .sh-l{font-size:15px}.sh-l span{color:${C.soft}}
