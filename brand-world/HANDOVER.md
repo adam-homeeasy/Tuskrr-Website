@@ -5,7 +5,7 @@ this whole file before touching anything.
 
 ## Rules from the user (important)
 
-- **Do not act until the user says go.** Last instruction: "Don't do anything."
+- **Do not build until the user says go.** Last instruction (reference-sites session): "Don't build anything"; write directions, assets and requirements only.
 - **Do not merge themes.** Keep each theme separate. More options will be added.
 - Ask when an instruction is ambiguous; a wrong guess cost a full rebuild last time.
 - Use they/them; the range is unisex.
@@ -101,3 +101,35 @@ node brand-world/src/proof.mjs           # contrast (real pixels), overflow at 9
 - Palettes solved for contrast (4.5 body, 3.0 display) and the ratios noted.
 - Label every image: "Supplied render" or "Drawn stand-in". No stock photos.
 - Every page ends with the "Not final" list.
+
+## Reference-sites session (28 Sep 2026): what was done
+
+Nothing was built. Two reference pages and a reference library were added:
+
+| File | What it is |
+|---|---|
+| `website-directions.html` | Direction library: 8 directions, one per reference site, each on ONE theme (not merged). Per direction: the measured reference, take and leave, how the brand world is used (palette with computed ratios, type, logo, device, products, voice), motion contract, phone wireframes, required assets, watch-outs |
+| `asset-requirements.html` | Asset catalogue (35 sets: brand, studio, people, video, drawing, facts), direction matrix, what exists today, production grouping, file specs, rights |
+| `references/DNA.md` | Measured numbers per site, with evidence and unknowns |
+| `src/directions-data.mjs`, `src/directions.mjs` | Data and generator. `node brand-world/src/directions.mjs` |
+
+Directions: The Entrance: 01 The Reel (BASIC/DEPT), 02 The Host (Brunello
+Cucinelli AI), 03 The Roster (OFFFORM), 04 The Outfitter (Ströms, daylight
+mode). Linear Wilderness: 05 Six Readings (Spring/Summer, Quiet Architecture
+palette), 06 The Small Store (++hellohello OUTFIT, Field Survey), 07 Pressed In
+(UNIMATIC Impronte, Field Survey), 08 Everyday Kit (Bread & Boxers, High Ground).
+
+Measurement limits: the cloud Chromium could not open HTTPS pages (the session
+proxy's certificate is not trusted by Chromium, and a workaround was refused),
+so numbers come from the shipped CSS and HTML (`references/read-source.py`).
+Reveal travel, JS-driven from-states and blur on reveals are not measured.
+Brunello Cucinelli returns 403 to automated readers; its direction uses the
+house motion contract. Run `references/measure.mjs` on a normal machine to
+complete the pass.
+
+Still open: which direction(s) to take forward; the Linear Wilderness question
+above (each LW direction names the round 1 world it suits); whether the
+drinkstill.nz teardown pack (folders `01-teardown` to `06-raw` at the repo
+root, uploaded on the session branch) is a ninth reference.
+
+Checks: `PROOF_FILES=website-directions.html,asset-requirements.html node brand-world/src/proof.mjs` passes.

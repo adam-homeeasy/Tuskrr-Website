@@ -1,0 +1,1082 @@
+{
+ "url": "https://springsummer.dk/",
+ "read": "2026-09-28",
+ "method": "source read (HTML + linked CSS), no browser",
+ "status": 200,
+ "htmlBytes": 578652,
+ "css": {
+  "files": [
+   [
+    "https://springsummer.dk/_nuxt/entry.C4SqFwkE.css",
+    200,
+    34862
+   ],
+   [
+    "https://springsummer.dk/_nuxt/arrow-link.SVcMKg4E.css",
+    200,
+    3699
+   ],
+   [
+    "https://springsummer.dk/_nuxt/tags.C9TxRlVY.css",
+    200,
+    1030
+   ],
+   [
+    "https://springsummer.dk/_nuxt/clock-2.DtgNt0BX.css",
+    200,
+    823
+   ],
+   [
+    "https://springsummer.dk/_nuxt/page-modules.DNZbWtQt.css",
+    200,
+    44617
+   ],
+   [
+    "https://springsummer.dk/_nuxt/headline-simple.B9kV6ZCD.css",
+    200,
+    1049
+   ],
+   [
+    "https://springsummer.dk/_nuxt/the-footer.BE41IyYp.css",
+    200,
+    3980
+   ]
+  ],
+  "bytes": 134440
+ },
+ "easings": [
+  [
+   "ease-in-out",
+   21
+  ],
+  [
+   "ease",
+   15
+  ],
+  [
+   "ease-out",
+   8
+  ],
+  [
+   "cubic-bezier(.55,0,.1,1)",
+   2
+  ],
+  [
+   "cubic-bezier(.33,1,.68,1)",
+   2
+  ],
+  [
+   "cubic-bezier(.32,0,.67,0)",
+   2
+  ],
+  [
+   "cubic-bezier(0,.55,.45,1)",
+   1
+  ],
+  [
+   "cubic-bezier(.85,0,.15,1)",
+   1
+  ],
+  [
+   "cubic-bezier(.36,.07,.19,.97)",
+   1
+  ],
+  [
+   "cubic-bezier(.83,0,.17,1)",
+   1
+  ],
+  [
+   "linear",
+   1
+  ]
+ ],
+ "transitionDurations": [
+  [
+   ".2s",
+   29
+  ],
+  [
+   ".5s",
+   22
+  ],
+  [
+   ".3s",
+   17
+  ],
+  [
+   ".4s",
+   6
+  ],
+  [
+   ".6s",
+   6
+  ],
+  [
+   ".25s",
+   4
+  ],
+  [
+   "1s",
+   3
+  ],
+  [
+   ".8s",
+   3
+  ],
+  [
+   ".45s",
+   1
+  ]
+ ],
+ "transitionDecls": [
+  [
+   "transform .2s",
+   10
+  ],
+  [
+   "opacity .5s ease-in-out",
+   9
+  ],
+  [
+   "background-size .5s",
+   8
+  ],
+  [
+   "var(--theme-transition-duration)",
+   5
+  ],
+  [
+   "opacity var(--theme-transition)",
+   4
+  ],
+  [
+   "rotate .3s",
+   4
+  ],
+  [
+   "background-color var(--theme-transition)",
+   3
+  ],
+  [
+   "all .3s ease-in-out",
+   3
+  ],
+  [
+   "opacity .3s ease",
+   3
+  ],
+  [
+   "opacity .3s",
+   3
+  ],
+  [
+   "color var(--theme-transition)",
+   2
+  ],
+  [
+   "opacity .25s ease",
+   2
+  ],
+  [
+   "scale 1s ease-out",
+   2
+  ],
+  [
+   "scale .5s ease-out",
+   2
+  ]
+ ],
+ "delays": [
+  [
+   "1s",
+   3
+  ]
+ ],
+ "animationDecls": [
+  [
+   "swiper-preloader-spin 1s linear infinite",
+   1
+  ],
+  [
+   "shake .5s cubic-bezier(.36,.07,.19,.97) both",
+   1
+  ],
+  [
+   "sweep calc(var(--width)*4ms) infinite alternate ease-in-out",
+   1
+  ],
+  [
+   "slide-enter var(--transition-duration) forwards",
+   1
+  ],
+  [
+   "slide-leave var(--transition-duration) forwards",
+   1
+  ]
+ ],
+ "keyframes": [
+  [
+   "wave-animation",
+   "0%{transform:rotate(0)}15%{transform:rotate(14deg)}30%{transform:rotate(-8deg)}40%{transform:rotate(14deg)}50%{transform:rotate(-4deg)}60%{transform:rotate(10deg)}70%{transform:rotate(0)}to{transform:rotate(0)}"
+  ],
+  [
+   "shake",
+   "10%,90%{transform:translate3d(-1px,0,0)}20%,80%{transform:translate3d(2px,0,0)}30%,50%,70%{transform:translate3d(-4px,0,0)}40%,60%{transform:translate3d(4px,0,0)}"
+  ],
+  [
+   "swiper-preloader-spin",
+   "0%{transform:rotate(0)}to{transform:rotate(1turn)}"
+  ],
+  [
+   "sweep",
+   "to{transform:translate(min(0px,calc(var(--cols)*var(--grid-cols) - var(--gutter) - 100%)))}"
+  ],
+  [
+   "slide-enter",
+   "0%{opacity:0;transform:translateY(-50%)}to{opacity:1;transform:translateY(0)}"
+  ],
+  [
+   "slide-leave",
+   "0%{opacity:1;transform:translateY(0)}to{opacity:0;transform:translateY(50%)}"
+  ]
+ ],
+ "translates": [
+  [
+   "translate(-50%,-50%)",
+   9
+  ],
+  [
+   "translateY(100dvh)",
+   2
+  ],
+  [
+   "translate(-20%,50%)",
+   2
+  ],
+  [
+   "translateY(-50%)",
+   2
+  ],
+  [
+   "translateY(0)",
+   2
+  ],
+  [
+   "translate(0)",
+   1
+  ],
+  [
+   "translate(.2em)",
+   1
+  ],
+  [
+   "translateY(-10px)",
+   1
+  ],
+  [
+   "translate3d(-1px,0,0)",
+   1
+  ],
+  [
+   "translate3d(2px,0,0)",
+   1
+  ],
+  [
+   "translate3d(-4px,0,0)",
+   1
+  ],
+  [
+   "translate3d(4px,0,0)",
+   1
+  ],
+  [
+   "translate(.5rem)",
+   1
+  ],
+  [
+   "translate3d(0,-20px,0)",
+   1
+  ]
+ ],
+ "hexColours": [
+  [
+   "#000000",
+   28
+  ],
+  [
+   "#ffffff",
+   28
+  ],
+  [
+   "#1e90ff",
+   3
+  ],
+  [
+   "#dd0000",
+   2
+  ],
+  [
+   "#007aff",
+   1
+  ]
+ ],
+ "rgbColours": [
+  [
+   "rgba(0,0,0,.4)",
+   6
+  ],
+  [
+   "rgba(0,0,0,.5)",
+   4
+  ],
+  [
+   "rgba(0,0,0,.3)",
+   1
+  ],
+  [
+   "rgba(0,0,0,.25)",
+   1
+  ]
+ ],
+ "customProps": [
+  [
+   "--border-icon-svg-color",
+   "hsl(var(--background-color))"
+  ],
+  [
+   "--header-height",
+   "2.6rem"
+  ],
+  [
+   "--sidebar-margin",
+   "1rem"
+  ],
+  [
+   "--sidebar-width",
+   "12.5rem"
+  ],
+  [
+   "--border-color",
+   "hsla(var(--text-color)/.2)"
+  ],
+  [
+   "--fill",
+   "hsla(var(--background-color))"
+  ],
+  [
+   "--ui-background-color",
+   "hsla(var(--color-grey)/.9)"
+  ],
+  [
+   "--ui-text-color",
+   "hsl(var(--color-beige))"
+  ],
+  [
+   "--clock-size",
+   "11px"
+  ],
+  [
+   "--border-icon-svg-color",
+   "hsl(var(--background-color))"
+  ],
+  [
+   "--border-icon-background-color",
+   "hsl(var(--text-color))"
+  ],
+  [
+   "--border-icon-svg-color",
+   "hsl(var(--background-color,var(--color-white)))"
+  ],
+  [
+   "--border-icon-background-color",
+   "hsl(var(--text-color,var(--color-black)))"
+  ],
+  [
+   "--border-icon-background-color",
+   "hsl(var(--text-color))"
+  ],
+  [
+   "--border-icon-svg-color",
+   "hsl(var(--background-color))"
+  ],
+  [
+   "--white",
+   "hsl(var(--color-white))"
+  ],
+  [
+   "--black",
+   "hsl(var(--color-black))"
+  ],
+  [
+   "--grey",
+   "hsl(var(--color-grey))"
+  ],
+  [
+   "--beige",
+   "hsl(var(--color-beige))"
+  ],
+  [
+   "--yellow",
+   "hsl(var(--color-yellow))"
+  ],
+  [
+   "--grid-vw",
+   "calc((100vw - var(--sidebar-width) - var(--grid-margin))/100)"
+  ],
+  [
+   "--ts-h1-exception-fs",
+   "calc(var(--grid-vw)*34)"
+  ],
+  [
+   "--ts-h1-loader-fs",
+   "40px"
+  ],
+  [
+   "--ts-h1-fs",
+   "clamp(2.7rem,10.5vw,12.5rem)"
+  ],
+  [
+   "--ts-h1-chinese-fs",
+   "clamp(1.5rem,14vw,7.5rem)"
+  ],
+  [
+   "--ts-h1-chinese-lh",
+   "clamp(3rem,19vw,8.5rem)"
+  ],
+  [
+   "--ts-h2-fs",
+   "clamp(3.5rem,10vw,7rem)"
+  ],
+  [
+   "--ts-h2-menu-mobile-fs",
+   "clamp(2rem,8vw,2.75rem)"
+  ],
+  [
+   "--ts-body-xl-fs",
+   "clamp(1.5rem,3vw,2.5rem)"
+  ],
+  [
+   "--ts-body-menu-fs",
+   "clamp(1rem,2vw,1.25rem)"
+  ],
+  [
+   "--ts-body-l-fs",
+   "clamp(.85rem,2vw,.9rem)"
+  ],
+  [
+   "--ts-body-m-fs",
+   ".85rem"
+  ],
+  [
+   "--ts-body-m-fs",
+   ".7rem"
+  ],
+  [
+   "--ts-body-s-fs",
+   ".7rem"
+  ],
+  [
+   "--ts-body-s-fs",
+   ".6rem"
+  ],
+  [
+   "--ts-body-xs-fs",
+   ".7rem"
+  ],
+  [
+   "--ts-body-xs-fs",
+   ".5rem"
+  ],
+  [
+   "--ts-number-fs",
+   "clamp(1rem,2vw,2rem)"
+  ],
+  [
+   "--ts-number-lh",
+   "clamp(1.1rem,2.2vw,2.2rem)"
+  ],
+  [
+   "--ts-label-m-fs",
+   ".7rem"
+  ],
+  [
+   "--ts-label-m-lh",
+   ".91rem"
+  ],
+  [
+   "--ts-label-m-fs",
+   ".6rem"
+  ],
+  [
+   "--ts-label-m-lh",
+   ".78rem"
+  ],
+  [
+   "--ts-label-s-fs",
+   ".6rem"
+  ],
+  [
+   "--ts-label-s-lh",
+   ".6rem"
+  ],
+  [
+   "--ts-label-s-fs",
+   ".5rem"
+  ],
+  [
+   "--ts-label-s-lh",
+   ".63rem"
+  ],
+  [
+   "--ts-cta-fs",
+   ".6rem"
+  ],
+  [
+   "--ts-cta-lh",
+   ".826rem"
+  ],
+  [
+   "--ts-cta-fs",
+   ".6rem"
+  ],
+  [
+   "--ts-cta-lh",
+   ".63rem"
+  ],
+  [
+   "--page-width",
+   "1440px"
+  ],
+  [
+   "--grid-margin",
+   "1rem"
+  ],
+  [
+   "--grid-gap",
+   "1rem"
+  ],
+  [
+   "--grid-margin",
+   "2.7rem"
+  ],
+  [
+   "--grid-gap",
+   "1rem"
+  ],
+  [
+   "--col",
+   "(100vw - var(--grid-margin) * 2 - (var(--grid-cols) - 1) * var(--grid-gap)) /var"
+  ],
+  [
+   "--col",
+   "(calc(100vw - var(--sidebar-width)) - var(--grid-margin) - (var(--grid-cols) - 1"
+  ],
+  [
+   "--mt",
+   "0px"
+  ],
+  [
+   "--mb",
+   "0px"
+  ],
+  [
+   "--pt",
+   "0px"
+  ],
+  [
+   "--pb",
+   "0px"
+  ],
+  [
+   "--mt",
+   ".5rem"
+  ],
+  [
+   "--mt",
+   "1rem"
+  ],
+  [
+   "--mt",
+   "1.5rem"
+  ],
+  [
+   "--mt",
+   "2rem"
+  ],
+  [
+   "--mt",
+   "2.5rem"
+  ],
+  [
+   "--mt",
+   "3rem"
+  ],
+  [
+   "--mt",
+   "3.5rem"
+  ],
+  [
+   "--mt",
+   "4rem"
+  ]
+ ],
+ "fontFaces": [
+  [
+   "Grotesk",
+   1
+  ],
+  [
+   "Montreal",
+   1
+  ],
+  [
+   "Supply",
+   1
+  ],
+  [
+   "Noto",
+   1
+  ],
+  [
+   "swiper-icons 400",
+   1
+  ]
+ ],
+ "fontFamilies": [
+  [
+   "var(--mono)",
+   8
+  ],
+  [
+   "var(--sans-serif)",
+   5
+  ],
+  [
+   "var(--display)",
+   3
+  ],
+  [
+   "var(--ts-body-m-ff)",
+   2
+  ],
+  [
+   "var(--ts-body-s-ff)",
+   2
+  ],
+  [
+   "inherit",
+   1
+  ],
+  [
+   "Grotesk",
+   1
+  ],
+  [
+   "Montreal",
+   1
+  ],
+  [
+   "Supply",
+   1
+  ],
+  [
+   "Noto",
+   1
+  ],
+  [
+   "var(--chinese)",
+   1
+  ],
+  [
+   "var(--ts-body-xl-ff)",
+   1
+  ]
+ ],
+ "fontSizes": [
+  [
+   "var(--ts-body-m-fs)",
+   4
+  ],
+  [
+   "var(--ts-cta-fs)",
+   4
+  ],
+  [
+   "var(--ts-body-s-fs)",
+   3
+  ],
+  [
+   "calc(var(--grid-vw)*var(--global-fs-mobile))",
+   2
+  ],
+  [
+   "calc(var(--grid-vw)*var(--global-fs-desktop))",
+   2
+  ],
+  [
+   "1rem",
+   2
+  ],
+  [
+   ".7rem",
+   2
+  ],
+  [
+   "calc(var(--grid-vw)*var(--font-size-exception-headline-mobile))",
+   2
+  ],
+  [
+   "calc(var(--grid-vw)*var(--font-size-exception-headline-desktop))",
+   2
+  ],
+  [
+   ".5rem",
+   2
+  ],
+  [
+   "var(--ts-body-xl-fs)",
+   2
+  ],
+  [
+   "30px",
+   1
+  ],
+  [
+   "var(--ts-h2-menu-mobile-fs)",
+   1
+  ],
+  [
+   "var(--ts-h1-exception-fs)",
+   1
+  ],
+  [
+   "var(--ts-h1-loader-fs)",
+   1
+  ],
+  [
+   "var(--ts-h1-fs)",
+   1
+  ]
+ ],
+ "letterSpacing": [
+  [
+   "var(--ts-body-m-ls)",
+   4
+  ],
+  [
+   "var(--ts-cta-ls)",
+   4
+  ],
+  [
+   "var(--ts-body-s-ls)",
+   3
+  ],
+  [
+   "var(--ts-body-xl-ls)",
+   2
+  ],
+  [
+   "var(--ts-h2-menu-mobile-ls)",
+   1
+  ],
+  [
+   "var(--ts-h1-exception-ls)",
+   1
+  ],
+  [
+   "var(--ts-h1-ls)",
+   1
+  ],
+  [
+   "var(--ts-h2-ls)",
+   1
+  ],
+  [
+   "var(--ts-body-menu-ls)",
+   1
+  ],
+  [
+   "var(--ts-body-l-ls)",
+   1
+  ]
+ ],
+ "textTransform": [
+  [
+   "none",
+   2
+  ],
+  [
+   "uppercase",
+   2
+  ]
+ ],
+ "blend": [],
+ "backdrop": [
+  [
+   "blur(10px)",
+   16
+  ],
+  [
+   "blur(0)",
+   2
+  ],
+  [
+   "blur(20px)",
+   2
+  ],
+  [
+   "blur(100px)",
+   2
+  ],
+  [
+   "blur(60px)",
+   2
+  ]
+ ],
+ "gradients": [
+  [
+   "linear-gradient(transparent 50%,#000 0)",
+   10
+  ],
+  [
+   "linear-gradient(hsla(var(--text-color))",
+   8
+  ],
+  [
+   "linear-gradient(90deg,#000 var(--start),rgba(0,0,0,.4) calc(var(--start) + var(--sidebar-width)*.2)",
+   6
+  ],
+  [
+   "linear-gradient(#000 50%,transparent 0)",
+   4
+  ],
+  [
+   "linear-gradient(0deg,#0000,#000 10% 80%,#0000)",
+   2
+  ],
+  [
+   "linear-gradient(hsla(var(--color-black)/.6)",
+   2
+  ],
+  [
+   "linear-gradient(var(--red),var(--red))",
+   2
+  ],
+  [
+   "linear-gradient(#000,transparent .5rem)",
+   1
+  ]
+ ],
+ "aspectRatios": [
+  [
+   "1/1.25",
+   2
+  ],
+  [
+   "5/9",
+   2
+  ],
+  [
+   "8/5",
+   2
+  ],
+  [
+   "275/350",
+   1
+  ],
+  [
+   "16/9",
+   1
+  ],
+  [
+   "4/5",
+   1
+  ],
+  [
+   "570/400",
+   1
+  ]
+ ],
+ "gridCols": [
+  [
+   "repeat(6,1fr)",
+   3
+  ],
+  [
+   "calc(var(--cols)*6 - var(--gutter)) calc(var(--cols)*6 - var(--gutter))",
+   3
+  ],
+  [
+   "var(--template-columns)",
+   2
+  ],
+  [
+   "repeat(3,1fr)",
+   2
+  ],
+  [
+   "repeat(4,1fr)",
+   2
+  ],
+  [
+   "calc(var(--cols)*3 - var(--gutter)) auto",
+   2
+  ],
+  [
+   "calc(var(--cols)*12 - var(--gutter)) 1fr",
+   2
+  ],
+  [
+   "auto auto",
+   1
+  ],
+  [
+   "auto 1fr var(--sidebar-width)",
+   1
+  ]
+ ],
+ "radius": [
+  [
+   "var(--br)",
+   43
+  ],
+  [
+   ".15rem",
+   8
+  ],
+  [
+   ".2rem",
+   3
+  ],
+  [
+   "50%",
+   3
+  ],
+  [
+   "0",
+   2
+  ],
+  [
+   "20px",
+   2
+  ],
+  [
+   ".2em",
+   2
+  ],
+  [
+   ".05rem",
+   1
+  ]
+ ],
+ "title": "Spring&#x2F;Summer | Copenhagen based digital first Design &amp; Brand Agency",
+ "metaDescription": "Strategic digital experiences & brand identities from Copenhagen, Scandinavian design meets innovative technology.",
+ "headings": [
+  "Creating",
+  "Flagship Stores",
+  "Websites",
+  "Brand Identities",
+  "Apps",
+  "E-commerce",
+  "Proud moments",
+  "Real Results",
+  "Good Coffee",
+  "Lasting Impressions",
+  "All seasons",
+  "Areas of expertise",
+  "Technologies",
+  "Have you seen",
+  "Industries we help",
+  "Platforms",
+  "Have you seen",
+  "Spring/Summer",
+  "Social Media",
+  "Have you seen",
+  "WE WON",
+  "Clients we helped in 2025",
+  "Contact us",
+  "Can we help you?"
+ ],
+ "navLinks": [
+  "eCommerce",
+  "Websites",
+  "Brand Identities",
+  "Apps &amp; Products",
+  "Shopify &amp; Shopify Plus",
+  "Sanity CMS",
+  "Craft CMS",
+  "Webflow",
+  "Wordpress",
+  "Native App",
+  "All Projects",
+  "Art &amp; Culture",
+  "Fashion &amp; Lifestyle",
+  "Hospitality &amp; Gastronomy",
+  "Consumer Technology",
+  "Professional Services",
+  "Investment &amp; Finance",
+  "Apps",
+  "Approach",
+  "Culture",
+  "Join us",
+  "Awards &amp; Recognition",
+  "Linkedin",
+  "Instagram",
+  "Facebook",
+  "Twitter",
+  "Write us",
+  "+45 32 16 22 22",
+  "Nationalmuseet",
+  "CURIN",
+  "Langelands Efterskole",
+  "See all of our work",
+  "Working at Spring/Summer",
+  "Nikolaj Plads 8,3 1067 Copenhagen, Denmark",
+  "LinkedIn",
+  "Join",
+  "Privacy Policy"
+ ],
+ "videos": [],
+ "videoUrls": [
+  "https://live.springsummer.dk/media/uploads/Polene-Foreground-grids.mp4",
+  "https://live.springsummer.dk/media/uploads/IM_2.mp4.mp4",
+  "https://live.springsummer.dk/media/uploads/Home_2025-09-02-132420_qume.mp4",
+  "https://live.springsummer.dk/media/uploads/Website-Hero-03_1.mp4",
+  "https://live.springsummer.dk/media/uploads/HOME_2025-09-10-081915_gwel.mp4",
+  "https://live.springsummer.dk/media/uploads/cb8eb0f4ad5b43af9417b23b8d2bd683.HD-1080p-7.2Mbps-78373440.mp4",
+  "https://live.springsummer.dk/media/uploads/HOME_2026-04-21-122520_dfrs.mp4",
+  "https://live.springsummer.dk/media/uploads/SG-home_2026-02-18-131625_gzlb.mp4",
+  "https://live.springsummer.dk/media/uploads/NORR11_Hp_1_2024-01-29-133108_ihbm.mp4",
+  "https://live.springsummer.dk/media/uploads/Nitex-Home-Final.mp4.mp4",
+  "https://live.springsummer.dk/media/uploads/HOMEPAGE-V3.mp4",
+  "https://live.springsummer.dk/media/uploads/PAMM-Short-Loop.mp4",
+  "https://live.springsummer.dk/media/uploads/6806278-hd_1920_1080_25fps.mp4",
+  "https://live.springsummer.dk/media/uploads/Hero-Loop.mp4",
+  "https://live.springsummer.dk/media/uploads/home.mp4",
+  "https://live.springsummer.dk/media/uploads/SR_short_loop.mp4",
+  "https://live.springsummer.dk/media/uploads/HJ-Long-Video-v1_Compressed.mp4",
+  "https://live.springsummer.dk/media/uploads/Satius-Hero-Loading-For-Case.mp4.mp4",
+  "https://live.springsummer.dk/media/uploads/amexbg_short.mp4",
+  "https://live.springsummer.dk/media/uploads/Reel_for_site.mp4"
+ ],
+ "vimeoYoutube": 22,
+ "imgTags": 5,
+ "pictureTags": 0,
+ "svgTags": 46,
+ "canvasTags": 0,
+ "sections": 1,
+ "visibleWords": 386,
+ "scripts": [
+  "/_nuxt/ClZzfaYX.js"
+ ],
+ "libs": [
+  "swiper",
+  "shopify",
+  "nuxt",
+  "webflow",
+  "sanity",
+  "astro",
+  "vue",
+  "react"
+ ]
+}

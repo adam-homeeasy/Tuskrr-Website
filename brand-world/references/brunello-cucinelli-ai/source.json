@@ -1,0 +1,9 @@
+{
+ "url": "https://shop.brunellocucinelli.com/en-gb/ai",
+ "read": "2026-09-28",
+ "method": "source read (HTML + linked CSS), no browser",
+ "status": 403,
+ "htmlBytes": 394,
+ "error": "HTTP 403, 394 bytes",
+ "htmlHead": "<HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;shop&#46;brunellocucinelli&#46;com&#47;en&#45;gb&#47;ai\" on this server.<P>\nReference&#32;&#35;18&#46;4a18d017&#46;1790607888&#46;e595766\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&#46;4a18d017&#46;1790607888&#46;e595766</P>\n</BODY>\n</HTML>\n"
+}

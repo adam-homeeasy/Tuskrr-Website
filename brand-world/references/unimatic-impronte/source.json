@@ -1,0 +1,1096 @@
+{
+ "url": "https://www.unimaticwatches.com/pages/impronte-collection",
+ "read": "2026-09-28",
+ "method": "source read (HTML + linked CSS), no browser",
+ "status": 200,
+ "htmlBytes": 412790,
+ "css": {
+  "files": [
+   [
+    "https://www.unimaticwatches.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+    200,
+    13728
+   ],
+   [
+    "https://www.unimaticwatches.com/cdn/shop/t/4/compiled_assets/styles.css?v=176367437974545924321790347826",
+    200,
+    167016
+   ],
+   [
+    "https://cdn.shopify.com/extensions/01a0c411-07b1-7271-9d7c-6ed52cf404ae/wishlist-engine-264/assets/wishlist-engine.css",
+    200,
+    13018
+   ],
+   [
+    "https://www.unimaticwatches.com/cdn/shop/t/4/assets/base.css?v=65050722819555864611788899517",
+    200,
+    8344
+   ]
+  ],
+  "bytes": 208788
+ },
+ "easings": [
+  [
+   "linear",
+   5
+  ],
+  [
+   "ease",
+   4
+  ],
+  [
+   "ease-in-out",
+   3
+  ],
+  [
+   "cubic-bezier(.4,0,.2,1)",
+   2
+  ],
+  [
+   "cubic-bezier(1,0,0,1)",
+   1
+  ],
+  [
+   "cubic-bezier(0.64,0,0.78,0)",
+   1
+  ],
+  [
+   "ease-in",
+   1
+  ]
+ ],
+ "transitionDurations": [
+  [
+   "1ms",
+   3
+  ],
+  [
+   ".9s",
+   2
+  ],
+  [
+   "0s",
+   2
+  ],
+  [
+   "220ms",
+   1
+  ],
+  [
+   ".2s",
+   1
+  ],
+  [
+   ".16s",
+   1
+  ],
+  [
+   ".15s",
+   1
+  ],
+  [
+   ".3s",
+   1
+  ]
+ ],
+ "transitionDecls": [
+  [
+   "opacity var(--transition)",
+   12
+  ],
+  [
+   "transform var(--transition)",
+   8
+  ],
+  [
+   "background-color var(--transition),color var(--transition)",
+   7
+  ],
+  [
+   "none",
+   7
+  ],
+  [
+   "color var(--transition)",
+   5
+  ],
+  [
+   "background-color var(--transition)",
+   4
+  ],
+  [
+   "opacity var(--transition),visibility var(--transition)",
+   3
+  ],
+  [
+   "transform var(--filmstrip-speed) var(--ease-scroll)",
+   3
+  ],
+  [
+   "1ms",
+   3
+  ],
+  [
+   "outline-color var(--transition)",
+   3
+  ],
+  [
+   "0s",
+   2
+  ],
+  [
+   "220ms ease",
+   1
+  ],
+  [
+   "background .2s ease-in-out",
+   1
+  ],
+  [
+   "opacity var(--cat-hover-speed) ease-in",
+   1
+  ]
+ ],
+ "delays": [
+  [
+   "0s",
+   3
+  ],
+  [
+   "-.168s",
+   2
+  ]
+ ],
+ "animationDecls": [
+  [
+   "none",
+   4
+  ],
+  [
+   "acceleratedCheckoutLoadingSkeleton var(--shopify-accelerated-checkout-skeleton-animation-duration,4s) var(--sh",
+   2
+  ],
+  [
+   "nm-wishlist-page-boot-spin 0.7s linear infinite",
+   1
+  ],
+  [
+   "1.4s linear infinite shopify-rotator",
+   1
+  ],
+  [
+   "1.4s ease-in-out infinite shopify-dash",
+   1
+  ],
+  [
+   "menu-scrim var(--transition) both",
+   1
+  ],
+  [
+   "blink var(--blink-speed) ease-in-out infinite",
+   1
+  ],
+  [
+   "pdp-edi-parallasse linear both",
+   1
+  ],
+  [
+   "ticker var(--ticker-speed) linear infinite",
+   1
+  ]
+ ],
+ "keyframes": [
+  [
+   "nm-wishlist-page-boot-spin",
+   " to { transform: rotate(360deg); } "
+  ],
+  [
+   "shopify-rotator",
+   "0%{transform:rotate(0)}to{transform:rotate(270deg)}"
+  ],
+  [
+   "shopify-dash",
+   "0%{stroke-dashoffset:280px}50%{stroke-dashoffset:75px;transform:rotate(135deg)}to{stroke-dashoffset:280px;transform:rotate(450deg)}"
+  ],
+  [
+   "acceleratedCheckoutLoadingSkeleton",
+   "50%{opacity:var(--shopify-accelerated-checkout-skeleton-animation-opacity-start,1)}75%{opacity:var(--shopify-accelerated-checkout-skeleton-animation-opacity-end,.5)}to{opacity:var(--shopify-accelerated-checkout-skeleton-animation-opacity-start,1)}"
+  ],
+  [
+   "menu-scrim",
+   "0%{opacity:0}"
+  ],
+  [
+   "pdp-edi-parallasse",
+   "0%{object-position:center 25%}to{object-position:center 75%}"
+  ],
+  [
+   "blink",
+   "0%,to{opacity:1}50%{opacity:.25}"
+  ],
+  [
+   "ticker",
+   "0%{transform:translate(0)}to{transform:translate(-50%)}"
+  ]
+ ],
+ "translates": [
+  [
+   "translate(-50%)",
+   4
+  ],
+  [
+   "translateY(calc(var(--i, 0)",
+   3
+  ],
+  [
+   "translateY(-50%)",
+   3
+  ],
+  [
+   "translateY(calc(100% + 2.5rem)",
+   2
+  ],
+  [
+   "translateX(-100%)",
+   2
+  ],
+  [
+   "translateX(100%)",
+   2
+  ],
+  [
+   "translateY(-.8rem)",
+   2
+  ],
+  [
+   "translate(-50%,-50%)",
+   1
+  ],
+  [
+   "translate(var(--cats-art-shift, 4.7%)",
+   1
+  ],
+  [
+   "translate(-50%,-58%)",
+   1
+  ],
+  [
+   "translateY(-200%)",
+   1
+  ],
+  [
+   "translate(calc(var(--i, 0)",
+   1
+  ],
+  [
+   "translateY(0)",
+   1
+  ],
+  [
+   "translateY(-.15rem)",
+   1
+  ]
+ ],
+ "hexColours": [
+  [
+   "#000000",
+   17
+  ],
+  [
+   "#ffffff",
+   17
+  ],
+  [
+   "#292929",
+   10
+  ],
+  [
+   "#dddedf",
+   10
+  ],
+  [
+   "#cccccc",
+   4
+  ],
+  [
+   "#efefef",
+   3
+  ],
+  [
+   "#8b8b8b",
+   3
+  ],
+  [
+   "#f6f6f6",
+   2
+  ],
+  [
+   "#fb8077",
+   2
+  ],
+  [
+   "#dedede",
+   2
+  ],
+  [
+   "#c9c9c9",
+   2
+  ],
+  [
+   "#afff00",
+   1
+  ],
+  [
+   "#d9d9d9",
+   1
+  ],
+  [
+   "#e3e3e3",
+   1
+  ],
+  [
+   "#1773b0",
+   1
+  ],
+  [
+   "#1990c6",
+   1
+  ],
+  [
+   "#136f99",
+   1
+  ],
+  [
+   "#121212",
+   1
+  ],
+  [
+   "#ff7044",
+   1
+  ],
+  [
+   "#efefed",
+   1
+  ]
+ ],
+ "rgbColours": [
+  [
+   "rgb(000/20%)",
+   1
+  ],
+  [
+   "rgb(000/69%)",
+   1
+  ]
+ ],
+ "customProps": [
+  [
+   "--color-bg",
+   "#F6F6F6"
+  ],
+  [
+   "--color-ink",
+   "#000000"
+  ],
+  [
+   "--color-accent",
+   "#AFFF00"
+  ],
+  [
+   "--color-surface-page",
+   "#F6F6F6"
+  ],
+  [
+   "--color-media",
+   "#D9D9D9"
+  ],
+  [
+   "--color-white",
+   "#ffffff"
+  ],
+  [
+   "--color-ink-70",
+   "color-mix(in srgb, var(--color-ink) 70%, transparent)"
+  ],
+  [
+   "--color-ink-50",
+   "color-mix(in srgb, var(--color-ink) 50%, transparent)"
+  ],
+  [
+   "--color-ink-40",
+   "color-mix(in srgb, var(--color-ink) 40%, transparent)"
+  ],
+  [
+   "--color-ink-30",
+   "color-mix(in srgb, var(--color-ink) 30%, transparent)"
+  ],
+  [
+   "--color-hairline",
+   "color-mix(in srgb, var(--color-ink) 15%, transparent)"
+  ],
+  [
+   "--color-border",
+   "color-mix(in srgb, var(--color-ink) 20%, transparent)"
+  ],
+  [
+   "--color-surface",
+   "color-mix(in srgb, var(--color-ink) 5%, transparent)"
+  ],
+  [
+   "--color-scrim",
+   "color-mix(in srgb, var(--color-ink) 60%, transparent)"
+  ],
+  [
+   "--color-scrim-soft",
+   "color-mix(in srgb, var(--color-ink) 35%, transparent)"
+  ],
+  [
+   "--color-white-70",
+   "color-mix(in srgb, var(--color-white) 70%, transparent)"
+  ],
+  [
+   "--color-white-54",
+   "color-mix(in srgb, var(--color-white) 54%, transparent)"
+  ],
+  [
+   "--color-footer-bar",
+   "color-mix(in srgb, var(--color-media) 20%, transparent)"
+  ],
+  [
+   "--color-glass-base",
+   "#FFFFFF"
+  ],
+  [
+   "--color-glass-80",
+   "color-mix(in srgb, var(--color-glass-base) 80%, transparent)"
+  ],
+  [
+   "--color-glass-60",
+   "color-mix(in srgb, var(--color-glass-base) 60%, transparent)"
+  ],
+  [
+   "--color-glass-40",
+   "color-mix(in srgb, var(--color-glass-base) 40%, transparent)"
+  ],
+  [
+   "--color-glass-30",
+   "color-mix(in srgb, var(--color-glass-base) 30%, transparent)"
+  ],
+  [
+   "--color-glass-10",
+   "color-mix(in srgb, var(--color-glass-base) 10%, transparent)"
+  ],
+  [
+   "--blur-glass",
+   "30px"
+  ],
+  [
+   "--fs-title-l",
+   "2.4rem"
+  ],
+  [
+   "--fs-subtitle",
+   "1.6rem"
+  ],
+  [
+   "--fs-body",
+   "1.2rem"
+  ],
+  [
+   "--fs-mono",
+   "1.2rem"
+  ],
+  [
+   "--fs-eyebrow",
+   "1.0rem"
+  ],
+  [
+   "--fs-tag",
+   "0.8rem"
+  ],
+  [
+   "--lh-mono-product",
+   "2.6rem"
+  ],
+  [
+   "--page-content-width",
+   "1920px"
+  ],
+  [
+   "--page-margin",
+   "12px"
+  ],
+  [
+   "--gutter",
+   "24px"
+  ],
+  [
+   "--col",
+   "calc((min(100vw, var(--page-content-width)) - var(--page-margin) * 2 - var(--gut"
+  ],
+  [
+   "--radius-sm",
+   "4px"
+  ],
+  [
+   "--radius-md",
+   "6px"
+  ],
+  [
+   "--radius-lg",
+   "8px"
+  ],
+  [
+   "--transition",
+   "220ms ease"
+  ],
+  [
+   "--blink-speed",
+   "0.8s"
+  ],
+  [
+   "--filmstrip-speed",
+   "1000ms"
+  ],
+  [
+   "--ease-scroll",
+   "cubic-bezier(1, 0, 0, 1)"
+  ],
+  [
+   "--ticker-speed",
+   "28s"
+  ],
+  [
+   "--cat-hover-speed",
+   "300ms"
+  ],
+  [
+   "--reveal-speed",
+   "450ms"
+  ],
+  [
+   "--ease-reveal",
+   "cubic-bezier(0.64, 0, 0.78, 0)"
+  ],
+  [
+   "--logo-height",
+   "19px"
+  ],
+  [
+   "--fs-title-l",
+   "1.8rem"
+  ],
+  [
+   "--fs-subtitle",
+   "1.4rem"
+  ],
+  [
+   "--page-margin",
+   "24px"
+  ],
+  [
+   "--unbranded",
+   "hover:not([disabled]){background-color:#136f99"
+  ],
+  [
+   "--about-timeline-top",
+   "calc(max(env(safe-area-inset-top), 6.4rem) + 4rem)"
+  ],
+  [
+   "--page-hero-height",
+   "53.2rem"
+  ],
+  [
+   "--page-hero-intro-width",
+   "33rem"
+  ],
+  [
+   "--page-hero-intro-gap",
+   "1.6rem"
+  ],
+  [
+   "--page-hero-cta-gap",
+   "1.8rem"
+  ],
+  [
+   "--page-hero-height",
+   "42.1rem"
+  ],
+  [
+   "--page-hero-intro-gap",
+   "2.4rem"
+  ],
+  [
+   "--page-hero-cta-gap",
+   "2.6rem"
+  ],
+  [
+   "--shopify-accelerated-checkout-button-block-size",
+   "3.9rem"
+  ],
+  [
+   "--shopify-accelerated-checkout-button-inline-size",
+   "3.9rem"
+  ],
+  [
+   "--split",
+   "not(.collab-band--fila) .collab-overlay--left,.collab-band--split:not(.collab-ba"
+  ],
+  [
+   "--fila",
+   "not(.collab-band--split){block-size:calc(86rem + (var(--collab-colonne, 3) - 2) "
+  ],
+  [
+   "--drawer-top",
+   "calc(var(--drawer-top-base) + 3.2rem + var(--space-2))"
+  ],
+  [
+   "--drawer-top",
+   "calc(max(env(safe-area-inset-top), 6.4rem) + 4rem + 3.2rem + var(--space-2))"
+  ],
+  [
+   "--specs-label-col",
+   "7.9rem"
+  ],
+  [
+   "--milan-media-top",
+   ".8rem"
+  ],
+  [
+   "--blur-glass",
+   "3rem"
+  ],
+  [
+   "--shopify-accelerated-checkout-button-block-size",
+   "3.9rem"
+  ]
+ ],
+ "fontFaces": [
+  [
+   "Helvetica Neue 400",
+   1
+  ],
+  [
+   "Helvetica Neue 700",
+   1
+  ],
+  [
+   "JetBrains Mono 400",
+   1
+  ],
+  [
+   "JetBrains Mono 700",
+   1
+  ]
+ ],
+ "fontFamilies": [
+  [
+   "var(--font-sans)",
+   18
+  ],
+  [
+   "var(--font-mono)",
+   14
+  ],
+  [
+   "var(--font-sans)!important",
+   8
+  ],
+  [
+   "var(--font-mono)!important",
+   4
+  ],
+  [
+   "\"Helvetica Neue\"",
+   2
+  ],
+  [
+   "\"JetBrains Mono\"",
+   2
+  ]
+ ],
+ "fontSizes": [
+  [
+   "var(--fs-body)",
+   26
+  ],
+  [
+   "var(--fs-eyebrow)",
+   15
+  ],
+  [
+   "1.8rem",
+   13
+  ],
+  [
+   "var(--fs-subtitle)",
+   10
+  ],
+  [
+   "var(--fs-tag)",
+   5
+  ],
+  [
+   "var(--fs-mono)",
+   5
+  ],
+  [
+   "14px",
+   5
+  ],
+  [
+   "var(--fs-title-l)",
+   4
+  ],
+  [
+   "16px",
+   4
+  ],
+  [
+   "12px",
+   4
+  ],
+  [
+   "1.4rem",
+   3
+  ],
+  [
+   "1rem",
+   3
+  ],
+  [
+   "inherit",
+   2
+  ],
+  [
+   "1em",
+   2
+  ],
+  [
+   "10px",
+   2
+  ],
+  [
+   "18px",
+   2
+  ]
+ ],
+ "letterSpacing": [
+  [
+   "0",
+   8
+  ],
+  [
+   "var(--tracking-tight)",
+   7
+  ],
+  [
+   "normal",
+   3
+  ],
+  [
+   "-.028em",
+   1
+  ],
+  [
+   "-.02em",
+   1
+  ],
+  [
+   "-.032rem",
+   1
+  ],
+  [
+   "-.024rem",
+   1
+  ]
+ ],
+ "textTransform": [
+  [
+   "uppercase",
+   90
+  ],
+  [
+   "none",
+   8
+  ],
+  [
+   "inherit",
+   3
+  ],
+  [
+   "capitalize",
+   1
+  ]
+ ],
+ "blend": [
+  [
+   "difference",
+   2
+  ],
+  [
+   "darken",
+   1
+  ]
+ ],
+ "backdrop": [
+  [
+   "blur(var(--blur-glass))",
+   34
+  ],
+  [
+   "blur(var(--blur-glass-soft))",
+   10
+  ],
+  [
+   "blur(var(--blur-glass-hairline))",
+   4
+  ],
+  [
+   "blur(calc(var(--blur-glass) * 2))",
+   2
+  ],
+  [
+   "none",
+   2
+  ]
+ ],
+ "gradients": [
+  [
+   "linear-gradient(var(--color-surface),var(--color-surface))",
+   1
+  ]
+ ],
+ "aspectRatios": [
+  [
+   "1",
+   9
+  ],
+  [
+   "auto",
+   4
+  ],
+  [
+   "684 / 485",
+   3
+  ],
+  [
+   "375 / 860",
+   2
+  ],
+  [
+   "16 / 9",
+   2
+  ],
+  [
+   "var(--band-ratio, 1440 / 1008)",
+   1
+  ],
+  [
+   "721 / 683",
+   1
+  ],
+  [
+   "375 / 510",
+   1
+  ],
+  [
+   "1440 / 884",
+   1
+  ],
+  [
+   "var(--gift-feature-ratio, 684 / 441)",
+   1
+  ]
+ ],
+ "gridCols": [
+  [
+   "repeat(4,1fr)",
+   18
+  ],
+  [
+   "1fr",
+   16
+  ],
+  [
+   "1fr 1fr",
+   12
+  ],
+  [
+   "minmax(0,1fr)",
+   7
+  ],
+  [
+   "repeat(2,minmax(0,1fr))",
+   7
+  ],
+  [
+   "repeat(4,minmax(0,1fr))",
+   6
+  ],
+  [
+   "repeat(2,1fr)",
+   4
+  ],
+  [
+   "7.9rem 1fr",
+   2
+  ],
+  [
+   "auto 1fr",
+   2
+  ],
+  [
+   "var(--col) 1fr",
+   2
+  ]
+ ],
+ "radius": [
+  [
+   "var(--radius-lg)",
+   45
+  ],
+  [
+   "var(--radius-md)",
+   36
+  ],
+  [
+   "var(--radius-sm)",
+   27
+  ],
+  [
+   "50%",
+   20
+  ],
+  [
+   "0",
+   6
+  ],
+  [
+   "1rem",
+   3
+  ],
+  [
+   "inherit",
+   3
+  ],
+  [
+   ".5rem",
+   3
+  ]
+ ],
+ "title": "Impronte Collection &ndash; UNIMATIC Watches",
+ "metaDescription": "Discover the New Impronte Collection, a series of ten limited-edition references developed across the Modello Uno, Modello Tre and Modello Quattro platforms.",
+ "headings": [
+  "Every object carries the memory of how it was made. Pressure, contact and repetition leave traces: s",
+  "Meet the collection",
+  "The collection explores relief and surface through raised bezels, debossed dial details and a distin",
+  "",
+  "Watches",
+  "Brand",
+  "Service",
+  "Social"
+ ],
+ "navLinks": [
+  "PowerfulForm",
+  "Contact Form",
+  "Skip to content",
+  "New in",
+  "Search",
+  "Account",
+  "Wishlist",
+  "Cart",
+  "All Classic Watches",
+  "– UC1",
+  "– UC2",
+  "– UC3",
+  "– UC4",
+  "Limited Editions",
+  "Collaborations",
+  "All Toolwatch Watches",
+  "– UT1",
+  "– UT1-GMT",
+  "– UT4",
+  "– UT4-GMT",
+  "All Watches",
+  "All Straps Accessories",
+  "Leather",
+  "Rubber",
+  "Fabric",
+  "Hardware",
+  "Lifestyle",
+  "All Accessories",
+  "Gift guide",
+  "Gift card",
+  "Gift ideas",
+  "Behind the brand",
+  "About us",
+  "Our world",
+  "Amici di UNIMATIC",
+  "Guida UNIMATIC",
+  "Our lines",
+  "News & Stories",
+  "Press",
+  "Archive",
+  "Milan Flagship Store",
+  "Stockists",
+  "Contact us",
+  "Find us",
+  "All watches",
+  "Classic",
+  "Toolwatches",
+  "Design your watch",
+  "Bespoke engraving",
+  "Straps",
+  "Home",
+  "view all",
+  "Modello Uno U1-AEG",
+  "Modello Uno U1-AEB",
+  "Modello Uno U1-GMT-AEG",
+  "Modello Uno U1-GMT-AEB",
+  "Modello Tre U3-AEG",
+  "Modello Tre U3-AEB",
+  "Modello Quattro U4-AEG",
+  "Modello Quattro U4-AEB"
+ ],
+ "videos": [],
+ "videoUrls": [],
+ "vimeoYoutube": 0,
+ "imgTags": 28,
+ "pictureTags": 1,
+ "svgTags": 11,
+ "canvasTags": 0,
+ "sections": 10,
+ "visibleWords": 1052,
+ "scripts": [
+  "//www.unimaticwatches.com/cdn/shop/t/4/assets/card-swatch.js",
+  "//www.unimaticwatches.com/cdn/shop/t/4/assets/wishlist.js",
+  "/apps/wlm/js/wlm-1.1.js",
+  "/checkouts/internal/preloads.js",
+  "https://shop.app/checkouts/internal/preloads.js",
+  "tps://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+  "unimaticwatches.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+  ".unimaticwatches.com/cdn/shopifycloud/storefront/assets/shopify_pay/storefront-616277c7.js",
+  "//cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+  "https://www.unimaticwatches.com/cdn/shopifycloud/privacy-banner/storefront-banner.js",
+  "7f-c761-7da5-b325-965823aaaa66/powerful-form-builder-356/assets/globo.formbuilder.index.js",
+  "https://static.klaviyo.com/onsite/js/QUMGP6/klaviyo.js",
+  "ons/01a0c411-07b1-7271-9d7c-6ed52cf404ae/wishlist-engine-264/assets/wishlist-engine-app.js",
+  "https://www.unimaticwatches.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+  "//www.unimaticwatches.com/cdn/shop/t/4/assets/header.js",
+  "//www.unimaticwatches.com/cdn/shop/t/4/assets/promo-slider.js",
+  "//www.unimaticwatches.com/cdn/shop/t/4/assets/slider.js",
+  "//www.unimaticwatches.com/cdn/shop/t/4/assets/country-select.js",
+  "//www.unimaticwatches.com/cdn/shop/t/4/assets/widgets.js",
+  "//www.unimaticwatches.com/cdn/shop/t/4/assets/widgets.js",
+  "//www.unimaticwatches.com/cdn/shop/t/4/assets/cart.js",
+  "//www.unimaticwatches.com/cdn/shop/t/4/assets/drawer.js",
+  "/extensions/01a0e83c-88a3-702e-8442-82641270f3fe/bestpush-110/assets/restock-sdk-loader.js",
+  "https://cdn.shopify.com/storefront/standard-actions.js"
+ ],
+ "libs": [
+  "barba",
+  "shopify",
+  "rive"
+ ]
+}

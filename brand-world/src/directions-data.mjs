@@ -1,0 +1,403 @@
+// Website directions for Tuskrr, one per reference site the client supplied.
+// Each direction runs on ONE theme (The Entrance or Linear Wilderness); themes
+// are never merged. Reference numbers come from brand-world/references/DNA.md.
+// Copy rules: no em or en dashes, no "premium", "luxury", "elevate".
+
+// ---------- the two themes, kept separate ----------
+export const THEMES = {
+  entrance: {
+    name: 'The Entrance',
+    source: 'Round 2, option A (commit 2744842)',
+    idea: 'Every day has an entrance. Tuskrr is built for it. A vertical band of warm light, like a door left ajar, is the one device. Dark rooms, warm leather, the gold S.',
+    palette: [
+      ['Night', '#131110'], ['Room', '#1F1B19'], ['Bone', '#EFE9E1'], ['Smoke', '#A39B91'],
+      ['Cognac', '#C27442'], ['Brass', '#D1A650'], ['Threshold', '#F6E3BD'],
+    ],
+    type: 'Instrument Sans Condensed (display, capitals) with Instrument Sans (text)',
+  },
+  wilderness: {
+    name: 'Linear Wilderness',
+    source: 'Round 1 (commit 1d5ff74)',
+    idea: 'Nature makes the lines; Tuskrr gives them structure. Contours, strata and ridgelines, and a landscape in every product name.',
+    palette: null,
+    type: 'Depends on the round 1 world chosen',
+    open: 'Still open from the handover: is Linear Wilderness one of the three round 1 worlds (Field Survey, Quiet Architecture, High Ground) or the idea on its own? Each Linear Wilderness direction below names the round 1 world whose palette and type suit it best, so the answer can come from whichever direction you prefer.',
+    worlds: {
+      survey: { name: 'Field Survey', palette: [['Survey Paper', '#ECE8DF'], ['Sheet', '#F6F3EC'], ['Field Ink', '#1B1C1A'], ['Slate', '#2E4A4D'], ['Cognac', '#8A4722'], ['Bearing Gold', '#8F6412'], ['Contour', '#C9C1AF']], type: 'Archivo Condensed, Archivo, IBM Plex Mono' },
+      architecture: { name: 'Quiet Architecture', palette: [['Carbon', '#121212'], ['Graphite', '#1E1E1E'], ['Concrete', '#D8D6D1'], ['Bone', '#ECEAE6'], ['Stone', '#9C988F'], ['Brass', '#C9A24A'], ['Brass Deep', '#7A5F1E']], type: 'Instrument Sans Condensed, Instrument Sans' },
+      high: { name: 'High Ground', palette: [['Bark', '#221610'], ['Bark Light', '#2E1E16'], ['Sand', '#EBDDC7'], ['Dry Grass', '#B9A68C'], ['Terracotta', '#D0603F'], ['Ember', '#E39A5B'], ['Terracotta Deep', '#A2432A']], type: 'Instrument Serif, Hanken Grotesk' },
+    },
+  },
+};
+
+// ---------- the asset catalogue ----------
+// status: have (usable now), partial (exists but not good enough), need.
+export const ASSET_GROUPS = [
+  ['brand', 'Brand files'],
+  ['studio', 'Studio photography'],
+  ['people', 'People and location photography'],
+  ['video', 'Video and motion'],
+  ['drawn', 'Drawing and illustration'],
+  ['data', 'Facts and copy from Tuskrr'],
+];
+
+export const ASSETS = [
+  // brand
+  { id: 'B1', g: 'brand', name: 'Vector logo set', spec: 'Monogram, wordmark and the gold S lockup as SVG and PDF, one-colour and reversed. Settle the badge wordmark first (two versions exist).', count: '1 set', status: 'partial', have: 'JPEG only (cut to transparent PNG for these pages)' },
+  { id: 'B2', g: 'brand', name: 'Web fonts', spec: 'Instrument Sans, Instrument Serif, Archivo, Hanken Grotesk, IBM Plex Mono. All SIL Open Font License, already in assets/fonts.', count: '5 families', status: 'have', have: 'In the repo' },
+  { id: 'B3', g: 'brand', name: 'Drawn line art', spec: 'Contours, strata, ridgelines, skyline and wild lines, generated in code as SVG. No files to supply.', count: 'Generated', status: 'have', have: 'In src/shared.mjs' },
+  { id: 'B4', g: 'brand', name: 'Service icons', spec: 'Cash on delivery, 3-year warranty, returns, embossing, laptop fit, gift note. Line icons drawn to the channel stroke, SVG.', count: '6 icons', status: 'need', have: 'We can draw these' },
+  { id: 'B5', g: 'brand', name: 'Embossing letter set', spec: 'The typeface or die set used for initials, photographed or supplied as artwork, so the preview on site matches the real press.', count: '1 set', status: 'need', have: 'Not supplied' },
+  // studio
+  { id: 'S1', g: 'studio', name: 'Packshots, full set', spec: 'Every bag on a seamless ground: front three-quarter, front, back, side, top. Same light, same camera height. Deliver 4:5 and 1:1 crops, 3000px long edge minimum.', count: '6 bags x 5 views = 30', status: 'partial', have: 'One render per bag, 572 to 1280px, labelled "Supplied render"' },
+  { id: 'S2', g: 'studio', name: 'Inside and laptop fit', spec: 'Bag open, interior organisation, and a laptop sliding in with the size card visible. 4:5.', count: '6 x 2 = 12', status: 'need', have: 'None' },
+  { id: 'S3', g: 'studio', name: 'Detail macros', spec: 'Stitched channels under raking light, zip pull and hardware, badge with the gold S, edge paint, grain. 1:1 and 4:5.', count: '6 x 3 = 18', status: 'need', have: 'None' },
+  { id: 'S4', g: 'studio', name: 'Gifting set', spec: 'Box closed, box open, gift note card, bag with embossed initials. 4:5 and 1:1.', count: '4 to 6', status: 'need', have: 'None' },
+  { id: 'S5', g: 'studio', name: 'Colour-ground packshots', spec: 'Each bag on a flat coloured ground from the chosen palette, centred, generous space. Two frames per bag: straight and three-quarter. 4:5.', count: '6 x 2 = 12', status: 'need', have: 'None' },
+  { id: 'S6', g: 'studio', name: 'What fits inside', spec: 'Top-down flat lay of each bag with a day of contents: laptop, charger, notebook, bottle, sunglasses. 1:1.', count: '6', status: 'need', have: 'None' },
+  { id: 'S7', g: 'studio', name: 'Relief macros', spec: 'Very close, very low raking light: debossed monogram, embossed initials, channel ridges, grain. Shot to read as landscape. 1:1 and 4:5, 4000px.', count: '12', status: 'need', have: 'None' },
+  { id: 'S8', g: 'studio', name: 'Door-of-light stills', spec: 'Each bag standing in a single vertical slit of warm light, rest of frame in shadow. The Entrance signature frame. 4:5 and 9:16.', count: '6 x 2 = 12', status: 'need', have: 'Drawn stand-in on the brand world page' },
+  // people
+  { id: 'P1', g: 'people', name: 'On-body, city', spec: 'Indian models aged 24 to 34, smart-casual, carrying each bag in Bengaluru, Mumbai or Delhi NCR: office lobby, glass door, metro platform, airport corridor. Walking and standing. 4:5 and 9:16.', count: '6 bags x 2 = 12', status: 'need', have: 'None. Moodboard photos in the PDF are not ours to use' },
+  { id: 'P2', g: 'people', name: 'Occasion banners', spec: 'Wide scenes for Workday, Weekend, Flight and Gift. Shot wide enough to crop 16:9 for desktop and 4:5 for the phone from one frame.', count: '4 scenes x 2 crops', status: 'need', have: 'None' },
+  { id: 'P3', g: 'people', name: 'Street-cast portraits', spec: 'Real early-career people (not agency models) from the target cities, each with the bag they would choose. Same wall, same light, 3:4. Name, city and job for the caption, with signed releases.', count: '12 people', status: 'need', have: 'None' },
+  { id: 'P4', g: 'people', name: 'Digitals', spec: 'Plain-wall casting snaps of each person: front, profile, with bag. Flash or flat daylight. 3:4.', count: '12 x 3 = 36', status: 'need', have: 'None' },
+  { id: 'P5', g: 'people', name: 'Journal stills', spec: 'Reportage for stories: a first day, a promotion dinner, a Monday flight, the workshop. 3:2.', count: '8 to 12', status: 'need', have: 'None' },
+  { id: 'P6', g: 'people', name: 'Workshop and making', spec: 'Hands cutting, stitching channels, edge painting, pressing initials, wherever Tuskrr’s maker allows a camera. 4:5 and 1:1.', count: '10', status: 'need', have: 'None' },
+  // video
+  { id: 'V1', g: 'video', name: 'Brand film', spec: '60 to 90 seconds, 16:9, with 30s, 15s and 6s cutdowns in 9:16 for Instagram. Story: ten seconds before you walk in. Captions burned and as a file.', count: '1 + 3 cutdowns', status: 'need', have: 'None' },
+  { id: 'V2', g: 'video', name: 'Hero loop', spec: '8 to 12 seconds, seamless, silent, 16:9 and 4:5. Under 2.5 MB each at 1080p. Poster frame as a still.', count: '1 x 2 ratios', status: 'need', have: 'None' },
+  { id: 'V3', g: 'video', name: 'Product loops', spec: 'One per bag, 4 to 6 seconds, seamless: slow turn or a light sweep across the channels. 4:5 and 9:16. Under 1.5 MB each.', count: '6 x 2 = 12', status: 'need', have: 'None' },
+  { id: 'V4', g: 'video', name: 'Landscape loops', spec: 'One per product name, shot in India: a ridge (Sahyadri), a trail (TRAVERSE), rock strata, a crest, a river line (AXIS), contour terraces. 8s, 16:9 and 9:16. Shot by us, never stock.', count: '6 x 2 = 12', status: 'need', have: 'None' },
+  { id: 'V5', g: 'video', name: 'Embossing process', spec: 'The press coming down on leather, slow motion, macro. 6 to 10 seconds. 4:5 and 9:16.', count: '1 to 2', status: 'need', have: 'None' },
+  { id: 'V6', g: 'video', name: 'Portrait clips', spec: 'Five-second moving portraits of the street cast: a turn, a look, the bag lifted. 3:4, silent.', count: '6', status: 'need', have: 'None' },
+  { id: 'V7', g: 'video', name: 'Block loops', spec: 'Three to five-second loops that can sit inside small cards: a zip closing, a strap adjusted, a laptop going in, a door opening. 1:1 and 4:5.', count: '8', status: 'need', have: 'None' },
+  // drawn
+  { id: 'I1', g: 'drawn', name: 'Hand-drawn bag sketches', spec: 'Pen on paper, scanned and traced to SVG: each bag in three-quarter view, plus details of channels, hardware and the badge. Drawn by one hand.', count: '6 bags + 12 details', status: 'need', have: 'None' },
+  { id: 'I2', g: 'drawn', name: 'Preloader frames', spec: 'Six square frames, one per bag, cut from the packshots or the colour-ground set.', count: '6', status: 'need', have: 'Can be cut from S1 or S5' },
+  // data
+  { id: 'F1', g: 'data', name: 'Real product facts', spec: 'Dimensions, weight, capacity in litres, laptop size, leather type and origin, lining, hardware, care. Replaces the sample values.', count: '6 bags', status: 'partial', have: 'Names and stories only. Laptop sizes are samples' },
+  { id: 'F2', g: 'data', name: 'Policies', spec: 'Returns (the current one is a sample), shipping times by city, cash on delivery limits, warranty terms, embossing price.', count: '1 set', status: 'partial', have: 'Warranty, COD and embossing lead time confirmed' },
+  { id: 'F3', g: 'data', name: 'Proof and press', spec: 'Any reviews, press mentions, customer counts or awards we may quote. Nothing invented.', count: 'Whatever exists', status: 'need', have: 'None' },
+  { id: 'F4', g: 'data', name: 'Occasion and gift copy', spec: 'Gift note options, occasions (first job, promotion, birthday, anniversary), corporate gifting minimums.', count: '1 set', status: 'partial', have: 'Drafts on the brand world page' },
+  { id: 'F5', g: 'data', name: 'Finder logic', spec: 'Questions and answers that route a visitor to a bag: what you carry, how you travel, who it is for. Written with Tuskrr.', count: '1 tree', status: 'need', have: 'None' },
+];
+
+// ---------- the eight directions ----------
+// use: asset id -> 'must' | 'nice'. extra: direction-only notes on how an asset is used.
+export const DIRECTIONS = [
+  {
+    n: '01', id: 'reel', name: 'The Reel', theme: 'entrance',
+    ref: { name: 'BASIC/DEPT', url: 'https://www.basicagency.com/', what: 'Agency site. Reel video first, uppercase grotesk, masked line reveals, a numbered drag carousel.' },
+    line: 'A cinematic front door. The film plays, the words rise out of a mask, and the six bags follow as a numbered reel.',
+    measured: [
+      ['Easing', 'Five named curves. Reveals on ease-out (0.28, 0.44, 0.49, 1); big moves on in-out-hard (0.77, 0, 0.175, 1)'],
+      ['Timing', 'Durations from 0.1 to 1s on a named scale; delays 0.03 to 1s; first-load delay 0.5s'],
+      ['Line reveal', 'Each line rises from translateY(103%) to 0 inside a mask'],
+      ['Image wipe', 'scale(1.75) and translateX(-100%) to rest, on in-out-hard over 1s'],
+      ['Type', 'One grotesk in three weights, uppercase in 113 declarations, tracking tight at -0.02em'],
+      ['Palette', 'Near-black #252422, off-white #F4F4F4, one soft pink accent'],
+    ],
+    take: ['The film-first hero with a "Watch the film" control', 'Masked, line-by-line headline reveals', 'The numbered carousel: 01/06 as a counter while you drag', 'One accent colour, used rarely'],
+    leave: ['Agency awards and client logos', 'Pink. Brass replaces it', 'Uppercase body copy: capitals stay in display sizes only'],
+    how: {
+      palette: { from: 'entrance', use: [['Night', '#131110', 'Ground'], ['Bone', '#EFE9E1', 'Type'], ['Smoke', '#A39B91', 'Captions'], ['Brass', '#D1A650', 'The one accent, for the counter and the play control'], ['Threshold', '#F6E3BD', 'Light in the film and the hero, never text']] },
+      type: { display: 'Instrument Sans Condensed', text: 'Instrument Sans', note: 'Condensed capitals for headlines, like the wordmark. Text in sentence case.' },
+      logo: 'Wordmark top left at 20px tall. The monogram appears once, as the film’s end frame.',
+      device: 'The threshold: the film opens on a door of light, and every product in the reel stands in the same slit of light (asset S8).',
+      products: 'Six numbered cards in a drag reel. Each card: name, the one-line story ("Take the long way."), price, laptop fit.',
+      voice: [['Hero', 'Arrive like you mean it.'], ['Film control', 'Watch the film. 60 seconds.'], ['Reel label', 'Six ways in.'], ['Card', 'STRATA. For the room where it gets decided.']],
+    },
+    motion: [
+      ['Headline lines', 'translateY(103%) to 0, masked, 0.65s (a step on the reference’s scale) on (0.28, 0.44, 0.49, 1), 0.1s between lines'],
+      ['Product images', 'scale 1.75 to 1 with a sideways wipe, 1s on (0.77, 0, 0.175, 1)'],
+      ['Controls', '0.25s on (0.28, 0, 0.49, 1)'],
+      ['First load', 'Hold 0.5s, then the film fades up over 1s'],
+      ['Reduced motion', 'Film shows its poster frame; lines appear without travel'],
+    ],
+    structure: {
+      home: [['Film hero, full screen, "Watch the film"', 'media', 5], ['Tagline, rising line by line', 'dark', 2], ['The reel: 01/06 to 06/06, drag', 'media', 4], ['Proof row: leather, 3 years, COD', 'dark', 1], ['Gifting: one line, one button', 'accent', 2], ['Journal list', 'light', 3]],
+      pdp: [['Product film loop, door of light', 'media', 5], ['Name, line, price, Add to bag', 'dark', 2], ['Laptop fit and inside', 'media', 3], ['Proof and delivery', 'dark', 2], ['Next in the reel', 'media', 2]],
+    },
+    reuse: ['Product renders as reel placeholders until the shoot', 'Logo PNGs', 'Instrument Sans', 'The door-of-light device from the brand world page'],
+    use: { B1: 'must', B2: 'must', B4: 'must', S1: 'must', S2: 'must', S3: 'nice', S4: 'must', S8: 'must', P1: 'must', P5: 'nice', V1: 'must', V2: 'must', V3: 'must', F1: 'must', F2: 'must', F3: 'nice', F4: 'must' },
+    watch: ['Everything rests on the film. Without V1 and V2 this direction does not work, so it has the highest production cost of the eight.', 'Video on Indian mobile data: every loop needs a poster frame and a size cap, and the film never autoplays with sound.'],
+  },
+  {
+    n: '02', id: 'host', name: 'The Host', theme: 'entrance',
+    ref: { name: 'Brunello Cucinelli, "Callimacus"', url: 'https://shop.brunellocucinelli.com/en-gb/ai', what: 'A shop without pages. Blocks assemble around what the visitor seems to want, led by a prompt bar. Frosted glass, soft blur, hand-drawn sketches.' },
+    line: 'A host at the door instead of a menu. You say where you are headed, and the right bag, fit and gift options assemble in front of you.',
+    measured: [
+      ['Access', 'Not measured. The site returns HTTP 403 to automated readers (its own bot wall)'],
+      ['From the case study', 'Over 30 blocks and widgets, reassembled in real time; three intents: product, discovery, inspiration'],
+      ['Input', 'A contextual prompt bar with suggested cues'],
+      ['Look', 'Frosted glass, soft blur, hand-drawn sketch details'],
+      ['Motion', 'Unknown. We use the Tuskrr house contract until it is measured'],
+    ],
+    take: ['The prompt bar with ready-made cues, so nobody has to type', 'Blocks that assemble in sequence, not pages', 'Sketches as the craft signal', 'Frosted panels over a dark room'],
+    leave: ['A live AI model. A rules-based finder (asset F5) does the job at launch and costs far less', 'Free-text only input: on a phone, tapping cues beats typing'],
+    how: {
+      palette: { from: 'entrance', use: [['Night', '#131110', 'Room'], ['Room', '#1F1B19', 'Glass panels, 70% over Night'], ['Bone', '#EFE9E1', 'Type'], ['Cognac', '#C27442', 'Links and chosen cues'], ['Brass', '#D1A650', 'The gold S on the answer card'], ['Threshold', '#F6E3BD', 'The light behind the glass']] },
+      type: { display: 'Instrument Sans Condensed', text: 'Instrument Sans', note: 'The host speaks in Instrument Sans at reading size, never in capitals.' },
+      logo: 'Monogram only in the prompt bar, as the host’s mark. Wordmark in the footer.',
+      device: 'The threshold, seen through frosted glass. Answers arrive as glass cards that slide into the light.',
+      products: 'No catalogue grid on the first screen. The finder answers with one bag, then offers the other five as "also for this".',
+      voice: [['Prompt', 'Where are you headed?'], ['Cues', 'First day at a new job. / Flying to Mumbai on Monday. / A gift for someone climbing.'], ['Answer', 'For Monday’s flight: TRAVERSE. Made for the distance between here and there.'], ['Gift branch', 'Who is it for? We’ll press their initials in. Ready in 2 weeks.']],
+    },
+    motion: [
+      ['Blocks', 'House contract: 1s on (0.42, 0, 0.58, 1), 16px travel, 0.125s steps, capped at 0.75s'],
+      ['Glass panels', 'Backdrop blur, amount to be set after measuring the reference'],
+      ['Cues', '0.25s colour change on tap'],
+      ['Reduced motion', 'Blocks appear in place, no travel'],
+    ],
+    structure: {
+      home: [['Dark room, door of light, prompt bar', 'dark', 4], ['Three tap cues', 'accent', 1], ['Answer card: bag, fit, price', 'media', 4], ['Gift branch: note, initials', 'dark', 2], ['Also for this: the other five', 'media', 3], ['Proof: leather, 3 years, COD', 'dark', 1]],
+      pdp: [['The answer card, expanded', 'media', 4], ['Sketch of the bag, labelled', 'light', 3], ['Fit, inside, delivery', 'dark', 3], ['Ask the host again', 'accent', 1]],
+    },
+    reuse: ['Product renders inside answer cards until the shoot', 'Logo PNGs', 'The door of light', 'Gift note lines from the brand world page'],
+    use: { B1: 'must', B2: 'must', B4: 'must', B5: 'nice', S1: 'must', S2: 'must', S4: 'must', S6: 'must', S8: 'nice', P1: 'must', V7: 'must', I1: 'must', F1: 'must', F2: 'must', F4: 'must', F5: 'must' },
+    watch: ['The most engineering of the eight: a finder, state, and a fallback catalogue for people who just want to browse.', 'The reference could not be measured. Motion and blur numbers are ours until someone opens it in a normal browser.', 'Needs a clear "See all six bags" exit on every screen.'],
+  },
+  {
+    n: '03', id: 'roster', name: 'The Roster', theme: 'entrance',
+    ref: { name: 'OFFFORM', url: 'https://offform.net/', what: 'Talent agency. Black ground, tiny mono capitals, one hot accent, faces first, headings split mid-word.' },
+    line: 'The bags are signed like talent, and the people who carry them are the faces. A roster of real early-career climbers, each with the bag they chose.',
+    measured: [
+      ['Hero reveal', 'clip-path inset(0 0 100% 0) to inset(0), 0.65s on (0.76, 0, 0.24, 1)'],
+      ['Phone hero', 'Three images crossfading on a 9s loop: fade 0.36s, hold, next'],
+      ['UI', 'Transform and width 0.35s on (0.22, 1, 0.36, 1); colour 0.22s ease'],
+      ['Stagger', '0.04s steps from 0.04 to 0.24s'],
+      ['Type', 'Mono capitals at 9 and 10px, tracking 0.045em'],
+      ['Palette', 'Ground #0B0B0B, white, hot pink #FF4FD8 (56 declarations)'],
+    ],
+    take: ['Faces first, product second', 'Index lists with mono specs', 'The top-down clip reveal on portraits', 'Split headings, echoing the tall wordmark'],
+    leave: ['9px text. Our minimum is 14px on the phone', 'Hot pink. Cognac is the accent', 'A directory of hundreds: we have six bags and twelve faces'],
+    how: {
+      palette: { from: 'entrance', use: [['Night', '#131110', 'Ground'], ['Bone', '#EFE9E1', 'Names and type'], ['Smoke', '#A39B91', 'Mono specs'], ['Cognac', '#C27442', 'The one accent: hover, counts, the chosen bag']] },
+      type: { display: 'Instrument Sans Condensed', text: 'IBM Plex Mono', note: 'Names in condensed capitals; every fact in mono (city, job, bag, laptop fit).' },
+      logo: 'Wordmark small, top left. The monogram marks each signed bag like an agency stamp.',
+      device: 'The roster card: portrait, name, city, job, and the bag they carry. Split product names (TRA / VERSE) as headings.',
+      products: 'Each bag has a "sheet" like a talent card: measurements in mono, three portraits of the people who chose it.',
+      voice: [['Hero', 'Arrive like you mean it. Twelve people who do.'], ['Card', 'Ananya, 27. Product designer, Bengaluru. Carries CREST.'], ['Bag sheet', 'TRAVERSE. Laptop: 16-inch (sample size). Chosen by 3 on the roster.'], ['Call to action', 'Join the roster.']],
+    },
+    motion: [
+      ['Portraits', 'Clip reveal from the top, 0.65s on (0.76, 0, 0.24, 1)'],
+      ['Lists', '0.04s steps down the index, capped at 0.24s'],
+      ['Hover and tap', '0.35s on (0.22, 1, 0.36, 1)'],
+      ['Phone hero', 'Three portraits on a 9s crossfade loop'],
+      ['Reduced motion', 'First portrait only, no loop'],
+    ],
+    structure: {
+      home: [['Portrait loop, three faces', 'media', 5], ['Tagline and "The roster"', 'dark', 1], ['Index: 12 names, bag, city', 'dark', 4], ['Six bag sheets', 'media', 4], ['Join the roster (UGC call)', 'accent', 1], ['Proof in mono', 'dark', 1]],
+      pdp: [['Bag sheet: name split, mono specs', 'dark', 3], ['Packshots', 'media', 3], ['Signed by: three portraits', 'media', 3], ['Buy, fit, delivery', 'dark', 2]],
+    },
+    reuse: ['Product renders on bag sheets until the shoot', 'Logo PNGs', 'IBM Plex Mono and Instrument Sans'],
+    use: { B1: 'must', B2: 'must', B4: 'nice', S1: 'must', S2: 'nice', P3: 'must', P4: 'must', V6: 'nice', F1: 'must', F2: 'must', F3: 'nice' },
+    watch: ['Real people need releases, and a roster goes stale. Plan a refresh each season.', 'Dark and tiny mono type is a contrast trap. Keep mono at 14px and above, on Night only.'],
+  },
+  {
+    n: '04', id: 'outfitter', name: 'The Outfitter', theme: 'entrance',
+    ref: { name: 'Ströms, Man', url: 'https://stroms.com/pages/man', what: 'A Stockholm menswear shop online. Warm off-white, brown accents, portrait photography everywhere, edits mixed with categories.' },
+    line: 'The Entrance in daylight. A calm, well-run shop: shop by occasion, curated edits, service promises up front, and portrait photography throughout.',
+    measured: [
+      ['Easing', 'ease-in-out in 43 declarations, then ease 33'],
+      ['Timing', '0.3s and 0.2s dominate; opacity 0.25s ease-in-out is the most common pair'],
+      ['Entrance', 'ScaleIn: opacity 0 and scale 96% to rest'],
+      ['Page change', 'View transitions, 0.2s fades'],
+      ['Image ratio', '4:5 in 84 declarations. Portrait is the house format'],
+      ['Palette', 'Ground #FDFCFB, second ground #EFE9E3, ink #231F20, browns #9B6A45 and #664638'],
+    ],
+    take: ['4:5 portrait for every product and edit image', 'Shop by occasion and by edit, not only by category', 'Service promises in the first screen', 'Warm off-white with a leather-brown accent'],
+    leave: ['Promo bars about offers', 'A mega menu: six bags need one tap, not thirty links'],
+    how: {
+      palette: { from: 'entrance', use: [['Bone', '#EFE9E1', 'Ground (daylight)'], ['Paper', '#F8F5F0', 'Cards'], ['Night', '#131110', 'Type'], ['Saddle', '#7E4524', 'Links and prices on bone'], ['Cognac', '#C27442', 'Large type and fills only'], ['Brass', '#D1A650', 'The gold S, never text on bone']] },
+      type: { display: 'Instrument Sans Condensed', text: 'Instrument Sans', note: 'Same families as The Entrance, used lighter and smaller.' },
+      logo: 'Wordmark centred in the header, as a shop sign. Monogram on the favicon and the box.',
+      device: 'The threshold becomes a thin vertical rule of Cognac beside each edit title: the door, in daylight.',
+      products: 'A 2-column 4:5 grid on the phone. Filters by occasion: Workday, Weekend, Flight, Gift.',
+      voice: [['Hero', 'Arrive like you mean it.'], ['Edit', 'The Cognac Edit. Three bags that go with everything you own.'], ['Occasion', 'For Monday’s flight.'], ['Service line', 'Cash on delivery. 3-year warranty. Your initials, pressed in.']],
+    },
+    motion: [
+      ['Entrances', 'Opacity 0 and scale 96% to rest, 0.8s ease-in-out'],
+      ['Hovers and filters', '0.25s ease-in-out'],
+      ['Page change', 'Crossfade 0.2s (view transitions)'],
+      ['Reduced motion', 'No scale, fades only'],
+    ],
+    structure: {
+      home: [['Edit hero, 4:5 on the phone', 'media', 5], ['Service line: COD, 3 years, initials', 'light', 1], ['Shop by occasion: four tiles', 'media', 4], ['The six bags, 2-column grid', 'media', 5], ['The Cognac Edit', 'accent', 3], ['Gifting', 'light', 2]],
+      pdp: [['Gallery, 4:5, swipe', 'media', 5], ['Name, price, colour, Add to bag', 'light', 2], ['What fits inside', 'media', 3], ['Details, care, delivery', 'light', 3], ['Complete the kit', 'media', 2]],
+    },
+    reuse: ['Product renders in the grid until the shoot', 'Logo PNGs', 'The Entrance palette, in its light mode'],
+    use: { B1: 'must', B2: 'must', B4: 'must', S1: 'must', S2: 'must', S3: 'must', S4: 'must', S6: 'must', P1: 'must', P2: 'must', F1: 'must', F2: 'must', F4: 'must' },
+    watch: ['The safest direction, and the least distinctive. It needs excellent photography to stand out.', 'Saddle #7E4524 is a new tint for links on bone; Cognac itself is too light for small text there.'],
+  },
+  {
+    n: '05', id: 'readings', name: 'Six Readings', theme: 'wilderness', world: 'architecture',
+    ref: { name: 'Spring/Summer', url: 'https://springsummer.dk/', what: 'Copenhagen studio. A fixed sidebar index, words sized to fill the column, colour themes that change per section, lots of video.' },
+    line: 'Each bag is a reading of the land: terrain, movement, layers, elevation, direction, form. Each gets one giant word, its own colour, and its own landscape.',
+    measured: [
+      ['Theme swap', 'Background and text colour change per section over 0.4s ease-out'],
+      ['Timing', '0.2s transforms, 0.5s opacity on ease-in-out; ease-in-out is the most common curve (21)'],
+      ['Entrance', 'slide-enter: from translateY(-50%) and opacity 0'],
+      ['Big words', 'H1 clamp(2.7rem, 10.5vw, 12.5rem); one headline sized to 34 grid units, filling the column'],
+      ['Layout', 'Fixed sidebar 12.5rem, header 2.6rem, UI on 10px backdrop blur'],
+      ['Palette', 'Black, white, beige, grey, one yellow'],
+    ],
+    take: ['One word that fills the width, per section: RIDGE, TRAVERSE, STRATA', 'A colour theme per section that swaps as you scroll', 'A slim index that is always there: 01 to 06', 'Video in every section'],
+    leave: ['Agency sections (awards, coffee, careers)', 'Yellow. Brass is the one accent'],
+    how: {
+      palette: { from: 'architecture', use: [['Carbon', '#121212', 'Ground'], ['Bone', '#ECEAE6', 'Type on carbon'], ['Stone', '#9C988F', 'Index and captions'], ['Concrete', '#D8D6D1', 'Light sections'], ['Brass', '#C9A24A', 'The one accent'], ['Per bag', 'Leather colour', 'Each section takes its bag’s leather as the theme']] },
+      type: { display: 'Instrument Sans Condensed', text: 'Instrument Sans', note: 'The product word set at the width of the column, in condensed capitals, like the wordmark.' },
+      logo: 'Wordmark heads the sidebar. The monogram marks the current section in the index.',
+      device: 'The channel: the sidebar is a column of fine vertical lines, the same rhythm as the stitching. Strata lines behind the big words.',
+      products: 'Six full-height sections, one per bag: the word, the reading, a landscape loop, then the bag.',
+      voice: [['Hero', 'Arrive like you mean it.'], ['Section', 'RIDGE. Reading: terrain. Carry your own direction.'], ['Section', 'STRATA. Reading: layers. Built in layers.'], ['Index', '01 Terrain / 02 Movement / 03 Layers']],
+    },
+    motion: [
+      ['Theme swap', 'Background and text colour, 0.4s ease-out as each section takes the screen'],
+      ['Words', 'Opacity 0.5s ease-in-out; slide-enter from 50% above'],
+      ['Index', '0.2s transform'],
+      ['Reduced motion', 'Themes switch instantly; loops show posters'],
+    ],
+    structure: {
+      home: [['Index (sidebar on desktop, top bar on phone)', 'dark', 1], ['Hero word TUSKRR, landscape loop', 'media', 5], ['RIDGE: word, loop, bag', 'accent', 4], ['TRAVERSE: word, loop, bag', 'media', 4], ['Four more readings', 'dark', 4], ['Proof and gifting', 'light', 2]],
+      pdp: [['The word, full width', 'accent', 3], ['Landscape loop to bag loop', 'media', 4], ['Buy, fit, delivery', 'dark', 2], ['The story from the product deck', 'light', 3]],
+    },
+    reuse: ['Product names, readings and lines from the product deck', 'Generated strata and ridge line art', 'Product renders until the shoot'],
+    use: { B1: 'must', B2: 'must', B3: 'must', S1: 'must', S2: 'must', S5: 'nice', P1: 'nice', V3: 'must', V4: 'must', F1: 'must', F2: 'must' },
+    watch: ['Landscape loops (V4) mean a location shoot in India. Stock footage is not allowed.', 'Six colour themes must each pass contrast; the leather colours are too mid-tone for small text.', 'Closest to the product deck’s own story, and the most "Linear Wilderness" of the eight.'],
+  },
+  {
+    n: '06', id: 'store', name: 'The Small Store', theme: 'wilderness', world: 'survey',
+    ref: { name: 'OUTFIT by ++hellohello', url: 'https://outfit.hellohello.is/', what: 'A studio’s own merch shop. One page, twelve products, a preloader of six images, warm off-white and dry jokes.' },
+    line: 'One page, six bags, no maze. A small store with a sense of humour, where every bag has a numbered sheet and a second photo on tap.',
+    measured: [
+      ['Timing', 'Default 0.15s on (0.4, 0, 0.2, 1); fade-in 0.4s ease-in-out; transform 0.5s'],
+      ['Grid', '16 columns on desktop, 2 on the phone'],
+      ['Palette', '"White" is warm #EDE4DD; black; one red'],
+      ['Preloader', 'Six images in sequence (timing not measured)'],
+      ['Cards', 'Name, price, second image on hover'],
+      ['Voice', '"Made to be worn. Or judged. Or both."'],
+    ],
+    take: ['A single page that is the whole shop', 'The six-image preloader: one flash per bag', 'Second image on hover, or on tap on the phone', 'A dry line under every product'],
+    leave: ['Joke product names. Our names are fixed', 'Red. Cognac and Bearing Gold do the work'],
+    how: {
+      palette: { from: 'survey', use: [['Survey Paper', '#ECE8DF', 'Ground'], ['Sheet', '#F6F3EC', 'Cards'], ['Field Ink', '#1B1C1A', 'Type'], ['Cognac', '#8A4722', 'Prices and links'], ['Bearing Gold', '#8F6412', 'Sheet numbers, display sizes only'], ['Contour', '#C9C1AF', 'Line work only']] },
+      type: { display: 'Archivo Condensed', text: 'Archivo', note: 'Sheet numbers and specs in IBM Plex Mono.' },
+      logo: 'Wordmark large across the top of the page, the width of the grid. Monogram on the bag badge crops.',
+      device: 'The contour: each product card is a numbered map sheet with a faint contour behind the bag.',
+      products: 'All six on one screen on desktop; two columns on the phone. Tap to see the bag on a person.',
+      voice: [['Hero', 'Arrive like you mean it. Six bags. That’s the whole store.'], ['Card', 'Sheet 04. CREST. Rise above ordinary. Or at least above the nylon backpack.'], ['Cart', 'One bag. Good choice. Cash on delivery, if you like.'], ['Footer', 'Genuine leather. 3-year warranty. Cash on delivery.']],
+    },
+    motion: [
+      ['Preloader', 'Six frames, one per bag, then the grid fades in over 0.4s'],
+      ['Card swap', 'Second image crossfades on hover or tap, 0.5s'],
+      ['Controls', '0.15s on (0.4, 0, 0.2, 1)'],
+      ['Reduced motion', 'No preloader; the grid is simply there'],
+    ],
+    structure: {
+      home: [['Wordmark across the width', 'light', 2], ['One line of intent', 'light', 1], ['Six sheets, 2 columns on phone', 'media', 7], ['Why: genuine leather, 3 years, COD', 'accent', 2], ['Gifting in one card', 'light', 2]],
+      pdp: [['Sheet header: number, name', 'light', 1], ['Packshot, tap for on-body', 'media', 4], ['Price, fit, Add to bag', 'light', 2], ['Specs in mono', 'light', 2], ['Next sheet', 'media', 2]],
+    },
+    reuse: ['Product renders on the sheets until the shoot', 'Generated contour art', 'Archivo and Plex Mono', 'The Field Survey palette from round 1'],
+    use: { B1: 'must', B2: 'must', B3: 'must', S1: 'must', S5: 'must', S6: 'nice', P1: 'must', I2: 'must', F1: 'must', F2: 'must' },
+    watch: ['The quickest to build and the cheapest to shoot.', 'Humour has to stay dry. One joke per card at most, and never about the price.'],
+  },
+  {
+    n: '07', id: 'pressed', name: 'Pressed In', theme: 'wilderness', world: 'survey',
+    ref: { name: 'UNIMATIC, Impronte collection', url: 'https://www.unimaticwatches.com/pages/impronte-collection', what: 'A collection page about relief: raised bezels and debossed dials. Pale grey, black, mono labels, glass panels, detail bands.' },
+    line: 'The craft page. Leather remembers pressure: stitched channels, a debossed monogram, your initials pressed in. Relief becomes landscape.',
+    measured: [
+      ['Reveal', '450ms on (0.64, 0, 0.78, 0), an ease-in: it speeds up and lands hard, like a press'],
+      ['Base', '220ms ease on opacity, transform and colour'],
+      ['Filmstrip', '1000ms on (1, 0, 0, 1)'],
+      ['Parallax', 'Image position slides from 25% to 75% as you scroll'],
+      ['Glass', '30px blur with white at 80, 60 and 40%'],
+      ['Palette', 'Ground #F6F6F6, ink black, lime #AFFF00 accent; mono labels in capitals'],
+    ],
+    take: ['A short essay, then detail bands that alternate image and text', 'The ease-in reveal: things land like a stamp', 'Parallax inside the frame, not the page', 'Edition-style cards with specs in mono'],
+    leave: ['Lime. Bearing Gold is the accent', 'Limited-edition framing: our bags are not limited'],
+    how: {
+      palette: { from: 'survey', use: [['Sheet', '#F6F3EC', 'Ground'], ['Field Ink', '#1B1C1A', 'Type'], ['Slate', '#2E4A4D', 'Detail bands'], ['Cognac', '#8A4722', 'Links'], ['Bearing Gold', '#8F6412', 'Labels at display size'], ['Contour', '#C9C1AF', 'Relief lines']] },
+      type: { display: 'Archivo Condensed', text: 'Archivo', note: 'Detail labels in IBM Plex Mono capitals.' },
+      logo: 'The monogram, debossed, is the hero image. The wordmark stays small.',
+      device: 'Relief as contour: macro photos of the channels read as terrain, with contour lines drawn over them.',
+      products: 'Six cards after the essay, each with its relief detail and the initials option.',
+      voice: [['Hero', 'Pressed in.'], ['Essay', 'Leather remembers pressure. Every channel on a Tuskrr bag is a line you can feel.'], ['Detail band', 'The channel. Run your thumb along it.'], ['Embossing', 'Your initials, pressed in. A custom order, ready in 2 weeks.']],
+    },
+    motion: [
+      ['Reveals', '450ms on (0.64, 0, 0.78, 0). Short travel; it should feel like a stamp landing'],
+      ['Filmstrip of the process', '1000ms on (1, 0, 0, 1) per frame'],
+      ['Detail images', 'Position 25% to 75% with scroll'],
+      ['Controls', '220ms ease'],
+      ['Reduced motion', 'No parallax, fades only'],
+    ],
+    structure: {
+      home: [['Macro: debossed monogram', 'media', 5], ['Essay, three lines', 'light', 2], ['Detail band: the channel', 'media', 3], ['Detail band: the badge', 'dark', 3], ['Process filmstrip, embossing', 'media', 3], ['Six bags, with initials', 'light', 3]],
+      pdp: [['Relief macro and packshot', 'media', 4], ['Initials preview on the bag', 'accent', 3], ['Price, fit, Add to bag', 'light', 2], ['Specs in mono', 'light', 2]],
+    },
+    reuse: ['Generated contour art over photos', 'Product renders for the cards', 'Embossing facts (custom order, 2 weeks)'],
+    use: { B1: 'must', B2: 'must', B3: 'must', B5: 'must', S1: 'must', S3: 'must', S4: 'must', S7: 'must', P6: 'must', V5: 'must', F1: 'must', F2: 'must' },
+    watch: ['Works best as the craft and embossing page inside another direction, but can carry a whole site.', 'Needs a real embossing sample on every bag for the shoot, plus the embossing price.'],
+  },
+  {
+    n: '08', id: 'kit', name: 'Everyday Kit', theme: 'wilderness', world: 'high',
+    ref: { name: 'Bread & Boxers', url: 'https://breadandboxers.com/se', what: 'Stockholm basics. A serif display face with a light grotesk, a proof ticker, model banners and product rails.' },
+    line: 'The reliable daily shop. Occasion banners with people in Indian cities, product rails, and a running line of proof so nobody has to hunt for the guarantee.',
+    measured: [
+      ['Easing', '(0.4, 0, 0.2, 1) in 12 declarations'],
+      ['Timing', '0.15s and 0.3s controls; drawers 0.4s'],
+      ['Ticker', 'A running line, 50s per loop, linear'],
+      ['Entrance', 'fadeInUp: from opacity 0 and a full height below'],
+      ['Type', 'Heldane Display (serif) with Helvetica LT Pro Light'],
+      ['Palette', 'White, warm grey #EAE9E6, near-black'],
+    ],
+    take: ['A slow ticker of proof points', 'Serif display with a light sans', 'Occasion banners that crop from desktop to phone', 'Horizontal product rails'],
+    leave: ['"Buy 2, save 20%". Our price is never a discount story', 'Gendered sections: the range is unisex'],
+    how: {
+      palette: { from: 'high', use: [['Sand', '#EBDDC7', 'Ground'], ['Bark', '#221610', 'Type'], ['Terracotta Deep', '#A2432A', 'Links and buttons on sand'], ['Bark Light', '#2E1E16', 'Ticker and footer'], ['Ember', '#E39A5B', 'Accent on dark only']] },
+      type: { display: 'Instrument Serif', text: 'Hanken Grotesk', note: 'Serif headlines, light grotesk text, as in the reference.' },
+      logo: 'Wordmark in the header; the monogram leads the ticker.',
+      device: 'The ridgeline, as a thin line that runs under the banners and rises at each product.',
+      products: 'Rails by occasion: For the workday, For the weekend, For the flight, For someone else.',
+      voice: [['Ticker', 'Genuine leather. 3-year warranty. Cash on delivery. Initials pressed in.'], ['Banner', 'For the workday. And the one after that.'], ['Rail title', 'For someone climbing.'], ['Gift set', 'The Pair: STRATA and CONTOUR, for the new job.']],
+    },
+    motion: [
+      ['Ticker', '50s linear loop; pauses on hover and for reduced motion'],
+      ['Entrances', 'fadeInUp, 0.3s on (0.4, 0, 0.2, 1), shorter travel than the reference (16px)'],
+      ['Drawers', 'Height and opacity 0.4s'],
+      ['Reduced motion', 'The ticker becomes a static line'],
+    ],
+    structure: {
+      home: [['Proof ticker', 'dark', 1], ['Occasion banner, person, city', 'media', 5], ['Rail: For the workday', 'media', 3], ['Rail: For the flight', 'media', 3], ['The Pair: gift set', 'accent', 3], ['Newsletter, one field', 'light', 1]],
+      pdp: [['Gallery with an on-body frame', 'media', 5], ['Price, Add to bag, COD note', 'light', 2], ['Fit and inside', 'media', 3], ['Pairs well with', 'media', 2]],
+    },
+    reuse: ['Ridgeline generator for the running line', 'Instrument Serif and Hanken Grotesk', 'Product renders on rails until the shoot'],
+    use: { B1: 'must', B2: 'must', B3: 'nice', B4: 'must', S1: 'must', S2: 'must', S4: 'must', S6: 'nice', P1: 'must', P2: 'must', V2: 'nice', F1: 'must', F2: 'must', F4: 'must' },
+    watch: ['The most conventional commerce layout; the warmth has to come from the people and the cities.', 'Keep the ticker to proof points only. No offers, no countdowns.'],
+  },
+];
+
+// Shared rules every direction keeps.
+export const RULES = [
+  'Phone first. Designed at 390px, then widened.',
+  'One theme per direction. Nothing from The Entrance is mixed into a Linear Wilderness direction, or the other way round.',
+  'Every palette solved for contrast: 4.5:1 for text, 3:1 for display sizes. The reference’s colours are never copied, only its structure and pacing.',
+  'Proof points on every product page: genuine leather, 3-year warranty, cash on delivery, laptop fit.',
+  'No discount stories, no countdowns, no "premium", "luxury" or "elevate".',
+  'Honour reduced motion. Video never autoplays with sound and always has a poster frame.',
+  'No stock photos. Every image is ours, labelled until the shoot is done.',
+];
+
+// File specs for the shoot and the edit.
+export const SPECS = [
+  ['Stills, master', 'TIFF or maximum-quality JPEG, sRGB, 3000px long edge minimum (4000px for macros).'],
+  ['Stills, web', 'AVIF and WebP at 640, 960, 1440 and 2048px wide, plus a JPEG fallback. Under 250 KB at 1440px.'],
+  ['Crops', 'Frame every product shot so 4:5, 1:1 and 9:16 can all be cut from it. Leave space above the bag for type.'],
+  ['Video, master', 'ProRes 422 or high-bitrate H.264, 4K or 1080p, 25 fps.'],
+  ['Video, web', 'H.264 MP4 and AV1 or VP9 WebM, 1080p, silent for loops. Loops under 2.5 MB, product loops under 1.5 MB.'],
+  ['Poster frames', 'One still per video at the web still spec, so pages work before and without video.'],
+  ['Colour', 'One grade across the set. Leather must match the real hide: shoot a colour card with every setup.'],
+  ['Naming', 'bag_view_ratio_version, for example ridge_front34_4x5_v1.jpg.'],
+  ['Releases', 'Signed model and location releases for everyone and everywhere shown.'],
+];
