@@ -14,6 +14,8 @@ cd site && python3 -m http.server 8000   # then open http://localhost:8000
 
 Opening `index.html` straight from disk also works; the browser just logs two harmless font-preload warnings.
 
+**One file:** `tuskrr.html` is the whole site in a single self-contained file (about 930 KB), with the CSS, JS, fonts and images inlined. It makes no requests, so you can email it, drop it on any host, or double-click it. `node site/src/build.mjs` regenerates it along with `index.html`.
+
 ## What's on the page
 
 1. **Preloader.** Proof-point pills pop around the wordmark, a 000 to 100 counter, then the wordmark flies into the hero.

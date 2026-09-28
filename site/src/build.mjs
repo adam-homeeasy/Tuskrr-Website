@@ -312,4 +312,22 @@ const notFound = `${head('Wrong door. Tuskrr', 'This page does not exist.')}
 writeFileSync(join(SITE, 'index.html'), index);
 writeFileSync(join(SITE, '404.html'), notFound);
 writeFileSync(join(SITE, 'assets/logo/favicon.svg'), readFileSync(join(SITE, 'assets/logo/monogram.svg'), 'utf8').replace('fill="currentColor"', 'fill="#131110"'));
-console.log('wrote index.html, 404.html, favicon.svg');
+
+// Single-file build: CSS, JS, fonts and images inlined into tuskrr.html, which
+// makes no requests at all. Each image is embedded once and assigned to every
+// <img data-img> by a tiny script, rather than repeated per use.
+const b64 = (p) => readFileSync(join(SITE, p)).toString('base64');
+const css = readFileSync(join(SITE, 'css/site.css'), 'utf8')
+  .replace(/url\(\.\.\/assets\/fonts\/([\w-]+\.woff2)\)/g, (_, f) => `url(data:font/woff2;base64,${b64('assets/fonts/' + f)})`);
+const imgs = Object.fromEntries(PRODUCTS.map((p) => [p.id, `data:image/webp;base64,${b64(`assets/img/${p.id}.webp`)}`]));
+const inline = (f) => `<script>${readFileSync(join(SITE, f), 'utf8').replace(/<\/script/gi, '<\\/script')}</script>`;
+const single = index
+  .replace(/<link rel="preload"[^>]*>\n/g, '')
+  .replace('<link rel="stylesheet" href="css/site.css">', () => `<style>${css}</style>`)
+  .replace('href="assets/logo/favicon.svg"', () => `href="data:image/svg+xml;base64,${b64('assets/logo/favicon.svg')}"`)
+  .replace(/src="assets\/img\/(\w+)\.webp"/g, 'data-img="$1"')
+  .replace(/<script src="vendor\/gsap\.min\.js"><\/script>/, () => `<script>window.TUSKRR_IMG=${JSON.stringify(imgs)};document.querySelectorAll('img[data-img]').forEach(function(i){i.src=TUSKRR_IMG[i.dataset.img]})</script>\n${inline('vendor/gsap.min.js')}`)
+  .replace(/<script src="(vendor\/[\w.]+|js\/main\.js)"><\/script>/g, (_, f) => inline(f));
+if (/(src|href)="(?!data:|#|\.\/)[^"]*\.(css|js|webp|woff2|svg)"/.test(single)) throw new Error('single file still references an external file');
+writeFileSync(join(SITE, 'tuskrr.html'), single);
+console.log('wrote index.html, 404.html, favicon.svg, tuskrr.html (' + Math.round(single.length / 1024) + ' KB)');

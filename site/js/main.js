@@ -599,7 +599,7 @@
     cartBtn.setAttribute('aria-label', `Your bag, ${n} item${n === 1 ? '' : 's'}`);
     q('[data-empty]').hidden = n > 0;
     q('[data-checkout]').disabled = n === 0;
-    list.innerHTML = cart.map((it, k) => `<li><img src="assets/img/${it.id}.webp" alt=""><div><p class="n">${it.id.toUpperCase()}</p><p class="o">${it.initials ? 'With initials, ready in 2 weeks' : 'As it is'}</p></div><div class="step-qty"><button type="button" data-q="${k}" data-d="-1" aria-label="One fewer ${it.id.toUpperCase()}">−</button><span>${it.qty}</span><button type="button" data-q="${k}" data-d="1" aria-label="One more ${it.id.toUpperCase()}">+</button></div></li>`).join('');
+    list.innerHTML = cart.map((it, k) => `<li><img src="${(window.TUSKRR_IMG && window.TUSKRR_IMG[it.id]) || `assets/img/${it.id}.webp`}" alt=""><div><p class="n">${it.id.toUpperCase()}</p><p class="o">${it.initials ? 'With initials, ready in 2 weeks' : 'As it is'}</p></div><div class="step-qty"><button type="button" data-q="${k}" data-d="-1" aria-label="One fewer ${it.id.toUpperCase()}">−</button><span>${it.qty}</span><button type="button" data-q="${k}" data-d="1" aria-label="One more ${it.id.toUpperCase()}">+</button></div></li>`).join('');
   }
   function openDrawer() {
     lastFocus = document.activeElement;
