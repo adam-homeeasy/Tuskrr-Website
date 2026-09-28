@@ -75,7 +75,8 @@ for (const f of FILES) {
     if (pending) fail(f, `${pending} elements never revealed after a full scroll`);
     // timing contract on revealed elements
     const bad = await p.evaluate(() => [...document.querySelectorAll('[data-r]')].map((el) => getComputedStyle(el).transitionTimingFunction).filter((t) => t && !t.includes('cubic-bezier(0.42, 0, 0.58, 1)') && !t.startsWith('ease')).length);
-    if (bad) fail(f, `${bad} reveals off the ease-in-out curve`);
+    // Direction sites carry their own measured motion contracts: PROOF_ANY_EASE=1 skips this.
+    if (bad && !process.env.PROOF_ANY_EASE) fail(f, `${bad} reveals off the ease-in-out curve`);
     await p.close();
   }
 

@@ -5,7 +5,7 @@ this whole file before touching anything.
 
 ## Rules from the user (important)
 
-- **Do not build until the user says go.** Last instruction (reference-sites session): "Don't build anything"; write directions, assets and requirements only.
+- **Build only what the user asks for.** After the direction library, the user asked: "Give me one site for each direction. Generously use stock images and videos." Those prototypes now exist (see below). Ask before building anything further.
 - **Do not merge themes.** Keep each theme separate. More options will be added.
 - Ask when an instruction is ambiguous; a wrong guess cost a full rebuild last time.
 - Use they/them; the range is unisex.
@@ -133,3 +133,44 @@ drinkstill.nz teardown pack (folders `01-teardown` to `06-raw` at the repo
 root, uploaded on the session branch) is a ninth reference.
 
 Checks: `PROOF_FILES=website-directions.html,asset-requirements.html node brand-world/src/proof.mjs` passes.
+
+## Direction sites (28 Sep 2026, same session)
+
+On request ("one site for each direction, generously use stock"), eight
+single-page prototypes were built in `brand-world/sites/`, plus `index.html`.
+Each is one self-contained HTML file (media embedded, 2 to 7.4 MB).
+
+| File | Direction | Structure |
+|---|---|---|
+| `01-the-reel.html` | The Reel | Film hero, masked line reveals, "Watch the film" plays 5 clips in sequence, drag reel with 01/06 counter |
+| `02-the-host.html` | The Host | Prompt bar and cues; rules-based finder assembles glass answer blocks; gift branch with live initials |
+| `03-the-roster.html` | The Roster | 9-second portrait loop, mono index of sample profiles, bag sheets "chosen by" |
+| `04-the-outfitter.html` | The Outfitter | Service bar, 4:5 editorial hero, occasion tiles, filterable grid, Cognac Edit |
+| `05-six-readings.html` | Six Readings | Fixed index sidebar that takes each bag's colour, one full-width word and landscape video per bag |
+| `06-the-small-store.html` | The Small Store | Six-frame preloader, wordmark across the page, numbered sheets with "See it out" |
+| `07-pressed-in.html` | Pressed In | Leather hero with contours, detail bands (channel, gold S, grain, hide), filmstrip, live embossing preview |
+| `08-everyday-kit.html` | Everyday Kit | Proof ticker, serif occasion banners with rails, The Pair gift set |
+
+How it is built:
+- `sites/src/stock-search.py` searched Coverr, Mixkit (video), Burst and
+  Openverse (photos) and wrote contact sheets. Burst rate-limited after one
+  search; Openverse results were unreliable, so stills are mostly frames cut
+  from the licensed clips.
+- `sites/src/media.py` downloads the chosen clips, trims to 6 to 8 s, encodes
+  720p H.264 without audio (0.2 to 1.7 MB each), cuts stills, writes
+  `sites/media/credits.json`. `sites/src/cutout.py` cuts the six renders out of
+  their grey studio ground (`sites/media/cut-*.webp`).
+- `sites/src/kit.mjs` is shared: sample prices, media embedding with a
+  "Stock stand-in" or "Supplied render" tag on every frame, bag counter,
+  per-direction reveal engine, credits and "Not final" footer.
+- `node brand-world/sites/src/build-sites.mjs [01 ... 08 index]` builds.
+- Proof: `PROOF_ANY_EASE=1 PROOF_FILES=sites/01-the-reel.html,... node brand-world/src/proof.mjs`
+  (`PROOF_ANY_EASE` because each site follows its own measured motion contract).
+
+Honesty rules kept: stock never shows a bag as if it were Tuskrr's; every frame
+is labelled; roster names are sample profiles; prices, laptop sizes and returns
+are samples; the rules-based finder stands in for asset F5.
+
+Headless Chromium notes: full-page screenshots drop embedded images (use
+viewport shots); a CSS `filter: blur()` band under an image layer rendered a
+dark box, so light bands are plain gradients.
