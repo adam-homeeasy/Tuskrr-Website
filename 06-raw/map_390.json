@@ -1,0 +1,2014 @@
+{
+ "w": 390,
+ "h": 844,
+ "height": 10622,
+ "sections": [
+  {
+   "sel": "nav.fixed.top-0.left-0",
+   "id": "",
+   "top": 0,
+   "h": 56,
+   "bg": "rgba(239, 237, 230, 0.92)",
+   "pos": "fixed",
+   "pad": "0px",
+   "heading": ""
+  },
+  {
+   "sel": "section#hero.relative.w-full.min-h-screen",
+   "id": "hero",
+   "top": 0,
+   "h": 1103,
+   "bg": "rgb(26, 27, 29)",
+   "pos": "relative",
+   "pad": "0px",
+   "heading": "Sustained natural focus, without caffeine."
+  },
+  {
+   "sel": "section#flavors.relative.w-full.bg-bone",
+   "id": "flavors",
+   "top": 1103,
+   "h": 1196,
+   "bg": "rgb(239, 237, 230)",
+   "pos": "relative",
+   "pad": "0px",
+   "heading": "Three formulations."
+  },
+  {
+   "sel": "section#inside.relative.w-full.bg-ink",
+   "id": "inside",
+   "top": 2299,
+   "h": 936,
+   "bg": "rgb(26, 27, 29)",
+   "pos": "relative",
+   "pad": "40px 0px 16px",
+   "heading": "Inside."
+  },
+  {
+   "sel": "section#story.relative.w-full.bg-bone",
+   "id": "story",
+   "top": 3235,
+   "h": 4127,
+   "bg": "rgb(239, 237, 230)",
+   "pos": "relative",
+   "pad": "0px",
+   "heading": "Quietly built over five years."
+  },
+  {
+   "sel": "section#press.relative.w-full.bg-ink",
+   "id": "press",
+   "top": 7363,
+   "h": 867,
+   "bg": "rgb(26, 27, 29)",
+   "pos": "relative",
+   "pad": "96px 0px",
+   "heading": "QUIETLY NOTICED."
+  },
+  {
+   "sel": "section#shop.relative.w-full.bg-bone",
+   "id": "shop",
+   "top": 8230,
+   "h": 1611,
+   "bg": "rgb(239, 237, 230)",
+   "pos": "relative",
+   "pad": "0px",
+   "heading": "FIND STILL IN STORE, OR ORDER DIRECT."
+  },
+  {
+   "sel": "footer.relative.w-full.bg-bone",
+   "id": "",
+   "top": 9841,
+   "h": 781,
+   "bg": "rgb(239, 237, 230)",
+   "pos": "relative",
+   "pad": "0px",
+   "heading": "Get notified when we ship to your city."
+  }
+ ],
+ "tokens": {
+  "colors": [
+   {
+    "k": "text rgb(26, 27, 29)",
+    "n": 263,
+    "ex": [
+     "span",
+     "a.inline-flex.items-center.font-sans",
+     "span.inline-block.transition-transform.duration-[250ms]"
+    ]
+   },
+   {
+    "k": "text rgb(106, 105, 101)",
+    "n": 112,
+    "ex": [
+     "a.nav-underline.font-sans.text-mist",
+     "a.nav-underline.font-sans.text-mist",
+     "a.nav-underline.font-sans.text-mist"
+    ]
+   },
+   {
+    "k": "text rgb(239, 237, 230)",
+    "n": 112,
+    "ex": [
+     "span.text-bone",
+     "h2.mt-5.font-display.font-[300]",
+     "span.font-display.text-bone.text-[17px]"
+    ]
+   },
+   {
+    "k": "text oklab(0.945627 -0.000551641 0.00956702 / 0.6)",
+    "n": 39,
+    "ex": [
+     "div.font-sans.text-[12px].tracking-[0.2em]",
+     "span",
+     "span"
+    ]
+   },
+   {
+    "k": "bg rgb(26, 27, 29)",
+    "n": 32,
+    "ex": [
+     "span.block.bg-ink",
+     "span.block.bg-ink",
+     "span.block.bg-ink"
+    ]
+   },
+   {
+    "k": "text rgba(0, 0, 0, 0)",
+    "n": 20,
+    "ex": [
+     "span.absolute.inset-0.flex",
+     "span.absolute.inset-0.flex",
+     "span.absolute.inset-0.flex"
+    ]
+   },
+   {
+    "k": "bg rgb(188, 211, 216)",
+    "n": 16,
+    "ex": [
+     "div.mt-7.h-px.w-[72px]",
+     "div.mt-6.h-px.w-[64px]",
+     "div.absolute.rounded-full"
+    ]
+   },
+   {
+    "k": "border 1px oklab(0.945627 -0.000551641 0.00956702 / 0.15)",
+    "n": 16,
+    "ex": [
+     "div.flex.items-baseline.justify-between",
+     "div.mt-3.flex.items-baseline",
+     "div.mt-3.border-t.border-bone/15"
+    ]
+   },
+   {
+    "k": "bg rgb(239, 237, 230)",
+    "n": 15,
+    "ex": [
+     "div.fixed.inset-0.z-[60]",
+     "section#flavors.relative.w-full.bg-bone",
+     "button.font-sans.uppercase.transition-colors"
+    ]
+   },
+   {
+    "k": "border 1px rgba(26, 27, 29, 0.12)",
+    "n": 13,
+    "ex": [
+     "article.w-[82vw].shrink-0.snap-center",
+     "article.w-[82vw].shrink-0.snap-center",
+     "article.w-[82vw].shrink-0.snap-center"
+    ]
+   },
+   {
+    "k": "bg oklab(0.22187 -0.000391312 -0.00414774 / 0.045)",
+    "n": 10,
+    "ex": [
+     "figure.relative.w-full.overflow-hidden",
+     "figure.relative.w-full.overflow-hidden",
+     "figure.relative.w-full.overflow-hidden"
+    ]
+   },
+   {
+    "k": "text rgba(239, 237, 230, 0.85)",
+    "n": 10,
+    "ex": [
+     "span.font-display.font-[300].tracking-[-0.01em]",
+     "span.font-display.font-[300].tracking-[-0.01em]",
+     "span.font-display.font-[300].tracking-[-0.01em]"
+    ]
+   },
+   {
+    "k": "bg rgba(188, 211, 216, 0.5)",
+    "n": 10,
+    "ex": [
+     "span.mx-[clamp(20px,3vw,44px)].inline-block.rounded-full",
+     "span.mx-[clamp(20px,3vw,44px)].inline-block.rounded-full",
+     "span.mx-[clamp(20px,3vw,44px)].inline-block.rounded-full"
+    ]
+   },
+   {
+    "k": "text oklab(0.945627 -0.000551641 0.00956702 / 0.9)",
+    "n": 9,
+    "ex": [
+     "span.sr-only",
+     "div",
+     "div"
+    ]
+   },
+   {
+    "k": "bg rgb(30, 66, 62)",
+    "n": 8,
+    "ex": [
+     "span.inline-block.bg-alpine.align-baseline",
+     "span.inline-block.shrink-0",
+     "span.inline-block.shrink-0"
+    ]
+   },
+   {
+    "k": "border 1px rgba(140, 139, 134, 0.4)",
+    "n": 7,
+    "ex": [
+     "article.group.flex.flex-col",
+     "article.group.flex.flex-col",
+     "article.group.flex.flex-col"
+    ]
+   },
+   {
+    "k": "text oklab(0.520373 -0.000543818 0.00628424 / 0.5)",
+    "n": 6,
+    "ex": [
+     "span.mx-2.text-mist/50",
+     "span.mx-2.text-mist/50",
+     "span.mx-2.text-mist/50"
+    ]
+   },
+   {
+    "k": "border 1px rgb(26, 27, 29)",
+    "n": 6,
+    "ex": [
+     "button.font-sans.uppercase.transition-colors",
+     "button.font-sans.uppercase.transition-colors",
+     "button.font-sans.uppercase.transition-colors"
+    ]
+   },
+   {
+    "k": "text rgba(26, 27, 29, 0.6)",
+    "n": 6,
+    "ex": [
+     "button.mt-2.inline-flex.items-baseline",
+     "span.inline-block.transition-transform.duration-300",
+     "button.mt-2.inline-flex.items-baseline"
+    ]
+   },
+   {
+    "k": "text oklab(0.945627 -0.000551641 0.00956702 / 0.4)",
+    "n": 5,
+    "ex": [
+     "span.mx-2.text-bone/40",
+     "span.text-bone/40",
+     "p.font-sans.uppercase.text-bone/40"
+    ]
+   },
+   {
+    "k": "bg oklab(0.945627 -0.000551641 0.00956702 / 0.15)",
+    "n": 5,
+    "ex": [
+     "div.mt-3.h-px.w-full",
+     "div.mt-3.h-px.w-full",
+     "div.mt-3.h-px.w-full"
+    ]
+   },
+   {
+    "k": "text oklab(0.945627 -0.000551641 0.00956702 / 0.5)",
+    "n": 4,
+    "ex": [
+     "p.font-sans.uppercase.text-bone/50",
+     "div.font-sans.uppercase.text-bone/50",
+     "div.font-sans.uppercase.text-bone/50"
+    ]
+   },
+   {
+    "k": "bg rgba(239, 237, 230, 0.05)",
+    "n": 4,
+    "ex": [
+     "article.w-[82vw].shrink-0.snap-center",
+     "article.w-[82vw].shrink-0.snap-center",
+     "article.w-[82vw].shrink-0.snap-center"
+    ]
+   },
+   {
+    "k": "border 1px rgba(239, 237, 230, 0.14)",
+    "n": 4,
+    "ex": [
+     "article.w-[82vw].shrink-0.snap-center",
+     "article.w-[82vw].shrink-0.snap-center",
+     "article.w-[82vw].shrink-0.snap-center"
+    ]
+   },
+   {
+    "k": "text rgb(30, 66, 62)",
+    "n": 4,
+    "ex": [
+     "span.font-sans",
+     "span.font-sans",
+     "span.font-sans"
+    ]
+   },
+   {
+    "k": "bg rgba(255, 255, 255, 0.55)",
+    "n": 3,
+    "ex": [
+     "article.w-[82vw].shrink-0.snap-center",
+     "article.w-[82vw].shrink-0.snap-center",
+     "article.w-[82vw].shrink-0.snap-center"
+    ]
+   },
+   {
+    "k": "bg oklab(0.22187 -0.000391312 -0.00414774 / 0.15)",
+    "n": 3,
+    "ex": [
+     "div.mt-4.h-px.w-full",
+     "div.mt-4.h-px.w-full",
+     "div.mt-4.h-px.w-full"
+    ]
+   },
+   {
+    "k": "text oklab(0.22187 -0.000391312 -0.00414774 / 0.7)",
+    "n": 3,
+    "ex": [
+     "span.ml-auto.font-sans.text-[8px]",
+     "span.ml-auto.font-sans.text-[8px]",
+     "span.ml-auto.font-sans.text-[8px]"
+    ]
+   },
+   {
+    "k": "border 1px oklab(0.22187 -0.000391312 -0.00414774 / 0.15)",
+    "n": 3,
+    "ex": [
+     "div.mt-4.flex.items-baseline",
+     "div.mt-4.flex.items-baseline",
+     "div.mt-4.flex.items-baseline"
+    ]
+   },
+   {
+    "k": "border 1px rgba(239, 237, 230, 0.35)",
+    "n": 3,
+    "ex": [
+     "button.font-sans.uppercase.transition-colors",
+     "button.font-sans.uppercase.transition-colors",
+     "button.font-sans.uppercase.transition-colors"
+    ]
+   },
+   {
+    "k": "text rgba(239, 237, 230, 0.35)",
+    "n": 3,
+    "ex": [
+     "button.font-sans.text-[12px].tracking-[0.18em]",
+     "button.font-sans.text-[12px].tracking-[0.18em]",
+     "button.font-sans.text-[12px].tracking-[0.18em]"
+    ]
+   },
+   {
+    "k": "bg rgba(26, 27, 29, 0.2)",
+    "n": 3,
+    "ex": [
+     "div.mt-4",
+     "div.mt-4",
+     "div.mt-4"
+    ]
+   },
+   {
+    "k": "bg rgba(26, 27, 29, 0.024)",
+    "n": 3,
+    "ex": [
+     "div.w-full.relative.transition-transform",
+     "div.w-full.relative.transition-transform",
+     "div.w-full.relative.transition-transform"
+    ]
+   },
+   {
+    "k": "grad radial-gradient(50% 50%, rgba(26, 27, 29, 0.25) 0%, rgba(0, 0, 0, 0) 70%)",
+    "n": 3,
+    "ex": [
+     "div.absolute.left-1/2.-translate-x-1/2",
+     "div.absolute.left-1/2.-translate-x-1/2",
+     "div.absolute.left-1/2.-translate-x-1/2"
+    ]
+   },
+   {
+    "k": "text rgb(188, 211, 216)",
+    "n": 2,
+    "ex": [
+     "span.inline-block",
+     "span"
+    ]
+   },
+   {
+    "k": "grad radial-gradient(circle, rgb(188, 211, 216) 0%, rgba(188, 211, 216, 0.933) 18%, rgba(188, 211, 216, 0.7) 35%, rgba(188, 211, 216, 0.4) 55%, rgba(188, 211, 216, 0",
+    "n": 2,
+    "ex": [
+     "div.pointer-events-none",
+     "div.pointer-events-none"
+    ]
+   },
+   {
+    "k": "grad radial-gradient(circle, rgb(232, 201, 160) 0%, rgba(232, 201, 160, 0.933) 18%, rgba(232, 201, 160, 0.7) 35%, rgba(232, 201, 160, 0.4) 55%, rgba(232, 201, 160, 0",
+    "n": 2,
+    "ex": [
+     "div.pointer-events-none",
+     "div.pointer-events-none"
+    ]
+   },
+   {
+    "k": "grad radial-gradient(circle, rgb(201, 181, 200) 0%, rgba(201, 181, 200, 0.933) 18%, rgba(201, 181, 200, 0.7) 35%, rgba(201, 181, 200, 0.4) 55%, rgba(201, 181, 200, 0",
+    "n": 2,
+    "ex": [
+     "div.pointer-events-none",
+     "div.pointer-events-none"
+    ]
+   },
+   {
+    "k": "text oklab(0.945627 -0.000551641 0.00956702 / 0.3)",
+    "n": 2,
+    "ex": [
+     "span.mx-2.text-bone/30",
+     "span.mx-2.text-bone/30"
+    ]
+   },
+   {
+    "k": "bg rgb(106, 105, 101)",
+    "n": 2,
+    "ex": [
+     "div.origin-right",
+     "div.origin-left"
+    ]
+   },
+   {
+    "k": "bg rgba(239, 237, 230, 0.92)",
+    "n": 1,
+    "ex": [
+     "nav.fixed.top-0.left-0"
+    ]
+   },
+   {
+    "k": "grad radial-gradient(circle, rgb(188, 211, 216) 0%, rgba(188, 211, 216, 0.8) 20%, rgba(188, 211, 216, 0.4) 45%, rgba(188, 211, 216, 0.12) 65%, rgba(188, 211, 216, 0)",
+    "n": 1,
+    "ex": [
+     "div.pointer-events-none"
+    ]
+   },
+   {
+    "k": "text oklab(0.945627 -0.000551641 0.00956702 / 0.8)",
+    "n": 1,
+    "ex": [
+     "p.mt-7.text-[16px].leading-[1.65]"
+    ]
+   },
+   {
+    "k": "grad radial-gradient(90% 70% at 50% 40%, rgba(188, 211, 216, 0.2) 0%, rgba(188, 211, 216, 0.08) 46%, rgba(0, 0, 0, 0) 78%)",
+    "n": 1,
+    "ex": [
+     "div.absolute.inset-0.pointer-events-none"
+    ]
+   },
+   {
+    "k": "grad radial-gradient(90% 70% at 50% 40%, rgba(232, 201, 160, 0.2) 0%, rgba(232, 201, 160, 0.08) 46%, rgba(0, 0, 0, 0) 78%)",
+    "n": 1,
+    "ex": [
+     "div.absolute.inset-0.pointer-events-none"
+    ]
+   },
+   {
+    "k": "grad radial-gradient(90% 70% at 50% 40%, rgba(201, 181, 200, 0.2) 0%, rgba(201, 181, 200, 0.08) 46%, rgba(0, 0, 0, 0) 78%)",
+    "n": 1,
+    "ex": [
+     "div.absolute.inset-0.pointer-events-none"
+    ]
+   },
+   {
+    "k": "text rgb(232, 201, 160)",
+    "n": 1,
+    "ex": [
+     "span"
+    ]
+   },
+   {
+    "k": "text rgb(201, 181, 200)",
+    "n": 1,
+    "ex": [
+     "span"
+    ]
+   },
+   {
+    "k": "border 1px rgb(239, 237, 230)",
+    "n": 1,
+    "ex": [
+     "button.font-sans.uppercase.transition-colors"
+    ]
+   },
+   {
+    "k": "bg rgb(212, 184, 150)",
+    "n": 1,
+    "ex": [
+     "div.h-full.origin-left.transition-transform"
+    ]
+   },
+   {
+    "k": "bg rgb(201, 181, 200)",
+    "n": 1,
+    "ex": [
+     "div.h-full.origin-left.transition-transform"
+    ]
+   },
+   {
+    "k": "bg rgb(181, 200, 176)",
+    "n": 1,
+    "ex": [
+     "div.h-full.origin-left.transition-transform"
+    ]
+   },
+   {
+    "k": "bg oklab(0.22187 -0.000391312 -0.00414774 / 0.3)",
+    "n": 1,
+    "ex": [
+     "span.block.w-px.h-8"
+    ]
+   },
+   {
+    "k": "bg oklab(0.22187 -0.000391312 -0.00414774 / 0.1)",
+    "n": 1,
+    "ex": [
+     "span.relative.block.overflow-hidden"
+    ]
+   },
+   {
+    "k": "grad radial-gradient(58% 48% at 50% 46%, rgb(188, 211, 216) 0%, rgba(0, 0, 0, 0) 70%)",
+    "n": 1,
+    "ex": [
+     "div.absolute.inset-0"
+    ]
+   },
+   {
+    "k": "grad radial-gradient(58% 48% at 50% 46%, rgb(232, 201, 160) 0%, rgba(0, 0, 0, 0) 70%)",
+    "n": 1,
+    "ex": [
+     "div.absolute.inset-0"
+    ]
+   },
+   {
+    "k": "grad radial-gradient(58% 48% at 50% 46%, rgb(201, 181, 200) 0%, rgba(0, 0, 0, 0) 70%)",
+    "n": 1,
+    "ex": [
+     "div.absolute.inset-0"
+    ]
+   },
+   {
+    "k": "border 1px oklab(0.22187 -0.000391312 -0.00414774 / 0.1)",
+    "n": 1,
+    "ex": [
+     "div.mt-12.md:mt-16.grid"
+    ]
+   },
+   {
+    "k": "bg rgba(26, 27, 29, 0.32)",
+    "n": 1,
+    "ex": [
+     "div.fixed.inset-0.z-[70]"
+    ]
+   },
+   {
+    "k": "bg rgba(26, 27, 29, 0.4)",
+    "n": 1,
+    "ex": [
+     "div.fixed.inset-0.z-[80]"
+    ]
+   },
+   {
+    "k": "border 1px rgba(26, 27, 29, 0.25)",
+    "n": 1,
+    "ex": [
+     "input.w-full.font-sans.text-ink"
+    ]
+   }
+  ],
+  "type": [
+   {
+    "k": "S\u00f6hne | 400 |  | 13px | 20.15px | normal | ",
+    "n": 60,
+    "ex": [
+     "p.mt-2.text-[13px].leading-[1.55] \"The signature blend, paired wi\"",
+     "p.mt-2.text-[13px].leading-[1.55] \"Ginger and bergamot, lifted by\"",
+     "p.mt-2.text-[13px].leading-[1.55] \"Blackcurrant and manuka, with \""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 14px | 23.1px | normal | ",
+    "n": 38,
+    "ex": [
+     "span.mt-1.font-sans.text-mist \"93 Tory Street\"",
+     "span.shrink-0.font-sans.text-bone \"\u2192\"",
+     "span.mt-1.font-sans.text-mist \"260 Wakefield Street\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 44px | 46.2px | -0.44px | ",
+    "n": 26,
+    "ex": [
+     "div \"Q\"",
+     "div \"u\"",
+     "div \"i\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 23.4px | 26.208px | -0.234px | ",
+    "n": 26,
+    "ex": [
+     "div \"A\"",
+     "div \"n\"",
+     "div \"i\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 18px | 27px | normal | ",
+    "n": 25,
+    "ex": [
+     "div \"STILL\"",
+     "div \"began\"",
+     "div \"as\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 13px | 21.45px | normal | ",
+    "n": 20,
+    "ex": [
+     "span \"1,150 mg active blend\"",
+     "span.text-bone/40 \"\u00b7\"",
+     "span \"0 mg caffeine\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne Breit | 900 |  | 27.3px | 24.57px | -0.819px | UP",
+    "n": 20,
+    "ex": [
+     "div \"L\"",
+     "div \"-\"",
+     "div \"T\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 15px | 24.75px | normal | ",
+    "n": 19,
+    "ex": [
+     "div \"A\"",
+     "div \"nootropic\"",
+     "div \"blend\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 10px | 16.5px | 2.4px | UP",
+    "n": 18,
+    "ex": [
+     "p.font-sans.uppercase.text-bone/50 \"NOOTROPIC, NOT CAFFEINE\nWELLIN\"",
+     "p.font-sans.uppercase.text-bone/40 \"DRAG TO SPIN\"",
+     "p.mt-3.font-sans.text-[10px] \"SWIPE TO TASTE\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 500 |  | 16px | 26.4px | 0.08px | ",
+    "n": 15,
+    "ex": [
+     "span.font-sans.text-ink.transition-colors \"Moore Wilson's Fresh\"",
+     "span.font-sans.text-ink.transition-colors \"Commonsense Organics\"",
+     "span.font-sans.text-ink.transition-colors \"Customs by Coffee Supreme\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 12px | 19.8px | 2.4px | UP",
+    "n": 13,
+    "ex": [
+     "div.font-sans.text-[12px].tracking-[0.2em] \"01/The formula\"",
+     "span.text-bone \"01\"",
+     "span.mx-2.text-bone/40 \"/\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 400 |  | 14px | 14px | normal | ",
+    "n": 12,
+    "ex": [
+     "span.font-display.tabular-nums.w-[52px] \"200MG\"",
+     "span.font-display.tabular-nums.w-[52px] \"500MG\"",
+     "span.font-display.tabular-nums.w-[52px] \"150MG\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 400 |  | 9px | 9px | 1.62px | UP",
+    "n": 12,
+    "ex": [
+     "span.ml-0.5.text-[9px].tracking-[0.18em] \"MG\"",
+     "span.ml-0.5.text-[9px].tracking-[0.18em] \"MG\"",
+     "span.ml-0.5.text-[9px].tracking-[0.18em] \"MG\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 11px | 18.15px | normal | ",
+    "n": 12,
+    "ex": [
+     "span.text-ink \"L-Theanine\"",
+     "span.text-mist \"Lion's Mane\"",
+     "span.text-mist \"Rhodiola Rosea\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 26px | 42.9px | normal | ",
+    "n": 12,
+    "ex": [
+     "div \"O\"",
+     "div \"r\"",
+     "div \"d\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 11px | 18.15px | 2.64px | UP",
+    "n": 11,
+    "ex": [
+     "div.font-sans.text-[11px].tracking-[0.24em] \"Chapter 01\u00b72021\"",
+     "span.mx-2.text-mist/50 \"\u00b7\"",
+     "span.text-ink \"2021\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 28px | 46.2px | -0.28px | ",
+    "n": 10,
+    "ex": [
+     "span.font-display.font-[300].tracking-[-0.01em] \"Meridian\"",
+     "span.font-display.font-[300].tracking-[-0.01em] \"The Long Lunch\"",
+     "span.font-display.font-[300].tracking-[-0.01em] \"Foldout\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 22px | 36.3px | -0.22px | ",
+    "n": 10,
+    "ex": [
+     "span.font-display.font-[300].tracking-[-0.01em] \"Meridian\"",
+     "span.font-display.font-[300].tracking-[-0.01em] \"The Long Lunch\"",
+     "span.font-display.font-[300].tracking-[-0.01em] \"Foldout\""
+    ]
+   },
+   {
+    "k": "Tiempos Text | 400 | i | 17px | 24.65px | normal | ",
+    "n": 9,
+    "ex": [
+     "span.sr-only \"\u201cThe rare functional drink tha\"",
+     "div \"\u201cThe rare functional drink tha\"",
+     "div \"decision, not a compromise.\u201d\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 12px | 19.8px | normal | ",
+    "n": 8,
+    "ex": [
+     "span \"1,150 mg active blend\"",
+     "span.text-bone/40 \"\u00b7\"",
+     "span \"0 mg caffeine\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 28.86px | 33.189px | normal | ",
+    "n": 8,
+    "ex": [
+     "div \"For\"",
+     "div \"all-day\"",
+     "div \"focus\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 18px | 29.7px | normal | ",
+    "n": 8,
+    "ex": [
+     "span.font-sans.text-ink \"Melbourne\"",
+     "span.font-sans.text-ink \"Sydney\"",
+     "span.font-sans.text-ink \"London\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne Breit | 800 |  | 93.6px | 76.752px | -2.808px | ",
+    "n": 7,
+    "ex": [
+     "span.sr-only \"STILL.\"",
+     "span.inline-block \"S\"",
+     "span.inline-block \"T\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 400 |  | 16px | 16px | normal | ",
+    "n": 7,
+    "ex": [
+     "span.font-display.tabular-nums.text-ink \"1,150MG\"",
+     "span.font-display.tabular-nums.text-ink \"1,150MG\"",
+     "span.font-display.tabular-nums.text-ink \"1,150MG\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 12px | 19.8px | 2.16px | UP",
+    "n": 7,
+    "ex": [
+     "button.font-sans.text-[12px].tracking-[0.18em] \"01\"",
+     "button.font-sans.text-[12px].tracking-[0.18em] \"02\"",
+     "button.font-sans.text-[12px].tracking-[0.18em] \"03\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 34px | 34px | -0.17px | ",
+    "n": 6,
+    "ex": [
+     "h3.mt-2.font-display.font-[300] \"Clear.\"",
+     "span \".\"",
+     "h3.mt-2.font-display.font-[300] \"Dawn.\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 10px | 16.5px | 2px | UP",
+    "n": 6,
+    "ex": [
+     "div.mt-3.font-sans.text-[10px] \"FOR ALL-DAY FOCUS\"",
+     "span.font-sans.text-[10px].tracking-[0.2em] \"ACTIVE BLEND\"",
+     "div.mt-3.font-sans.text-[10px] \"FOR MORNINGS\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 500 |  | 12px | 19.8px | 3.96px | UP",
+    "n": 6,
+    "ex": [
+     "button.font-sans.uppercase.transition-colors \"4-PACK\"",
+     "button.font-sans.uppercase.transition-colors \"12-PACK\"",
+     "button.font-sans.uppercase.transition-colors \"4-PACK\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 10px | 10px | 1.8px | UP",
+    "n": 5,
+    "ex": [
+     "span.ml-1.font-sans.text-[10px] \"mg of 1,150\"",
+     "span.ml-1.font-sans.text-[10px] \"MG OF 1,150\"",
+     "span.ml-1.font-sans.text-[10px] \"MG OF 1,150\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 15px | 24px | normal | ",
+    "n": 5,
+    "ex": [
+     "p.mt-3.text-bone \"Promotes calm focus by encoura\"",
+     "p.mt-3.text-bone \"A medicinal mushroom that supp\"",
+     "p.mt-3.text-bone \"An adaptogenic root that reduc\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne Breit | 800 |  | 340px | 340px | -6.8px | ",
+    "n": 5,
+    "ex": [
+     "span.absolute.inset-0.flex \"21\"",
+     "span.absolute.inset-0.flex \"22\"",
+     "span.absolute.inset-0.flex \"23\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 10px | 16px | 2.4px | UP",
+    "n": 5,
+    "ex": [
+     "span.font-sans.uppercase.text-mist \"FIG. 01 \u00b7 Founders' first whit\"",
+     "span.font-sans.uppercase.text-mist \"FIG. 02 \u00b7 Lab samples, formula\"",
+     "span.font-sans.uppercase.text-mist \"FIG. 03 \u00b7 First shelf placemen\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 12px | 19.8px | 1.92px | ",
+    "n": 5,
+    "ex": [
+     "button.font-sans.tabular-nums.transition-colors \"2021\"",
+     "button.font-sans.tabular-nums.transition-colors \"2022\"",
+     "button.font-sans.tabular-nums.transition-colors \"2023\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne Breit | 800 |  | 234px | 234px | -4.68px | ",
+    "n": 5,
+    "ex": [
+     "span.absolute.inset-x-0.top-[8svh] \"21\"",
+     "span.absolute.inset-x-0.top-[8svh] \"22\"",
+     "span.absolute.inset-x-0.top-[8svh] \"23\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 11px | 18.15px | 1.54px | ",
+    "n": 5,
+    "ex": [
+     "button.font-sans.text-[11px].tracking-[0.14em] \"2021\"",
+     "button.font-sans.text-[11px].tracking-[0.14em] \"2022\"",
+     "button.font-sans.text-[11px].tracking-[0.14em] \"2023\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 14px | 23.1px | 0.56px | ",
+    "n": 4,
+    "ex": [
+     "a.nav-underline.font-sans.text-mist \"Flavors\"",
+     "a.nav-underline.font-sans.text-mist \"Inside\"",
+     "a.nav-underline.font-sans.text-mist \"Story\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 600 |  | 32px | 52.8px | -0.16px | ",
+    "n": 4,
+    "ex": [
+     "a.font-sans.text-ink \"Flavors\"",
+     "a.font-sans.text-ink \"Inside\"",
+     "a.font-sans.text-ink \"Story\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 500 |  | 12px | 19.8px | 4.8px | UP",
+    "n": 4,
+    "ex": [
+     "div.font-sans.uppercase.text-bone/50 \"03\u00b7FUNCTIONAL INGREDIENTS\"",
+     "span.text-bone \"03\"",
+     "span.mx-2.text-bone/30 \"\u00b7\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 500 |  | 11px | 18.15px | 3.52px | UP",
+    "n": 4,
+    "ex": [
+     "button.font-sans.uppercase.transition-colors \"L-THEANINE\"",
+     "button.font-sans.uppercase.transition-colors \"LION'S MANE\"",
+     "button.font-sans.uppercase.transition-colors \"RHODIOLA\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne Breit | 900 |  | 27.3px | 27.3px | -0.546px | UP",
+    "n": 4,
+    "ex": [
+     "h3.font-wordmark.text-bone.uppercase \"L-THEANINE\"",
+     "h3.font-wordmark.text-bone.uppercase \"LION'S MANE\"",
+     "h3.font-wordmark.text-bone.uppercase \"RHODIOLA\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 11px | 18.15px | 3.3px | UP",
+    "n": 4,
+    "ex": [
+     "span.font-sans.text-[11px].tracking-[0.3em] \"01 / 04\"",
+     "span.font-sans.text-[11px].tracking-[0.3em] \"02 / 04\"",
+     "span.font-sans.text-[11px].tracking-[0.3em] \"03 / 04\""
+    ]
+   },
+   {
+    "k": "Tiempos Text | 400 | i | 14px | 23.1px | normal | ",
+    "n": 4,
+    "ex": [
+     "p.mt-2.font-serif.italic \"Camellia sinensis\"",
+     "p.mt-2.font-serif.italic \"Hericium erinaceus\"",
+     "p.mt-2.font-serif.italic \"Rhodiola rosea\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 500 |  | 13px | 21.45px | 7.8px | UP",
+    "n": 4,
+    "ex": [
+     "div.font-sans.uppercase.text-mist \"04/STORY\"",
+     "span.text-ink \"04\"",
+     "span.mx-2.text-mist/50 \"/\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 10px | 16.5px | 2.8px | UP",
+    "n": 4,
+    "ex": [
+     "span.font-sans.uppercase.text-mist \"Scroll\"",
+     "span.absolute.inset-x-0.-bottom-6 \"Pouring in Wellington\"",
+     "span.absolute.inset-x-0.-bottom-6 \"Pouring in Auckland\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 500 |  | 18px | 29.7px | normal | ",
+    "n": 4,
+    "ex": [
+     "span.font-sans \"\u00b7\"",
+     "span.font-sans \"\u00b7\"",
+     "span.font-sans \"\u00b7\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 16px | 26.4px | normal | ",
+    "n": 3,
+    "ex": [
+     "p.mt-7.text-[16px].leading-[1.65] \"A nootropic blend of four adap\"",
+     "p.sr-only \"As featured in Meridian, The L\"",
+     "label.sr-only \"Email address\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 11px | 18.15px | 2.2px | UP",
+    "n": 3,
+    "ex": [
+     "div.font-sans.text-[11px].tracking-[0.2em] \"01/THE FORMULA\"",
+     "span.text-bone \"01\"",
+     "span.mx-2.text-bone/40 \"/\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne Breit | 800 |  | 16px | 16px | -0.32px | ",
+    "n": 3,
+    "ex": [
+     "p.font-wordmark.font-[800].tracking-[-0.02em] \"STILL.01\"",
+     "p.font-wordmark.font-[800].tracking-[-0.02em] \"STILL.02\"",
+     "p.font-wordmark.font-[800].tracking-[-0.02em] \"STILL.03\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 10px | 16.5px | 1.8px | UP",
+    "n": 3,
+    "ex": [
+     "p.font-sans.text-[10px].tracking-[0.18em] \"SIGNATURE\"",
+     "p.font-sans.text-[10px].tracking-[0.18em] \"CITRUS\"",
+     "p.font-sans.text-[10px].tracking-[0.18em] \"BERRY\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 | i | 12px | 16.8px | normal | ",
+    "n": 3,
+    "ex": [
+     "p.mt-1.text-[12px].leading-[1.4] \"Cucumber & Yuzu\"",
+     "p.mt-1.text-[12px].leading-[1.4] \"Ginger & Bergamot\"",
+     "p.mt-1.text-[12px].leading-[1.4] \"Blackcurrant & Manuka\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 8px | 13.2px | 1.76px | UP",
+    "n": 3,
+    "ex": [
+     "span.ml-auto.font-sans.text-[8px] \"LEAD\"",
+     "span.ml-auto.font-sans.text-[8px] \"LEAD\"",
+     "span.ml-auto.font-sans.text-[8px] \"LEAD\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 400 |  | 10px | 10px | 1.8px | UP",
+    "n": 3,
+    "ex": [
+     "span.ml-1.text-[10px].tracking-[0.18em] \"MG\"",
+     "span.ml-1.text-[10px].tracking-[0.18em] \"MG\"",
+     "span.ml-1.text-[10px].tracking-[0.18em] \"MG\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 500 |  | 12px | 19.8px | 7.2px | UP",
+    "n": 3,
+    "ex": [
+     "div.font-sans.uppercase.text-mist \"04/STORY\"",
+     "span.text-ink \"04\"",
+     "span.mx-2.text-mist/50 \"/\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 600 |  | 24px | 26.4px | -0.3px | ",
+    "n": 3,
+    "ex": [
+     "h3.font-sans.text-ink \"Wellington\"",
+     "h3.font-sans.text-ink \"Auckland\"",
+     "h3.font-sans.text-ink \"Christchurch\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne Breit | 900 |  | 24px | 24px | -1px | ",
+    "n": 3,
+    "ex": [
+     "span.font-wordmark.text-ink \"STILL.01\"",
+     "span.font-wordmark.text-ink \"STILL.02\"",
+     "span.font-wordmark.text-ink \"STILL.03\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 24px | 24px | normal | ",
+    "n": 3,
+    "ex": [
+     "span.font-display.text-ink \"Clear\"",
+     "span.font-display.text-ink \"Dawn\"",
+     "span.font-display.text-ink \"Dusk\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 500 |  | 12px | 19.8px | 2.64px | UP",
+    "n": 3,
+    "ex": [
+     "p.mt-2.font-sans.uppercase \"Cucumber & Yuzu\"",
+     "p.mt-2.font-sans.uppercase \"Ginger & Bergamot\"",
+     "p.mt-2.font-sans.uppercase \"Blackcurrant & Manuka\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 14px | 21px | normal | ",
+    "n": 3,
+    "ex": [
+     "p.mt-3.font-sans.text-ink \"For when you need to think cle\"",
+     "p.mt-3.font-sans.text-ink \"For mornings that need momentu\"",
+     "p.mt-3.font-sans.text-ink \"For late focus that won't foll\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne Breit | 900 |  | 28px | 28px | normal | ",
+    "n": 3,
+    "ex": [
+     "span.font-wordmark.text-ink.tabular-nums \"$24\"",
+     "span.font-wordmark.text-ink.tabular-nums \"$24\"",
+     "span.font-wordmark.text-ink.tabular-nums \"$24\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 16px | 26.4px | 0.32px | ",
+    "n": 3,
+    "ex": [
+     "span.font-sans.text-mist \"NZD\"",
+     "span.font-sans.text-mist \"NZD\"",
+     "span.font-sans.text-mist \"NZD\""
+    ]
+   },
+   {
+    "k": "Tiempos Text | 400 | i | 13px | 21.45px | normal | ",
+    "n": 3,
+    "ex": [
+     "p.mt-1.font-serif.italic \"Subscribe and save 15%\"",
+     "p.mt-1.font-serif.italic \"Subscribe and save 15%\"",
+     "p.mt-1.font-serif.italic \"Subscribe and save 15%\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 500 |  | 13px | 21.45px | 5.98px | UP",
+    "n": 3,
+    "ex": [
+     "button.mt-4.w-full.font-sans \"ADD TO CART\"",
+     "button.mt-4.w-full.font-sans \"ADD TO CART\"",
+     "button.mt-4.w-full.font-sans \"ADD TO CART\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 15px | 15px | normal | ",
+    "n": 3,
+    "ex": [
+     "span.mt-1.font-display.text-ink \"Clear\"",
+     "span.mt-1.font-display.text-ink \"Dawn\"",
+     "span.mt-1.font-display.text-ink \"Dusk\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 9px | 14.85px | 1.62px | UP",
+    "n": 3,
+    "ex": [
+     "span.mt-2.inline-flex.items-center \"VIEW\"",
+     "span.mt-2.inline-flex.items-center \"VIEW\"",
+     "span.mt-2.inline-flex.items-center \"VIEW\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 500 |  | 20px | 33px | 0.8px | ",
+    "n": 2,
+    "ex": [
+     "a.font-sans.text-ink.mt-6 \"Shop\n\u2192\"",
+     "span \"\u2192\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 400 |  | 17px | 28.05px | normal | ",
+    "n": 2,
+    "ex": [
+     "span.font-display.text-bone.text-[17px] \"1,150\"",
+     "span.font-display.text-bone.text-[17px] \"0\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 29.64px | 33.1968px | -0.2964px | ",
+    "n": 2,
+    "ex": [
+     "div \"Sustained natural focus,\"",
+     "div \"without caffeine.\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 400 |  | 16px | 26.4px | normal | ",
+    "n": 2,
+    "ex": [
+     "span.font-display.text-bone.text-[16px] \"1,150\"",
+     "span.font-display.text-bone.text-[16px] \"0\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne Breit | 900 |  | 28px | 28.56px | -0.56px | UP",
+    "n": 2,
+    "ex": [
+     "div \"FIND STILL IN STORE,\"",
+     "div \"OR ORDER DIRECT.\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 30px | 31.5px | -0.3px | ",
+    "n": 2,
+    "ex": [
+     "div \"Get notified when we ship\"",
+     "div \"to your city.\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne Breit | 900 |  | 22px | 22px | -0.5px | ",
+    "n": 1,
+    "ex": [
+     "span \"STILL\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 500 |  | 14px | 23.1px | 0.56px | ",
+    "n": 1,
+    "ex": [
+     "a.inline-flex.items-center.font-sans \"Shop\n\u2192\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 500 |  | 12px | 19.8px | 0.56px | ",
+    "n": 1,
+    "ex": [
+     "span.inline-block.transition-transform.duration-[250ms] \"\u2192\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 28px | 30.24px | -0.28px | ",
+    "n": 1,
+    "ex": [
+     "h2.mt-5.font-display.font-[300] \"Sustained natural focus, witho\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 26px | 28.6px | normal | ",
+    "n": 1,
+    "ex": [
+     "p.mt-4.font-display.font-[300] \"Stay still. Stay sharp.\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 42.9px | 42.9px | -0.858px | ",
+    "n": 1,
+    "ex": [
+     "div \"Three formulations.\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 | i | 36px | 43.2px | -0.36px | ",
+    "n": 1,
+    "ex": [
+     "h2.mt-3.font-display.italic \"Inside.\""
+    ]
+   },
+   {
+    "k": "Tiempos Text | 400 | i | 15px | 24.75px | normal | ",
+    "n": 1,
+    "ex": [
+     "p.font-serif.italic.text-bone/60 \"Camellia sinensis\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 16px | 24.8px | normal | ",
+    "n": 1,
+    "ex": [
+     "p.mt-3.md:mt-4.text-bone \"Promotes calm focus by encoura\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 400 |  | 17px | 17px | normal | ",
+    "n": 1,
+    "ex": [
+     "span \"200\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 500 |  | 11px | 18.15px | 4.4px | UP",
+    "n": 1,
+    "ex": [
+     "div.font-sans.uppercase.text-bone/60 \"FOUR FUNCTIONAL INPUTS. CLINIC\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 40px | 42px | -0.4px | ",
+    "n": 1,
+    "ex": [
+     "h2.mt-7.font-display.text-ink \"Quietly built over five years.\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 17px | 26.35px | normal | ",
+    "n": 1,
+    "ex": [
+     "p.mt-7.text-ink \"STILL began as a quiet rejecti\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 26px | 28.6px | -0.26px | ",
+    "n": 1,
+    "ex": [
+     "h3.mt-5.font-display.font-[300] \"An idea, in a flat white offic\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 15px | 25.5px | normal | ",
+    "n": 1,
+    "ex": [
+     "p.mt-6.text-[15px].leading-[1.7] \"STILL began on the south coast\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne Breit | 900 |  | 30px | 28.5px | -0.6px | UP",
+    "n": 1,
+    "ex": [
+     "div \"QUIETLY NOTICED.\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 500 |  | 11px | 18.15px | 6.6px | UP",
+    "n": 1,
+    "ex": [
+     "span.font-sans.uppercase.text-mist \"OR ORDER DIRECT\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 12px | 19.8px | 4.8px | UP",
+    "n": 1,
+    "ex": [
+     "div.font-sans.uppercase.text-mist \"THE RANGE\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 13px | 21.45px | 1.56px | UP",
+    "n": 1,
+    "ex": [
+     "button.font-sans.text-[13px].tracking-[0.12em] \"SIGN UP\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne Breit | 800 |  | 18px | 18px | -0.36px | ",
+    "n": 1,
+    "ex": [
+     "span \"STILL\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 13px | 20.8px | normal | ",
+    "n": 1,
+    "ex": [
+     "p.mt-4.font-sans.text-[13px] \"A nootropic blend for sustaine\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 22px | 36.3px | normal | ",
+    "n": 1,
+    "ex": [
+     "h2.font-display.text-ink \"Cart0\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 14px | 23.1px | normal | ",
+    "n": 1,
+    "ex": [
+     "span.ml-2.text-mist \"0\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 20px | 33px | normal | ",
+    "n": 1,
+    "ex": [
+     "p.font-display.text-ink \"Your cart is empty.\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 12px | 19.8px | 3.6px | UP",
+    "n": 1,
+    "ex": [
+     "button.mt-6.font-sans.uppercase \"CONTINUE\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 11px | 18.15px | 4.4px | UP",
+    "n": 1,
+    "ex": [
+     "p.font-sans.uppercase.text-mist \"ONLINE ORDERING\""
+    ]
+   },
+   {
+    "k": "Tiempos Headline | 300 |  | 28px | 30.8px | normal | ",
+    "n": 1,
+    "ex": [
+     "h3.mt-4.font-display.text-ink \"Shipping begins fall 2026.\""
+    ]
+   },
+   {
+    "k": "S\u00f6hne | 400 |  | 12px | 19.8px | 4.32px | UP",
+    "n": 1,
+    "ex": [
+     "button.w-full.font-sans.uppercase \"NOTIFY ME\""
+    ]
+   }
+  ],
+  "radii": [
+   {
+    "k": "3.35544e+07px",
+    "n": 21,
+    "ex": [
+     "div.absolute.rounded-full",
+     "span.mx-[clamp(20px,3vw,44px)].inline-block.rounded-full",
+     "span.mx-[clamp(20px,3vw,44px)].inline-block.rounded-full"
+    ]
+   },
+   {
+    "k": "3px",
+    "n": 7,
+    "ex": [
+     "article.w-[82vw].shrink-0.snap-center",
+     "article.w-[82vw].shrink-0.snap-center",
+     "article.w-[82vw].shrink-0.snap-center"
+    ]
+   },
+   {
+    "k": "18px",
+    "n": 6,
+    "ex": [
+     "button.font-sans.uppercase.transition-colors",
+     "button.font-sans.uppercase.transition-colors",
+     "button.font-sans.uppercase.transition-colors"
+    ]
+   },
+   {
+    "k": "19px",
+    "n": 4,
+    "ex": [
+     "button.font-sans.uppercase.transition-colors",
+     "button.font-sans.uppercase.transition-colors",
+     "button.font-sans.uppercase.transition-colors"
+    ]
+   },
+   {
+    "k": "999px",
+    "n": 3,
+    "ex": [
+     "span.mt-2.inline-flex.items-center",
+     "span.mt-2.inline-flex.items-center",
+     "span.mt-2.inline-flex.items-center"
+    ]
+   }
+  ],
+  "shadows": [
+   {
+    "k": "rgba(26, 27, 29, 0.28) 0px 18px 40px -28px",
+    "n": 3,
+    "ex": [
+     "article.w-[82vw].shrink-0.snap-center",
+     "article.w-[82vw].shrink-0.snap-center",
+     "article.w-[82vw].shrink-0.snap-center"
+    ]
+   },
+   {
+    "k": "rgba(26, 27, 29, 0.1) -16px 0px 48px 0px",
+    "n": 1,
+    "ex": [
+     "aside.fixed.top-0.right-0"
+    ]
+   },
+   {
+    "k": "rgba(26, 27, 29, 0.18) 0px 24px 64px 0px",
+    "n": 1,
+    "ex": [
+     "div.relative.w-full.max-w-[440px]"
+    ]
+   }
+  ],
+  "blends": [],
+  "filters": [
+   {
+    "k": "clip inset(50%)",
+    "n": 6,
+    "ex": [
+     "span.sr-only",
+     "span.sr-only",
+     "span.sr-only"
+    ]
+   },
+   {
+    "k": "filter blur(2px)",
+    "n": 6,
+    "ex": [
+     "div.pointer-events-none",
+     "div.pointer-events-none",
+     "div.pointer-events-none"
+    ]
+   },
+   {
+    "k": "clip inset(0%)",
+    "n": 4,
+    "ex": [
+     "div.absolute.left-1/2.overflow-hidden",
+     "div.absolute.left-1/2.overflow-hidden",
+     "div.absolute.left-1/2.overflow-hidden"
+    ]
+   },
+   {
+    "k": "backdrop blur(20px)",
+    "n": 1,
+    "ex": [
+     "nav.fixed.top-0.left-0"
+    ]
+   },
+   {
+    "k": "filter blur(6px)",
+    "n": 1,
+    "ex": [
+     "div.pointer-events-none"
+    ]
+   },
+   {
+    "k": "filter blur(120px)",
+    "n": 1,
+    "ex": [
+     "div.absolute.rounded-full"
+    ]
+   },
+   {
+    "k": "clip inset(0% 0% 92%)",
+    "n": 1,
+    "ex": [
+     "div.absolute.left-1/2.overflow-hidden"
+    ]
+   }
+  ],
+  "vars": {},
+  "faces": [
+   "S\u00f6hne 400 url(\"/fonts/soehne-buch.woff2\") format(\"woff2\")",
+   "S\u00f6hne 400 url(\"/fonts/soehne-buch-kursiv.woff2\") format(\"woff2\")",
+   "S\u00f6hne 500 url(\"/fonts/soehne-kraftig.woff2\") format(\"woff2\")",
+   "S\u00f6hne 600 url(\"/fonts/soehne-halbfett.woff2\") format(\"woff2\")",
+   "S\u00f6hne 800 url(\"/fonts/soehne-extrafett.woff2\") format(\"woff2\")",
+   "\"S\u00f6hne Breit\" 800 url(\"/fonts/soehne-breit-extrafett.woff2\") format(\"woff2\")",
+   "\"S\u00f6hne Breit\" 900 url(\"/fonts/soehne-breit-extrafett.woff2\") format(\"woff2\")",
+   "\"Tiempos Headline\" 300 url(\"/fonts/tiempos-headline-light.woff2\") format(\"woff2\")",
+   "\"Tiempos Headline\" 400 url(\"/fonts/tiempos-headline-regular.woff2\") format(\"woff2\")",
+   "\"Tiempos Text\" 400 url(\"/fonts/tiempos-text-regular.woff2\") format(\"woff2\")",
+   "\"Tiempos Text\" 400 url(\"/fonts/tiempos-text-regular-italic.woff2\") format(\"woff2\")"
+  ],
+  "media": [
+   "(max-width: 767px)",
+   "(prefers-reduced-motion: reduce)"
+  ]
+ },
+ "bgSweep": [
+  {
+   "y": 0,
+   "bg": [
+    [
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)"
+    ],
+    [
+     "canvas",
+     "canvas",
+     "canvas"
+    ],
+    [
+     "canvas",
+     "canvas",
+     "canvas"
+    ],
+    [
+     "canvas",
+     "canvas",
+     "canvas"
+    ],
+    [
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)"
+    ]
+   ]
+  },
+  {
+   "y": 700,
+   "bg": [
+    [
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)"
+    ],
+    [
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgba(255, 255, 255, 0.55)",
+     "rgba(255, 255, 255, 0.55)",
+     "rgba(255, 255, 255, 0.55)"
+    ],
+    [
+     "rgba(255, 255, 255, 0.55)",
+     "rgba(255, 255, 255, 0.55)",
+     "rgba(255, 255, 255, 0.55)"
+    ]
+   ]
+  },
+  {
+   "y": 1400,
+   "bg": [
+    [
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)"
+    ],
+    [
+     "rgba(255, 255, 255, 0.55)",
+     "rgba(255, 255, 255, 0.55)",
+     "rgba(255, 255, 255, 0.55)"
+    ],
+    [
+     "rgba(255, 255, 255, 0.55)",
+     "rgba(255, 255, 255, 0.55)",
+     "rgba(255, 255, 255, 0.55)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ]
+   ]
+  },
+  {
+   "y": 2100,
+   "bg": [
+    [
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)"
+    ],
+    [
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)"
+    ],
+    [
+     "canvas",
+     "canvas",
+     "canvas"
+    ],
+    [
+     "rgba(239, 237, 230, 0.05)",
+     "rgba(239, 237, 230, 0.05)",
+     "rgba(239, 237, 230, 0.05)"
+    ],
+    [
+     "rgba(239, 237, 230, 0.05)",
+     "rgba(239, 237, 230, 0.05)",
+     "rgba(239, 237, 230, 0.05)"
+    ]
+   ]
+  },
+  {
+   "y": 2800,
+   "bg": [
+    [
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)"
+    ],
+    [
+     "rgba(239, 237, 230, 0.05)",
+     "rgba(239, 237, 230, 0.05)",
+     "rgba(239, 237, 230, 0.05)"
+    ],
+    [
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ]
+   ]
+  },
+  {
+   "y": 3500,
+   "bg": [
+    [
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ]
+   ]
+  },
+  {
+   "y": 4200,
+   "bg": [
+    [
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)"
+    ],
+    [
+     "oklab(0.22187 -0.000391312 -0.00414774 / 0.045)",
+     "oklab(0.22187 -0.000391312 -0.00414774 / 0.045)",
+     "oklab(0.22187 -0.000391312 -0.00414774 / 0.045)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ]
+   ]
+  },
+  {
+   "y": 4900,
+   "bg": [
+    [
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)"
+    ],
+    [
+     "oklab(0.22187 -0.000391312 -0.00414774 / 0.045)",
+     "oklab(0.22187 -0.000391312 -0.00414774 / 0.045)",
+     "oklab(0.22187 -0.000391312 -0.00414774 / 0.045)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ]
+   ]
+  },
+  {
+   "y": 5600,
+   "bg": [
+    [
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)"
+    ],
+    [
+     "oklab(0.22187 -0.000391312 -0.00414774 / 0.045)",
+     "oklab(0.22187 -0.000391312 -0.00414774 / 0.045)",
+     "oklab(0.22187 -0.000391312 -0.00414774 / 0.045)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ]
+   ]
+  },
+  {
+   "y": 6300,
+   "bg": [
+    [
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)"
+    ],
+    [
+     "oklab(0.22187 -0.000391312 -0.00414774 / 0.045)",
+     "oklab(0.22187 -0.000391312 -0.00414774 / 0.045)",
+     "oklab(0.22187 -0.000391312 -0.00414774 / 0.045)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ]
+   ]
+  },
+  {
+   "y": 7000,
+   "bg": [
+    [
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)"
+    ],
+    [
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)"
+    ],
+    [
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)"
+    ]
+   ]
+  },
+  {
+   "y": 7700,
+   "bg": [
+    [
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)"
+    ],
+    [
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)"
+    ],
+    [
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ]
+   ]
+  },
+  {
+   "y": 8400,
+   "bg": [
+    [
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ]
+   ]
+  },
+  {
+   "y": 9100,
+   "bg": [
+    [
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)",
+     "rgb(26, 27, 29)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ]
+   ]
+  },
+  {
+   "y": 9778,
+   "bg": [
+    [
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)",
+     "rgba(239, 237, 230, 0.92)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ],
+    [
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)",
+     "rgb(239, 237, 230)"
+    ]
+   ]
+  }
+ ]
+}

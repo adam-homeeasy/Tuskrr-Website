@@ -1,0 +1,88 @@
+{
+ "lensByScroll": [
+  {
+   "y": 91,
+   "clip": "circle(182.9px at 1250px 700px)"
+  },
+  {
+   "y": 195,
+   "clip": "circle(242.2px at 1250px 700px)"
+  },
+  {
+   "y": 292,
+   "clip": "circle(419.3px at 1250px 700px)"
+  },
+  {
+   "y": 394,
+   "clip": "circle(771.6px at 1250px 700px)"
+  },
+  {
+   "y": 500,
+   "clip": "circle(1386.2px at 1250px 700px)"
+  },
+  {
+   "y": 598,
+   "clip": "circle(2216.7px at 1250px 700px)"
+  },
+  {
+   "y": 695,
+   "clip": "circle(2209.3px at 720px 432px)"
+  },
+  {
+   "y": 798,
+   "clip": "circle(2214.3px at 720px 432px)"
+  },
+  {
+   "y": 894,
+   "clip": "circle(2214.7px at 720px 432px)"
+  },
+  {
+   "y": 996,
+   "clip": "circle(2207.8px at 720px 432px)"
+  },
+  {
+   "y": 1098,
+   "clip": "circle(2215.6px at 720px 432px)"
+  },
+  {
+   "y": 1199,
+   "clip": "circle(2210.2px at 720px 432px)"
+  }
+ ],
+ "videoMarks": {
+  "intro_end_s": 7.9,
+  "circle_done_s": 40.0,
+  "flick_done_s": 44.1,
+  "scroll_done_s": 63.5
+ },
+ "magnetic": {
+  "transform": "none"
+ },
+ "cursorOverLink": {
+  "w": "36px",
+  "border": "rgba(255, 255, 255, 0.55)",
+  "bg": "rgba(255, 255, 255, 0)",
+  "blend": "difference",
+  "opacity": "0"
+ },
+ "cursorLabels": [],
+ "stockistHover": {
+  "panel": "none"
+ },
+ "cart": "drawer + modal captured",
+ "route/privacy": {
+  "status": 200,
+  "title": "Privacy policy \u00b7 STILL.",
+  "height": 1254
+ },
+ "route/terms": {
+  "status": 200,
+  "title": "Terms of service \u00b7 STILL.",
+  "height": 1588
+ },
+ "route/this-page-does-not-exist": {
+  "status": 404,
+  "title": "STILL. Stay still. Stay sharp.",
+  "height": 900
+ }
+}

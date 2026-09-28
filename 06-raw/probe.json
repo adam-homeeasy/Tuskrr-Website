@@ -1,0 +1,848 @@
+{
+ "title": "STILL. Stay still. Stay sharp.",
+ "htmlClass": "h-full antialiased has-custom-cursor lenis",
+ "bodyClass": "min-h-full flex flex-col bg-bone text-ink",
+ "height": 18794,
+ "globals": {
+  "gsap": "undefined",
+  "ScrollTrigger": "undefined",
+  "SplitText": "undefined",
+  "Lenis": "undefined",
+  "lenis": "object",
+  "lenisVersion": "string",
+  "__THREE__": "string",
+  "THREE": "undefined",
+  "Rive": "undefined",
+  "rive": "undefined",
+  "next": "object",
+  "__NEXT_DATA__": "undefined",
+  "__next_f": "object"
+ },
+ "threeVer": "184",
+ "heads": [
+  {
+   "tag": "DIV",
+   "sel": "div.pin-spacer",
+   "text": "01/THE FORMULA Sustained natural focus, without caffeine. A nootropic ",
+   "top": 0,
+   "h": 1980
+  },
+  {
+   "tag": "SECTION",
+   "sel": "section#hero.relative.w-full.min-h-screen",
+   "text": "01/THE FORMULA Sustained natural focus, without caffeine. A nootropic ",
+   "top": 0,
+   "h": 900
+  },
+  {
+   "tag": "H2",
+   "sel": "h2.mt-5.font-display.font-[300]",
+   "text": "Sustained natural focus, without caffeine.",
+   "top": 354,
+   "h": 87
+  },
+  {
+   "tag": "H1",
+   "sel": "h1.font-wordmark.font-[800].leading-[0.78]",
+   "text": "STILL. STILL.",
+   "top": 321,
+   "h": 258
+  },
+  {
+   "tag": "SECTION",
+   "sel": "section#flavors.relative.w-full.bg-bone",
+   "text": "02/THREE FLAVORS 1 / 3 Three formulations. STILL.01 SIGNATURE Clear. C",
+   "top": 1980,
+   "h": 3600
+  },
+  {
+   "tag": "H2",
+   "sel": "h2.font-display.font-[300].leading-[1.0]",
+   "text": "Three formulations.",
+   "top": 2098,
+   "h": 59
+  },
+  {
+   "tag": "H3",
+   "sel": "h3.mt-4.font-display.font-[300]",
+   "text": "Clear.",
+   "top": 2300,
+   "h": 99
+  },
+  {
+   "tag": "DIV",
+   "sel": "div.pin-spacer",
+   "text": "03\u00b7FUNCTIONAL INGREDIENTS Inside. L-THEANINE LION'S MANE RHODIOLA BACO",
+   "top": 5580,
+   "h": 4500
+  },
+  {
+   "tag": "SECTION",
+   "sel": "section#inside.relative.w-full.bg-ink",
+   "text": "03\u00b7FUNCTIONAL INGREDIENTS Inside. L-THEANINE LION'S MANE RHODIOLA BACO",
+   "top": 5580,
+   "h": 900
+  },
+  {
+   "tag": "H2",
+   "sel": "h2.mt-3.font-display.italic",
+   "text": "Inside.",
+   "top": 5698,
+   "h": 67
+  },
+  {
+   "tag": "H3",
+   "sel": "h3.font-wordmark.text-bone.leading-[0.9]",
+   "text": "L- THEANINE",
+   "top": 6050,
+   "h": 66
+  },
+  {
+   "tag": "H3",
+   "sel": "h3.font-wordmark.text-bone.uppercase",
+   "text": "L-THEANINE",
+   "top": 0,
+   "h": 0
+  },
+  {
+   "tag": "H3",
+   "sel": "h3.font-wordmark.text-bone.uppercase",
+   "text": "LION'S MANE",
+   "top": 0,
+   "h": 0
+  },
+  {
+   "tag": "H3",
+   "sel": "h3.font-wordmark.text-bone.uppercase",
+   "text": "RHODIOLA",
+   "top": 0,
+   "h": 0
+  },
+  {
+   "tag": "H3",
+   "sel": "h3.font-wordmark.text-bone.uppercase",
+   "text": "BACOPA",
+   "top": 0,
+   "h": 0
+  },
+  {
+   "tag": "SECTION",
+   "sel": "section#story.relative.w-full.bg-bone",
+   "text": "04/STORY Quietly built over five years. STILL began as a quiet rejecti",
+   "top": 10080,
+   "h": 5040
+  },
+  {
+   "tag": "H2",
+   "sel": "h2.font-display.text-ink.leading-[1.05]",
+   "text": "Quietly built over five years.",
+   "top": 0,
+   "h": 0
+  },
+  {
+   "tag": "H2",
+   "sel": "h2.mt-7.font-display.text-ink",
+   "text": "Quietly built over five years.",
+   "top": 10418,
+   "h": 71
+  },
+  {
+   "tag": "H3",
+   "sel": "h3.mt-5.font-display.font-[300]",
+   "text": "An idea, in a flat white office.",
+   "top": 10440,
+   "h": 41
+  },
+  {
+   "tag": "H3",
+   "sel": "h3.mt-2.font-display.font-[300]",
+   "text": "An idea, in a flat white office.",
+   "top": 0,
+   "h": 0
+  },
+  {
+   "tag": "SECTION",
+   "sel": "section#press.relative.w-full.bg-ink",
+   "text": "05/PRESS QUIETLY NOTICED. \u201cThe rare functional drink that tastes like ",
+   "top": 15120,
+   "h": 895
+  },
+  {
+   "tag": "H2",
+   "sel": "h2.mt-4.font-wordmark.uppercase",
+   "text": "QUIETLY NOTICED.",
+   "top": 15296,
+   "h": 53
+  },
+  {
+   "tag": "SECTION",
+   "sel": "section#shop.relative.w-full.bg-bone",
+   "text": "06/WHERE AVAILABLE FIND STILL IN STORE, OR ORDER DIRECT. Wellington Mo",
+   "top": 16015,
+   "h": 2128
+  },
+  {
+   "tag": "H2",
+   "sel": "h2.mt-4.font-wordmark.uppercase",
+   "text": "FIND STILL IN STORE, OR ORDER DIRECT.",
+   "top": 16170,
+   "h": 98
+  },
+  {
+   "tag": "H3",
+   "sel": "h3.font-sans.text-ink",
+   "text": "Wellington",
+   "top": 16408,
+   "h": 35
+  },
+  {
+   "tag": "H3",
+   "sel": "h3.font-sans.text-ink",
+   "text": "Auckland",
+   "top": 16408,
+   "h": 35
+  },
+  {
+   "tag": "H3",
+   "sel": "h3.font-sans.text-ink",
+   "text": "Christchurch",
+   "top": 16408,
+   "h": 35
+  },
+  {
+   "tag": "H3",
+   "sel": "h3.mt-2.font-display.text-ink",
+   "text": "Order direct.",
+   "top": 0,
+   "h": 0
+  },
+  {
+   "tag": "FOOTER",
+   "sel": "footer.relative.w-full.bg-bone",
+   "text": "NEWSLETTER Get notified when we ship to your city. Email address SIGN ",
+   "top": 18142,
+   "h": 651
+  },
+  {
+   "tag": "H2",
+   "sel": "h2.mt-4.font-display.font-[300]",
+   "text": "Get notified when we ship to your city.",
+   "top": 18274,
+   "h": 109
+  },
+  {
+   "tag": "H2",
+   "sel": "h2.font-display.text-ink",
+   "text": "Cart0",
+   "top": 28,
+   "h": 36
+  },
+  {
+   "tag": "H3",
+   "sel": "h3.mt-4.font-display.text-ink",
+   "text": "Shipping begins fall 2026.",
+   "top": 318,
+   "h": 31
+  }
+ ],
+ "links": [
+  "/",
+  "#flavors",
+  "#inside",
+  "#story",
+  "#stockists",
+  "#shop",
+  "/privacy",
+  "/terms",
+  "https://www.awwwards.com/sites/still"
+ ],
+ "canv": [
+  {
+   "sel": "canvas",
+   "w": 1440,
+   "h": 900,
+   "cssW": 1440,
+   "cssH": 900,
+   "top": 0,
+   "pos": "static",
+   "z": "auto",
+   "parent": "div",
+   "gp": "div.!absolute.inset-0"
+  },
+  {
+   "sel": "canvas",
+   "w": 714,
+   "h": 649,
+   "cssW": 714,
+   "cssH": 650,
+   "top": 2245,
+   "pos": "static",
+   "z": "auto",
+   "parent": "div",
+   "gp": "div.!absolute.!inset-0.!pointer-events-none"
+  },
+  {
+   "sel": "canvas",
+   "w": 424,
+   "h": 504,
+   "cssW": 425,
+   "cssH": 504,
+   "top": 5868,
+   "pos": "static",
+   "z": "auto",
+   "parent": "div",
+   "gp": "div.!absolute.!inset-0"
+  },
+  {
+   "sel": "canvas",
+   "w": 300,
+   "h": 150,
+   "cssW": 0,
+   "cssH": 0,
+   "top": 0,
+   "pos": "static",
+   "z": "auto",
+   "parent": "div",
+   "gp": "div.!absolute.!inset-0.!pointer-events-none"
+  },
+  {
+   "sel": "canvas",
+   "w": 300,
+   "h": 150,
+   "cssW": 0,
+   "cssH": 0,
+   "top": 0,
+   "pos": "static",
+   "z": "auto",
+   "parent": "div",
+   "gp": "div.!absolute.!inset-0.!pointer-events-none"
+  },
+  {
+   "sel": "canvas",
+   "w": 300,
+   "h": 150,
+   "cssW": 0,
+   "cssH": 0,
+   "top": 0,
+   "pos": "static",
+   "z": "auto",
+   "parent": "div",
+   "gp": "div.!absolute.!inset-0.!pointer-events-none"
+  }
+ ],
+ "three": [
+  {
+   "type": "dl",
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  },
+  {
+   "type": "d$",
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  },
+  {
+   "type": "sn",
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  },
+  {
+   "type": "sW",
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  },
+  {
+   "type": "sn",
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  },
+  {
+   "type": "cN",
+   "isScene": false,
+   "isRenderer": true,
+   "children": null
+  },
+  {
+   "type": "Scene",
+   "isScene": true,
+   "isRenderer": false,
+   "children": 6
+  },
+  {
+   "type": "cN",
+   "isScene": false,
+   "isRenderer": true,
+   "children": null
+  },
+  {
+   "type": "Scene",
+   "isScene": true,
+   "isRenderer": false,
+   "children": 7
+  },
+  {
+   "type": "cN",
+   "isScene": false,
+   "isRenderer": true,
+   "children": null
+  },
+  {
+   "type": "Scene",
+   "isScene": true,
+   "isRenderer": false,
+   "children": 6
+  },
+  {
+   "type": 1016,
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  },
+  {
+   "type": "sn",
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  },
+  {
+   "type": "su",
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  },
+  {
+   "type": "ss",
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  },
+  {
+   "type": "su",
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  },
+  {
+   "type": "ss",
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  },
+  {
+   "type": "su",
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  },
+  {
+   "type": "ss",
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  },
+  {
+   "type": "su",
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  },
+  {
+   "type": "ss",
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  },
+  {
+   "type": "su",
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  },
+  {
+   "type": "ss",
+   "isScene": false,
+   "isRenderer": false,
+   "children": null
+  }
+ ],
+ "io": [
+  {
+   "t": 1013,
+   "rootMargin": "200px",
+   "threshold": null,
+   "targets": [
+    "a.inline-flex.items-baseline.font-wordmark"
+   ]
+  },
+  {
+   "t": 1532,
+   "rootMargin": "1500px",
+   "threshold": null,
+   "targets": [
+    "div.absolute.inset-0.pointer-events-none"
+   ]
+  },
+  {
+   "t": 1583,
+   "rootMargin": "1600px",
+   "threshold": null,
+   "targets": [
+    "div.col-span-5.md:col-span-4.relative"
+   ]
+  },
+  {
+   "t": 1651,
+   "rootMargin": "600px",
+   "threshold": null,
+   "targets": [
+    "div.absolute.inset-0.pointer-events-none"
+   ]
+  },
+  {
+   "t": 1652,
+   "rootMargin": "600px",
+   "threshold": null,
+   "targets": [
+    "div.absolute.inset-0.pointer-events-none"
+   ]
+  },
+  {
+   "t": 1653,
+   "rootMargin": "600px",
+   "threshold": null,
+   "targets": [
+    "div.absolute.inset-0.pointer-events-none"
+   ]
+  },
+  {
+   "t": 1654,
+   "rootMargin": "900px",
+   "threshold": null,
+   "targets": [
+    "div.mx-auto.w-full.max-w-[1280px]"
+   ]
+  }
+ ],
+ "listeners": {
+  "click @ document": 2,
+  "keydown @ document": 2,
+  "mousemove @ document": 2,
+  "mouseover @ document": 2,
+  "pointerdown @ document": 3,
+  "pointermove @ document": 2,
+  "resize @ document": 1,
+  "touchstart @ document": 3,
+  "scroll @ document": 2,
+  "touchmove @ document": 2,
+  "wheel @ document": 2,
+  "wheel @ window": 5,
+  "touchstart @ body.min-h-full.flex.flex-col": 3,
+  "visibilitychange @ document": 1,
+  "resize @ window": 49,
+  "pointermove @ span.inline-block.will-change-transform": 4,
+  "pointerleave @ span.inline-block.will-change-transform": 4,
+  "pointermove @ span.inline-block.will-change-transform.hidden": 1,
+  "pointerleave @ span.inline-block.will-change-transform.hidden": 1,
+  "scroll @ window": 8,
+  "touchmove @ window": 2,
+  "scroll @ html.h-full.antialiased": 2,
+  "scroll @ div.flex.gap-[5vw].overflow-x-auto": 1,
+  "pointermove @ div#stockists.mt-12.md:mt-[80px].grid": 1,
+  "pointerdown @ window": 1,
+  "touchstart @ window": 1,
+  "keydown @ window": 1,
+  "click @ body.min-h-full.flex.flex-col": 2,
+  "keydown @ body.min-h-full.flex.flex-col": 2,
+  "mousemove @ body.min-h-full.flex.flex-col": 2,
+  "mouseover @ body.min-h-full.flex.flex-col": 2,
+  "pointerdown @ body.min-h-full.flex.flex-col": 2,
+  "pointermove @ body.min-h-full.flex.flex-col": 2,
+  "resize @ body.min-h-full.flex.flex-col": 1,
+  "scroll @ body.min-h-full.flex.flex-col": 1,
+  "touchmove @ body.min-h-full.flex.flex-col": 2,
+  "wheel @ body.min-h-full.flex.flex-col": 2,
+  "click @ div#__next-route-announcer__": 2,
+  "keydown @ div#__next-route-announcer__": 2,
+  "mousemove @ div#__next-route-announcer__": 2,
+  "mouseover @ div#__next-route-announcer__": 2,
+  "pointerdown @ div#__next-route-announcer__": 2,
+  "pointermove @ div#__next-route-announcer__": 2,
+  "resize @ div#__next-route-announcer__": 1,
+  "touchstart @ div#__next-route-announcer__": 2,
+  "scroll @ div#__next-route-announcer__": 1,
+  "touchmove @ div#__next-route-announcer__": 2,
+  "wheel @ div#__next-route-announcer__": 2,
+  "pointermove @ window": 2,
+  "pointerleave @ html.h-full.antialiased.lenis": 1,
+  "click @ div.!absolute.inset-0": 1,
+  "wheel @ div.!absolute.inset-0": 1,
+  "pointerdown @ div.!absolute.inset-0": 1,
+  "pointerleave @ div.!absolute.inset-0": 1,
+  "pointermove @ div.!absolute.inset-0": 1,
+  "click @ div.!absolute.!inset-0.!pointer-events-none": 1,
+  "wheel @ div.!absolute.!inset-0.!pointer-events-none": 1,
+  "pointerdown @ div.!absolute.!inset-0.!pointer-events-none": 1,
+  "pointerleave @ div.!absolute.!inset-0.!pointer-events-none": 1,
+  "pointermove @ div.!absolute.!inset-0.!pointer-events-none": 1,
+  "click @ div.!absolute.!inset-0": 1,
+  "wheel @ div.!absolute.!inset-0": 1,
+  "pointerdown @ div.!absolute.!inset-0": 1,
+  "pointerleave @ div.!absolute.!inset-0": 1,
+  "pointermove @ div.!absolute.!inset-0": 1
+ },
+ "animate": [],
+ "canvases": [
+  {
+   "t": 1809,
+   "type": "webgl2",
+   "w": 300,
+   "h": 150,
+   "el": "canvas",
+   "attrs": "{\"alpha\":true,\"depth\":true,\"stencil\":false,\"antialias\":true,\"premultipliedAlpha\":true,\"preserveDrawingBuffer\":false,\"powerPreference\":\"high-performance\",\"failIfMajorPerformanceCaveat\":false}"
+  },
+  {
+   "t": 1882,
+   "type": "webgl2",
+   "w": 300,
+   "h": 150,
+   "el": "canvas",
+   "attrs": "{\"alpha\":true,\"depth\":true,\"stencil\":false,\"antialias\":true,\"premultipliedAlpha\":true,\"preserveDrawingBuffer\":false,\"powerPreference\":\"high-performance\",\"failIfMajorPerformanceCaveat\":false}"
+  },
+  {
+   "t": 1940,
+   "type": "webgl2",
+   "w": 300,
+   "h": 150,
+   "el": "canvas",
+   "attrs": "{\"alpha\":true,\"depth\":true,\"stencil\":false,\"antialias\":true,\"premultipliedAlpha\":true,\"preserveDrawingBuffer\":false,\"powerPreference\":\"high-performance\",\"failIfMajorPerformanceCaveat\":false}"
+  }
+ ],
+ "shaderCount": 26,
+ "uniforms": 38,
+ "draws": 251,
+ "raf": 109,
+ "vt": 0,
+ "audio": 0,
+ "media": [],
+ "errors": [],
+ "fonts": [
+  "S\u00f6hne 400 normal loaded",
+  "S\u00f6hne 400 italic unloaded",
+  "S\u00f6hne 500 normal loaded",
+  "S\u00f6hne 600 normal loaded",
+  "S\u00f6hne 800 normal unloaded",
+  "S\u00f6hne Breit 800 normal loaded",
+  "S\u00f6hne Breit 900 normal loaded",
+  "Tiempos Headline 300 normal loaded",
+  "Tiempos Headline 400 normal loaded",
+  "Tiempos Text 400 normal unloaded",
+  "Tiempos Text 400 italic loaded"
+ ],
+ "res": [
+  {
+   "n": "/_next/image?url=%2Fstory%2F2021.jpg&w=640&q=75&dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "link",
+   "kb": 29
+  },
+  {
+   "n": "/images/cans/still-01.png",
+   "type": "link",
+   "kb": 157
+  },
+  {
+   "n": "/images/cans/still-03.png",
+   "type": "link",
+   "kb": 167
+  },
+  {
+   "n": "/images/cans/still-02.png",
+   "type": "link",
+   "kb": 166
+  },
+  {
+   "n": "/_next/static/chunks/0lwsapzrpp55y.css?dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "link",
+   "kb": 8
+  },
+  {
+   "n": "/_next/static/chunks/0u.-c2suhah87.js?dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "link",
+   "kb": 8
+  },
+  {
+   "n": "/_next/static/chunks/10u3y4bw1ayzs.js?dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "script",
+   "kb": 71
+  },
+  {
+   "n": "/_next/static/chunks/0dgq26a5_oy.a.js?dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "script",
+   "kb": 11
+  },
+  {
+   "n": "/_next/static/chunks/turbopack-04o3cbvg6.uzp.js?dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "script",
+   "kb": 5
+  },
+  {
+   "n": "/_next/static/chunks/0imr3j_iy8.ac.js?dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "script",
+   "kb": 39
+  },
+  {
+   "n": "/_next/static/chunks/0wm4g9w3152qd.js?dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "script",
+   "kb": 16
+  },
+  {
+   "n": "/_next/static/chunks/0ba6j9d7gg207.js?dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "script",
+   "kb": 55
+  },
+  {
+   "n": "/_next/static/chunks/15yffavnl8.tc.js?dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "script",
+   "kb": 1
+  },
+  {
+   "n": "/_next/static/chunks/0d3shmwh5_nmn.js?dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "script",
+   "kb": 13
+  },
+  {
+   "n": "/_next/static/chunks/130z~aqg5aigg.js?dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "script",
+   "kb": 1
+  },
+  {
+   "n": "/_next/static/chunks/0cmb.wqv_a2_y.js?dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "script",
+   "kb": 314
+  },
+  {
+   "n": "/fonts/soehne-buch.woff2",
+   "type": "css",
+   "kb": 38
+  },
+  {
+   "n": "/fonts/soehne-breit-extrafett.woff2",
+   "type": "css",
+   "kb": 32
+  },
+  {
+   "n": "/fonts/soehne-kraftig.woff2",
+   "type": "css",
+   "kb": 36
+  },
+  {
+   "n": "/fonts/soehne-halbfett.woff2",
+   "type": "css",
+   "kb": 39
+  },
+  {
+   "n": "/fonts/tiempos-headline-regular.woff2",
+   "type": "css",
+   "kb": 36
+  },
+  {
+   "n": "/fonts/tiempos-headline-light.woff2",
+   "type": "css",
+   "kb": 34
+  },
+  {
+   "n": "/fonts/tiempos-text-regular-italic.woff2",
+   "type": "css",
+   "kb": 49
+  },
+  {
+   "n": "/_next/image?url=%2Fstory%2F2022.jpg&w=640&q=75&dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "img",
+   "kb": 19
+  },
+  {
+   "n": "/_next/image?url=%2Fstory%2F2023.jpg&w=640&q=75&dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "img",
+   "kb": 22
+  },
+  {
+   "n": "/_next/image?url=%2Fstory%2F2024.png&w=640&q=75&dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "img",
+   "kb": 43
+  },
+  {
+   "n": "/_next/image?url=%2Fstory%2F2025.jpg&w=640&q=75&dpl=dpl_9mL3qDYVe6tVN5ht7Pf5xFMzmVQ4",
+   "type": "img",
+   "kb": 26
+  },
+  {
+   "n": "/models/can.glb",
+   "type": "fetch",
+   "kb": 181
+  },
+  {
+   "n": "/?_rsc=7h4NYy5eoyMcNlUN",
+   "type": "fetch",
+   "kb": 1
+  },
+  {
+   "n": "/?_rsc=8nTjltbQWvg6NcbE",
+   "type": "fetch",
+   "kb": 1
+  },
+  {
+   "n": "/?_rsc=yIp22O3xgPPxC28X",
+   "type": "fetch",
+   "kb": 3
+  },
+  {
+   "n": "/hdri/studio_small_03_1k.hdr",
+   "type": "fetch",
+   "kb": 849
+  },
+  {
+   "n": "/textures/labels/still-01-clear.png",
+   "type": "img",
+   "kb": 328
+  },
+  {
+   "n": "/textures/labels/still-02-dawn.png",
+   "type": "img",
+   "kb": 333
+  },
+  {
+   "n": "/textures/labels/still-03-dusk.png",
+   "type": "img",
+   "kb": 336
+  }
+ ],
+ "meta": [
+  "viewport=width=device-width, initial-scale=1",
+  "theme-color=#efede6",
+  "description=A nootropic blend for sustained natural focus. Caffeine-free. Made in Wellington.",
+  "og:title=STILL. Stay still. Stay sharp.",
+  "og:description=A nootropic blend for sustained natural focus. Caffeine-free. Made in Wellington.",
+  "og:site_name=STILL.",
+  "og:image=https://www.drinkstill.nz/og.png",
+  "og:image:width=2400",
+  "og:image:height=1260",
+  "og:image:alt=STILL. A nootropic beverage. Stay still. Stay sharp.",
+  "og:type=website",
+  "twitter:card=summary_large_image",
+  "twitter:title=STILL. Stay still. Stay sharp.",
+  "twitter:description=A nootropic blend for sustained natural focus. Caffeine-free. Made in Wellington.",
+  "twitter:image=https://www.drinkstill.nz/og.png"
+ ],
+ "console": [
+  "warning: THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+  "warning: THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+  "warning: THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.",
+  "info: [Can3D] GLB meshes: {rawSize: Object, fitScale: 16.86317227797295, meshes: Array(4)}",
+  "warning: THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead.",
+  "warning: THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead."
+ ]
+}

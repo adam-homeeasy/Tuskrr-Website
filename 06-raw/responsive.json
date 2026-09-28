@@ -1,0 +1,402 @@
+{
+ "widthSweep": [
+  {
+   "height": 22899,
+   "h1": "73.6px",
+   "navLinks": "inline",
+   "heroCanvas": true,
+   "lens": "circle(172.4px at 720px 432px)",
+   "flavorsH": 3600,
+   "storyH": 9441,
+   "overflowX": false,
+   "cursor": true,
+   "canvases": 6,
+   "w": 320
+  },
+  {
+   "height": 22890,
+   "h1": "82.8px",
+   "navLinks": "inline",
+   "heroCanvas": true,
+   "lens": "circle(172.4px at 720px 432px)",
+   "flavorsH": 3600,
+   "storyH": 9414,
+   "overflowX": false,
+   "cursor": true,
+   "canvases": 6,
+   "w": 360
+  },
+  {
+   "height": 22897,
+   "h1": "86.25px",
+   "navLinks": "inline",
+   "heroCanvas": true,
+   "lens": "circle(172.4px at 720px 432px)",
+   "flavorsH": 3600,
+   "storyH": 9414,
+   "overflowX": false,
+   "cursor": true,
+   "canvases": 6,
+   "w": 375
+  },
+  {
+   "height": 22883,
+   "h1": "89.7px",
+   "navLinks": "inline",
+   "heroCanvas": true,
+   "lens": "circle(172.4px at 720px 432px)",
+   "flavorsH": 3600,
+   "storyH": 9414,
+   "overflowX": false,
+   "cursor": true,
+   "canvases": 6,
+   "w": 390
+  },
+  {
+   "height": 22896,
+   "h1": "95.22px",
+   "navLinks": "inline",
+   "heroCanvas": true,
+   "lens": "circle(172.4px at 720px 432px)",
+   "flavorsH": 3600,
+   "storyH": 9414,
+   "overflowX": false,
+   "cursor": true,
+   "canvases": 6,
+   "w": 414
+  },
+  {
+   "height": 22846,
+   "h1": "138px",
+   "navLinks": "inline",
+   "heroCanvas": true,
+   "lens": "circle(172.4px at 720px 432px)",
+   "flavorsH": 3600,
+   "storyH": 9341,
+   "overflowX": false,
+   "cursor": true,
+   "canvases": 6,
+   "w": 600
+  },
+  {
+   "height": 22607,
+   "h1": "161px",
+   "navLinks": "inline",
+   "heroCanvas": true,
+   "lens": "circle(172.4px at 720px 432px)",
+   "flavorsH": 3600,
+   "storyH": 9341,
+   "overflowX": false,
+   "cursor": true,
+   "canvases": 6,
+   "w": 700
+  },
+  {
+   "height": 22610,
+   "h1": "170.2px",
+   "navLinks": "inline",
+   "heroCanvas": true,
+   "lens": "circle(172.4px at 720px 432px)",
+   "flavorsH": 3600,
+   "storyH": 9344,
+   "overflowX": false,
+   "cursor": true,
+   "canvases": 6,
+   "w": 740
+  },
+  {
+   "height": 22612,
+   "h1": "174.8px",
+   "navLinks": "inline",
+   "heroCanvas": true,
+   "lens": "circle(172.4px at 720px 432px)",
+   "flavorsH": 3600,
+   "storyH": 9346,
+   "overflowX": false,
+   "cursor": true,
+   "canvases": 6,
+   "w": 760
+  },
+  {
+   "height": 900,
+   "h1": null,
+   "navLinks": null,
+   "heroCanvas": false,
+   "lens": null,
+   "flavorsH": null,
+   "storyH": null,
+   "overflowX": false,
+   "cursor": false,
+   "canvases": 0,
+   "w": 767
+  },
+  {
+   "height": 900,
+   "h1": null,
+   "navLinks": null,
+   "heroCanvas": false,
+   "lens": null,
+   "flavorsH": null,
+   "storyH": null,
+   "overflowX": false,
+   "cursor": false,
+   "canvases": 0,
+   "w": 768
+  },
+  {
+   "height": 900,
+   "h1": null,
+   "navLinks": null,
+   "heroCanvas": false,
+   "lens": null,
+   "flavorsH": null,
+   "storyH": null,
+   "overflowX": false,
+   "cursor": false,
+   "canvases": 0,
+   "w": 780
+  },
+  {
+   "height": 900,
+   "h1": null,
+   "navLinks": null,
+   "heroCanvas": false,
+   "lens": null,
+   "flavorsH": null,
+   "storyH": null,
+   "overflowX": false,
+   "cursor": false,
+   "canvases": 0,
+   "w": 820
+  },
+  {
+   "height": 900,
+   "h1": null,
+   "navLinks": null,
+   "heroCanvas": false,
+   "lens": null,
+   "flavorsH": null,
+   "storyH": null,
+   "overflowX": false,
+   "cursor": false,
+   "canvases": 0,
+   "w": 900
+  },
+  {
+   "height": 900,
+   "h1": null,
+   "navLinks": null,
+   "heroCanvas": false,
+   "lens": null,
+   "flavorsH": null,
+   "storyH": null,
+   "overflowX": false,
+   "cursor": false,
+   "canvases": 0,
+   "w": 1024
+  },
+  {
+   "height": 900,
+   "h1": null,
+   "navLinks": null,
+   "heroCanvas": false,
+   "lens": null,
+   "flavorsH": null,
+   "storyH": null,
+   "overflowX": false,
+   "cursor": false,
+   "canvases": 0,
+   "w": 1180
+  },
+  {
+   "height": 900,
+   "h1": null,
+   "navLinks": null,
+   "heroCanvas": false,
+   "lens": null,
+   "flavorsH": null,
+   "storyH": null,
+   "overflowX": false,
+   "cursor": false,
+   "canvases": 0,
+   "w": 1280
+  },
+  {
+   "height": 900,
+   "h1": null,
+   "navLinks": null,
+   "heroCanvas": false,
+   "lens": null,
+   "flavorsH": null,
+   "storyH": null,
+   "overflowX": false,
+   "cursor": false,
+   "canvases": 0,
+   "w": 1366
+  },
+  {
+   "height": 900,
+   "h1": null,
+   "navLinks": null,
+   "heroCanvas": false,
+   "lens": null,
+   "flavorsH": null,
+   "storyH": null,
+   "overflowX": false,
+   "cursor": false,
+   "canvases": 0,
+   "w": 1440
+  },
+  {
+   "height": 900,
+   "h1": null,
+   "navLinks": null,
+   "heroCanvas": false,
+   "lens": null,
+   "flavorsH": null,
+   "storyH": null,
+   "overflowX": false,
+   "cursor": false,
+   "canvases": 0,
+   "w": 1600
+  },
+  {
+   "height": 900,
+   "h1": null,
+   "navLinks": null,
+   "heroCanvas": false,
+   "lens": null,
+   "flavorsH": null,
+   "storyH": null,
+   "overflowX": false,
+   "cursor": false,
+   "canvases": 0,
+   "w": 1920
+  }
+ ],
+ "fresh_390": {
+  "height": 10622,
+  "h1": "93.6px",
+  "navLinks": "inline",
+  "heroCanvas": true,
+  "lens": null,
+  "flavorsH": 1196,
+  "storyH": 4127,
+  "overflowX": false,
+  "cursor": false,
+  "canvases": 8,
+  "w": 390
+ },
+ "fresh_820": {
+  "height": 23190,
+  "h1": "188.6px",
+  "navLinks": "inline",
+  "heroCanvas": true,
+  "lens": "circle(0px at 50% 48%)",
+  "flavorsH": 4720,
+  "storyH": 6608,
+  "overflowX": false,
+  "cursor": false,
+  "canvases": 6,
+  "w": 820
+ },
+ "reducedMotion": {
+  "height": 17714,
+  "h1": "331.2px",
+  "navLinks": "inline",
+  "heroCanvas": true,
+  "lens": "circle(177px at 720px 432px)",
+  "flavorsH": 3600,
+  "storyH": 5040,
+  "overflowX": false,
+  "cursor": false,
+  "canvases": 6,
+  "tweens": 328
+ },
+ "big": [
+  [
+   "https://www.drinkstill.nz/images/cans/still-02.png",
+   "image",
+   166
+  ],
+  [
+   "https://www.drinkstill.nz/images/cans/still-01.png",
+   "image",
+   157
+  ],
+  [
+   "https://www.drinkstill.nz/images/cans/still-03.png",
+   "image",
+   167
+  ],
+  [
+   "https://www.drinkstill.nz/_next/static/chunks/10u3y4bw1ayzs.js",
+   "script",
+   222
+  ],
+  [
+   "https://www.drinkstill.nz/_next/static/chunks/0cmb.wqv_a2_y.js",
+   "script",
+   1137
+  ],
+  [
+   "https://www.drinkstill.nz/models/can.glb",
+   "fetch",
+   291
+  ],
+  [
+   "https://www.drinkstill.nz/textures/labels/still-01-clear.png",
+   "image",
+   328
+  ],
+  [
+   "https://www.drinkstill.nz/hdri/studio_small_03_1k.hdr",
+   "fetch",
+   972
+  ],
+  [
+   "https://www.drinkstill.nz/textures/labels/still-02-dawn.png",
+   "image",
+   333
+  ],
+  [
+   "https://www.drinkstill.nz/textures/labels/still-03-dusk.png",
+   "image",
+   336
+  ]
+ ],
+ "weight": {
+  "document": {
+   "n": 1,
+   "kb": 134
+  },
+  "image": {
+   "n": 11,
+   "kb": 1623
+  },
+  "stylesheet": {
+   "n": 1,
+   "kb": 36
+  },
+  "font": {
+   "n": 7,
+   "kb": 228
+  },
+  "script": {
+   "n": 11,
+   "kb": 1821
+  },
+  "fetch": {
+   "n": 5,
+   "kb": 1278
+  }
+ },
+ "timing": {
+  "dcl": 1177,
+  "load": 2058,
+  "paints": [
+   "first-paint:1184",
+   "first-contentful-paint:1184"
+  ]
+ }
+}
