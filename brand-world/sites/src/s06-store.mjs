@@ -70,9 +70,9 @@ body{background:${C.paper};color:${C.ink};font:400 17px/1.5 'Archivo',system-ui,
 .sh-stage{position:relative;aspect-ratio:4/5;overflow:hidden}
 .sh-ct{position:absolute;inset:0;width:100%;height:100%;color:${C.contour};opacity:.9}
 .sh-bag{position:absolute;inset:14% 12% 10%;transition:opacity .5s ${EASE},transform .5s ${EASE}}
-.sh-out{position:absolute;inset:0;opacity:0;transition:opacity .5s ${EASE}}
-.sh-stage.out .sh-out{opacity:1}.sh-stage.out .sh-bag{opacity:0}
-@media (hover:hover){.sh-stage:hover .sh-out{opacity:1}.sh-stage:hover .sh-bag{opacity:0}}
+.sh-out{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity .5s ${EASE},visibility .5s}
+.sh-stage.out .sh-out{opacity:1;visibility:visible}.sh-stage.out .sh-bag{opacity:0}
+@media (hover:hover){.sh-stage:hover .sh-out{opacity:1;visibility:visible}.sh-stage:hover .sh-bag{opacity:0}}
 .sh-b{padding:12px 12px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
 .sh-n{font-size:clamp(38px,5vw,64px)}
 .sh-l{font-size:15px}.sh-l span{color:${C.soft}}

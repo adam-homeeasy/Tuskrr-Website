@@ -81,6 +81,7 @@ body{background:${C.sand};color:${C.bark};font:400 17px/1.55 'Hanken Grotesk',sy
 .hero-h{font-size:clamp(56px,9vw,132px)}.hero-h em{color:${C.ember}}
 .ban-t{font-size:clamp(52px,8vw,112px)}
 .ban-s{font-size:18px;max-width:46ch}
+.hero-in .kick,.ban-in .kick{align-self:flex-start;background:rgba(34,22,16,.9);padding:5px 9px}
 .ban-in .btn,.hero-in .row{align-self:flex-start}
 .ridge{display:block;width:100%;height:40px;color:${C.terra}}
 .rail{padding:clamp(32px,6vh,64px) 0 clamp(40px,7vh,72px)}

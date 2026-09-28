@@ -85,7 +85,7 @@ body{background:${C.night};color:${C.bone};font:400 17px/1.55 'Instrument Sans',
 .room-v::after{content:"";position:absolute;inset:0;background:rgba(19,17,16,.82);z-index:1}
 .room-door{position:absolute;left:50%;top:0;bottom:0;width:min(30vw,260px);transform:translateX(-50%);z-index:1;background:linear-gradient(90deg,transparent,${C.threshold}10 20%,${C.threshold}30 42%,${C.threshold}42 50%,${C.threshold}30 58%,${C.threshold}10 80%,transparent)}
 .host{position:relative;z-index:2;width:min(760px,100%);text-align:center;display:flex;flex-direction:column;align-items:center;gap:22px}
-.host-k{color:${C.bone}}
+.host-k{color:${C.bone};background:rgba(19,17,16,.88);padding:5px 8px}
 .host-h{font-size:clamp(48px,9vw,120px)}
 .prompt{display:flex;align-items:center;gap:10px;width:100%;padding:8px 8px 8px 16px;border-radius:40px}
 .pm{width:34px;flex:none;color:${C.brass}}.pm-mk{width:100%}

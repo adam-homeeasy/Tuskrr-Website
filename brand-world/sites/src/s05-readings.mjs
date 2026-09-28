@@ -66,17 +66,19 @@ body{background:${C.carbon};color:${C.bone};font:400 17px/1.55 'Instrument Sans'
 .mono{font:500 12px/1.4 'IBM Plex Mono',ui-monospace,monospace;letter-spacing:.1em;text-transform:uppercase}
 .bw{display:block;width:100%;height:auto;overflow:visible}
 .bw text{fill:currentColor;font-family:'Instrument Sans',sans-serif;font-stretch:75%;font-weight:600;text-transform:uppercase}
-.side{position:fixed;z-index:30;inset:0 0 auto 0;display:flex;align-items:center;gap:10px;padding:6px 12px;background:var(--th,${C.graphite});transition:background-color .4s ease-out,color .4s ease-out;color:${C.bone};overflow-x:auto}
+.side{position:fixed;z-index:30;inset:0 0 auto 0;display:flex;align-items:center;gap:10px;padding:6px 12px;background:var(--th,${C.graphite});color:${C.bone};overflow-x:auto}
+html[data-motion=on] .side{transition:background-color .4s ease-out,color .4s ease-out}
 .side::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(236,234,230,.07) 0 1px,transparent 1px 12px);pointer-events:none}
 .s-logo{display:flex;align-items:center;min-height:44px;min-width:44px;color:inherit;flex:none}.wm{height:18px;width:auto}
 .s-idx{display:flex;gap:2px}
 .s-idx a{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 10px;color:inherit;text-decoration:none;font:500 13px/1 'IBM Plex Mono',monospace;letter-spacing:.06em;white-space:nowrap;position:relative}
-.s-idx a span{opacity:.75}
+.s-idx a span{color:inherit}
 .s-idx a.on{box-shadow:inset 0 -2px 0 ${C.brass}}
 .s-bag{color:inherit;text-decoration:none;font-weight:600;padding:0 10px;flex:none}
 .side.light{color:${C.carbon}}.side.light .s-idx a.on{box-shadow:inset 0 -2px 0 ${C.brassDeep}}
 @media (min-width:1000px){
 .side{inset:0 auto 0 0;width:var(--side);flex-direction:column;align-items:stretch;padding:20px 10px;overflow:visible}
+html[data-motion=on] .side{transition:background-color .4s ease-out,color .4s ease-out}
 .side::before{background:repeating-linear-gradient(90deg,rgba(236,234,230,.07) 0 1px,transparent 1px 10px)}
 .s-logo{padding:0 8px 20px}.wm{height:22px}
 .s-idx{flex-direction:column;gap:0}
@@ -90,7 +92,7 @@ body{background:${C.carbon};color:${C.bone};font:400 17px/1.55 'Instrument Sans'
 .rd-v{position:absolute;inset:0}
 .rd-v::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(18,18,18,.92) 0%,rgba(18,18,18,.78) 45%,rgba(18,18,18,.45) 100%);z-index:1}
 .rd-in{position:relative;z-index:2;width:100%;padding:90px clamp(16px,3vw,44px) clamp(28px,6vh,60px);display:flex;flex-direction:column;gap:18px}
-.rd-k{color:${C.bone}}
+.rd-k{color:${C.bone};background:rgba(18,18,18,.88);padding:5px 8px;align-self:flex-start}
 .rd-g{display:grid;gap:16px;align-items:end}
 @media (min-width:900px){.rd-g{grid-template-columns:1.2fr 1fr}}
 .rd-line{font-size:clamp(26px,3vw,40px);line-height:1.1;font-weight:600;margin-bottom:12px}

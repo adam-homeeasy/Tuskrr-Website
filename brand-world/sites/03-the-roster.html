@@ -193,9 +193,10 @@ if(!on)return;
 var els=[].slice.call(document.querySelectorAll("[data-r]"));
 function show(list){list.sort(function(a,b){return a.compareDocumentPosition(b)&4?-1:1});list.forEach(function(el,i){el.style.setProperty("--d",Math.min(i*0.04,0.24)+"s");el.classList.add("r-in")})}
 if(!("IntersectionObserver" in window)){show(els);return}
-var io=new IntersectionObserver(function(en){var l=[];en.forEach(function(e){if(e.isIntersecting){l.push(e.target);io.unobserve(e.target)}});if(l.length)show(l)},{rootMargin:"0px 0px -6% 0px"});
-els.forEach(function(el){io.observe(el)});
-setTimeout(function(){var vh=innerHeight,l=els.filter(function(el){if(el.classList.contains("r-in"))return false;var b=el.getBoundingClientRect();return b.bottom>0&&b.top<vh});l.forEach(function(el){io.unobserve(el)});if(l.length)show(l)},2500);
+function tg(el){var p=el.parentElement;return p&&p.classList.contains("ln")?p:el}
+var io=new IntersectionObserver(function(en){var l=[];en.forEach(function(e){if(e.isIntersecting){io.unobserve(e.target);els.forEach(function(el){if(tg(el)===e.target&&!el.classList.contains("r-in"))l.push(el)})}});if(l.length)show(l)},{rootMargin:"0px 0px -6% 0px"});
+els.forEach(function(el){io.observe(tg(el))});
+setTimeout(function(){var vh=innerHeight,l=els.filter(function(el){if(el.classList.contains("r-in"))return false;var b=tg(el).getBoundingClientRect();return b.bottom>0&&b.top<vh});l.forEach(function(el){io.unobserve(tg(el))});if(l.length)show(l)},2500);
 })();</script>
 </body>
 </html>

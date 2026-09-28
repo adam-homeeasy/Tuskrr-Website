@@ -102,7 +102,7 @@ body{background:${C.night};color:${C.bone};font:400 17px/1.55 'Instrument Sans',
 .hero-v{position:absolute;inset:0}
 .hero-v::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(19,17,16,.94) 0%,rgba(19,17,16,.72) 45%,rgba(19,17,16,.35) 100%);z-index:1}
 .hero-in{position:relative;z-index:2;padding:120px clamp(16px,4vw,56px) clamp(40px,7vh,80px);width:100%}
-.hero-k{color:${C.bone}}
+.hero-k{color:${C.bone};display:inline-block;background:rgba(19,17,16,.88);padding:5px 8px}
 .hero-h{font-size:clamp(64px,15vw,220px);margin:16px 0 28px}
 .hero-cta{display:flex;flex-wrap:wrap;gap:10px}
 .state{padding:clamp(80px,14vh,160px) clamp(16px,4vw,56px);max-width:1400px}
