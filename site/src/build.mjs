@@ -59,7 +59,7 @@ const preloader = `<div class="preloader" data-preloader aria-hidden="true">
 const hero = `<section id="hero" class="hero" data-hero>
   <div class="hero-dark" data-hero-dark>
     <div class="door" aria-hidden="true"></div>
-    <div class="bloom bloom-soft hero-glow" data-hero-glow style="--c:#F6E3BD" aria-hidden="true"></div>
+    <div class="bloom bloom-soft hero-glow" data-hero-glow style="--c:var(--light)" aria-hidden="true"></div>
     <div class="hero-bag" data-hero-bag><div class="tilt" data-tilt><div class="bob" data-bob>${img('ridge', '', false)}</div></div></div>
     <div class="hero-col" data-hero-col>
       ${eyebrow(HERO.eyebrow, 'on-dark')}
@@ -299,7 +299,7 @@ ${scripts}
 const notFound = `${head('Wrong door. Tuskrr', 'This page does not exist.')}
 <body class="nf">
 <main class="nf-main">
-  <div class="bloom bloom-soft" style="--c:#F6E3BD" aria-hidden="true"></div>
+  <div class="bloom bloom-soft" style="--c:var(--light)" aria-hidden="true"></div>
   <div class="door" aria-hidden="true"></div>
   <p class="eyebrow on-dark"><b>404</b><i>/</i><span>Not found</span></p>
   <h1>Wrong door.</h1>
@@ -309,7 +309,15 @@ const notFound = `${head('Wrong door. Tuskrr', 'This page does not exist.')}
 </html>
 `;
 
-writeFileSync(join(SITE, 'index.html'), index);
+// Colour directions. Same page, same motion; only the palette changes (css/site.css).
+const THEMES = [
+  { id: null, page: 'index.html', single: 'tuskrr.html', color: '#EFE9E1' },                          // A: bone (the STILL rhythm)
+  { id: 'architecture', page: 'architecture.html', single: 'tuskrr-architecture.html', color: '#1E1E1E' }, // B: Quiet Architecture, dark
+  { id: 'entrance', page: 'entrance.html', single: 'tuskrr-entrance.html', color: '#1F1B19' },           // C: The Entrance, dark
+];
+const themed = (html, t) => (t.id ? html.replace('<html lang="en">', `<html lang="en" data-theme="${t.id}">`) : html)
+  .replace('<meta name="theme-color" content="#EFE9E1">', `<meta name="theme-color" content="${t.color}">`);
+for (const t of THEMES) writeFileSync(join(SITE, t.page), themed(index, t));
 writeFileSync(join(SITE, '404.html'), notFound);
 writeFileSync(join(SITE, 'assets/logo/favicon.svg'), readFileSync(join(SITE, 'assets/logo/monogram.svg'), 'utf8').replace('fill="currentColor"', 'fill="#131110"'));
 
@@ -329,5 +337,5 @@ const single = index
   .replace(/<script src="vendor\/gsap\.min\.js"><\/script>/, () => `<script>window.TUSKRR_IMG=${JSON.stringify(imgs)};document.querySelectorAll('img[data-img]').forEach(function(i){i.src=TUSKRR_IMG[i.dataset.img]})</script>\n${inline('vendor/gsap.min.js')}`)
   .replace(/<script src="(vendor\/[\w.]+|js\/main\.js)"><\/script>/g, (_, f) => inline(f));
 if (/(src|href)="(?!data:|#|\.\/)[^"]*\.(css|js|webp|woff2|svg)"/.test(single)) throw new Error('single file still references an external file');
-writeFileSync(join(SITE, 'tuskrr.html'), single);
-console.log('wrote index.html, 404.html, favicon.svg, tuskrr.html (' + Math.round(single.length / 1024) + ' KB)');
+for (const t of THEMES) writeFileSync(join(SITE, t.single), themed(single, t));
+console.log(`wrote ${THEMES.map((t) => t.page + ', ' + t.single).join(', ')}, 404.html (single files ${Math.round(single.length / 1024)} KB each)`);

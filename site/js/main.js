@@ -14,6 +14,7 @@
   const params = new URLSearchParams(location.search);
   const DESK = matchMedia('(min-width: 768px)').matches;
   const FINE = matchMedia('(pointer: fine)').matches;
+  const GLOW = parseFloat(getComputedStyle(root).getPropertyValue('--glow-o')) || 0.92; // stage glow strength, per theme
   const REDUCE = params.get('motion') === 'off' || (params.get('motion') !== 'force' && matchMedia('(prefers-reduced-motion: reduce)').matches);
 
   // The layout is chosen once at load, like STILL. Crossing 768 px reloads
@@ -320,7 +321,7 @@
       inS.classList.add('on');
       if (REDUCE) {
         outS.classList.remove('on');
-        glows.forEach((g, k) => gsap.set(g, { opacity: k === i ? 0.92 : 0 }));
+        glows.forEach((g, k) => gsap.set(g, { opacity: k === i ? GLOW : 0 }));
         ghosts.forEach((g, k) => gsap.set(g, { opacity: k === i ? 1 : 0 }));
         sides.forEach((g, k) => gsap.set(g, { opacity: k === i ? 1 : 0 }));
         return;
@@ -330,7 +331,7 @@
       gsap.to(outBag, { x: -side * 160, y: -6, rotation: side * 8, scale: 0.94, opacity: 0, duration: 0.45, ease: 'power2.in' });
       gsap.fromTo(inBag, { x: side * 220, y: 8, rotation: -side * 9, scale: 0.94, opacity: 0 },
         { x: 0, y: 0, rotation: 0, scale: 1, opacity: 1, duration: 0.85, delay: 0.1, ease: 'power2.out' });
-      glows.forEach((g, k) => gsap.to(g, { opacity: k === i ? 0.92 : 0, duration: 0.8, ease: 'power2.inOut', overwrite: 'auto' }));
+      glows.forEach((g, k) => gsap.to(g, { opacity: k === i ? GLOW : 0, duration: 0.8, ease: 'power2.inOut', overwrite: 'auto' }));
       ghosts.forEach((g, k) => {
         if (k === i) gsap.fromTo(g, { opacity: 0, y: dir * 40 }, { opacity: 1, y: 0, duration: 0.8, ease: 'power2.inOut', overwrite: true });
         else gsap.to(g, { opacity: 0, y: k === prev ? -dir * 40 : 0, duration: 0.8, ease: 'power2.inOut', overwrite: true });
@@ -398,6 +399,7 @@
     const chars = [];
     steps[0].classList.add('on'); pills[0].classList.add('on');
     gsap.set(halo, { scale: 1.45 });
+    const haloBase = parseFloat(getComputedStyle(halo).opacity) || 0.4; // resting strength, per theme (0.4 on the bone site)
     let first = true;
     ScrollTrigger.create({ trigger: sec, start: 'top 60%', once: true, onEnter: () => { if (first) { first = false; drawIcon(icons[0]); runMeter(q('[data-meter]', steps[0])); } } });
     if (!REDUCE) gsap.from(qa('.in-head > *', sec), { y: 26, opacity: 0, duration: 0.6, stagger: 0.08, ease: 'power2.out', scrollTrigger: { trigger: sec, start: 'top 70%', once: true } });
@@ -430,8 +432,8 @@
     pills.forEach((p, k) => p.addEventListener('click', () => scrollToY(ctl.st.start + (ctl.st.end - ctl.st.start) * (k / N) + 2, 1)));
     // Hovering the name grows the halo and redraws the icon.
     names.forEach((n, k) => {
-      n.addEventListener('mouseenter', () => { gsap.to(halo, { scale: 1.75, opacity: 0.7, duration: 0.5, overwrite: 'auto' }); drawIcon(icons[k]); });
-      n.addEventListener('mouseleave', () => gsap.to(halo, { scale: 1.45, opacity: 0.4, duration: 0.6, overwrite: 'auto' }));
+      n.addEventListener('mouseenter', () => { gsap.to(halo, { scale: 1.75, opacity: haloBase * 1.75, duration: 0.5, overwrite: 'auto' }); drawIcon(icons[k]); });
+      n.addEventListener('mouseleave', () => gsap.to(halo, { scale: 1.45, opacity: haloBase, duration: 0.6, overwrite: 'auto' }));
     });
   }
 

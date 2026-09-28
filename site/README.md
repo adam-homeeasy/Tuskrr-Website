@@ -16,6 +16,18 @@ Opening `index.html` straight from disk also works; the browser just logs two ha
 
 **One file:** `tuskrr.html` is the whole site in a single self-contained file (about 930 KB), with the CSS, JS, fonts and images inlined. It makes no requests, so you can email it, drop it on any host, or double-click it. `node site/src/build.mjs` regenerates it along with `index.html`.
 
+## Three colour directions
+
+Same page, same motion and copy; only the palette changes. Each is a separate page and a separate single file.
+
+| Direction | Page | Single file | Palette |
+|---|---|---|---|
+| A. Bone | `index.html` | `tuskrr.html` | Bone and night alternating, as on STILL |
+| B. Quiet Architecture, dark | `architecture.html` | `tuskrr-architecture.html` | Round 1 option B: graphite and carbon, bone type, stone, brass as the only accent. Near monochrome: neutral glows and light, so the leather is the only warm thing |
+| C. The Entrance, dark | `entrance.html` | `tuskrr-entrance.html` | Round 2 option A: room and night, bone type, smoke, cognac, brass, the warm threshold light, per-bag glows |
+
+In the dark directions the bone sections take the palette's raised surface (graphite or room) and the dark sections its deepest ground, so the page keeps its two-ground rhythm. Buttons, pills and toggles invert to light on dark. All body text passes 4.5:1 and display text 3:1 in both.
+
 ## What's on the page
 
 1. **Preloader.** Proof-point pills pop around the wordmark, a 000 to 100 counter, then the wordmark flies into the hero.

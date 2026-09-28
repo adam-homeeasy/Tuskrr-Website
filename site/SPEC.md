@@ -99,3 +99,14 @@ pointer; pins still work and swaps are instant.
   labelled as samples.
 - **No checkout.** As on STILL, "Checkout" opens a notify form. It doesn't
   send anywhere yet.
+
+## Colour directions
+
+`css/site.css` holds three themes on one set of tokens, chosen by `data-theme`
+on `<html>`: none (A, bone), `architecture` (B, Quiet Architecture from round 1)
+and `entrance` (C, The Entrance from round 2, commit `2744842`). In B and C the
+light-section tokens are swapped to the palette's raised dark surface with light
+type, and `.hero-dark`, `.inside`, `.lines` take the deepest ground. Changes made
+for visibility: stage glows drop to 0.5 (C) and 0.16 (B) so they don't glare on
+dark; outlines, rims, scroll cue and hairlines turn light; hover fills keep dark
+text (cognac in C, brass in B); form errors lighten to `#E08B7B`.
