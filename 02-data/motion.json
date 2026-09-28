@@ -1,0 +1,3603 @@
+{
+ "site": "https://www.drinkstill.nz/",
+ "captured": "2026-09-28",
+ "viewport": "1440x900",
+ "effects": [
+  {
+   "id": "fx001",
+   "section": "section#hero",
+   "sectionHeading": "Sustained natural focus, without caffeine.",
+   "element": "div.pointer-events-none",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "scale": 1.05,
+    "opacity": 1
+   },
+   "durationS": 2,
+   "delayS": 0,
+   "ease": "sine.inOut",
+   "stagger": null,
+   "repeat": -1,
+   "yoyo": true,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx002",
+   "section": "section#hero",
+   "sectionHeading": "Sustained natural focus, without caffeine.",
+   "element": "span.absolute.left-1/2.-translate-x-1/2",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 1
+   },
+   "durationS": 0.25,
+   "delayS": 0,
+   "ease": "power1.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx003",
+   "section": "section#hero",
+   "sectionHeading": "Sustained natural focus, without caffeine.",
+   "element": "span.absolute.left-1/2.-translate-x-1/2",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "y": 19
+   },
+   "durationS": 1,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx004",
+   "section": "section#hero",
+   "sectionHeading": "Sustained natural focus, without caffeine.",
+   "element": "span.absolute.left-1/2.-translate-x-1/2",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0
+   },
+   "durationS": 0.3,
+   "delayS": 0,
+   "ease": "power1.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx005",
+   "section": "section#flavors",
+   "sectionHeading": "Three formulations.",
+   "element": "div.pointer-events-none",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "scale": 1.05,
+    "opacity": 1
+   },
+   "durationS": 2,
+   "delayS": 0,
+   "ease": "sine.inOut",
+   "stagger": null,
+   "repeat": -1,
+   "yoyo": true,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx006",
+   "section": "section#flavors",
+   "sectionHeading": "Three formulations.",
+   "element": "div.font-sans.text-[12px].tracking-[0.2em]",
+   "sampleText": "02/THREE FLAVORS",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "y": 14,
+    "opacity": 0
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1
+   },
+   "durationS": 0.6,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 80% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx007",
+   "section": "section#flavors",
+   "sectionHeading": "Three formulations.",
+   "element": "div",
+   "sampleText": "T",
+   "targets": 18,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 115
+   },
+   "to": {
+    "yPercent": 0
+   },
+   "durationS": 1.174,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": 0.022,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx008",
+   "section": "section#flavors",
+   "sectionHeading": "Three formulations.",
+   "element": "div",
+   "sampleText": "STILL.03 BERRY Dusk. Blackcurrant & Manu",
+   "targets": 2,
+   "kind": "fromTo",
+   "from": {
+    "y": 70,
+    "opacity": 0
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1
+   },
+   "durationS": 1.12,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": 0.12,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx009",
+   "section": "section#flavors",
+   "sectionHeading": "Three formulations.",
+   "element": "div.relative.h-screen.flex",
+   "sampleText": "02/THREE FLAVORS 3 / 3 Three formulation",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "x": 0,
+    "y": 0,
+    "xPercent": 0,
+    "yPercent": 0,
+    "rotation": 0,
+    "rotationX": 0,
+    "rotationY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0
+   },
+   "durationS": 0.5,
+   "delayS": 0,
+   "ease": "fn:function(t){return 1-Math.pow(1-t,r)}",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx010",
+   "section": "section#flavors",
+   "sectionHeading": "Three formulations.",
+   "element": "div",
+   "sampleText": "STILL.03 BERRY Dusk. Blackcurrant & Manu",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "y": 26,
+    "opacity": 0
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1
+   },
+   "durationS": 0.45,
+   "delayS": 0,
+   "ease": "power3.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx011",
+   "section": "section#flavors",
+   "sectionHeading": "Three formulations.",
+   "element": "div.flex.items-baseline.justify-between",
+   "sampleText": "STILL.03 BERRY",
+   "targets": 7,
+   "kind": "fromTo",
+   "from": {
+    "y": 18,
+    "opacity": 0
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1
+   },
+   "durationS": 0.75,
+   "delayS": 0.05,
+   "ease": "power2.out",
+   "stagger": 0.05,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx012",
+   "section": "",
+   "sectionHeading": "",
+   "element": "div",
+   "sampleText": "L",
+   "targets": 10,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 108
+   },
+   "to": {
+    "yPercent": 0
+   },
+   "durationS": 0.68,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": 0.02,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx013",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "p.mt-2.font-serif.italic",
+   "sampleText": "Camellia sinensis",
+   "targets": 3,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "y": 14
+   },
+   "to": {
+    "opacity": 1,
+    "y": 0
+   },
+   "durationS": 0.64,
+   "delayS": 0.08,
+   "ease": "power2.out",
+   "stagger": 0.07,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx014",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "div",
+   "sampleText": "I",
+   "targets": 7,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 22,
+    "opacity": 0
+   },
+   "to": {
+    "yPercent": 0,
+    "opacity": 1
+   },
+   "durationS": 0.932,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": 0.022,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx015",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "section#inside.relative.w-full.bg-ink",
+   "sampleText": "03\u00b7FUNCTIONAL INGREDIENTS Inside. L-THEA",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "x": 0,
+    "y": 0,
+    "xPercent": 0,
+    "yPercent": 0,
+    "rotation": 0,
+    "rotationX": 0,
+    "rotationY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0
+   },
+   "durationS": 0.5,
+   "delayS": 0,
+   "ease": "fn:function(t){return 1-Math.pow(1-t,r)}",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx016",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "div.absolute.rounded-full",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "backgroundColor": "#BCD3D8"
+   },
+   "durationS": 0.5,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx017",
+   "section": "",
+   "sectionHeading": "",
+   "element": "h3.font-wordmark.text-bone.leading-[0.9]",
+   "sampleText": "L-THEANINEL-THEANINE",
+   "targets": 3,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "y": 26
+   },
+   "to": {
+    "opacity": 1,
+    "y": 0
+   },
+   "durationS": 0.55,
+   "delayS": 0.1,
+   "ease": "power3.out",
+   "stagger": 0.05,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx018",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "div.mt-4.flex.items-center",
+   "sampleText": "Bacopa monnieri",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "y": 26
+   },
+   "to": {
+    "opacity": 1,
+    "y": 0
+   },
+   "durationS": 0.45,
+   "delayS": 0,
+   "ease": "power3.out",
+   "stagger": 0,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx019",
+   "section": "",
+   "sectionHeading": "",
+   "element": "div",
+   "sampleText": "L",
+   "targets": 20,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 60,
+    "opacity": 0
+   },
+   "to": {
+    "yPercent": 0,
+    "opacity": 1
+   },
+   "durationS": 1.082,
+   "delayS": 0.12,
+   "ease": "power2.out",
+   "stagger": 0.028,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx020",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "div.absolute.rounded-full",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "scale": 1.45
+   },
+   "to": {
+    "scale": 1.6
+   },
+   "durationS": 0.9,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx021",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "path",
+   "sampleText": "",
+   "targets": 4,
+   "kind": "fromTo",
+   "from": {
+    "drawSVG": "0%"
+   },
+   "to": {
+    "drawSVG": "100%"
+   },
+   "durationS": 1.14,
+   "delayS": 0.15,
+   "ease": "power1.inOut",
+   "stagger": 0.08,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx022",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "div.h-full.origin-left",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "scaleX": 0
+   },
+   "to": {
+    "scaleX": 0.17391304347826086
+   },
+   "durationS": 0.8,
+   "delayS": 0.25,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx023",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "svg",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "rotation": -3.5,
+    "transformOrigin": "50% 50%"
+   },
+   "to": {
+    "rotation": 3.5
+   },
+   "durationS": 5,
+   "delayS": 0,
+   "ease": "sine.inOut",
+   "stagger": null,
+   "repeat": -1,
+   "yoyo": true,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx024",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div",
+   "sampleText": "STILL",
+   "targets": 25,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 1
+   },
+   "durationS": 9.4,
+   "delayS": 0,
+   "ease": "none",
+   "stagger": 0.35,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 82% scrub",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx025",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div.font-sans.uppercase.text-mist",
+   "sampleText": "04/STORY",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "y": 32,
+    "opacity": 0
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1
+   },
+   "durationS": 0.9,
+   "delayS": 0,
+   "ease": "power3.out",
+   "stagger": 0.18,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 75% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx026",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div",
+   "sampleText": "Q",
+   "targets": 26,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 115
+   },
+   "to": {
+    "yPercent": 0
+   },
+   "durationS": 1.2,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": 0.016,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx027",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div.relative.hidden.md:block",
+   "sampleText": "04/STORY Quietly built over five years. ",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "x": 0,
+    "y": 0,
+    "xPercent": 0,
+    "yPercent": 0,
+    "rotation": 0,
+    "rotationX": 0,
+    "rotationY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0
+   },
+   "durationS": 0.5,
+   "delayS": 0,
+   "ease": "fn:function(t){return 1-Math.pow(1-t,r)}",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx028",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div",
+   "sampleText": "CHAPTER 05\u00b72025 Late focus, by design. S",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "y": 24,
+    "opacity": 0
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1
+   },
+   "durationS": 0.45,
+   "delayS": 0,
+   "ease": "power3.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx029",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div.font-sans.text-[11px].tracking-[0.24em]",
+   "sampleText": "CHAPTER 05\u00b72025",
+   "targets": 4,
+   "kind": "fromTo",
+   "from": {
+    "y": 16,
+    "opacity": 0
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1
+   },
+   "durationS": 0.6,
+   "delayS": 0.05,
+   "ease": "power2.out",
+   "stagger": 0.05,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx030",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div",
+   "sampleText": "A",
+   "targets": 26,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 105
+   },
+   "to": {
+    "yPercent": 0
+   },
+   "durationS": 0.825,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": 0.013,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx031",
+   "section": "section#press",
+   "sectionHeading": "QUIETLY NOTICED.",
+   "element": "div",
+   "sampleText": "QUIETLY NOTICED.",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 115
+   },
+   "to": {
+    "yPercent": 0
+   },
+   "durationS": 0.9,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": 0.09,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx032",
+   "section": "section#press",
+   "sectionHeading": "QUIETLY NOTICED.",
+   "element": "div",
+   "sampleText": "\u201cThe rare functional drink that tastes l",
+   "targets": 2,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 115
+   },
+   "to": {
+    "yPercent": 0
+   },
+   "durationS": 0.94,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": 0.09,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx033",
+   "section": "section#press",
+   "sectionHeading": "QUIETLY NOTICED.",
+   "element": "figcaption.mt-5.font-sans.text-[11px]",
+   "sampleText": "MERIDIAN",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "y": 12
+   },
+   "to": {
+    "opacity": 1,
+    "y": 0
+   },
+   "durationS": 0.6,
+   "delayS": 0.45,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx034",
+   "section": "section#press",
+   "sectionHeading": "QUIETLY NOTICED.",
+   "element": "div",
+   "sampleText": "\u201cProof that a can of adaptogens can be a",
+   "targets": 2,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 115
+   },
+   "to": {
+    "yPercent": 0
+   },
+   "durationS": 0.94,
+   "delayS": 0.12,
+   "ease": "power2.out",
+   "stagger": 0.09,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx035",
+   "section": "section#press",
+   "sectionHeading": "QUIETLY NOTICED.",
+   "element": "figcaption.mt-5.font-sans.text-[11px]",
+   "sampleText": "FOLDOUT",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "y": 12
+   },
+   "to": {
+    "opacity": 1,
+    "y": 0
+   },
+   "durationS": 0.6,
+   "delayS": 0.57,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx036",
+   "section": "section#press",
+   "sectionHeading": "QUIETLY NOTICED.",
+   "element": "div",
+   "sampleText": "\u201cWe stopped drinking coffee at our",
+   "targets": 3,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 115
+   },
+   "to": {
+    "yPercent": 0
+   },
+   "durationS": 1.03,
+   "delayS": 0.24,
+   "ease": "power2.out",
+   "stagger": 0.09,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx037",
+   "section": "section#press",
+   "sectionHeading": "QUIETLY NOTICED.",
+   "element": "figcaption.mt-5.font-sans.text-[11px]",
+   "sampleText": "QUIET HOURS",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "y": 12
+   },
+   "to": {
+    "opacity": 1,
+    "y": 0
+   },
+   "durationS": 0.6,
+   "delayS": 0.69,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx038",
+   "section": "section#press",
+   "sectionHeading": "QUIETLY NOTICED.",
+   "element": "div.flex.w-max.items-baseline",
+   "sampleText": "Meridian The Long Lunch Foldout Salt Jou",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "xPercent": -50
+   },
+   "durationS": 38,
+   "delayS": 0,
+   "ease": "none",
+   "stagger": null,
+   "repeat": -1,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx039",
+   "section": "section#press",
+   "sectionHeading": "QUIETLY NOTICED.",
+   "element": "div.mt-4.flex.w-max",
+   "sampleText": "Meridian The Long Lunch Foldout Salt Jou",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "xPercent": -50
+   },
+   "to": {
+    "xPercent": 0
+   },
+   "durationS": 52,
+   "delayS": 0,
+   "ease": "none",
+   "stagger": null,
+   "repeat": -1,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx040",
+   "section": "section#shop",
+   "sectionHeading": "FIND STILL IN STORE, OR ORDER DIRECT.",
+   "element": "div",
+   "sampleText": "THE RANGE",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "y": 12
+   },
+   "to": {
+    "opacity": 1,
+    "y": 0
+   },
+   "durationS": 0.6,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 85% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx041",
+   "section": "section#shop",
+   "sectionHeading": "FIND STILL IN STORE, OR ORDER DIRECT.",
+   "element": "div",
+   "sampleText": "O",
+   "targets": 12,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 115
+   },
+   "to": {
+    "yPercent": 0
+   },
+   "durationS": 1.02,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": 0.02,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx042",
+   "section": "section#shop",
+   "sectionHeading": "FIND STILL IN STORE, OR ORDER DIRECT.",
+   "element": "div.w-[28vw].max-w-[150px]",
+   "sampleText": "Clear$24View",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "y": 12
+   },
+   "to": {
+    "opacity": 1,
+    "y": 0
+   },
+   "durationS": 0.6,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 85% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx043",
+   "section": "section#shop",
+   "sectionHeading": "FIND STILL IN STORE, OR ORDER DIRECT.",
+   "element": "div.w-[28vw].max-w-[150px]",
+   "sampleText": "Dawn$24View",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "y": 12
+   },
+   "to": {
+    "opacity": 1,
+    "y": 0
+   },
+   "durationS": 0.6,
+   "delayS": 0.12,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 85% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx044",
+   "section": "section#shop",
+   "sectionHeading": "FIND STILL IN STORE, OR ORDER DIRECT.",
+   "element": "div.w-[28vw].max-w-[150px]",
+   "sampleText": "Dusk$24View",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "y": 12
+   },
+   "to": {
+    "opacity": 1,
+    "y": 0
+   },
+   "durationS": 0.6,
+   "delayS": 0.24,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 85% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx045",
+   "section": "section#shop",
+   "sectionHeading": "FIND STILL IN STORE, OR ORDER DIRECT.",
+   "element": "div.pointer-events-none",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "scale": 1.05,
+    "opacity": 1
+   },
+   "durationS": 2,
+   "delayS": 0,
+   "ease": "sine.inOut",
+   "stagger": null,
+   "repeat": -1,
+   "yoyo": true,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx046",
+   "section": "section#shop",
+   "sectionHeading": "FIND STILL IN STORE, OR ORDER DIRECT.",
+   "element": "div.font-sans.text-[12px].tracking-[0.2em]",
+   "sampleText": "06/WHERE AVAILABLE",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "y": 40,
+    "opacity": 0
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1
+   },
+   "durationS": 0.8,
+   "delayS": 0,
+   "ease": "power3.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 80% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx047",
+   "section": "section#shop",
+   "sectionHeading": "FIND STILL IN STORE, OR ORDER DIRECT.",
+   "element": "div",
+   "sampleText": "FIND STILL IN STORE, OR ORDER",
+   "targets": 2,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 115
+   },
+   "to": {
+    "yPercent": 0
+   },
+   "durationS": 0.99,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": 0.09,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 80% once",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx048",
+   "section": "div#stockists",
+   "sectionHeading": "Wellington",
+   "element": "div",
+   "sampleText": "Wellington Moore Wilson's Fresh 93 Tory ",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "y": 60,
+    "opacity": 0
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1
+   },
+   "durationS": 0.8,
+   "delayS": 0,
+   "ease": "power3.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 85% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx049",
+   "section": "div#stockists",
+   "sectionHeading": "Wellington",
+   "element": "li.group.relative",
+   "sampleText": "Moore Wilson's Fresh 93 Tory Street \u2192",
+   "targets": 5,
+   "kind": "fromTo",
+   "from": {
+    "y": 12,
+    "opacity": 0
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1
+   },
+   "durationS": 0.74,
+   "delayS": 0.25,
+   "ease": "power2.out",
+   "stagger": 0.06,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 85% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx050",
+   "section": "div#stockists",
+   "sectionHeading": "Wellington",
+   "element": "div",
+   "sampleText": "Auckland Farro Fresh Grey Lynn 422 Great",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "y": 60,
+    "opacity": 0
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1
+   },
+   "durationS": 0.8,
+   "delayS": 0.15,
+   "ease": "power3.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 85% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx051",
+   "section": "div#stockists",
+   "sectionHeading": "Wellington",
+   "element": "li.group.relative",
+   "sampleText": "Farro Fresh Grey Lynn 422 Great North Ro",
+   "targets": 5,
+   "kind": "fromTo",
+   "from": {
+    "y": 12,
+    "opacity": 0
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1
+   },
+   "durationS": 0.74,
+   "delayS": 0.4,
+   "ease": "power2.out",
+   "stagger": 0.06,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 85% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx052",
+   "section": "div#stockists",
+   "sectionHeading": "Wellington",
+   "element": "div",
+   "sampleText": "Christchurch Vic's Cafe 132 Victoria Str",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "y": 60,
+    "opacity": 0
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1
+   },
+   "durationS": 0.8,
+   "delayS": 0.3,
+   "ease": "power3.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 85% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx053",
+   "section": "div#stockists",
+   "sectionHeading": "Wellington",
+   "element": "li.group.relative",
+   "sampleText": "Vic's Cafe 132 Victoria Street \u2192",
+   "targets": 5,
+   "kind": "fromTo",
+   "from": {
+    "y": 12,
+    "opacity": 0
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1
+   },
+   "durationS": 0.74,
+   "delayS": 0.55,
+   "ease": "power2.out",
+   "stagger": 0.06,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 85% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx054",
+   "section": "section#shop",
+   "sectionHeading": "FIND STILL IN STORE, OR ORDER DIRECT.",
+   "element": "div.mt-20.md:mt-[80px].text-center",
+   "sampleText": "COMING SOON Melbourne \u00b7 Sydney \u00b7 London ",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "y": 20,
+    "opacity": 0
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1
+   },
+   "durationS": 0.8,
+   "delayS": 0.45,
+   "ease": "power3.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 90% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx055",
+   "section": "section#shop",
+   "sectionHeading": "FIND STILL IN STORE, OR ORDER DIRECT.",
+   "element": "div.origin-right",
+   "sampleText": "",
+   "targets": 2,
+   "kind": "fromTo",
+   "from": {
+    "scaleX": 0
+   },
+   "to": {
+    "scaleX": 1
+   },
+   "durationS": 0.6,
+   "delayS": 0,
+   "ease": "power3.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 88% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx056",
+   "section": "section#shop",
+   "sectionHeading": "FIND STILL IN STORE, OR ORDER DIRECT.",
+   "element": "span.font-sans.uppercase.text-mist",
+   "sampleText": "OR ORDER DIRECT",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0
+   },
+   "to": {
+    "opacity": 1
+   },
+   "durationS": 0.6,
+   "delayS": 0.15,
+   "ease": "power3.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 88% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx057",
+   "section": "section#shop",
+   "sectionHeading": "FIND STILL IN STORE, OR ORDER DIRECT.",
+   "element": "div",
+   "sampleText": "STILL.01 \u00b7 Clear CUCUMBER & YUZU For whe",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "y": 80,
+    "opacity": 0,
+    "scale": 0.96
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1,
+    "scale": 1
+   },
+   "durationS": 1,
+   "delayS": 0,
+   "ease": "power3.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 85% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx058",
+   "section": "section#shop",
+   "sectionHeading": "FIND STILL IN STORE, OR ORDER DIRECT.",
+   "element": "div",
+   "sampleText": "STILL.02 \u00b7 Dawn GINGER & BERGAMOT For mo",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "y": 80,
+    "opacity": 0,
+    "scale": 0.96
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1,
+    "scale": 1
+   },
+   "durationS": 1,
+   "delayS": 0.2,
+   "ease": "power3.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 85% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx059",
+   "section": "section#shop",
+   "sectionHeading": "FIND STILL IN STORE, OR ORDER DIRECT.",
+   "element": "div",
+   "sampleText": "STILL.03 \u00b7 Dusk BLACKCURRANT & MANUKA Fo",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "y": 80,
+    "opacity": 0,
+    "scale": 0.96
+   },
+   "to": {
+    "y": 0,
+    "opacity": 1,
+    "scale": 1
+   },
+   "durationS": 1,
+   "delayS": 0.4,
+   "ease": "power3.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 85% play",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx060",
+   "section": "section#shop",
+   "sectionHeading": "FIND STILL IN STORE, OR ORDER DIRECT.",
+   "element": "div.fixed.top-0.left-0",
+   "sampleText": "POURING IN WELLINGTON POURING IN AUCKLAN",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "scale": 0.92
+   },
+   "durationS": 0.4,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx061",
+   "section": "footer",
+   "sectionHeading": "Get notified when we ship to your city.",
+   "element": "div",
+   "sampleText": "Get notified when we ship",
+   "targets": 2,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 115
+   },
+   "to": {
+    "yPercent": 0
+   },
+   "durationS": 0.99,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": 0.09,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "scroll top 85% once",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx062",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "L-Theanine 200 mg",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "scale": 0.55,
+    "y": 10,
+    "rotation": -3.5,
+    "filter": "blur(8px)"
+   },
+   "to": {
+    "opacity": 1,
+    "scale": 1,
+    "y": 0,
+    "rotation": 0,
+    "filter": "blur(0px)",
+    "force3D": true
+   },
+   "durationS": 0.45,
+   "delayS": 0,
+   "ease": "back.out(1.6)",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx063",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "L-Theanine 200 mg",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "y": -6,
+    "force3D": true
+   },
+   "durationS": 0.95,
+   "delayS": 0,
+   "ease": "sine.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx064",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "L-Theanine 200 mg",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -18,
+    "scale": 0.94,
+    "filter": "blur(5px)",
+    "force3D": true
+   },
+   "durationS": 0.32,
+   "delayS": 0,
+   "ease": "power2.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx065",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Caffeine-free",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "scale": 0.55,
+    "y": 10,
+    "rotation": 3.5,
+    "filter": "blur(8px)"
+   },
+   "to": {
+    "opacity": 1,
+    "scale": 1,
+    "y": 0,
+    "rotation": 0,
+    "filter": "blur(0px)",
+    "force3D": true
+   },
+   "durationS": 0.45,
+   "delayS": 0,
+   "ease": "back.out(1.6)",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx066",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Caffeine-free",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "y": -6,
+    "force3D": true
+   },
+   "durationS": 0.95,
+   "delayS": 0,
+   "ease": "sine.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx067",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Caffeine-free",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -18,
+    "scale": 0.94,
+    "filter": "blur(5px)",
+    "force3D": true
+   },
+   "durationS": 0.32,
+   "delayS": 0,
+   "ease": "power2.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx068",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Lion's Mane 500 mg",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "scale": 0.55,
+    "y": 10,
+    "rotation": -3.5,
+    "filter": "blur(8px)"
+   },
+   "to": {
+    "opacity": 1,
+    "scale": 1,
+    "y": 0,
+    "rotation": 0,
+    "filter": "blur(0px)",
+    "force3D": true
+   },
+   "durationS": 0.45,
+   "delayS": 0,
+   "ease": "back.out(1.6)",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx069",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Lion's Mane 500 mg",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "y": -6,
+    "force3D": true
+   },
+   "durationS": 0.95,
+   "delayS": 0,
+   "ease": "sine.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx070",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Lion's Mane 500 mg",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -18,
+    "scale": 0.94,
+    "filter": "blur(5px)",
+    "force3D": true
+   },
+   "durationS": 0.32,
+   "delayS": 0,
+   "ease": "power2.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx071",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Made in Wellington",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "scale": 0.55,
+    "y": 10,
+    "rotation": 3.5,
+    "filter": "blur(8px)"
+   },
+   "to": {
+    "opacity": 1,
+    "scale": 1,
+    "y": 0,
+    "rotation": 0,
+    "filter": "blur(0px)",
+    "force3D": true
+   },
+   "durationS": 0.45,
+   "delayS": 0,
+   "ease": "back.out(1.6)",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx072",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Made in Wellington",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "y": -6,
+    "force3D": true
+   },
+   "durationS": 0.95,
+   "delayS": 0,
+   "ease": "sine.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx073",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Made in Wellington",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -18,
+    "scale": 0.94,
+    "filter": "blur(5px)",
+    "force3D": true
+   },
+   "durationS": 0.32,
+   "delayS": 0,
+   "ease": "power2.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx074",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Rhodiola 150 mg",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "scale": 0.55,
+    "y": 10,
+    "rotation": -3.5,
+    "filter": "blur(8px)"
+   },
+   "to": {
+    "opacity": 1,
+    "scale": 1,
+    "y": 0,
+    "rotation": 0,
+    "filter": "blur(0px)",
+    "force3D": true
+   },
+   "durationS": 0.45,
+   "delayS": 0,
+   "ease": "back.out(1.6)",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx075",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Rhodiola 150 mg",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "y": -6,
+    "force3D": true
+   },
+   "durationS": 0.95,
+   "delayS": 0,
+   "ease": "sine.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx076",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Rhodiola 150 mg",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -18,
+    "scale": 0.94,
+    "filter": "blur(5px)",
+    "force3D": true
+   },
+   "durationS": 0.32,
+   "delayS": 0,
+   "ease": "power2.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx077",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Sustained natural focus",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "scale": 0.55,
+    "y": 10,
+    "rotation": 3.5,
+    "filter": "blur(8px)"
+   },
+   "to": {
+    "opacity": 1,
+    "scale": 1,
+    "y": 0,
+    "rotation": 0,
+    "filter": "blur(0px)",
+    "force3D": true
+   },
+   "durationS": 0.45,
+   "delayS": 0,
+   "ease": "back.out(1.6)",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx078",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Sustained natural focus",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "y": -6,
+    "force3D": true
+   },
+   "durationS": 0.95,
+   "delayS": 0,
+   "ease": "sine.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx079",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Sustained natural focus",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -18,
+    "scale": 0.94,
+    "filter": "blur(5px)",
+    "force3D": true
+   },
+   "durationS": 0.32,
+   "delayS": 0,
+   "ease": "power2.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx080",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Bacopa 300 mg",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "scale": 0.55,
+    "y": 10,
+    "rotation": -3.5,
+    "filter": "blur(8px)"
+   },
+   "to": {
+    "opacity": 1,
+    "scale": 1,
+    "y": 0,
+    "rotation": 0,
+    "filter": "blur(0px)",
+    "force3D": true
+   },
+   "durationS": 0.45,
+   "delayS": 0,
+   "ease": "back.out(1.6)",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx081",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Bacopa 300 mg",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "y": -6,
+    "force3D": true
+   },
+   "durationS": 0.95,
+   "delayS": 0,
+   "ease": "sine.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx082",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "Bacopa 300 mg",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -18,
+    "scale": 0.94,
+    "filter": "blur(5px)",
+    "force3D": true
+   },
+   "durationS": 0.32,
+   "delayS": 0,
+   "ease": "power2.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx083",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "1,150 mg active blend",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "scale": 0.55,
+    "y": 10,
+    "rotation": 3.5,
+    "filter": "blur(8px)"
+   },
+   "to": {
+    "opacity": 1,
+    "scale": 1,
+    "y": 0,
+    "rotation": 0,
+    "filter": "blur(0px)",
+    "force3D": true
+   },
+   "durationS": 0.45,
+   "delayS": 0,
+   "ease": "back.out(1.6)",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx084",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "1,150 mg active blend",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "y": -6,
+    "force3D": true
+   },
+   "durationS": 0.95,
+   "delayS": 0,
+   "ease": "sine.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx085",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.absolute.flex.items-center",
+   "sampleText": "1,150 mg active blend",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -18,
+    "scale": 0.94,
+    "filter": "blur(5px)",
+    "force3D": true
+   },
+   "durationS": 0.32,
+   "delayS": 0,
+   "ease": "power2.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx086",
+   "section": "section#hero",
+   "sectionHeading": "Sustained natural focus, without caffeine.",
+   "element": "div.absolute.inset-0.z-10",
+   "sampleText": "STILL. STILL. Stay still. Stay sharp. SC",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0
+   },
+   "durationS": 0.15,
+   "delayS": 0,
+   "ease": "none",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx087",
+   "section": "section#hero",
+   "sectionHeading": "Sustained natural focus, without caffeine.",
+   "element": "div.absolute.inset-0.will-change-transform",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "scale": 1.09
+   },
+   "durationS": 1,
+   "delayS": 0,
+   "ease": "none",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx088",
+   "section": "section#hero",
+   "sectionHeading": "Sustained natural focus, without caffeine.",
+   "element": "div",
+   "sampleText": "SCROLL",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0
+   },
+   "durationS": 0.15,
+   "delayS": 0,
+   "ease": "power1.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx089",
+   "section": "section#hero",
+   "sectionHeading": "Sustained natural focus, without caffeine.",
+   "element": "div.font-sans.text-[12px].tracking-[0.2em]",
+   "sampleText": "01/THE FORMULA",
+   "targets": 4,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "y": 0,
+    "opacity": 1
+   },
+   "durationS": 0.79,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": 0.08,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx090",
+   "section": "section#hero",
+   "sectionHeading": "Sustained natural focus, without caffeine.",
+   "element": "div.mt-7.h-px.w-[72px]",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "scaleX": 1
+   },
+   "durationS": 0.5,
+   "delayS": 0,
+   "ease": "fn:function(t){return 1-Math.pow(1-t,r)}",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx091",
+   "section": "",
+   "sectionHeading": "",
+   "element": "div.absolute.top-0.left-0",
+   "sampleText": "DRAG",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "width": 36,
+    "height": 36,
+    "backgroundColor": "rgba(255,255,255,0)",
+    "borderColor": "rgba(255,255,255,0.55)"
+   },
+   "durationS": 0.35,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx092",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.font-sans.uppercase.text-bone",
+   "sampleText": "DRAG",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0
+   },
+   "durationS": 0.25,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx093",
+   "section": "",
+   "sectionHeading": "",
+   "element": "div.absolute.top-0.left-0",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "scale": 1
+   },
+   "durationS": 0.25,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx094",
+   "section": "section#hero",
+   "sectionHeading": "Sustained natural focus, without caffeine.",
+   "element": "section#hero.relative.w-full.min-h-screen",
+   "sampleText": "01/THE FORMULA Sustained natural focus, ",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "x": 0,
+    "y": 0,
+    "xPercent": 0,
+    "yPercent": 0,
+    "rotation": 0,
+    "rotationX": 0,
+    "rotationY": 0,
+    "scale": 1,
+    "skewX": 0,
+    "skewY": 0
+   },
+   "durationS": 0.5,
+   "delayS": 0,
+   "ease": "fn:function(t){return 1-Math.pow(1-t,r)}",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx095",
+   "section": "",
+   "sectionHeading": "",
+   "element": "span.inline-block",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "y": "-0.6em",
+    "opacity": 0
+   },
+   "to": {
+    "y": "0em",
+    "opacity": 1
+   },
+   "durationS": 0.45,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx096",
+   "section": "",
+   "sectionHeading": "",
+   "element": "div.fixed.inset-0.z-[100]",
+   "sampleText": "L-Theanine 200 mgCaffeine-freeLion's Man",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0
+   },
+   "durationS": 0.35,
+   "delayS": 0,
+   "ease": "power1.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx097",
+   "section": "",
+   "sectionHeading": "",
+   "element": "div.flex.items-baseline.select-none",
+   "sampleText": "STILL",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "x": 0.0078125,
+    "y": -0.0078125,
+    "scale": 4.463427849015712
+   },
+   "durationS": 0.9,
+   "delayS": 0,
+   "ease": "power3.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx098",
+   "section": "section#flavors",
+   "sectionHeading": "Three formulations.",
+   "element": "div.absolute.inset-0.flex",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0
+   },
+   "durationS": 0.7,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx099",
+   "section": "section#flavors",
+   "sectionHeading": "Three formulations.",
+   "element": "div.absolute.inset-0.flex",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 1
+   },
+   "durationS": 0.7,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx100",
+   "section": "section#flavors",
+   "sectionHeading": "Three formulations.",
+   "element": "span.absolute.inset-0.flex",
+   "sampleText": "01",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -40,
+    "force3D": true
+   },
+   "durationS": 0.8,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx101",
+   "section": "section#flavors",
+   "sectionHeading": "Three formulations.",
+   "element": "span.absolute.inset-0.flex",
+   "sampleText": "02",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 1,
+    "y": 0,
+    "force3D": true
+   },
+   "durationS": 0.8,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx102",
+   "section": "section#flavors",
+   "sectionHeading": "Three formulations.",
+   "element": "span.absolute.inset-0.flex",
+   "sampleText": "03",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -40,
+    "force3D": true
+   },
+   "durationS": 0.8,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx103",
+   "section": "section#flavors",
+   "sectionHeading": "Three formulations.",
+   "element": "div",
+   "sampleText": "STILL.03 BERRY Dusk. Blackcurrant & Manu",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "y": -26,
+    "opacity": 0
+   },
+   "durationS": 0.25,
+   "delayS": 0,
+   "ease": "power3.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx104",
+   "section": "section#flavors",
+   "sectionHeading": "Three formulations.",
+   "element": "span.absolute.inset-0.flex",
+   "sampleText": "02",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -40,
+    "force3D": true
+   },
+   "durationS": 0.8,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx105",
+   "section": "section#flavors",
+   "sectionHeading": "Three formulations.",
+   "element": "span.absolute.inset-0.flex",
+   "sampleText": "03",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 1,
+    "y": 0,
+    "force3D": true
+   },
+   "durationS": 0.8,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx106",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "h3.font-wordmark.text-bone.uppercase",
+   "sampleText": "L-THEANINE",
+   "targets": 4,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0
+   },
+   "durationS": 0.12,
+   "delayS": 0,
+   "ease": "power1.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx107",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "p.mt-2.font-serif.italic",
+   "sampleText": "Hericium erinaceus",
+   "targets": 3,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "y": 14
+   },
+   "to": {
+    "opacity": 1,
+    "y": 0
+   },
+   "durationS": 0.64,
+   "delayS": 0.08,
+   "ease": "power2.out",
+   "stagger": 0.07,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx108",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "div.absolute.rounded-full",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "backgroundColor": "#D4B896"
+   },
+   "durationS": 0.5,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx109",
+   "section": "",
+   "sectionHeading": "",
+   "element": "h3.font-wordmark.text-bone.leading-[0.9]",
+   "sampleText": "L-THEANINEL-THEANINE",
+   "targets": 3,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -26
+   },
+   "durationS": 0.22,
+   "delayS": 0,
+   "ease": "power3.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx110",
+   "section": "",
+   "sectionHeading": "",
+   "element": "h3.font-wordmark.text-bone.leading-[0.9]",
+   "sampleText": "LION'S MANELION'SMANE",
+   "targets": 3,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "y": 26
+   },
+   "to": {
+    "opacity": 1,
+    "y": 0
+   },
+   "durationS": 0.55,
+   "delayS": 0.1,
+   "ease": "power3.out",
+   "stagger": 0.05,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx111",
+   "section": "",
+   "sectionHeading": "",
+   "element": "path",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "drawSVG": "0%"
+   },
+   "to": {
+    "drawSVG": "100%"
+   },
+   "durationS": 0.9,
+   "delayS": 0,
+   "ease": "power1.inOut",
+   "stagger": 0,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx112",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "div.h-full.origin-left",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "scaleX": 0
+   },
+   "to": {
+    "scaleX": 0.43478260869565216
+   },
+   "durationS": 0.8,
+   "delayS": 0.25,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx113",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "h3.font-wordmark.text-bone.uppercase",
+   "sampleText": "LION'S MANE",
+   "targets": 4,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0
+   },
+   "durationS": 0.12,
+   "delayS": 0,
+   "ease": "power1.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx114",
+   "section": "",
+   "sectionHeading": "",
+   "element": "div",
+   "sampleText": "R",
+   "targets": 8,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 108
+   },
+   "to": {
+    "yPercent": 0
+   },
+   "durationS": 0.64,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": 0.02,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx115",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "p.mt-2.font-serif.italic",
+   "sampleText": "Rhodiola rosea",
+   "targets": 3,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "y": 14
+   },
+   "to": {
+    "opacity": 1,
+    "y": 0
+   },
+   "durationS": 0.64,
+   "delayS": 0.08,
+   "ease": "power2.out",
+   "stagger": 0.07,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx116",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "div.absolute.rounded-full",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "backgroundColor": "#C9B5C8"
+   },
+   "durationS": 0.5,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx117",
+   "section": "",
+   "sectionHeading": "",
+   "element": "h3.font-wordmark.text-bone.leading-[0.9]",
+   "sampleText": "LION'S MANELION'SMANE",
+   "targets": 3,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -26
+   },
+   "durationS": 0.22,
+   "delayS": 0,
+   "ease": "power3.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx118",
+   "section": "",
+   "sectionHeading": "",
+   "element": "h3.font-wordmark.text-bone.leading-[0.9]",
+   "sampleText": "RHODIOLARHODIOLA",
+   "targets": 3,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "y": 26
+   },
+   "to": {
+    "opacity": 1,
+    "y": 0
+   },
+   "durationS": 0.55,
+   "delayS": 0.1,
+   "ease": "power3.out",
+   "stagger": 0.05,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx119",
+   "section": "",
+   "sectionHeading": "",
+   "element": "div",
+   "sampleText": "R",
+   "targets": 16,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 60,
+    "opacity": 0
+   },
+   "to": {
+    "yPercent": 0,
+    "opacity": 1
+   },
+   "durationS": 0.97,
+   "delayS": 0.12,
+   "ease": "power2.out",
+   "stagger": 0.028,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx120",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "div.h-full.origin-left",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "scaleX": 0
+   },
+   "to": {
+    "scaleX": 0.13043478260869565
+   },
+   "durationS": 0.8,
+   "delayS": 0.25,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx121",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "h3.font-wordmark.text-bone.uppercase",
+   "sampleText": "RHODIOLA",
+   "targets": 4,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0
+   },
+   "durationS": 0.12,
+   "delayS": 0,
+   "ease": "power1.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx122",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "div",
+   "sampleText": "B",
+   "targets": 6,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 108
+   },
+   "to": {
+    "yPercent": 0
+   },
+   "durationS": 0.6,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": 0.02,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx123",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "p.mt-2.font-serif.italic",
+   "sampleText": "Bacopa monnieri",
+   "targets": 3,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "y": 14
+   },
+   "to": {
+    "opacity": 1,
+    "y": 0
+   },
+   "durationS": 0.64,
+   "delayS": 0.08,
+   "ease": "power2.out",
+   "stagger": 0.07,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx124",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "div.absolute.rounded-full",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "backgroundColor": "#B5C8B0"
+   },
+   "durationS": 0.5,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx125",
+   "section": "",
+   "sectionHeading": "",
+   "element": "h3.font-wordmark.text-bone.leading-[0.9]",
+   "sampleText": "RHODIOLARHODIOLA",
+   "targets": 3,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -26
+   },
+   "durationS": 0.22,
+   "delayS": 0,
+   "ease": "power3.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx126",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "h3.font-wordmark.text-bone.leading-[0.9]",
+   "sampleText": "BACOPA",
+   "targets": 3,
+   "kind": "fromTo",
+   "from": {
+    "opacity": 0,
+    "y": 26
+   },
+   "to": {
+    "opacity": 1,
+    "y": 0
+   },
+   "durationS": 0.55,
+   "delayS": 0.1,
+   "ease": "power3.out",
+   "stagger": 0.05,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx127",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "div",
+   "sampleText": "B",
+   "targets": 12,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 60,
+    "opacity": 0
+   },
+   "to": {
+    "yPercent": 0,
+    "opacity": 1
+   },
+   "durationS": 0.858,
+   "delayS": 0.12,
+   "ease": "power2.out",
+   "stagger": 0.028,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx128",
+   "section": "section#inside",
+   "sectionHeading": "Inside.",
+   "element": "div.h-full.origin-left",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "scaleX": 0
+   },
+   "to": {
+    "scaleX": 0.2608695652173913
+   },
+   "durationS": 0.8,
+   "delayS": 0.25,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx129",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div.absolute.inset-0.flex",
+   "sampleText": "FIG. 01 \u00b7 FOUNDERS' FIRST WHITEBOARD SKE",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "scale": 1.14,
+    "opacity": 0,
+    "y": -46,
+    "force3D": true
+   },
+   "durationS": 0.6,
+   "delayS": 0,
+   "ease": "power2.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx130",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div.absolute.inset-0.flex",
+   "sampleText": "FIG. 02 \u00b7 LAB SAMPLES, FORMULATION PHASE",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "scale": 0.86,
+    "opacity": 0,
+    "y": 46
+   },
+   "to": {
+    "scale": 1,
+    "opacity": 1,
+    "y": 0,
+    "force3D": true
+   },
+   "durationS": 0.9,
+   "delayS": 0.08,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx131",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div.absolute.inset-0.flex",
+   "sampleText": "FIG. 03 \u00b7 FIRST SHELF PLACEMENT, MOORE W",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "scale": 0.86,
+    "opacity": 0,
+    "y": 46,
+    "force3D": true
+   },
+   "durationS": 0.6,
+   "delayS": 0,
+   "ease": "power2.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx132",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div.absolute.inset-0.flex",
+   "sampleText": "FIG. 04 \u00b7 AUCKLAND STOCKIST LAUNCH EVENT",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "scale": 0.86,
+    "opacity": 0,
+    "y": 46,
+    "force3D": true
+   },
+   "durationS": 0.6,
+   "delayS": 0,
+   "ease": "power2.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx133",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div.absolute.inset-0.flex",
+   "sampleText": "FIG. 05 \u00b7 MELBOURNE LAUNCH, SMITH STREET",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "scale": 0.86,
+    "opacity": 0,
+    "y": 46,
+    "force3D": true
+   },
+   "durationS": 0.6,
+   "delayS": 0,
+   "ease": "power2.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx134",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "span.absolute.inset-0.flex",
+   "sampleText": "21",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -60,
+    "force3D": true
+   },
+   "durationS": 0.9,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx135",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "span.absolute.inset-0.flex",
+   "sampleText": "22",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 1,
+    "y": 0,
+    "force3D": true
+   },
+   "durationS": 0.9,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx136",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "span.absolute.inset-0.flex",
+   "sampleText": "23",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -60,
+    "force3D": true
+   },
+   "durationS": 0.9,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx137",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "span.absolute.inset-0.flex",
+   "sampleText": "24",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -60,
+    "force3D": true
+   },
+   "durationS": 0.9,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx138",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "span.absolute.inset-0.flex",
+   "sampleText": "25",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -60,
+    "force3D": true
+   },
+   "durationS": 0.9,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx139",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div",
+   "sampleText": "CHAPTER 05\u00b72025 Late focus, by design. S",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "y": -24,
+    "opacity": 0
+   },
+   "durationS": 0.22,
+   "delayS": 0,
+   "ease": "power3.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx140",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div.absolute.inset-0.flex",
+   "sampleText": "FIG. 02 \u00b7 LAB SAMPLES, FORMULATION PHASE",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "scale": 1.14,
+    "opacity": 0,
+    "y": -46,
+    "force3D": true
+   },
+   "durationS": 0.6,
+   "delayS": 0,
+   "ease": "power2.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx141",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div.absolute.inset-0.flex",
+   "sampleText": "FIG. 03 \u00b7 FIRST SHELF PLACEMENT, MOORE W",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "scale": 0.86,
+    "opacity": 0,
+    "y": 46
+   },
+   "to": {
+    "scale": 1,
+    "opacity": 1,
+    "y": 0,
+    "force3D": true
+   },
+   "durationS": 0.9,
+   "delayS": 0.08,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx142",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "span.absolute.inset-0.flex",
+   "sampleText": "22",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0,
+    "y": -60,
+    "force3D": true
+   },
+   "durationS": 0.9,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx143",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "span.absolute.inset-0.flex",
+   "sampleText": "23",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 1,
+    "y": 0,
+    "force3D": true
+   },
+   "durationS": 0.9,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx144",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div.absolute.inset-0.flex",
+   "sampleText": "FIG. 03 \u00b7 FIRST SHELF PLACEMENT, MOORE W",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "scale": 1.14,
+    "opacity": 0,
+    "y": -46,
+    "force3D": true
+   },
+   "durationS": 0.6,
+   "delayS": 0,
+   "ease": "power2.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx145",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div.absolute.inset-0.flex",
+   "sampleText": "FIG. 04 \u00b7 AUCKLAND STOCKIST LAUNCH EVENT",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "scale": 0.86,
+    "opacity": 0,
+    "y": 46
+   },
+   "to": {
+    "scale": 1,
+    "opacity": 1,
+    "y": 0,
+    "force3D": true
+   },
+   "durationS": 0.9,
+   "delayS": 0.08,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx146",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "span.absolute.inset-0.flex",
+   "sampleText": "24",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 1,
+    "y": 0,
+    "force3D": true
+   },
+   "durationS": 0.9,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx147",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div.absolute.inset-0.flex",
+   "sampleText": "FIG. 04 \u00b7 AUCKLAND STOCKIST LAUNCH EVENT",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "scale": 1.14,
+    "opacity": 0,
+    "y": -46,
+    "force3D": true
+   },
+   "durationS": 0.6,
+   "delayS": 0,
+   "ease": "power2.in",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx148",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "div.absolute.inset-0.flex",
+   "sampleText": "FIG. 05 \u00b7 MELBOURNE LAUNCH, SMITH STREET",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "scale": 0.86,
+    "opacity": 0,
+    "y": 46
+   },
+   "to": {
+    "scale": 1,
+    "opacity": 1,
+    "y": 0,
+    "force3D": true
+   },
+   "durationS": 0.9,
+   "delayS": 0.08,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  },
+  {
+   "id": "fx149",
+   "section": "section#story",
+   "sectionHeading": "Quietly built over five years.",
+   "element": "span.absolute.inset-0.flex",
+   "sampleText": "25",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 1,
+    "y": 0,
+    "force3D": true
+   },
+   "durationS": 0.9,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load / state change / parent timeline",
+   "evidence": "measured (GSAP tween captured at runtime)"
+  }
+ ]
+}

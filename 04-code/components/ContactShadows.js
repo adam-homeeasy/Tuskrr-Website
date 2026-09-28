@@ -1,0 +1,3 @@
+e=>{"use strict"<long>"#000000"<long>"void main() {",`uniform vec3 ucolor;
+           void main() {
+          `),e.fragmentShader=e.fragmentShader.replace("vec4( vec3( 1.0 - fragCoordZ ), opacity );","vec4( ucolor * fragCoordZ * 2.0, ( 1.0 - fragCoordZ ) * 1.0 );"<long>"group",(0,t.default)({"rotation-x":Math.PI/2},_,{ref:M}),n.createElement("mesh",{renderOrder:y,geometry:R,scale:[1,-1,1],rotation:[-Math.PI/2,0,0]},n.createElement("meshBasicMaterial",{transparent:!0,map:T.texture,opacity:u,depthWrite:x})),n.createElement("orthographicCamera",{ref:E,args:[-c/2,c/2,h/2,-h/2,p,f]}))});e.s(["ContactShadows",0,l],39355)},90072,8155,75056,25234,28600,31067,29083,93964,
