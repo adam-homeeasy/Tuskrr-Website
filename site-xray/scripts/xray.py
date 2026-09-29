@@ -245,7 +245,7 @@ TOKENS_JS = r"""() => {
    if (cs.backgroundImage !== 'none' && !cs.backgroundImage.startsWith('url')) bump(rgb, 'grad ' + cs.backgroundImage.slice(0, 200), s);
    if ([...el.childNodes].some(n => n.nodeType === 3 && n.textContent.trim())) {
      bump(rgb, 'text ' + cs.color, s);
-     bump(fonts, [cs.fontFamily.split(',')[0].replace(/"/g, ''), cs.fontWeight, cs.fontStyle === 'italic' ? 'i' : '', cs.fontSize, cs.lineHeight, cs.letterSpacing, cs.textTransform === 'uppercase' ? 'UP' : ''].join(' | '), s + ' "' + el.innerText.trim().slice(0, 30) + '"');
+     bump(fonts, [cs.fontFamily.split(',')[0].replace(/"/g, ''), cs.fontWeight, cs.fontStyle === 'italic' ? 'i' : '', cs.fontSize, cs.lineHeight, cs.letterSpacing, cs.textTransform === 'uppercase' ? 'UP' : ''].join(' | '), s + ' "' + (el.innerText || el.textContent || '').trim().slice(0, 30) + '"');
    }
    if (cs.borderTopWidth !== '0px' && cs.borderTopStyle !== 'none') bump(rgb, 'border ' + cs.borderTopWidth + ' ' + cs.borderTopColor, s);
    if (cs.borderRadius !== '0px') bump(radii, cs.borderRadius, s);
@@ -275,7 +275,7 @@ SECTIONS_JS = r"""() => { const sel = window.__xr.sel;
  let list = [...document.querySelectorAll('body section, body header, body footer, body nav, body main > *, body [data-framer-name]')].filter(el => el.getBoundingClientRect().height > 200 || /^(NAV|HEADER|FOOTER)$/.test(el.tagName));
  const seen = new Set(); list = list.filter(el => { const r = el.getBoundingClientRect(); const k = Math.round(r.top + scrollY) + ':' + Math.round(r.height); if (seen.has(k)) return false; seen.add(k); return true; });
  return list.slice(0, 80).map(el => { const r = el.getBoundingClientRect(); const cs = getComputedStyle(el); const h = el.querySelector('h1,h2,h3');
-  return {sel: sel(el), id: el.id, framer: el.getAttribute('data-framer-name'), top: Math.round(r.top + scrollY), h: Math.round(r.height), bg: cs.backgroundColor, pos: cs.position, pad: cs.padding, heading: h ? h.innerText.trim().replace(/\s+/g, ' ').slice(0, 70) : ''}; }); }"""
+  return {sel: sel(el), id: el.id, framer: el.getAttribute('data-framer-name'), top: Math.round(r.top + scrollY), h: Math.round(r.height), bg: cs.backgroundColor, pos: cs.position, pad: cs.padding, heading: h ? (h.innerText || h.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 70) : ''}; }); }"""
 
 
 def pixel_rhythm(shot_dir, H):
@@ -548,7 +548,7 @@ def st_pointer(url, out):
           for (const el of document.querySelectorAll('nav a, header a, button, a[class], [role=button], article, li a, [data-cursor], [data-cursor-label]')) {
             const r = el.getBoundingClientRect(); if (r.width < 8 || r.height < 8) continue;
             const k = el.tagName + (el.getAttribute('class') || '').slice(0, 60); if (seen.has(k)) continue; seen.add(k);
-            el.setAttribute('data-xr-hover', out.length); out.push({i: out.length, sel: window.__xr.sel(el), text: (el.innerText || '').trim().slice(0, 30), top: Math.round(r.top + scrollY)}); if (out.length >= 24) break; }
+            el.setAttribute('data-xr-hover', out.length); out.push({i: out.length, sel: window.__xr.sel(el), text: (el.innerText || el.textContent || '').trim().slice(0, 30), top: Math.round(r.top + scrollY)}); if (out.length >= 24) break; }
           return out; }""")
         hovers = []
         for t in targets:
@@ -684,7 +684,7 @@ def st_a11y(url, out):
           imgs: document.images.length, noAlt: [...document.images].filter(i => !i.hasAttribute('alt')).length, emptyAlt: [...document.images].filter(i => i.getAttribute('alt') === '').length,
           srOnly: document.querySelectorAll('.sr-only, .visually-hidden').length, ariaHidden: document.querySelectorAll('[aria-hidden=true]').length, skipLink: !!document.querySelector('a[href="#main"], a[href="#content"], [class*=skip]'),
           lang: document.documentElement.lang, landmarks: ['header', 'nav', 'main', 'footer'].map(t => t + ':' + document.querySelectorAll(t).length).join(' '),
-          headings: [...document.querySelectorAll('h1,h2,h3')].map(h => h.tagName + ' ' + h.innerText.trim().replace(/\s+/g, ' ').slice(0, 60)).slice(0, 40)})""")
+          headings: [...document.querySelectorAll('h1,h2,h3')].map(h => h.tagName + ' ' + (h.innerText || h.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 60)).slice(0, 40)})""")
         p.keyboard.press('Tab'); p.wait_for_timeout(300); p.keyboard.press('Tab'); p.wait_for_timeout(400)
         r['focus'] = p.evaluate("() => { const a = document.activeElement; const cs = getComputedStyle(a); return {el: window.__xr.sel(a), outline: cs.outline, outlineOffset: cs.outlineOffset, boxShadow: cs.boxShadow}; }")
         shot(p, P(out, '05-screens/states/keyboard_focus.png'), clip={'x': 0, 'y': 0, 'width': 1440, 'height': 160})

@@ -40,7 +40,7 @@ async ({ ms, maxEls }) => {
     const changed = s.some((row) => JSON.stringify(row.slice(1, 8)) !== first);
     if (!changed) return;
     const anims = el.getAnimations().map((a) => ({ name: a.animationName || a.id || a.constructor.name, dur: a.effect && a.effect.getTiming().duration, ease: a.effect && a.effect.getTiming().easing, delay: a.effect && a.effect.getTiming().delay }));
-    out.push({ el: sel(el), text: (el.innerText || '').trim().replace(/\s+/g, ' ').slice(0, 40), framer: el.getAttribute('data-framer-name') || null, cssAnimations: anims, samples: s, endsDifferent: first !== last });
+    out.push({ el: sel(el), text: (el.innerText || el.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 40), framer: el.getAttribute('data-framer-name') || null, cssAnimations: anims, samples: s, endsDifferent: first !== last });
   });
   return { scrollY: Math.round(scrollY), candidates: cands.length, moving: out };
 }
