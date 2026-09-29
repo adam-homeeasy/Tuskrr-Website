@@ -52,9 +52,46 @@ def launch(pw, w=1440, h=900, **ctx):
     return b, c, p
 
 
+CONSENT_SELECTORS = [
+    '#CybotCookiebotDialogBodyButtonDecline', '#CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll',
+    '#onetrust-reject-all-handler', 'button:has-text("Use necessary cookies only")', 'button:has-text("Only necessary")',
+    'button:has-text("Reject all")', 'button:has-text("Decline")', 'button:has-text("Neka")', 'button:has-text("Endast nödvändiga")',
+]
+
+
+def dismiss_consent(p):
+    """Cookie banners lock scrolling and hide the page. Choose the most restrictive option, never 'accept all'."""
+    def try_once():
+        for sel in CONSENT_SELECTORS:
+            try:
+                el = p.locator(sel).first
+                if el.is_visible(timeout=300):
+                    el.click(timeout=2000)
+                    p.wait_for_timeout(800)
+                    return sel
+            except Exception:
+                pass
+        return None
+    hit = try_once()
+    if hit:
+        return hit
+    # Cookiebot hides 'Deny' until 'Customize' is opened. Customize is not consent.
+    try:
+        c = p.locator('#CybotCookiebotDialogBodyLevelButtonCustomize').first
+        if c.is_visible(timeout=300):
+            c.click(timeout=2000)
+            p.wait_for_timeout(800)
+            return try_once()
+    except Exception:
+        pass
+    return None
+
+
 def goto(p, url, settle=6000):
     p.goto(url, wait_until='load', timeout=90000)
     p.wait_for_timeout(settle)
+    if dismiss_consent(p):
+        p.wait_for_timeout(2500)
 
 
 def scroll_to(p, y, wait=900):
