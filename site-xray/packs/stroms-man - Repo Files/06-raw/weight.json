@@ -1,0 +1,132 @@
+{
+ "note": "uncompressed sizes; fps is cloud software rendering",
+ "byType": {
+  "document": {
+   "files": 6,
+   "kb": 83
+  },
+  "stylesheet": {
+   "files": 19,
+   "kb": 40
+  },
+  "script": {
+   "files": 44,
+   "kb": 1133
+  },
+  "font": {
+   "files": 2,
+   "kb": 75
+  },
+  "ping": {
+   "files": 20,
+   "kb": 0
+  },
+  "image": {
+   "files": 53,
+   "kb": 5135
+  },
+  "fetch": {
+   "files": 22,
+   "kb": 15
+  },
+  "other": {
+   "files": 64,
+   "kb": 747
+  },
+  "xhr": {
+   "files": 1,
+   "kb": 0
+  }
+ },
+ "biggest": [
+  [
+   "https://stroms.com/cdn/shop/files/herr-800-business-formal-1.jpg",
+   "image",
+   608
+  ],
+  [
+   "://stroms.com/cdn/shop/files/herr-13--barbour-british-heritage-bedale-tela-gransasso-1.jpg",
+   "image",
+   422
+  ],
+  [
+   "https://stroms.com/cdn/shop/files/herr-800-business-casual-2.jpg",
+   "image",
+   354
+  ],
+  [
+   "https://stroms.com/cdn/shop/files/herr-13-kat-trojor-gran-sasso-vit-1.jpg",
+   "image",
+   328
+  ],
+  [
+   "https://stroms.com/cdn/shop/files/herr-13-kat-jackor-ull-gran-sasso-1.jpg",
+   "image",
+   263
+  ],
+  [
+   "https://stroms.com/cdn/shop/files/herr-13-kat-jeans-tela-genova-1.jpg",
+   "image",
+   260
+  ],
+  [
+   "roms.com/cdn/shop/files/meny-herr-kavajer-kostymer-flanell-stromsman-polotrojor-aw26-1.jpg",
+   "image",
+   256
+  ],
+  [
+   "https://stroms.com/cdn/shop/files/herr-800-festklader-2.jpg",
+   "image",
+   247
+  ],
+  [
+   "https://stroms.com/cdn/shop/files/herr-13-mbs-kollektion-1.jpg",
+   "image",
+   211
+  ],
+  [
+   "https://stroms.com/cdn/shopifycloud/checkout-web/assets/c1/hydrate.__QOXNN3.js",
+   "other",
+   207
+  ],
+  [
+   "https://www.googletagmanager.com/gtag/js",
+   "script",
+   188
+  ],
+  [
+   "https://stroms.com/cdn/shop/files/herr-13-kat-byxor-manchester-1.jpg",
+   "image",
+   183
+  ],
+  [
+   "oms.com/cdn/shop/files/herr-45-mbs-aw26-kollektion-19-overshirt-byxor-cashmere-flanell.jpg",
+   "image",
+   182
+  ],
+  [
+   "https://stroms.com/cdn/shop/files/herr-600-mbs-kollektion-1.jpg",
+   "image",
+   172
+  ],
+  [
+   "https://www.googletagmanager.com/gtag/js",
+   "script",
+   162
+  ],
+  [
+   "https://www.googletagmanager.com/gtag/js",
+   "script",
+   162
+  ]
+ ],
+ "timing": {
+  "domContentLoadedMs": 6221,
+  "loadMs": 6765,
+  "paints": [
+   "first-paint:3452",
+   "first-contentful-paint:3452"
+  ]
+ },
+ "fpsAtTopCloud": 61
+}

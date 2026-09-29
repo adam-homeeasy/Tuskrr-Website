@@ -1,0 +1,62 @@
+{
+ "mousemove": [
+  [
+   "851-892ec06ead347d85.js",
+   2
+  ],
+  [
+   "_app-914905e04b225f99.js",
+   2
+  ],
+  [
+   "_5Bslug_5D-a1e0c6710613db04.js",
+   2
+  ],
+  [
+   "651-ebedbcfbd4ccf67e.js",
+   2
+  ],
+  [
+   "142-b4ad18bfd2ee99ce.js",
+   2
+  ],
+  [
+   "insight.old.min.js",
+   1
+  ],
+  [
+   "framework-2f1a8e17e74f15d6.js",
+   3
+  ]
+ ],
+ "requestAnimationFrame": [
+  [
+   "_app-914905e04b225f99.js",
+   2
+  ]
+ ],
+ "IntersectionObserver": [
+  [
+   "_app-914905e04b225f99.js",
+   2
+  ]
+ ],
+ "clipPath": [
+  [
+   "framework-2f1a8e17e74f15d6.js",
+   1
+  ]
+ ],
+ "pointermove": [
+  [
+   "framework-2f1a8e17e74f15d6.js",
+   2
+  ]
+ ],
+ "matchMedia": [
+  [
+   "framework-2f1a8e17e74f15d6.js",
+   1
+  ]
+ ]
+}

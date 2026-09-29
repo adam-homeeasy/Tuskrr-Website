@@ -1,0 +1,77 @@
+{
+ "note": "uncompressed sizes; fps is cloud software rendering",
+ "byType": {
+  "document": {
+   "files": 4,
+   "kb": 63
+  },
+  "stylesheet": {
+   "files": 6,
+   "kb": 66
+  },
+  "script": {
+   "files": 90,
+   "kb": 1442
+  },
+  "font": {
+   "files": 4,
+   "kb": 132
+  },
+  "image": {
+   "files": 27,
+   "kb": 1063
+  },
+  "fetch": {
+   "files": 28,
+   "kb": 8
+  },
+  "xhr": {
+   "files": 5,
+   "kb": 9
+  },
+  "ping": {
+   "files": 20,
+   "kb": 0
+  },
+  "other": {
+   "files": 71,
+   "kb": 800
+  }
+ },
+ "biggest": [
+  [
+   "https://www.unimaticwatches.com/cdn/shop/files/footer-banda.jpg",
+   "image",
+   246
+  ],
+  [
+   "ttps://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/hydrate.__QOXNN3.js",
+   "other",
+   207
+  ],
+  [
+   "https://www.googletagmanager.com/gtag/js",
+   "script",
+   193
+  ],
+  [
+   "https://www.googletagmanager.com/gtag/js",
+   "script",
+   193
+  ],
+  [
+   "https://www.googletagmanager.com/gtag/js",
+   "script",
+   150
+  ]
+ ],
+ "timing": {
+  "domContentLoadedMs": 3938,
+  "loadMs": 6000,
+  "paints": [
+   "first-paint:2988",
+   "first-contentful-paint:3188"
+  ]
+ },
+ "fpsAtTopCloud": 61
+}

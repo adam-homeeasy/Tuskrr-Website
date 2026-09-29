@@ -1,0 +1,219 @@
+{
+ "cursorFollowers": [
+  {
+   "sel": "div.cursor-follower",
+   "x": 1030,
+   "y": 330,
+   "w": 60,
+   "blend": "normal",
+   "opacity": "1"
+  },
+  {
+   "sel": "span.border-icon.is-inverted.cursor-media",
+   "x": 1030,
+   "y": 330,
+   "w": 0,
+   "blend": "normal",
+   "opacity": "0"
+  },
+  {
+   "sel": "span.border-icon.is-inverted.cursor-media",
+   "x": 1030,
+   "y": 330,
+   "w": 0,
+   "blend": "normal",
+   "opacity": "0"
+  },
+  {
+   "sel": "span.border-icon.is-inverted.cursor-media",
+   "x": 1030,
+   "y": 330,
+   "w": 0,
+   "blend": "normal",
+   "opacity": "0"
+  },
+  {
+   "sel": "span.border-icon.is-inverted.cursor-media",
+   "x": 1030,
+   "y": 330,
+   "w": 0,
+   "blend": "normal",
+   "opacity": "0"
+  },
+  {
+   "sel": "span.border-icon.is-inverted.cursor-media",
+   "x": 1030,
+   "y": 330,
+   "w": 0,
+   "blend": "normal",
+   "opacity": "0"
+  },
+  {
+   "sel": "span.border-icon.is-inverted.cursor-media",
+   "x": 1030,
+   "y": 330,
+   "w": 0,
+   "blend": "normal",
+   "opacity": "0"
+  },
+  {
+   "sel": "span.border-icon.is-inverted.cursor-media",
+   "x": 1030,
+   "y": 330,
+   "w": 0,
+   "blend": "normal",
+   "opacity": "0"
+  },
+  {
+   "sel": "span.border-icon.is-inverted.cursor-media",
+   "x": 1030,
+   "y": 330,
+   "w": 0,
+   "blend": "normal",
+   "opacity": "0"
+  },
+  {
+   "sel": "span.border-icon.is-inverted.cursor-media",
+   "x": 1030,
+   "y": 330,
+   "w": 0,
+   "blend": "normal",
+   "opacity": "0"
+  },
+  {
+   "sel": "span.border-icon.is-inverted.cursor-media",
+   "x": 1030,
+   "y": 330,
+   "w": 0,
+   "blend": "normal",
+   "opacity": "0"
+  }
+ ],
+ "videoMarks": {
+  "loaded": 8.8,
+  "circle": 15.3,
+  "flick": 16.9,
+  "scroll": 25.8
+ },
+ "hovers": [
+  {
+   "i": 0,
+   "sel": "a.coi-banner__policy",
+   "text": "Read more about cookies",
+   "top": 399,
+   "changes": []
+  },
+  {
+   "i": 1,
+   "sel": "button#show_details",
+   "text": "Show details",
+   "top": 423,
+   "changes": []
+  },
+  {
+   "i": 2,
+   "sel": "button#declineButton.coi-banner__decline",
+   "text": "DECLINE",
+   "top": 516,
+   "changes": []
+  },
+  {
+   "i": 3,
+   "sel": "button.coi-banner__accept",
+   "text": "ACCEPT",
+   "top": 516,
+   "changes": []
+  },
+  {
+   "i": 4,
+   "sel": "a.coi-external-link",
+   "text": "Cookie Information",
+   "top": 717,
+   "changes": []
+  },
+  {
+   "i": 5,
+   "sel": "a.router-link-active.router-link-exact-active.home-link",
+   "text": "Spring/Summer\u2122",
+   "top": 14,
+   "changes": []
+  },
+  {
+   "i": 6,
+   "sel": "button#accordion-trigger-656531.menu-link.ts-body-s",
+   "text": "What we do",
+   "top": 0,
+   "changes": []
+  },
+  {
+   "i": 7,
+   "sel": "a.tag",
+   "text": "Websites",
+   "top": 1201,
+   "changes": []
+  },
+  {
+   "i": 8,
+   "sel": "a.background.is-hoverable",
+   "text": "",
+   "top": 1189,
+   "changes": []
+  },
+  {
+   "i": 9,
+   "sel": "button.carousel-controls__controls-left",
+   "text": "",
+   "top": 1140,
+   "changes": []
+  },
+  {
+   "i": 10,
+   "sel": "button.carousel-controls__controls-right",
+   "text": "",
+   "top": 1140,
+   "changes": []
+  },
+  {
+   "i": 11,
+   "sel": "button.carousel-controls-hidden.module-carousel__controls-hidden",
+   "text": "",
+   "top": 1142,
+   "changes": []
+  },
+  {
+   "i": 12,
+   "sel": "a.ts-cta",
+   "text": "See all of our work",
+   "top": 2147,
+   "changes": []
+  },
+  {
+   "i": 13,
+   "sel": "a",
+   "text": "",
+   "top": 2116,
+   "changes": []
+  },
+  {
+   "i": 14,
+   "sel": "button.reach-out",
+   "text": "",
+   "top": 2971,
+   "changes": []
+  },
+  {
+   "i": 15,
+   "sel": "a.ff-mono.ts-body-s",
+   "text": "Working at Spring/Summer",
+   "top": 3432,
+   "changes": []
+  },
+  {
+   "i": 16,
+   "sel": "a.social-link",
+   "text": "Facebook",
+   "top": 4118,
+   "changes": []
+  }
+ ]
+}

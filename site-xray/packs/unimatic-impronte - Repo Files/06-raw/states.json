@@ -1,0 +1,86 @@
+{
+ "routes": {
+  "https://www.unimaticwatches.com/collections/new-in": {
+   "status": 200,
+   "title": "New in \u2013 UNIMATIC Watches",
+   "height": 4436
+  },
+  "https://www.unimaticwatches.com/search": {
+   "status": 200,
+   "title": "Search \u2013 UNIMATIC Watches",
+   "height": 1233
+  },
+  "https://www.unimaticwatches.com/account": {
+   "status": 200,
+   "title": "Sign in - UNIMATIC Watches",
+   "height": 900
+  },
+  "https://www.unimaticwatches.com/apps/wishlist-1": {
+   "status": 200,
+   "title": "UNIMATIC Watches",
+   "height": 1161
+  },
+  "https://www.unimaticwatches.com/cart": {
+   "status": 200,
+   "title": "Your Shopping Cart \u2013 UNIMATIC Watches",
+   "height": 1245
+  },
+  "https://www.unimaticwatches.com/collections/classic": {
+   "status": 200,
+   "title": "Classic \u2013 UNIMATIC Watches",
+   "height": 2564
+  },
+  "https://www.unimaticwatches.com/products/uwk-uc1": {
+   "status": 200,
+   "title": "Modello Uno UC1 Classic - Diver | UNIMATIC \u2013 UNIMATIC Watches",
+   "height": 16097
+  },
+  "https://www.unimaticwatches.com/products/uwk-uc2": {
+   "status": 200,
+   "title": "Modello Due UC2 Classic \u2013 Time Only \u2013 UNIMATIC Watches",
+   "height": 16004
+  },
+  "https://www.unimaticwatches.com/products/uwk-uc3": {
+   "status": 200,
+   "title": "Modello Tre UC3 Classic \u2013 Chronograph \u2013 UNIMATIC Watches",
+   "height": 15855
+  },
+  "https://www.unimaticwatches.com/products/uwk-uc4": {
+   "status": 200,
+   "title": "Modello Quattro UC4 Classic \u2013 Time Only \u2013 UNIMATIC Watches",
+   "height": 15854
+  },
+  "https://www.unimaticwatches.com/xray-page-that-does-not-exist": {
+   "status": 404,
+   "title": "404 Not Found \u2013 UNIMATIC Watches",
+   "height": 1245
+  }
+ },
+ "opened": [
+  {
+   "i": 0,
+   "label": "WATCHES",
+   "shot": "open_00_WATCHES.png"
+  },
+  {
+   "i": 1,
+   "label": "ACCESSORIES",
+   "shot": "open_01_ACCESSORIES.png"
+  },
+  {
+   "i": 2,
+   "label": "GIFT IDEAS",
+   "shot": "open_02_GIFT_IDEAS.png"
+  },
+  {
+   "i": 3,
+   "label": "OUR WORLD",
+   "shot": "open_03_OUR_WORLD.png"
+  },
+  {
+   "i": 4,
+   "label": "FIND US",
+   "shot": "open_04_FIND_US.png"
+  }
+ ]
+}

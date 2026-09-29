@@ -1,0 +1,69 @@
+{
+ "darkBodyBg": "rgb(237, 228, 221)",
+ "prefersDarkRules": false,
+ "imgs": 32,
+ "noAlt": 0,
+ "emptyAlt": 6,
+ "srOnly": 3,
+ "ariaHidden": 0,
+ "skipLink": false,
+ "lang": "en",
+ "landmarks": "header:0 nav:1 main:1 footer:1",
+ "headings": [
+  "H1 OUTFIT",
+  "H2 WHY"
+ ],
+ "focus": {
+  "el": "a.link-hover",
+  "outline": "rgb(16, 16, 16) none 0px",
+  "outlineOffset": "1px",
+  "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, lab(98.26 0 0) 0px 0px 0px 2px, lab(66.128 -0.0000298023 0.0000119209) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+ },
+ "contrastPairs": [
+  {
+   "text": "#ff0001",
+   "bg": "#d2cac3",
+   "ratio": 2.47
+  },
+  {
+   "text": "#ff0001",
+   "bg": "#ede4dd",
+   "ratio": 3.19
+  },
+  {
+   "text": "#ff0001",
+   "bg": "#000000",
+   "ratio": 5.25
+  },
+  {
+   "text": "#ede4dd",
+   "bg": "#ff0001",
+   "ratio": 3.19
+  },
+  {
+   "text": "#ede4dd",
+   "bg": "#d2cac3",
+   "ratio": 1.29
+  },
+  {
+   "text": "#ede4dd",
+   "bg": "#000000",
+   "ratio": 16.74
+  },
+  {
+   "text": "#000000",
+   "bg": "#ff0001",
+   "ratio": 5.25
+  },
+  {
+   "text": "#000000",
+   "bg": "#d2cac3",
+   "ratio": 12.98
+  },
+  {
+   "text": "#000000",
+   "bg": "#ede4dd",
+   "ratio": 16.74
+  }
+ ]
+}

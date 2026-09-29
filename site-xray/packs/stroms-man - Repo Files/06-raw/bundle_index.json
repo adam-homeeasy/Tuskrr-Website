@@ -1,0 +1,94 @@
+{
+ "requestAnimationFrame": [
+  [
+   "libs.min.js",
+   25
+  ],
+  [
+   "global.min.js",
+   33
+  ],
+  [
+   "shopify-perf-kit-3.9.4.min.js",
+   3
+  ],
+  [
+   "chunk.register_yvE45-Yc.esm.js",
+   5
+  ],
+  [
+   "ba5bf51cfwabd6c495p49b74ff1maa529d2bm.js",
+   2
+  ]
+ ],
+ "pointermove": [
+  [
+   "libs.min.js",
+   7
+  ],
+  [
+   "global.min.js",
+   1
+  ]
+ ],
+ "matchMedia": [
+  [
+   "libs.min.js",
+   2
+  ],
+  [
+   "chunk.window_CAbVMZox.esm.js",
+   1
+  ],
+  [
+   "global.min.js",
+   26
+  ],
+  [
+   "ba5bf51cfwabd6c495p49b74ff1maa529d2bm.js",
+   2
+  ]
+ ],
+ "IntersectionObserver": [
+  [
+   "libs.min.js",
+   1
+  ],
+  [
+   "global.min.js",
+   13
+  ],
+  [
+   "chunk.register_yvE45-Yc.esm.js",
+   2
+  ],
+  [
+   "ba5bf51cfwabd6c495p49b74ff1maa529d2bm.js",
+   2
+  ]
+ ],
+ "mousemove": [
+  [
+   "global.min.js",
+   1
+  ],
+  [
+   "shopify-perf-kit-3.9.4.min.js",
+   1
+  ],
+  [
+   "ba5bf51cfwabd6c495p49b74ff1maa529d2bm.js",
+   3
+  ]
+ ],
+ "prefers-reduced-motion": [
+  [
+   "global.min.js",
+   9
+  ],
+  [
+   "chunk.register_yvE45-Yc.esm.js",
+   1
+  ]
+ ]
+}

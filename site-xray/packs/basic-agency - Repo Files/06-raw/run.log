@@ -1,0 +1,32 @@
+[xray] probe: height 9993 canvases 0 tweens at load 0
+[xray] probe done in 14 s
+[xray] code: saved 22 scripts
+[xray] code done in 15 s
+[xray] bundle: modules saved 10
+[xray] bundle done in 0 s
+[xray] assets: 29 files, 3 fonts left out
+[xray] assets done in 25 s
+[xray] map desktop-1440 height 9993 sections 11 shots 32
+[xray] map done in 71 s
+[xray] map phone-390 height 9335 sections 11 shots 14
+[xray] phone done in 26 s
+[xray] motion: gsap tweens 0 triggers 0 | sampled moving elements 36 + load 23
+[xray] motion done in 92 s
+[xray] three: no canvases, skipped
+[xray] three done in 0 s
+[xray] pointer: cursor followers 5 hover targets 10 with changes 2
+[xray] pointer done in 53 s
+[xray] download failed https://www.basicagency.com/thinking/categories/brandbeats HTTP Error 404: Not Found
+[xray] download failed https://www.basicagency.com/xray-page-that-does-not-exist HTTP Error 404: Not Found
+[xray] states: opened 4 routes 11
+[xray] states done in 121 s
+[xray] responsive: no layout change found across widths
+[xray] responsive done in 106 s
+[xray] a11y: images without alt 0 contrast pairs 17
+[xray] a11y done in 12 s
+[xray] weight: {'document': 180, 'image': 634, 'stylesheet': 275, 'media': 34372, 'script': 2194, 'font': 86, 'fetch': 10494, 'other': 1} fps 61
+[xray] weight done in 17 s
+[xray] sheets: 4
+[xray] sheets done in 3 s
+[xray] build: effects 45 (gsap 0 , sampled 45 )
+[xray] build done in 0 s

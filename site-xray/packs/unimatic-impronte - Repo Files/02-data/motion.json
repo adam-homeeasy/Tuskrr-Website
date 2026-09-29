@@ -1,0 +1,399 @@
+{
+ "site": "https://www.unimaticwatches.com/pages/impronte-collection",
+ "viewport": "1440x900",
+ "gsapFound": false,
+ "effects": [
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "on load",
+   "element": "span.accent-dot",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "blink",
+     "dur": 800,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0.273,
+     "to": 0.958,
+     "startMs": 0,
+     "durationMs": 4513,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx001"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 0",
+   "element": "span.accent-dot",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "blink",
+     "dur": 800,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0.99,
+     "to": 0.99,
+     "startMs": 4,
+     "durationMs": 1600,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx002"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 450",
+   "element": "span.accent-dot",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "blink",
+     "dur": 800,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0.828,
+     "to": 0.828,
+     "startMs": 11,
+     "durationMs": 1600,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx003"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 900",
+   "element": "span.accent-dot",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "blink",
+     "dur": 800,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0.522,
+     "to": 0.522,
+     "startMs": 14,
+     "durationMs": 1600,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx004"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 1350",
+   "element": "span.accent-dot",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "blink",
+     "dur": 800,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0.293,
+     "to": 0.293,
+     "startMs": 9,
+     "durationMs": 1600,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx005"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 1800",
+   "element": "span.accent-dot",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "blink",
+     "dur": 800,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0.26,
+     "to": 0.26,
+     "startMs": 10,
+     "durationMs": 1597,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx006"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 2250",
+   "element": "span.accent-dot",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "blink",
+     "dur": 800,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0.38,
+     "to": 0.421,
+     "startMs": 0,
+     "durationMs": 1617,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx007"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 2700",
+   "element": "span.accent-dot",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "blink",
+     "dur": 800,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0.777,
+     "to": 0.777,
+     "startMs": 9,
+     "durationMs": 1598,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx008"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 3150",
+   "element": "span.accent-dot",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "blink",
+     "dur": 800,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0.956,
+     "to": 0.956,
+     "startMs": 4,
+     "durationMs": 1600,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx009"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 3600",
+   "element": "span.accent-dot",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "blink",
+     "dur": 800,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0.991,
+     "to": 0.991,
+     "startMs": 8,
+     "durationMs": 1600,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx010"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 4050",
+   "element": "span.accent-dot",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "blink",
+     "dur": 800,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0.83,
+     "to": 0.83,
+     "startMs": 13,
+     "durationMs": 1600,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx011"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 4500",
+   "element": "span.accent-dot",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "blink",
+     "dur": 800,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0.523,
+     "to": 0.523,
+     "startMs": 4,
+     "durationMs": 1600,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx012"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 4901",
+   "element": "span.accent-dot",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "blink",
+     "dur": 800,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0.319,
+     "to": 0.294,
+     "startMs": 0,
+     "durationMs": 1616,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx013"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 4901",
+   "element": "span.accent-dot",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "blink",
+     "dur": 800,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0.252,
+     "to": 0.252,
+     "startMs": 3,
+     "durationMs": 1601,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx014"
+  }
+ ]
+}

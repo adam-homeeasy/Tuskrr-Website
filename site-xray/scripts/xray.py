@@ -451,10 +451,16 @@ def st_motion(url, out):
         p.wait_for_timeout(3000)
         H = page_height(p)
         # B. slow wheel pass like a real visitor, so every once-trigger fires
-        while True:
+        stuck = 0
+        last_y = -1
+        for _ in range(400):   # bounded: some pages never scroll (scroll-locked or broken hydration)
             p.mouse.wheel(0, 300); p.wait_for_timeout(120)
             if p.evaluate('scrollY + innerHeight >= document.documentElement.scrollHeight - 2'): break
-            if p.evaluate('scrollY') > 60000: break
+            y_now = p.evaluate('scrollY')
+            if y_now > 60000: break
+            stuck = stuck + 1 if y_now == last_y else 0
+            last_y = y_now
+            if stuck >= 8: break
         p.wait_for_timeout(2500)
         g = p.evaluate(DUMP_MOTION)
         gsap_found = g['tweenCount'] > 5

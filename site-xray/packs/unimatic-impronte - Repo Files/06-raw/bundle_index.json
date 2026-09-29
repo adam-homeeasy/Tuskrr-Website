@@ -1,0 +1,84 @@
+{
+ "matchMedia": [
+  [
+   "drawer.js",
+   1
+  ],
+  [
+   "chunk.window_CAbVMZox.esm.js",
+   1
+  ],
+  [
+   "ba5bf51cfwabd6c495p49b74ff1maa529d2bm.js",
+   2
+  ],
+  [
+   "header.js",
+   1
+  ]
+ ],
+ "IntersectionObserver": [
+  [
+   "promo-slider.js",
+   1
+  ],
+  [
+   "chunk.register_yvE45-Yc.esm.js",
+   2
+  ],
+  [
+   "ba5bf51cfwabd6c495p49b74ff1maa529d2bm.js",
+   2
+  ]
+ ],
+ "requestAnimationFrame": [
+  [
+   "slider.js",
+   1
+  ],
+  [
+   "shopify-perf-kit-3.9.4.min.js",
+   3
+  ],
+  [
+   "chunk.register_yvE45-Yc.esm.js",
+   5
+  ],
+  [
+   "ba5bf51cfwabd6c495p49b74ff1maa529d2bm.js",
+   2
+  ],
+  [
+   "header.js",
+   3
+  ],
+  [
+   "wishlist-engine-app.js",
+   1
+  ],
+  [
+   "wlm-1.1.js",
+   2
+  ]
+ ],
+ "mousemove": [
+  [
+   "shopify-perf-kit-3.9.4.min.js",
+   1
+  ],
+  [
+   "ba5bf51cfwabd6c495p49b74ff1maa529d2bm.js",
+   3
+  ],
+  [
+   "wlm-1.1.js",
+   1
+  ]
+ ],
+ "prefers-reduced-motion": [
+  [
+   "chunk.register_yvE45-Yc.esm.js",
+   1
+  ]
+ ]
+}

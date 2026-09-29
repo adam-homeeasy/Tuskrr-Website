@@ -1,0 +1,81 @@
+{
+ "cursorFollowers": [],
+ "videoMarks": {
+  "loaded": 8.5,
+  "circle": 12.5,
+  "flick": 15.8,
+  "scroll": 24.5
+ },
+ "hovers": [
+  {
+   "i": 0,
+   "sel": "a.mr-2.lg:mr-6",
+   "text": "OUTFIT\u00ae",
+   "top": 39,
+   "changes": []
+  },
+  {
+   "i": 1,
+   "sel": "a.link-hover",
+   "text": "Shop",
+   "top": 36,
+   "changes": []
+  },
+  {
+   "i": 2,
+   "sel": "button.inline-block.rounded-full.transition-all",
+   "text": "",
+   "top": 42,
+   "changes": []
+  },
+  {
+   "i": 3,
+   "sel": "a.link-hover.block.w-fit",
+   "text": "",
+   "top": 33,
+   "changes": []
+  },
+  {
+   "i": 4,
+   "sel": "a.link-hover.block.w-fit",
+   "text": "",
+   "top": 109,
+   "changes": []
+  },
+  {
+   "i": 5,
+   "sel": "a.col-span-8",
+   "text": "",
+   "top": 903,
+   "changes": []
+  },
+  {
+   "i": 6,
+   "sel": "a#hero-link.link-hover.max-w-fit.uppercase",
+   "text": "VISIT ++ WEBSITE",
+   "top": 453,
+   "changes": []
+  },
+  {
+   "i": 7,
+   "sel": "a#hero-shipping-returns-link.link-hover.max-w-fit.uppercase",
+   "text": "SHIPPING & RETURNS",
+   "top": 517,
+   "changes": []
+  },
+  {
+   "i": 8,
+   "sel": "a.group.block",
+   "text": "Off by Design\n\n$36.50\n\nAPPAREL",
+   "top": 573,
+   "changes": []
+  },
+  {
+   "i": 9,
+   "sel": "a.link-hover.max-w-fit",
+   "text": "Privacy Policy",
+   "top": 3906,
+   "changes": []
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "site": "https://stroms.com/pages/man",
+ "viewport": "1440x900",
+ "gsapFound": false,
+ "effects": [
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "on load",
+   "element": "collection-showcase.animatedContent",
+   "sampleText": "Made by Str\u00f6ms - Erbjudande K\u00f6p 2 str\u00f6ms",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "Animation",
+     "dur": 425,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0,
+     "to": 1,
+     "startMs": 73,
+     "durationMs": 438,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.055,
+       0.001,
+       1.0,
+       1.0
+      ],
+      "rmsError": 0.037,
+      "nearestNamed": "linear",
+      "nearestRms": 0.0409
+     }
+    }
+   },
+   "id": "fx001"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "on load",
+   "element": "div.custom-image-gallery__wrapper.animatedContent.paddingControl--template--28564945600896__section_custom_image_gallery_yzC7X6",
+   "sampleText": "JEANS TR\u00d6JOR",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "Animation",
+     "dur": 425,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0,
+     "to": 1,
+     "startMs": 73,
+     "durationMs": 438,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.055,
+       0.001,
+       1.0,
+       1.0
+      ],
+      "rmsError": 0.037,
+      "nearestNamed": "linear",
+      "nearestRms": 0.0409
+     }
+    }
+   },
+   "id": "fx002"
+  }
+ ]
+}

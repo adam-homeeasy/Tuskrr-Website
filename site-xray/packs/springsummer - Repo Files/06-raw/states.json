@@ -1,0 +1,91 @@
+{
+ "routes": {
+  "https://springsummer.dk/page/ecommerce": {
+   "status": 200,
+   "title": "eCommerce excellence with Spring/Summer",
+   "height": 7199
+  },
+  "https://springsummer.dk/page/websites": {
+   "status": 200,
+   "title": "Award-Winning Web Design & Development for Ambitious Brands",
+   "height": 6810
+  },
+  "https://springsummer.dk/page/brand": {
+   "status": 200,
+   "title": "Strategic Brand Identity Design with Scandinavian Influence",
+   "height": 6377
+  },
+  "https://springsummer.dk/page/apps": {
+   "status": 200,
+   "title": "App and Product Design for Leading Brands",
+   "height": 6626
+  },
+  "https://springsummer.dk/category/shopify": {
+   "status": 200,
+   "title": "Shopify projects",
+   "height": 7463
+  },
+  "https://springsummer.dk/category/sanity-cms": {
+   "status": 200,
+   "title": "Sanity CMS | Spring/Summer",
+   "height": 7741
+  },
+  "https://springsummer.dk/category/craft-cms": {
+   "status": 200,
+   "title": "Craft CMS projects",
+   "height": 8195
+  },
+  "https://springsummer.dk/category/webflow": {
+   "status": 200,
+   "title": "Webflow projects",
+   "height": 2775
+  },
+  "https://springsummer.dk/category/wordpress": {
+   "status": 200,
+   "title": "Wordpress | Spring/Summer",
+   "height": 4417
+  },
+  "https://springsummer.dk/category/native-app": {
+   "status": 200,
+   "title": "Native App | Spring/Summer",
+   "height": 2815
+  },
+  "https://springsummer.dk/xray-page-that-does-not-exist": {
+   "status": 404,
+   "title": "Spring/Summer\u2122\ufe0f | Page not found",
+   "height": 907
+  }
+ },
+ "opened": [
+  {
+   "i": 0,
+   "label": "What we do",
+   "error": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"[data"
+  },
+  {
+   "i": 1,
+   "label": "Toggle What we do submenu",
+   "error": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"[data"
+  },
+  {
+   "i": 2,
+   "label": "Our work",
+   "error": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"[data"
+  },
+  {
+   "i": 3,
+   "label": "Toggle Our work submenu",
+   "error": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"[data"
+  },
+  {
+   "i": 4,
+   "label": "About us",
+   "error": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"[data"
+  },
+  {
+   "i": 5,
+   "label": "Toggle About us submenu",
+   "error": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"[data"
+  }
+ ]
+}

@@ -1,0 +1,1106 @@
+{
+ "title": "Bread & Boxers - Din perfekta basgarderob - Dam & Herr | Bread & Boxers",
+ "generator": null,
+ "htmlClass": "",
+ "bodyClass": "",
+ "height": 4816,
+ "globals": {
+  "gsap": "undefined",
+  "ScrollTrigger": "undefined",
+  "Lenis": "undefined",
+  "lenis": "undefined",
+  "lenisVersion": "undefined",
+  "__THREE__": "undefined",
+  "THREE": "undefined",
+  "Webflow": "undefined",
+  "Framer": "undefined",
+  "__framer_importFromPackage": "undefined",
+  "__NEXT_DATA__": "undefined",
+  "__next_f": "undefined",
+  "__NUXT__": "object",
+  "Shopify": "undefined",
+  "wixBiSession": "undefined",
+  "Squarespace": "undefined",
+  "jQuery": "undefined",
+  "Barba": "undefined",
+  "swup": "undefined",
+  "lottie": "undefined",
+  "rive": "undefined",
+  "Spline": "undefined"
+ },
+ "threeVer": null,
+ "framerNodes": 0,
+ "webflowIx": 0,
+ "links": [
+  "https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2",
+  "#",
+  "[#DSR_FORM_URL#]",
+  "https://www.optimizely.com/privacy/",
+  "https://policy.pinterest.com/en/privacy-policy",
+  "https://www.klaviyo.com/privacy",
+  "https://privacy.microsoft.com/en-us/privacystatement",
+  "https://www.tiktok.com/legal/privacy-policy?lang=en",
+  "https://www.facebook.com/policy.php/",
+  "https://www.cookiebot.com",
+  "/se/underwear-sale",
+  "/se",
+  "/se/herr/kalsonger",
+  "/se/dam/underklader",
+  "/se/herr",
+  "/se/dam",
+  "/se/buy-2-get-20-off-buy-3-get-30-off",
+  "/se/herr/t-shirts",
+  "/se/crew-neck-lyocell",
+  "/se/man-crew-neck-pima",
+  "/se/man-crew-neck-regular",
+  "/se/man-crew-neck-relaxed",
+  "/se/man-crew-neck-ribbed",
+  "/se/man-crew-neck-slim",
+  "/se/man-heavy-tee",
+  "/se/man-high-neck-tee",
+  "/se/man-lightweight-tee",
+  "/se/man-roll-up-tee",
+  "/se/v-neck-slim",
+  "/se/nyheter/herr",
+  "/se/nyheter/dam",
+  "/se/dam/t-shirts",
+  "/se/woman-crew-neck-regular",
+  "/se/woman-crew-neck-slim",
+  "/se/woman-heavy-tee-white-xs",
+  "/se/t-shirt-dress-soft-fiber-v584",
+  "/se/t-shirt-scoop-neck",
+  "/se/woman-t-shirt-soft-fiber",
+  "/se/woman-v-neck-regular",
+  "/faq",
+  "/returns",
+  "/shipping-delivery",
+  "/orders-payment",
+  "/terms-conditions",
+  "/job",
+  "/about-us",
+  "/privacy-policy",
+  "mailto:support@breadandboxers.com",
+  "https://www.facebook.com/breadandboxers/",
+  "https://www.instagram.com/breadandboxers/",
+  "https://x.com/breadandboxers",
+  "https://www.youtube.com/@breadboxers5576/videos"
+ ],
+ "canvases": [],
+ "io": [
+  {
+   "t": 4673,
+   "rootMargin": null,
+   "threshold": null,
+   "targets": [
+    "a.router-link-active.router-link-exact-active.absolute",
+    "a.router-link-active.router-link-exact-active.mb-10",
+    "a.nav-link.text-xs.nav-link-cms",
+    "a",
+    "a",
+    "a",
+    "a",
+    "a",
+    "a",
+    "a",
+    "a",
+    "a.flex.flex-col.items-center",
+    "a.flex.flex-col.items-center",
+    "a.flex.flex-col.items-center",
+    "a.flex.flex-col.items-center",
+    "a.nav-link.text-xs.nav-link-cms",
+    "a.nav-link.text-xs.nav-link-cms",
+    "a.text-sm.transition-all.button",
+    "a.transition-all.button",
+    "a.transition-all.button",
+    "a.text-sm.transition-all.button",
+    "a.text-sm.transition-all.button",
+    "a.transition-all.button",
+    "a.transition-all.button",
+    "a.text-sm.transition-all.button",
+    "a.text-sm.transition-all.button",
+    "a.text-sm.transition-all.button",
+    "a.text-base.transition-all.button",
+    "a.text-base.transition-all.button",
+    "a.text-sm.transition-all.button",
+    "a.text-sm.transition-all.button",
+    "a.text-sm.transition-all.button",
+    "a.text-sm.transition-all.button",
+    "a.block.w-full.relative",
+    "a.block.w-full.relative",
+    "a.block.w-full.relative",
+    "a.block.w-full.relative",
+    "a.block.w-full.relative",
+    "a.block.w-full.relative",
+    "a.block.w-full.relative"
+   ]
+  }
+ ],
+ "listeners": {
+  "visibilitychange @ document": 1,
+  "click @ document": 5,
+  "wheel @ div#CybotCookiebotDialog": 1,
+  "scroll @ div#CybotCookiebotDialog": 1,
+  "click @ a#CybotCookiebotDialogNavDeclaration.CybotCookiebotDialogNavItemLink.CybotCookiebotDialogActive": 1,
+  "click @ a#CybotCookiebotDialogNavDetails.CybotCookiebotDialogNavItemLink": 1,
+  "click @ a#CybotCookiebotDialogNavAdSettings.CybotCookiebotDialogNavItemLink": 1,
+  "click @ a#CybotCookiebotDialogNavAbout.CybotCookiebotDialogNavItemLink": 1,
+  "click @ button#CybotCookiebotDialogDetailBodyContentIABv2Purposes.CybotCookiebotDialogDetailBodyContentIABv2Tab.CybotCookiebotDialogCollapsed": 2,
+  "click @ button#CybotCookiebotDialogDetailBodyContentIABv2Features.CybotCookiebotDialogDetailBodyContentIABv2Tab.CybotCookiebotDialogCollapsed": 2,
+  "click @ button#CybotCookiebotDialogDetailBodyContentIABv2Partners.CybotCookiebotDialogDetailBodyContentIABv2Tab.CybotCookiebotDialogCollapsed": 2,
+  "click @ a.CybotCookiebotDialogDetailBodyContentCookieProvider.CybotCookiebotDialogCollapsed": 52,
+  "click @ button#CybotCookiebotDialogDetailBodyContentCookieContainerNecessary.CybotCookiebotDialogDetailBodyContentCookieContainerButton.CybotCookiebotDialogCollapsed": 2,
+  "click @ button#CybotCookiebotDialogDetailBodyContentCookieContainerPreference.CybotCookiebotDialogDetailBodyContentCookieContainerButton.CybotCookiebotDialogCollapsed": 2,
+  "click @ button#CybotCookiebotDialogDetailBodyContentCookieContainerStatistics.CybotCookiebotDialogDetailBodyContentCookieContainerButton.CybotCookiebotDialogCollapsed": 2,
+  "click @ button#CybotCookiebotDialogDetailBodyContentCookieContainerAdvertising.CybotCookiebotDialogDetailBodyContentCookieContainerButton.CybotCookiebotDialogCollapsed": 2,
+  "click @ button#CybotCookiebotDialogDetailBodyContentCookieContainerUnclassified.CybotCookiebotDialogDetailBodyContentCookieContainerButton.CybotCookiebotDialogCollapsed": 2,
+  "click @ button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection.CybotCookiebotDialogBodyButton.CybotCookiebotDialogHide": 1,
+  "click @ button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll.CybotCookiebotDialogBodyButton": 1,
+  "click @ button#CybotCookiebotDialogBodyButtonDecline.CybotCookiebotDialogBodyButton.CybotCookiebotDialogHide": 1,
+  "click @ button#CybotCookiebotDialogBodyLevelButtonCustomize.CybotCookiebotDialogBodyButton": 2,
+  "click @ div.CybotCookiebotDialogBodyLevelButtonSliderWrapper.CybotCookiebotDialogBodyLevelButtonSliderWrapperDisabled": 1,
+  "click @ div.CybotCookiebotDialogBodyLevelButtonSliderWrapperFullWidth": 1,
+  "click @ input#CybotCookiebotDialogBodyLevelButtonPreferences.CybotCookiebotDialogBodyLevelButton.CybotCookiebotDialogBodyLevelConsentCheckbox": 1,
+  "click @ input#CybotCookiebotDialogBodyLevelButtonStatistics.CybotCookiebotDialogBodyLevelButton.CybotCookiebotDialogBodyLevelConsentCheckbox": 1,
+  "click @ input#CybotCookiebotDialogBodyLevelButtonMarketing.CybotCookiebotDialogBodyLevelButton.CybotCookiebotDialogBodyLevelConsentCheckbox": 1,
+  "click @ input#CybotCookiebotDialogBodyLevelButtonPreferencesInline.CybotCookiebotDialogBodyLevelButton.CybotCookiebotDialogBodyLevelConsentCheckbox": 1,
+  "click @ input#CybotCookiebotDialogBodyLevelButtonStatisticsInline.CybotCookiebotDialogBodyLevelButton.CybotCookiebotDialogBodyLevelConsentCheckbox": 1,
+  "click @ input#CybotCookiebotDialogBodyLevelButtonMarketingInline.CybotCookiebotDialogBodyLevelButton.CybotCookiebotDialogBodyLevelConsentCheckbox": 1,
+  "click @ a#CybotCookiebotDialogDetailBulkConsentLink.CybotExpandLink.CybotCookiebotDialogCollapsed": 2,
+  "click @ a#CybotCookiebotDialogBodyEdgeMoreDetailsLink": 2,
+  "keydown @ div#CybotCookiebotDialog": 1,
+  "resize @ window": 2,
+  "scroll @ ul#CybotCookiebotDialogNavList.CybotCookiebotDialogNavItems": 1,
+  "scroll @ div#CybotCookiebotDialogBodyContent.CybotCookiebotScrollArea": 1,
+  "scroll @ div#CybotCookiebotDialogTabContentDetails.CybotCookiebotDialogTabPanel.CybotCookiebotDialogHide.CybotCookiebotScrollArea": 1,
+  "scroll @ div#CybotCookiebotDialogDetailBodyContentTextIABv2.CybotCookiebotDialogTabPanel.CybotCookiebotDialogHide.CybotCookiebotScrollArea": 1,
+  "scroll @ div#CybotCookiebotDialogDetailBodyContentTextAbout.CybotCookiebotDialogTabPanel.CybotCookiebotDialogHide.CybotCookiebotScrollArea": 1,
+  "scroll @ div.CybotCookiebotScrollArea": 1,
+  "click @ li.CybotCookiebotDialogNavItem": 3,
+  "click @ li#CybotCookiebotDialogNavItemAdSettings.CybotCookiebotDialogNavItem.CybotCookiebotDialogHide": 1,
+  "click @ div#CybotCookiebotDialogBodyEdgeMoreDetails": 1,
+  "click @ window": 1,
+  "click @ body": 1,
+  "keydown @ window": 6,
+  "keydown @ button#popover-button-herr.flex.items-center.gap-1": 1,
+  "click @ button#popover-button-herr.flex.items-center.gap-1": 1,
+  "keydown @ button#popover-button-dam.flex.items-center.gap-1": 1,
+  "click @ button#popover-button-dam.flex.items-center.gap-1": 1,
+  "keydown @ button#popover-button-nyheter.flex.items-center.gap-1": 1,
+  "click @ button#popover-button-nyheter.flex.items-center.gap-1": 1,
+  "click @ a.router-link-active.router-link-exact-active.absolute": 1,
+  "click @ button#button-list-box.relative.w-full.pr-8": 1,
+  "click @ button": 1,
+  "keydown @ input.w-0.px-0.opacity-0": 1,
+  "click @ svg.h-6.w-6": 1,
+  "click @ div.relative.cursor-pointer": 1,
+  "click @ a.router-link-active.router-link-exact-active.mb-10": 1,
+  "click @ a.nav-link.text-xs.nav-link-cms": 3,
+  "click @ a": 8,
+  "click @ a.flex.flex-col.items-center": 4,
+  "click @ a.text-sm.transition-all.button": 10,
+  "click @ a.transition-all.button": 4,
+  "click @ a.text-base.transition-all.button": 2,
+  "click @ div.sb-carousel-arrow.left-0.rotate-180": 1,
+  "click @ a.block.w-full.relative": 18,
+  "mouseleave @ div.flex.cursor-pointer.overflow-x-auto": 2,
+  "mousemove @ div.flex.cursor-pointer.overflow-x-auto": 2,
+  "click @ div.sb-carousel-arrow.right-0.h-full": 1
+ },
+ "animateCalls": 0,
+ "contexts": [],
+ "draws": 0,
+ "raf": 3,
+ "viewTransitions": 0,
+ "audio": 0,
+ "media": [],
+ "errors": [],
+ "tweensAtLoad": 0,
+ "fonts": [
+  "helvetica-lt-pro 400 italic unloaded",
+  "helvetica-lt-pro 300 normal loaded",
+  "helvetica-lt-pro 300 italic unloaded",
+  "helvetica-lt-pro 400 normal unloaded",
+  "Heldane Display 400 normal loaded"
+ ],
+ "meta": [
+  "og:image = https://breadandboxers.com/__og-image__/image/se/og.png",
+  "og:image:type = image/png",
+  "og:image:width = 1200",
+  "og:image:height = 600",
+  "icon = https://breadandboxers.com/favicon.ico",
+  "icon = https://breadandboxers.com/favicon.svg",
+  "apple-touch-icon = https://breadandboxers.com/apple-touch-icon-180x180.png",
+  "og:type = website",
+  "og:url = https://breadandboxers.com/se",
+  "og:locale = sv_SE",
+  "og:locale:alternate = da_DK",
+  "og:locale:alternate = nl_NL",
+  "og:locale:alternate = en_US",
+  "og:locale:alternate = en_GB",
+  "og:locale:alternate = fr_FR",
+  "og:locale:alternate = de_DE",
+  "og:locale:alternate = nb_NO",
+  "og:locale:alternate = en_US",
+  "manifest = https://breadandboxers.com/manifest.webmanifest",
+  "og:title = Bread & Boxers - Your Perfect Base Wardrobe Essentials",
+  "description = Bread & Boxers - Kalsonger, T-shirts, Hoodies och baskl\u00e4der skapade med enkelhet, komfort och funktionalitet i \u00e5tanke. Designade i Sverige o",
+  "og:description = Bread & Boxers - Underwear, T-shirts, Hoodies, and basic clothing created with simplicity, comfort, and functionality in mind. Designed in S",
+  "og:site_name = Bread & Boxers"
+ ],
+ "scripts": [
+  "https://consent.cookiebot.com/127238b0-94a3-41cb-8362-eb209f4de5a9/cc.js?renew=false&referer=breadandboxers.com&dnt=false&init=false&framework=gtm",
+  "https://gtm.breadandboxers.com/gtm.js?id=GTM-N5Q38HGD",
+  "https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=Ymph2M",
+  "https://cdn.optimizely.com/js/29349450414.js",
+  "https://consent.cookiebot.com/uc.js",
+  "https://breadandboxers.com/_nuxt/RRUNQtLc.js",
+  "https://breadandboxers.com/_vercel/speed-insights/script.js"
+ ],
+ "styles": [
+  "https://use.typekit.net/hfk8jpm.css?display=swap",
+  "https://breadandboxers.com/_nuxt/entry.CVxYpCUV.css",
+  "https://breadandboxers.com/_nuxt/RunningText.nvJcL4Yz.css"
+ ],
+ "resources": [
+  {
+   "u": "https://breadandboxers.com/_nuxt/entry.CVxYpCUV.css",
+   "t": "link",
+   "kb": 20
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/RunningText.nvJcL4Yz.css",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://a.storyblok.com/f/288963788876795/1200x1200/8ae9dea0cb/google_1200x1200_unisex_sv-8.jpg/m/1600x1600/filters:format(webp):quality(80)",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/288963788876795/1200x1200/616bdc2ade/google_1200x1200_women_sv-7.jpg/m/1600x1600/filters:format(webp):quality(80)",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/288963788876795/1200x1200/71cc8be03b/google_1200x1200_men_sv-24.jpg/m/1600x1600/filters:format(webp):quality(80)",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/288963788876795/1200x1200/171dffebcf/google_1200x1200_men_sv-25.jpg/m/1600x1600/filters:format(webp):quality(80)",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/288963788876795/1350x1350/7a466b616a/meta_1080x1350_everyday-basics-36.jpg/m/1600x1600/filters:format(webp):quality(80)",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/288963788876795/1350x1350/347dabac8d/meta_1080x1350_everyday-basics-37.jpg/m/1600x1600/filters:format(webp):quality(80)",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/288963788876795/1200x1200/2248c814eb/noos-woman.jpg/m/1600x1600/filters:format(webp):quality(80)",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/288963788876795/1200x1200/d2ab27d915/noos-man.jpg/m/1600x1600/filters:format(webp):quality(80)",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/288963788876795/2008x1226/f218fb2798/startsida_banner.jpg/m/1600x977/filters:format(webp):quality(80)",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/288963788876795/1100x1100/58d2cb893f/artboard-1.jpg/m/1600x1600/filters:format(webp):quality(80)",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/288963788876795/1100x1100/9eca2d74f7/artboard-5.jpg/m/1600x1600/filters:format(webp):quality(80)",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/288963788876795/1100x1100/edc49e7ec7/artboard-6.jpg/m/1600x1600/filters:format(webp):quality(80)",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/RRUNQtLc.js",
+   "t": "other",
+   "kb": 194
+  },
+  {
+   "u": "https://a.storyblok.com/f/288963788876795/1100x1100/55d3115e75/artboard-7.jpg/m/1600x1600/filters:format(webp):quality(80)",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CYiNexgL.js",
+   "t": "other",
+   "kb": 25
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/D0ua7ZGu.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/DctDL98_.js",
+   "t": "other",
+   "kb": 3
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/C5JR5G38.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CSTlr0bE.js",
+   "t": "other",
+   "kb": 4
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CNiA8gzM.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/D5poEl7T.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BMoDZ1ny.js",
+   "t": "other",
+   "kb": 4
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CEY_si_u.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/7g2e8FQF.js",
+   "t": "other",
+   "kb": 11
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/nXSi61_Z.js",
+   "t": "other",
+   "kb": 2
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CV1p4txe.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/DXGYWbER.js",
+   "t": "other",
+   "kb": 3
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/DQlXMLts.js",
+   "t": "other",
+   "kb": 4
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/zUjeQHH1.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CIMQiXxf.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/SREaxk_-.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BbAL3qCP.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/D7OMHE_C.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/Dz1P7UOv.js",
+   "t": "other",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/B3pnurEk.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/B3TrP13D.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/D3PK8J5R.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/3ELmQZHk.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/C0ikxrpT.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/E3vLTqRP.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CIx4sjFc.js",
+   "t": "other",
+   "kb": 2
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BsHel5iJ.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CA6kFQbV.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/ByJU5jCj.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/DTdCnHfJ.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/uw85I3Lq.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BbHLug46.js",
+   "t": "other",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/C_5GztNy.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/D9lc2Rlo.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BSYEEG6K.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CyndoqnZ.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/a5Ii4sVt.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/D5K43oD_.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BjlXR0Ix.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/DX8OsTcs.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BNsUY9g9.js",
+   "t": "other",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/DlAUqK2U.js",
+   "t": "other",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BuPq4sF0.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/Bgayg2mi.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CM0RV5BC.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BLyEaCBF.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BBvwbMLF.js",
+   "t": "other",
+   "kb": 3
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/Dwcg0_5Q.js",
+   "t": "other",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BHqcTPgQ.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/DkJgq4Vr.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/B_Crn_hN.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/COBYRPYX.js",
+   "t": "other",
+   "kb": 3
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CGbGeVD8.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/B5PD6FZR.js",
+   "t": "other",
+   "kb": 2
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/Ca4sYHvx.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/Dy8kumtT.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BDVkZbim.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CM87diaJ.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CXOF4pym.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BHPDPKPr.js",
+   "t": "other",
+   "kb": 2
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/Cmu1qQls.js",
+   "t": "other",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/DXDHeWTp.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CW4eUw_e.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/DGeusDjr.js",
+   "t": "other",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/DINVHM0z.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/DihPE4Wz.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/D72MAPlq.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BtAALgYR.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/42HTV0j5.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/x_rD_Ya3.js",
+   "t": "other",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BTGGA65w.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BKDyGIX8.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/2HAFTfTL.js",
+   "t": "other",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/Ptd8rn80.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/Tr2mx4m7.js",
+   "t": "other",
+   "kb": 2
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/Co3zOfaj.js",
+   "t": "other",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CbI0o5C6.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CDCcI25c.js",
+   "t": "other",
+   "kb": 2
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CTo6GVtO.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CAaa3q6B.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CF2SzRAf.js",
+   "t": "other",
+   "kb": 4
+  },
+  {
+   "u": "https://consent.cookiebot.com/uc.js",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/D4VJHt4p.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/B5ybJYK0.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/builds/meta/86e04c4e-ea9b-4965-b3e7-554fdf47874b.json",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BZll7YXC.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://a.storyblok.com/f/288963788876795/300x105/ed5f79b98e/branding-breadandboxers-logo_breadandboxers_logo_black.svg",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/288963788876795/300x105/f02c1c6b10/branding-breadandboxers-logo_breadandboxers_logo_greish.svg",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/images/flags/sv-SE.svg",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/288963788876795/299x150/515d4c3dea/branding-breadandboxers-logo-03.svg",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://gtm.breadandboxers.com/gtm.js?id=GTM-N5Q38HGD",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://use.typekit.net/hfk8jpm.css?display=swap",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/Bc4ySOCo.js",
+   "t": "link",
+   "kb": 6
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BheWnx7M.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/ArticleTeaser.BIzeDy4W.css",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/C8t6JMjB.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/DjuiDNyt.js",
+   "t": "link",
+   "kb": 4
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BH5aN3ft.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BoexEka6.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/ejZ3nDlm.js",
+   "t": "link",
+   "kb": 23
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/bVw5DfGl.js",
+   "t": "link",
+   "kb": 3
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BgRnFH22.js",
+   "t": "link",
+   "kb": 6
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/BNShzoGR.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/coiYG9AR.js",
+   "t": "link",
+   "kb": 25
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CwtvwXb3.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/DQJc1Dh5.js",
+   "t": "link",
+   "kb": 6
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/UYjTY7E8.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/D3fPFrF9.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/DiZ1DEwz.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CQphY-m9.js",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/Dhryms7R.js",
+   "t": "link",
+   "kb": 4
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/84C4-KqX.js",
+   "t": "link",
+   "kb": 4
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/DJ3n7jF0.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/7KA5EZHF.js",
+   "t": "link",
+   "kb": 3
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/HeldaneDisplay-Regular.l31tX7OL.woff2",
+   "t": "css",
+   "kb": 69
+  },
+  {
+   "u": "https://media.cdn-norce.tech/1598/b11e2e45-b75f-4d38-9337-4c22256c2e70?mode=max&format=webp&w=1440",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://media.cdn-norce.tech/1598/7069f91d-312c-4185-89b9-1f0be1eb4382?mode=max&format=webp&w=1440",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://media.cdn-norce.tech/1598/04656adc-2e1b-415a-a6cb-f9a4e6ce8796?mode=max&format=webp&w=1440",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://media.cdn-norce.tech/1598/0f11de8f-adfd-46ed-8045-8e941b74b997?mode=max&format=webp&w=1440",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://media.cdn-norce.tech/1598/7a9ceb47-0f84-46c8-997a-198150e376de?mode=max&format=webp&w=1440",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://media.cdn-norce.tech/1598/8f3750fc-aa03-4618-8809-bd6b73d8c64d?mode=max&format=webp&w=1440",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://media.cdn-norce.tech/1598/009d9001-5e10-4e6c-9e4b-8975b8e739d3?mode=max&format=webp&w=1440",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://media.cdn-norce.tech/1598/0c0e425a-4ca6-4079-a749-0abf07f798e9?mode=max&format=webp&w=1440",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://media.cdn-norce.tech/1598/00cf42cd-3af9-4049-8101-ca56ea312f41?mode=max&format=webp&w=1440",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://media.cdn-norce.tech/1598/512350a5-5836-4fab-a574-3f6416cd56df?mode=max&format=webp&w=1440",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://media.cdn-norce.tech/1598/2a1f7eb4-95e3-4b9c-a824-c48a2aee353a?mode=max&format=webp&w=1440",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://media.cdn-norce.tech/1598/cc5410cb-a212-449a-bd9e-a77bda2c78df?mode=max&format=webp&w=1440",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://media.cdn-norce.tech/1598/370d3c9d-f7cc-4cdd-906b-2fd56f1ce52c?mode=max&format=webp&w=1440",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://media.cdn-norce.tech/1598/503822f5-65eb-4cbe-bf9c-502eb8278955?mode=max&format=webp&w=1440",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://media.cdn-norce.tech/1598/274096ce-e68d-422a-9689-870a9ff397a3?mode=max&format=webp&w=1440",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/278313/20x21/abe8025679/facebook.png/m/10x10/filters:blur(2):format(webp):quality(50)",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/278313/20x21/e277bc747d/instagram.png/m/10x10/filters:blur(2):format(webp):quality(50)",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/278313/20x21/067df1a17f/x.png/m/10x10/filters:blur(2):format(webp):quality(50)",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/278313/20x17/948db6fbc1/youtube.png/m/10x10/filters:blur(2):format(webp):quality(50)",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://consentcdn.cookiebot.com/sdk/bc-v4.min.html",
+   "t": "iframe",
+   "kb": 0
+  },
+  {
+   "u": "https://consentcdn.cookiebot.com/consentconfig/127238b0-94a3-41cb-8362-eb209f4de5a9/settings.json",
+   "t": "xmlhttprequest",
+   "kb": 0
+  },
+  {
+   "u": "https://consent.cookiebot.com/127238b0-94a3-41cb-8362-eb209f4de5a9/cc.js?renew=false&referer=breadandboxers.com&dnt=false&init=false&framework=gtm",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/CwtvwXb3.js",
+   "t": "script",
+   "kb": 3
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/DjuiDNyt.js",
+   "t": "script",
+   "kb": 4
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/ejZ3nDlm.js",
+   "t": "script",
+   "kb": 23
+  },
+  {
+   "u": "https://breadandboxers.com/_nuxt/bVw5DfGl.js",
+   "t": "script",
+   "kb": 3
+  },
+  {
+   "u": "https://breadandboxers.com/_vercel/speed-insights/script.js",
+   "t": "script",
+   "kb": 5
+  },
+  {
+   "u": "https://a.storyblok.com/f/278313/20x21/e277bc747d/instagram.png/m/fit-in/20x32/filters:format(webp)",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/278313/20x21/abe8025679/facebook.png/m/fit-in/20x32/filters:format(webp)",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/278313/20x21/067df1a17f/x.png/m/fit-in/20x32/filters:format(webp)",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/278313/20x17/948db6fbc1/youtube.png/m/fit-in/20x32/filters:format(webp)",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/278313/20x21/e277bc747d/instagram.png/m/fit-in/20x32/filters:format(webp)",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/278313/20x21/abe8025679/facebook.png/m/fit-in/20x32/filters:format(webp)",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/278313/20x21/067df1a17f/x.png/m/fit-in/20x32/filters:format(webp)",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://a.storyblok.com/f/278313/20x17/948db6fbc1/youtube.png/m/fit-in/20x32/filters:format(webp)",
+   "t": "img",
+   "kb": 0
+  }
+ ],
+ "console": [
+  "error: Hydration completed but contains mismatches.",
+  "error: Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+ ],
+ "url": "https://breadandboxers.com/se"
+}

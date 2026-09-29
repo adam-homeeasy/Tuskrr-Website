@@ -1,0 +1,719 @@
+{
+ "pointer": {
+  "cursorFollowers": [],
+  "videoMarks": {
+   "loaded": 8.5,
+   "circle": 12.5,
+   "flick": 15.8,
+   "scroll": 24.5
+  },
+  "hovers": [
+   {
+    "i": 0,
+    "sel": "a.mr-2.lg:mr-6",
+    "text": "OUTFIT\u00ae",
+    "top": 39,
+    "changes": []
+   },
+   {
+    "i": 1,
+    "sel": "a.link-hover",
+    "text": "Shop",
+    "top": 36,
+    "changes": []
+   },
+   {
+    "i": 2,
+    "sel": "button.inline-block.rounded-full.transition-all",
+    "text": "",
+    "top": 42,
+    "changes": []
+   },
+   {
+    "i": 3,
+    "sel": "a.link-hover.block.w-fit",
+    "text": "",
+    "top": 33,
+    "changes": []
+   },
+   {
+    "i": 4,
+    "sel": "a.link-hover.block.w-fit",
+    "text": "",
+    "top": 109,
+    "changes": []
+   },
+   {
+    "i": 5,
+    "sel": "a.col-span-8",
+    "text": "",
+    "top": 903,
+    "changes": []
+   },
+   {
+    "i": 6,
+    "sel": "a#hero-link.link-hover.max-w-fit.uppercase",
+    "text": "VISIT ++ WEBSITE",
+    "top": 453,
+    "changes": []
+   },
+   {
+    "i": 7,
+    "sel": "a#hero-shipping-returns-link.link-hover.max-w-fit.uppercase",
+    "text": "SHIPPING & RETURNS",
+    "top": 517,
+    "changes": []
+   },
+   {
+    "i": 8,
+    "sel": "a.group.block",
+    "text": "Off by Design\n\n$36.50\n\nAPPAREL",
+    "top": 573,
+    "changes": []
+   },
+   {
+    "i": 9,
+    "sel": "a.link-hover.max-w-fit",
+    "text": "Privacy Policy",
+    "top": 3906,
+    "changes": []
+   }
+  ]
+ },
+ "states": {
+  "routes": {
+   "https://outfit.hellohello.is/bag": {
+    "status": 200,
+    "title": "Your Bag | OUTFIT\u00ae",
+    "height": 1105
+   },
+   "https://outfit.hellohello.is/shipping-and-return": {
+    "status": 200,
+    "title": "Shipping & Return Policy | OUTFIT\u00ae",
+    "height": 3077
+   },
+   "https://outfit.hellohello.is/product/off-by-design": {
+    "status": 200,
+    "title": "Off by Design | OUTFIT\u00ae",
+    "height": 3111
+   },
+   "https://outfit.hellohello.is/product/kerned-confidence-1": {
+    "status": 200,
+    "title": "Kerned Confidence | OUTFIT\u00ae",
+    "height": 4177
+   },
+   "https://outfit.hellohello.is/product/specimen-no-hh01": {
+    "status": 200,
+    "title": "Specimen No. HH01 | OUTFIT\u00ae",
+    "height": 3111
+   },
+   "https://outfit.hellohello.is/product/grid-system-go": {
+    "status": 200,
+    "title": "Grid System Go | OUTFIT\u00ae",
+    "height": 4177
+   },
+   "https://outfit.hellohello.is/product/neutral-grotesk": {
+    "status": 200,
+    "title": "Neutral Grotesk | OUTFIT\u00ae",
+    "height": 3111
+   },
+   "https://outfit.hellohello.is/product/red-dot-not-award-1": {
+    "status": 200,
+    "title": "Red Dot Not Award | OUTFIT\u00ae",
+    "height": 3111
+   },
+   "https://outfit.hellohello.is/product/gridlocked": {
+    "status": 200,
+    "title": "Gridlocked | OUTFIT\u00ae",
+    "height": 3111
+   },
+   "https://outfit.hellohello.is/product/hello-week-001": {
+    "status": 200,
+    "title": "Hello Week 001 | OUTFIT\u00ae",
+    "height": 3111
+   },
+   "https://outfit.hellohello.is/xray-page-that-does-not-exist": {
+    "status": 200,
+    "title": "OUTFIT\u00ae by ++hellohello",
+    "height": 900
+   }
+  },
+  "opened": []
+ },
+ "responsive": {
+  "fresh": [
+   {
+    "height": 4505,
+    "h1": "12px",
+    "visibleNavLinks": 2,
+    "hamburger": false,
+    "canvases": 0,
+    "overflowX": false,
+    "customCursor": false,
+    "pinSpacers": 0,
+    "tweens": 259,
+    "w": 360,
+    "touch": true,
+    "attempt": 1
+   },
+   {
+    "height": 4581,
+    "h1": "12px",
+    "visibleNavLinks": 2,
+    "hamburger": false,
+    "canvases": 0,
+    "overflowX": false,
+    "customCursor": false,
+    "pinSpacers": 0,
+    "tweens": 273,
+    "w": 390,
+    "touch": true,
+    "attempt": 1
+   },
+   {
+    "height": 3769,
+    "h1": "12px",
+    "visibleNavLinks": 3,
+    "hamburger": false,
+    "canvases": 0,
+    "overflowX": false,
+    "customCursor": false,
+    "pinSpacers": 0,
+    "tweens": 270,
+    "w": 768,
+    "touch": true,
+    "attempt": 1
+   },
+   {
+    "height": 3916,
+    "h1": "12px",
+    "visibleNavLinks": 3,
+    "hamburger": false,
+    "canvases": 0,
+    "overflowX": false,
+    "customCursor": false,
+    "pinSpacers": 0,
+    "tweens": 272,
+    "w": 820,
+    "touch": true,
+    "attempt": 1
+   },
+   {
+    "height": 3354,
+    "h1": "12px",
+    "visibleNavLinks": 3,
+    "hamburger": false,
+    "canvases": 0,
+    "overflowX": false,
+    "customCursor": true,
+    "pinSpacers": 0,
+    "tweens": 282,
+    "w": 1024,
+    "touch": false,
+    "attempt": 1
+   },
+   {
+    "height": 3768,
+    "h1": "12px",
+    "visibleNavLinks": 3,
+    "hamburger": false,
+    "canvases": 0,
+    "overflowX": false,
+    "customCursor": true,
+    "pinSpacers": 0,
+    "tweens": 278,
+    "w": 1280,
+    "touch": false,
+    "attempt": 1
+   },
+   {
+    "height": 4061,
+    "h1": "12px",
+    "visibleNavLinks": 3,
+    "hamburger": false,
+    "canvases": 0,
+    "overflowX": false,
+    "customCursor": true,
+    "pinSpacers": 0,
+    "tweens": 272,
+    "w": 1440,
+    "touch": false,
+    "attempt": 1
+   },
+   {
+    "height": 5106,
+    "h1": "13.5px",
+    "visibleNavLinks": 3,
+    "hamburger": false,
+    "canvases": 0,
+    "overflowX": false,
+    "customCursor": true,
+    "pinSpacers": 0,
+    "tweens": 268,
+    "w": 1920,
+    "touch": false,
+    "attempt": 1
+   }
+  ],
+  "liveResize": [
+   {
+    "height": 4061,
+    "h1": "12px",
+    "visibleNavLinks": 3,
+    "hamburger": false,
+    "canvases": 0,
+    "overflowX": false,
+    "customCursor": true,
+    "pinSpacers": 0,
+    "tweens": 281,
+    "w": 1440
+   },
+   {
+    "height": 3354,
+    "h1": "12px",
+    "visibleNavLinks": 3,
+    "hamburger": false,
+    "canvases": 0,
+    "overflowX": false,
+    "customCursor": true,
+    "pinSpacers": 0,
+    "tweens": 283,
+    "w": 1024
+   },
+   {
+    "height": 3859,
+    "h1": "12px",
+    "visibleNavLinks": 3,
+    "hamburger": false,
+    "canvases": 0,
+    "overflowX": true,
+    "customCursor": true,
+    "pinSpacers": 0,
+    "tweens": 284,
+    "w": 800
+   },
+   {
+    "height": 6637,
+    "h1": "12px",
+    "visibleNavLinks": 2,
+    "hamburger": false,
+    "canvases": 0,
+    "overflowX": false,
+    "customCursor": true,
+    "pinSpacers": 0,
+    "tweens": 303,
+    "w": 760
+   },
+   {
+    "height": 4581,
+    "h1": "12px",
+    "visibleNavLinks": 2,
+    "hamburger": false,
+    "canvases": 0,
+    "overflowX": false,
+    "customCursor": true,
+    "pinSpacers": 0,
+    "tweens": 304,
+    "w": 390
+   },
+   {
+    "height": 6637,
+    "h1": "12px",
+    "visibleNavLinks": 2,
+    "hamburger": false,
+    "canvases": 0,
+    "overflowX": false,
+    "customCursor": true,
+    "pinSpacers": 0,
+    "tweens": 305,
+    "w": 760
+   },
+   {
+    "height": 3859,
+    "h1": "12px",
+    "visibleNavLinks": 3,
+    "hamburger": false,
+    "canvases": 0,
+    "overflowX": true,
+    "customCursor": true,
+    "pinSpacers": 0,
+    "tweens": 337,
+    "w": 800
+   },
+   {
+    "height": 4061,
+    "h1": "12px",
+    "visibleNavLinks": 3,
+    "hamburger": false,
+    "canvases": 0,
+    "overflowX": false,
+    "customCursor": true,
+    "pinSpacers": 0,
+    "tweens": 338,
+    "w": 1440
+   }
+  ],
+  "reducedMotion": {
+   "height": 4061,
+   "h1": "12px",
+   "visibleNavLinks": 3,
+   "hamburger": false,
+   "canvases": 0,
+   "overflowX": false,
+   "customCursor": true,
+   "pinSpacers": 0,
+   "tweens": 275
+  },
+  "breakpointsFound": []
+ },
+ "a11y": {
+  "darkBodyBg": "rgb(237, 228, 221)",
+  "prefersDarkRules": false,
+  "imgs": 32,
+  "noAlt": 0,
+  "emptyAlt": 6,
+  "srOnly": 3,
+  "ariaHidden": 0,
+  "skipLink": false,
+  "lang": "en",
+  "landmarks": "header:0 nav:1 main:1 footer:1",
+  "headings": [
+   "H1 OUTFIT",
+   "H2 WHY"
+  ],
+  "focus": {
+   "el": "a.link-hover",
+   "outline": "rgb(16, 16, 16) none 0px",
+   "outlineOffset": "1px",
+   "boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, lab(98.26 0 0) 0px 0px 0px 2px, lab(66.128 -0.0000298023 0.0000119209) 0px 0px 0px 4px, rgba(0, 0, 0, 0) 0px 0px 0px 0px"
+  },
+  "contrastPairs": [
+   {
+    "text": "#ff0001",
+    "bg": "#d2cac3",
+    "ratio": 2.47
+   },
+   {
+    "text": "#ff0001",
+    "bg": "#ede4dd",
+    "ratio": 3.19
+   },
+   {
+    "text": "#ff0001",
+    "bg": "#000000",
+    "ratio": 5.25
+   },
+   {
+    "text": "#ede4dd",
+    "bg": "#ff0001",
+    "ratio": 3.19
+   },
+   {
+    "text": "#ede4dd",
+    "bg": "#d2cac3",
+    "ratio": 1.29
+   },
+   {
+    "text": "#ede4dd",
+    "bg": "#000000",
+    "ratio": 16.74
+   },
+   {
+    "text": "#000000",
+    "bg": "#ff0001",
+    "ratio": 5.25
+   },
+   {
+    "text": "#000000",
+    "bg": "#d2cac3",
+    "ratio": 12.98
+   },
+   {
+    "text": "#000000",
+    "bg": "#ede4dd",
+    "ratio": 16.74
+   }
+  ]
+ },
+ "weight": {
+  "note": "uncompressed sizes; fps is cloud software rendering",
+  "byType": {
+   "font": {
+    "files": 3,
+    "kb": 104
+   },
+   "image": {
+    "files": 23,
+    "kb": 106
+   },
+   "script": {
+    "files": 21,
+    "kb": 1007
+   },
+   "document": {
+    "files": 1,
+    "kb": 342
+   },
+   "fetch": {
+    "files": 29,
+    "kb": 2
+   }
+  },
+  "biggest": [
+   [
+    "https://outfit.hellohello.is/",
+    "document",
+    342
+   ],
+   [
+    "https://outfit.hellohello.is/_next/static/chunks/b6c772e00f0f005f.js",
+    "script",
+    218
+   ]
+  ],
+  "timing": {
+   "domContentLoadedMs": 8121,
+   "loadMs": 8129,
+   "paints": [
+    "first-paint:400",
+    "first-contentful-paint:400"
+   ]
+  },
+  "fpsAtTopCloud": 61
+ },
+ "assets": {
+  "downloaded": [
+   {
+    "url": "https://outfit.hellohello.is/preloader/image-04.jpg",
+    "file": "03-assets/images/preloader/image-04.jpg",
+    "kb": 18
+   },
+   {
+    "url": "https://outfit.hellohello.is/preloader/image-05.jpg",
+    "file": "03-assets/images/preloader/image-05.jpg",
+    "kb": 41
+   },
+   {
+    "url": "https://outfit.hellohello.is/preloader/image-06.jpg",
+    "file": "03-assets/images/preloader/image-06.jpg",
+    "kb": 24
+   },
+   {
+    "url": "https://outfit.hellohello.is/preloader/image-01.jpg",
+    "file": "03-assets/images/preloader/image-01.jpg",
+    "kb": 17
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/mochila1.jpg?v=1775839677",
+    "file": "03-assets/images/1455/0837/files/mochila1.jpg",
+    "kb": 294
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/t-shirt-time-off-outfit_dfee3661-54e4-43ab-8d38-34388179952d.jpg?v=1753359304",
+    "file": "03-assets/images/1455/0837/files/t-shirt-time-off-outfit_dfee3661-54e4-43ab-8d38-34388179952d.jpg",
+    "kb": 475
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/t-shirt-time-off-outfit-2_6ed63e49-09af-4ab5-9994-7f1fef44c587.jpg?v=1753359304",
+    "file": "03-assets/images/1455/0837/files/t-shirt-time-off-outfit-2_6ed63e49-09af-4ab5-9994-7f1fef44c587.jpg",
+    "kb": 435
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/backpack-recycled-black-outfit-3_e9a01867-b304-4957-bb6f-e92759717401.jpg?v=1775839677",
+    "file": "03-assets/images/1455/0837/files/backpack-recycled-black-outfit-3_e9a01867-b304-4957-bb6f-e92759717401.jpg",
+    "kb": 529
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/cap-_-black-outfit-2_a4c86e6e-f97a-455c-ba4e-1bdca4ba2b86.jpg?v=1755282023",
+    "file": "03-assets/images/1455/0837/files/cap-_-black-outfit-2_a4c86e6e-f97a-455c-ba4e-1bdca4ba2b86.jpg",
+    "kb": 550
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/cap-_-black-outfit_9a3389f2-3570-4130-8abc-c7d891c7c073.jpg?v=1775830283",
+    "file": "03-assets/images/1455/0837/files/cap-_-black-outfit_9a3389f2-3570-4130-8abc-c7d891c7c073.jpg",
+    "kb": 607
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/jersey-red-square-outfit_d6d9ae9b-b22d-4eed-93e2-8b0913b773f4.jpg?v=1753359372",
+    "file": "03-assets/images/1455/0837/files/jersey-red-square-outfit_d6d9ae9b-b22d-4eed-93e2-8b0913b773f4.jpg",
+    "kb": 562
+   },
+   {
+    "url": "https://outfit.hellohello.is/preloader/image-02.jpg",
+    "file": "03-assets/images/preloader/image-02.jpg",
+    "kb": 25
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/jersey-red-square-outfit-2_7d8ec371-d660-43a7-a08d-9ef1eb053caf.jpg?v=1753359372",
+    "file": "03-assets/images/1455/0837/files/jersey-red-square-outfit-2_7d8ec371-d660-43a7-a08d-9ef1eb053caf.jpg",
+    "kb": 489
+   },
+   {
+    "url": "https://outfit.hellohello.is/preloader/image-03.jpg",
+    "file": "03-assets/images/preloader/image-03.jpg",
+    "kb": 23
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/beanie-_-red-outfit_2c3b211f-1507-4f73-817f-2b124d7daa33.jpg?v=1753306330",
+    "file": "03-assets/images/1455/0837/files/beanie-_-red-outfit_2c3b211f-1507-4f73-817f-2b124d7daa33.jpg",
+    "kb": 366
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/metalbag.jpg?v=1753359548",
+    "file": "03-assets/images/1455/0837/files/metalbag.jpg",
+    "kb": 460
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/totebag-sayhello-outfit_f241d637-643f-473c-b0ee-82402efd800a.jpg?v=1753359469",
+    "file": "03-assets/images/1455/0837/files/totebag-sayhello-outfit_f241d637-643f-473c-b0ee-82402efd800a.jpg",
+    "kb": 618
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/t-shirt-hello-week-white-outfit.jpg?v=1753359579",
+    "file": "03-assets/images/1455/0837/files/t-shirt-hello-week-white-outfit.jpg",
+    "kb": 385
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/t-shirt-hello-week-dark-grey-outfit_ec196548-f6da-4682-8c5c-8714bd4ebdf5.jpg?v=1753359601",
+    "file": "03-assets/images/1455/0837/files/t-shirt-hello-week-dark-grey-outfit_ec196548-f6da-4682-8c5c-8714bd4ebdf5.jpg",
+    "kb": 601
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/totebag-_-black-outfit_850aaa09-ee65-42d9-8236-9579f797a2db.jpg?v=1753305812",
+    "file": "03-assets/images/1455/0837/files/totebag-_-black-outfit_850aaa09-ee65-42d9-8236-9579f797a2db.jpg",
+    "kb": 389
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/totebag-_-white-outfit_461af856-288d-4e39-9913-4ce3febba67d.jpg?v=1753306427",
+    "file": "03-assets/images/1455/0837/files/totebag-_-white-outfit_461af856-288d-4e39-9913-4ce3febba67d.jpg",
+    "kb": 466
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/keychain-_-black-outfit.jpg?v=1753306385",
+    "file": "03-assets/images/1455/0837/files/keychain-_-black-outfit.jpg",
+    "kb": 600
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/t-shirt-_-white-outfit.jpg?v=1753306027",
+    "file": "03-assets/images/1455/0837/files/t-shirt-_-white-outfit.jpg",
+    "kb": 409
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/totebag-sayhello-outfit-2.jpg?v=1753359469",
+    "file": "03-assets/images/1455/0837/files/totebag-sayhello-outfit-2.jpg",
+    "kb": 571
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/beanie-_-red-outfit-PLSNOUSAR_d2a91372-9ff5-4285-bff4-4b44bb9b4ff8.jpg?v=1753306330",
+    "file": "03-assets/images/1455/0837/files/beanie-_-red-outfit-PLSNOUSAR_d2a91372-9ff5-4285-bff4-4b44bb9b4ff8.jpg",
+    "kb": 591
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/totebag-metal-outfit-2_e18d8c17-2359-4dc2-9bf1-80277d681c17.jpg?v=1753359548",
+    "file": "03-assets/images/1455/0837/files/totebag-metal-outfit-2_e18d8c17-2359-4dc2-9bf1-80277d681c17.jpg",
+    "kb": 511
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/t-shirt-hello-week-white-outfit-2_cc70839b-bea7-4957-9262-f38ff0e9f505.jpg?v=1753359579",
+    "file": "03-assets/images/1455/0837/files/t-shirt-hello-week-white-outfit-2_cc70839b-bea7-4957-9262-f38ff0e9f505.jpg",
+    "kb": 635
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/t-shirt-hello-week-dark-grey-outfit-2_08bdbb8f-02f4-401d-afed-f07a4d29930d.jpg?v=1753359601",
+    "file": "03-assets/images/1455/0837/files/t-shirt-hello-week-dark-grey-outfit-2_08bdbb8f-02f4-401d-afed-f07a4d29930d.jpg",
+    "kb": 495
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/totebag-_-black-outfit-2.jpg?v=1753305812",
+    "file": "03-assets/images/1455/0837/files/totebag-_-black-outfit-2.jpg",
+    "kb": 394
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/totebag-_-white-outfit-2.jpg?v=1753306427",
+    "file": "03-assets/images/1455/0837/files/totebag-_-white-outfit-2.jpg",
+    "kb": 618
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/t-shirt-_-white-outfit-2_0b43b5d9-98ff-4e64-ada9-a205c95b70f1.jpg?v=1753306027",
+    "file": "03-assets/images/1455/0837/files/t-shirt-_-white-outfit-2_0b43b5d9-98ff-4e64-ada9-a205c95b70f1.jpg",
+    "kb": 367
+   },
+   {
+    "url": "https://cdn.shopify.com/s/files/1/0665/1455/0837/files/keychain-_-black-outfit-PLSNOUSAR.jpg?v=1753306385",
+    "file": "03-assets/images/1455/0837/files/keychain-_-black-outfit-PLSNOUSAR.jpg",
+    "kb": 519
+   },
+   {
+    "url": "https://outfit.hellohello.is/opengraph-image.png?opengraph-image.6e3a848f.png",
+    "file": "03-assets/brand/opengraph-image.png"
+   },
+   {
+    "url": "https://outfit.hellohello.is/favicon.ico?favicon.b54fc29b.ico",
+    "file": "03-assets/brand/favicon.ico"
+   },
+   {
+    "url": "https://outfit.hellohello.is/icon.png?icon.33ef3ac9.png",
+    "file": "03-assets/brand/icon.png"
+   }
+  ],
+  "fontsNotDownloaded": [
+   "https://outfit.hellohello.is/_next/static/media/NeueHaasGroteskTextPro-s.p.3b8d8eef.woff2",
+   "https://outfit.hellohello.is/_next/static/media/NeueHaasGroteskTextPro_Bold-s.p.d9a7309d.woff2",
+   "https://outfit.hellohello.is/_next/static/media/NeueHaasGroteskTextPro_Medium-s.p.26ed73d7.woff2"
+  ],
+  "skipped": [
+   "https://outfit.hellohello.is/",
+   "https://outfit.hellohello.is/?_rsc=1r34m",
+   "https://outfit.hellohello.is/?_rsc=mimgs",
+   "https://outfit.hellohello.is/_next/static/chunks/06ffdd9ff95cf3d5.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/089244e09cd5f247.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/27f4c8a00df2eed7.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/2954a56d58889b60.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/38bd56dfee9fa215.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/6b38f2fa28789911.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/6d05fc79f6e60f38.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/6fb404aee9b90fa0.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/7cd946b08d12c831.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/86ea34bb0e5fb8ab.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/933f77b4eb0acbfd.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/a609ad6183f125a1.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/ad7f365c0e6f31e5.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/b6c772e00f0f005f.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/be5163f90bdc0a39.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/c14706c362f51a1a.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/d71e6e0a240cbbbc.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/db0e59da9a5cc495.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/fd7fd4fa0934b5b3.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/_next/static/chunks/turbopack-3882f364d49ff303.js?dpl=dpl_6a3wAsgxsLnKmvm7cibQhYPVmSDS",
+   "https://outfit.hellohello.is/bag?_rsc=1kqa0",
+   "https://outfit.hellohello.is/bag?_rsc=1r34m",
+   "https://outfit.hellohello.is/product/command-k?_rsc=1r34m",
+   "https://outfit.hellohello.is/product/command-k?_rsc=p37cr",
+   "https://outfit.hellohello.is/product/grid-system-go?_rsc=1r34m",
+   "https://outfit.hellohello.is/product/grid-system-go?_rsc=p37cr",
+   "https://outfit.hellohello.is/product/gridlocked?_rsc=1r34m",
+   "https://outfit.hellohello.is/product/gridlocked?_rsc=p37cr",
+   "https://outfit.hellohello.is/product/hello-week-001?_rsc=1r34m",
+   "https://outfit.hellohello.is/product/hello-week-001?_rsc=p37cr",
+   "https://outfit.hellohello.is/product/hello-week-002?_rsc=1r34m",
+   "https://outfit.hellohello.is/product/hello-week-002?_rsc=p37cr",
+   "https://outfit.hellohello.is/product/kerned-confidence-1?_rsc=1r34m",
+   "https://outfit.hellohello.is/product/kerned-confidence-1?_rsc=p37cr",
+   "https://outfit.hellohello.is/product/monochrome-manifest-1?_rsc=1r34m",
+   "https://outfit.hellohello.is/product/monochrome-manifest-1?_rsc=p37cr",
+   "https://outfit.hellohello.is/product/neutral-grotesk?_rsc=1r34m",
+   "https://outfit.hellohello.is/product/off-by-design?_rsc=1r34m",
+   "https://outfit.hellohello.is/product/off-by-design?_rsc=p37cr",
+   "https://outfit.hellohello.is/product/positive-space?_rsc=1r34m",
+   "https://outfit.hellohello.is/product/positive-space?_rsc=p37cr",
+   "https://outfit.hellohello.is/product/red-dot-not-award-1?_rsc=1r34m",
+   "https://outfit.hellohello.is/product/specimen-no-hh01?_rsc=1r34m",
+   "https://outfit.hellohello.is/product/specimen-no-hh01?_rsc=p37cr",
+   "https://outfit.hellohello.is/product/whitespace-matters-1?_rsc=1r34m",
+   "https://outfit.hellohello.is/product/whitespace-matters-1?_rsc=p37cr",
+   "https://outfit.hellohello.is/shipping-and-return?_rsc=1r34m",
+   "https://outfit.hellohello.is/shipping-and-return?_rsc=p37cr",
+   "https://www.googletagmanager.com/gtm.js?id=GTM-M68G69KW"
+  ]
+ }
+}

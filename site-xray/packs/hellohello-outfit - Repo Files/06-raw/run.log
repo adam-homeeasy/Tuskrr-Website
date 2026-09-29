@@ -1,0 +1,30 @@
+[xray] probe: height 4061 canvases 0 tweens at load 274
+[xray] probe done in 14 s
+[xray] code: saved 21 scripts
+[xray] code done in 17 s
+[xray] bundle: modules saved 37
+[xray] bundle done in 0 s
+[xray] assets: 35 files, 3 fonts left out
+[xray] assets done in 27 s
+[xray] map desktop-1440 height 4061 sections 5 shots 12
+[xray] map done in 26 s
+[xray] map phone-390 height 4581 sections 5 shots 7
+[xray] phone done in 17 s
+[xray] motion: gsap tweens 347 triggers 1 | sampled moving elements 0 + load 0
+[xray] motion done in 34 s
+[xray] three: no canvases, skipped
+[xray] three done in 0 s
+[xray] pointer: cursor followers 0 hover targets 10 with changes 0
+[xray] pointer done in 55 s
+[xray] states: opened 0 routes 11
+[xray] states done in 74 s
+[xray] responsive: no layout change found across widths
+[xray] responsive done in 93 s
+[xray] a11y: images without alt 0 contrast pairs 9
+[xray] a11y done in 11 s
+[xray] weight: {'font': 104, 'image': 106, 'script': 1007, 'document': 342, 'fetch': 2} fps 61
+[xray] weight done in 20 s
+[xray] sheets: 3
+[xray] sheets done in 1 s
+[xray] build: effects 27 (gsap 27 , sampled 0 )
+[xray] build done in 0 s

@@ -1,0 +1,81 @@
+{
+ "routes": {
+  "https://www.basicagency.com/services": {
+   "status": 200,
+   "title": "Digital Product, Branding, & eCommerce Services | BASIC/DEPT\u00ae | Digital Branding & Product Design Agency",
+   "height": 4761
+  },
+  "https://www.basicagency.com/about": {
+   "status": 200,
+   "title": "About Us | BASIC/DEPT\u00ae | Digital Branding & Product Design Agency",
+   "height": 9413
+  },
+  "https://www.basicagency.com/blog": {
+   "status": 200,
+   "title": "Branding & Experience Design News | BASIC/DEPT\u00ae | Digital Branding & Product Design Agency",
+   "height": 38589
+  },
+  "https://www.basicagency.com/thinking": {
+   "status": 200,
+   "title": "Thoughts On Applied Culture, Insights, Behaviors, Interests | BASIC/DEPT\u00ae | Digital Branding & Product Design Agency",
+   "height": 34308
+  },
+  "https://www.basicagency.com/careers": {
+   "status": 200,
+   "title": "Design And Branding Jobs in San Diego, San Francisco, New York, and Remote | BASIC/DEPT\u00ae | Digital Branding & Product Design Agency",
+   "height": 6699
+  },
+  "https://www.basicagency.com/contact": {
+   "status": 200,
+   "title": "Contact Us | BASIC/DEPT\u00ae | Digital Branding & Product Design Agency",
+   "height": 5334
+  },
+  "https://www.basicagency.com/thinking/category/applied": {
+   "status": 200,
+   "title": "Thoughts On Applied Culture, Insights, Behaviors, Interests | BASIC/DEPT\u00ae | Digital Branding & Product Design Agency",
+   "height": 14288
+  },
+  "https://www.basicagency.com/thinking/categories/brandbeats": {
+   "status": 404,
+   "title": "404 | BASIC/DEPT\u00ae | Digital Branding & Product Design Agency",
+   "height": 1850
+  },
+  "https://www.basicagency.com/blog/a-list-design-branding-agency-of-the-year": {
+   "status": 200,
+   "title": "BASIC/DEPT\u00ae is Ad Age\u2019s A-List Design & Branding Agency of the Year | BASIC/DEPT\u00ae | News & Views",
+   "height": 3806
+  },
+  "https://www.basicagency.com/blog/27th-webby-awards-agency-of-the-year": {
+   "status": 200,
+   "title": "BASIC/DEPT\u00ae | News & Views",
+   "height": 5258
+  },
+  "https://www.basicagency.com/xray-page-that-does-not-exist": {
+   "status": 404,
+   "title": "404 | BASIC/DEPT\u00ae | Digital Branding & Product Design Agency",
+   "height": 1850
+  }
+ },
+ "opened": [
+  {
+   "i": 0,
+   "label": "Close overlay",
+   "error": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"[data"
+  },
+  {
+   "i": 1,
+   "label": "Open menu",
+   "shot": "open_01_Open_menu.png"
+  },
+  {
+   "i": 2,
+   "label": "",
+   "error": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"[data"
+  },
+  {
+   "i": 3,
+   "label": "",
+   "shot": "open_03_.png"
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+phone: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'trim')
+    at eval (eval at evaluate (:290:30), <anonymous>:12:248)
+    at UtilityScript.evaluate (<anonymous>:297:18)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+motion: Page.evaluate: Execution context was destroyed, most likely because of a navigation
+pointer: Page.evaluate: Execution context was destroyed, most likely because of a navigation
+states: Page.evaluate: Execution context was destroyed, most likely because of a navigation

@@ -1,0 +1,228 @@
+{
+ "downloaded": [
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/f6a1cfb399086412322d634d4603f4d26ab6b72b-1000x734.png?w=720&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/f6a1cfb399086412322d634d4603f4d26ab6b72b-1000x734.png",
+   "kb": 28
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/f1931ee572cd014ca5c3b5fe7e6054cfc0583624-720x900.jpg?w=1024&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/f1931ee572cd014ca5c3b5fe7e6054cfc0583624-720x900.jpg",
+   "kb": 30
+  },
+  {
+   "url": "https://cdn.sanity.io/files/8nn8fua5/production/4c749533161fc77c899a376ec6cd6da38973772f.mp4",
+   "file": "03-assets/video/files/8nn8fua5/production/4c749533161fc77c899a376ec6cd6da38973772f.mp4",
+   "kb": 24212
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/88289f3f3ff1a1832ffe4ae844db5ddd628d720d-1144x1430.png?w=1024&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/88289f3f3ff1a1832ffe4ae844db5ddd628d720d-1144x1430.png",
+   "kb": 48
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/4a219fdabeed5ebc2fca05e0c6ba074368e7e2e1-630x788.jpg?w=1024&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/4a219fdabeed5ebc2fca05e0c6ba074368e7e2e1-630x788.jpg",
+   "kb": 10
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/2f2e327658435e980e25d6bb34f667f5f5d544b2-1144x1430.png?w=1024&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/2f2e327658435e980e25d6bb34f667f5f5d544b2-1144x1430.png",
+   "kb": 29
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/67dacc1466f1e32d10f1ac82053385d2c5823377-1144x1430.png?w=1024&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/67dacc1466f1e32d10f1ac82053385d2c5823377-1144x1430.png",
+   "kb": 30
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/65a33a8858e4e106ce69cab290b5e606a69eeac1-1144x1430.png?w=1024&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/65a33a8858e4e106ce69cab290b5e606a69eeac1-1144x1430.png",
+   "kb": 20
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/931c4de4f3cbbeb30a5b65677a174f2980e44805-720x900.jpg?w=1024&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/931c4de4f3cbbeb30a5b65677a174f2980e44805-720x900.jpg",
+   "kb": 112
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/09a68ec6d03469bfd5bbb9726a58225acb900ae2-128x42.svg?w=720&fm=webp&q=65",
+   "file": "03-assets/svg/images/8nn8fua5/production/09a68ec6d03469bfd5bbb9726a58225acb900ae2-128x42.svg",
+   "kb": 8
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/7121121ed910b145bdb6df487966a7888c2eb7c3-272x92.svg?w=720&fm=webp&q=65",
+   "file": "03-assets/svg/images/8nn8fua5/production/7121121ed910b145bdb6df487966a7888c2eb7c3-272x92.svg",
+   "kb": 9
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/fbb650ce74c1849cb4da2d9951fad89149494cc9-171x42.svg?w=720&fm=webp&q=65",
+   "file": "03-assets/svg/images/8nn8fua5/production/fbb650ce74c1849cb4da2d9951fad89149494cc9-171x42.svg",
+   "kb": 7
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/b2624b2d49d9c14eec0cd30203c5eec0331eac42-42x42.svg?w=720&fm=webp&q=65",
+   "file": "03-assets/svg/images/8nn8fua5/production/b2624b2d49d9c14eec0cd30203c5eec0331eac42-42x42.svg",
+   "kb": 19
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/8dd2f090726c8d5befeaa2924b44678e69452945-1024x200.svg?w=720&fm=webp&q=65",
+   "file": "03-assets/svg/images/8nn8fua5/production/8dd2f090726c8d5befeaa2924b44678e69452945-1024x200.svg",
+   "kb": 8
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/40ec6ffa532aea4fc483575b8ad14100bb6bf74c-870x544.png?w=720&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/40ec6ffa532aea4fc483575b8ad14100bb6bf74c-870x544.png",
+   "kb": 22
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/4ceccaa859e480e1a9e719f33f7ca2ce8e8f5dd1-1000x734.jpg?w=720&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/4ceccaa859e480e1a9e719f33f7ca2ce8e8f5dd1-1000x734.jpg",
+   "kb": 61
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/2fa0bb6468d65193816cfe632e976afd191aada7-2000x1468.jpg?w=720&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/2fa0bb6468d65193816cfe632e976afd191aada7-2000x1468.jpg",
+   "kb": 35
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/e1ee6f1258bdc530b8843f97029f804856f72d61-2000x1468.jpg?w=720&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/e1ee6f1258bdc530b8843f97029f804856f72d61-2000x1468.jpg",
+   "kb": 22
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/11a5f82ab2838edc5756c262023dcc3ffe0bd0b8-1000x734.png?w=720&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/11a5f82ab2838edc5756c262023dcc3ffe0bd0b8-1000x734.png",
+   "kb": 41
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/1f72d719b320cc973839fabfd6cff390d3aac1c4-1000x734.jpg?w=720&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/1f72d719b320cc973839fabfd6cff390d3aac1c4-1000x734.jpg",
+   "kb": 15
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/1e04aa777778cf8bd2395e66ee1e8b4d9b2e94a6-870x544.png?w=720&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/1e04aa777778cf8bd2395e66ee1e8b4d9b2e94a6-870x544.png",
+   "kb": 12
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/8063a6f5ea9626cf98e092b801987075cf7fbe75-1000x734.jpg?w=720&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/8063a6f5ea9626cf98e092b801987075cf7fbe75-1000x734.jpg",
+   "kb": 14
+  },
+  {
+   "url": "https://cdn.sanity.io/files/8nn8fua5/production/c6fb986a862cbe643c40cbdd0318ebc495efb187.mp4",
+   "file": "03-assets/video/files/8nn8fua5/production/c6fb986a862cbe643c40cbdd0318ebc495efb187.mp4",
+   "kb": 7302
+  },
+  {
+   "url": "https://px.ads.linkedin.com/insight_tag_errors.gif?v=2&pid=3599532&error=version%3A%201000024%20%7C%20WebsiteActions-1000024-TypeError%3A%20Failed%20to%20fetch%3B%20ErrorData%3A%20%7B%22domain%22%3A%22basicagency.com%22%2C%22requestFetcher%22%3A%22fetch-keepalive%22%2C%22body%22%3A%22H4sIAAAAAAAAA12QzW7bMBCEX0XYQ09kTVM%2FlHhz6jQQkINRC7kUQbAkVwpRiVJFGkWQ5pX6EH2yQk7RQ4%2BDxXw7M6%2BweBdBf83Lpilz%2Bcgg2tUv6YHW6OcAei%2BEELJgkPxEoPeqEVVTF1VVFSUDN0%2FoA2gwGL3FgYJ9%2BWjnCRhc1hE0PKe0RL3b%2FXffAYMfZKJPdPZDwPELfb9QTK3bWP2eSmOQuxIrXggnubMKuStsbpXpc0N7YLDgQPczuquHit70tSBeGke8aFDxWlnDlZF9bYxVuZPAwMduxRBHTORA9zhGYjD6z%2Fj%2BGTZx5zGkdzH5aEG%2FwhLNOWEi0Lx42yj3Pnwj14bDsvzDbHk6n0YCDTeHc%2Ftpd7w9db9%2FZT%2Bzox98wjG7WTE4H4bsQ3ZaZ3exKTtS9EPIDtdpgMEzTaDDZRwZxOsy3cuyEU%2BHu9unh%2Fbcdn%2BrtyEmDJauwV2FjWzymgvjem4ot1yo0nKy0treSamaEt7%2BAKpwsmTuAQAA%22%7D&href=https%3A%2F%2Fwww.basicagency.com%2F",
+   "file": "03-assets/images/insight_tag_errors.gif",
+   "kb": 0
+  },
+  {
+   "url": "https://cdn.sanity.io/files/8nn8fua5/production/9dc5a490bd877e8685f2089209db192188dd21e7.mp4",
+   "file": "03-assets/video/files/8nn8fua5/production/9dc5a490bd877e8685f2089209db192188dd21e7.mp4",
+   "kb": 736
+  },
+  {
+   "url": "https://cdn.sanity.io/files/8nn8fua5/production/e4a840ba8dfeded08ac4d0ba6e930be56fc68e3b.mp4",
+   "file": "03-assets/video/files/8nn8fua5/production/e4a840ba8dfeded08ac4d0ba6e930be56fc68e3b.mp4",
+   "kb": 2122
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/289c0ed79c95e098d09f508e3fc1aa86c241e878-870x544.png?w=720&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/289c0ed79c95e098d09f508e3fc1aa86c241e878-870x544.png",
+   "kb": 12
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/50bf1b0a9893d900573e40aa33b464c0456b86f5-1000x734.jpg?w=720&fm=webp&q=65",
+   "file": "03-assets/images/8nn8fua5/production/50bf1b0a9893d900573e40aa33b464c0456b86f5-1000x734.jpg",
+   "kb": 21
+  },
+  {
+   "url": "https://cdn.sanity.io/images/8nn8fua5/production/d300e3dee1aa4ff7768bbaa9be1df0fd07986ad7-1200x630.png",
+   "file": "03-assets/brand/d300e3dee1aa4ff7768bbaa9be1df0fd07986ad7-1200x630.png"
+  }
+ ],
+ "fontsNotDownloaded": [
+  "https://www.basicagency.com/_next/static/media/SctoGroteskA-Bold.d6497298.woff2",
+  "https://www.basicagency.com/_next/static/media/SctoGroteskA-Medium.2ede3563.woff2",
+  "https://www.basicagency.com/_next/static/media/SctoGroteskA-Regular.1e986128.woff2"
+ ],
+ "skipped": [
+  "https://acsbapp.com/apps/app/dist/js/app.js",
+  "https://cdn.acsbapp.com/config/basicagency.com/config.json",
+  "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=3599532&time=1790698466108&li_adsId=6dce6638-0ce6-4ca8-b73b-016862a55e49&pageLoadId=e4fbf80e-5bde-49a7-87cb-7b2f8bbc73d2&url=https%3A%2F%2Fwww.basicagency.com%2F",
+  "https://script.hotjar.com/modules.e762be2b6b709245aabb.js",
+  "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+  "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+  "https://static.hotjar.com/c/hotjar-137118.js?sv=5",
+  "https://www.basicagency.com/",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/about.json",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/blog.json?slug=blog",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/blog/27th-webby-awards-agency-of-the-year.json?slug=27th-webby-awards-agency-of-the-year",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/blog/a-list-design-branding-agency-of-the-year.json?slug=a-list-design-branding-agency-of-the-year",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/blog/b-good-initiative-youth-outreach-community-impact-creativity-bipoc.json?slug=b-good-initiative-youth-outreach-community-impact-creativity-bipoc",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/blog/four-nominations-for-the-internets-highest-honor.json?slug=four-nominations-for-the-internets-highest-honor",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/blog/new-projects-on-the-podium-for-the-28th-webby-awards.json?slug=new-projects-on-the-podium-for-the-28th-webby-awards",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/blog/the-28th-annual-webby-awards-nods-are-in.json?slug=the-28th-annual-webby-awards-nods-are-in",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/blog/the-future-of-fashion-and-ai-at-glossys-ecommerce-summit.json?slug=the-future-of-fashion-and-ai-at-glossys-ecommerce-summit",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/careers.json",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/case-studies/google-ecommerce-web-design.json?slug=google-ecommerce-web-design",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/case-studies/patagonia-ecommerce-website.json?slug=patagonia-ecommerce-website",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/case-studies/wilson.json?slug=wilson",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/contact.json?slug=contact",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/index.json",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/privacy-policy.json",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/services.json?slug=services",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/terms-of-use.json",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/thinking.json?slug=thinking",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/thinking/are-snacks-the-new-meals-in-qsr.json?slug=are-snacks-the-new-meals-in-qsr",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/thinking/category/applied.json?slug=applied",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/thinking/category/brandbeats.json?slug=brandbeats",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/thinking/from-ordinary-to-extraordinary-bringing-the-in-store-luxury-experience-online.json?slug=from-ordinary-to-extraordinary-bringing-the-in-store-luxury-experience-online",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/thinking/gen-alpha-the-beta-test-for-how-brands-can-reach-a-new-generation.json?slug=gen-alpha-the-beta-test-for-how-brands-can-reach-a-new-generation",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/thinking/generation-alpha-say-hello-to-tomorrows-shopper.json?slug=generation-alpha-say-hello-to-tomorrows-shopper",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/thinking/retails-new-playground-where-physical-meets-digital.json?slug=retails-new-playground-where-physical-meets-digital",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/thinking/tomorrows-shopper-five-ways-brands-can-reach-gen-alpha-today.json?slug=tomorrows-shopper-five-ways-brands-can-reach-gen-alpha-today",
+  "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/thinking/what-sofia-coppola-can-teach-us-about-shifting-culture.json?slug=what-sofia-coppola-can-teach-us-about-shifting-culture",
+  "https://www.basicagency.com/_next/static/NBY3Z3Gi3bNyTGvp9UtAu/_buildManifest.js",
+  "https://www.basicagency.com/_next/static/NBY3Z3Gi3bNyTGvp9UtAu/_ssgManifest.js",
+  "https://www.basicagency.com/_next/static/chunks/142-b4ad18bfd2ee99ce.js",
+  "https://www.basicagency.com/_next/static/chunks/651-ebedbcfbd4ccf67e.js",
+  "https://www.basicagency.com/_next/static/chunks/851-892ec06ead347d85.js",
+  "https://www.basicagency.com/_next/static/chunks/framework-2f1a8e17e74f15d6.js",
+  "https://www.basicagency.com/_next/static/chunks/main-d6ff1c9309a432d9.js",
+  "https://www.basicagency.com/_next/static/chunks/pages/%5Bslug%5D-bc1400c01857c2da.js",
+  "https://www.basicagency.com/_next/static/chunks/pages/_app-914905e04b225f99.js",
+  "https://www.basicagency.com/_next/static/chunks/pages/about-88f0aa10dbddbb75.js",
+  "https://www.basicagency.com/_next/static/chunks/pages/blog/%5Bslug%5D-6c928392ee67ec66.js",
+  "https://www.basicagency.com/_next/static/chunks/pages/careers-3e49c5d411d6bf50.js",
+  "https://www.basicagency.com/_next/static/chunks/pages/case-studies/%5Bslug%5D-a1e0c6710613db04.js",
+  "https://www.basicagency.com/_next/static/chunks/pages/index-c4a9f359080ee9b8.js",
+  "https://www.basicagency.com/_next/static/chunks/pages/privacy-policy-b0f5b07a04d315f7.js",
+  "https://www.basicagency.com/_next/static/chunks/pages/terms-of-use-2985e3c5dabaccd7.js",
+  "https://www.basicagency.com/_next/static/chunks/pages/thinking/%5Bslug%5D-ebcb1fb584b22541.js",
+  "https://www.basicagency.com/_next/static/chunks/pages/thinking/category/%5Bslug%5D-81e7408093c1835b.js",
+  "https://www.basicagency.com/_next/static/chunks/webpack-8d528aca91b4dc0a.js",
+  "https://www.basicagency.com/_next/static/css/1ca398cc10add96d.css",
+  "https://www.basicagency.com/_next/static/css/81c1c90410e66ab0.css",
+  "https://www.basicagency.com/_next/static/css/9e81aa734c3bfb83.css",
+  "https://www.basicagency.com/_next/static/css/b96cec8ab28899bc.css",
+  "https://www.basicagency.com/_next/static/css/cba31f69eb97975c.css",
+  "https://www.basicagency.com/_next/static/css/d5ec3bf8c31e33cd.css",
+  "https://www.basicagency.com/_next/static/css/d73929f14593582f.css",
+  "https://www.basicagency.com/_next/static/css/dd59133eaf0e2100.css",
+  "https://www.basicagency.com/_next/static/media/noise.e8298e81.png",
+  "https://www.basicagency.com/accessibe.js",
+  "https://www.basicagency.com/analytics.js",
+  "https://www.basicagency.com/tags.js",
+  "https://www.google-analytics.com/analytics.js",
+  "https://www.google-analytics.com/g/collect?v=2&tid=G-V2WMRJYJMH&gtm=45je69p1v875327995z8854646090za200zd875327995xf1&_p=1790698464801&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAACAAQC&are=1&cid=359875776.1790698465&frm=0&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us%40posix&_s=2&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153&sid=1790698464&sct=1&seg=1&dl=https%3A%2F%2Fwww.basicagency.com%2F&dt=BASIC%2FDEPT%C2%AE%20%7C%20Digital%20Branding%20%26%20Product%20Design%20Agency&en=page_view&_et=249&tfd=7349",
+  "https://www.google-analytics.com/g/collect?v=2&tid=G-V2WMRJYJMH&gtm=45je69p1v875327995za200zd875327995xf1&_p=1790698464801&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAAC&are=1&cid=359875776.1790698465&frm=0&pscdl=noapi&rcb=6&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153&sid=1790698464&sct=1&seg=0&dl=https%3A%2F%2Fwww.basicagency.com%2F&dt=BASIC%2FDEPT%C2%AE%20%7C%20Digital%20Branding%20%26%20Product%20Design%20Agency&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2089",
+  "https://www.googletagmanager.com/gtag/js?id=AW-10775445431",
+  "https://www.googletagmanager.com/gtag/js?id=G-V2WMRJYJMH",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-5K5ZTR6"
+ ]
+}

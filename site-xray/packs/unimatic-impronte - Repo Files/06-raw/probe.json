@@ -1,0 +1,1407 @@
+{
+ "title": "Impronte Collection \u2013 UNIMATIC Watches",
+ "generator": null,
+ "htmlClass": "html",
+ "bodyClass": "body template-page template-page-impronte-collection",
+ "height": 5801,
+ "globals": {
+  "gsap": "undefined",
+  "ScrollTrigger": "undefined",
+  "Lenis": "undefined",
+  "lenis": "undefined",
+  "lenisVersion": "undefined",
+  "__THREE__": "undefined",
+  "THREE": "undefined",
+  "Webflow": "undefined",
+  "Framer": "undefined",
+  "__framer_importFromPackage": "undefined",
+  "__NEXT_DATA__": "undefined",
+  "__next_f": "undefined",
+  "__NUXT__": "undefined",
+  "Shopify": "object",
+  "wixBiSession": "undefined",
+  "Squarespace": "undefined",
+  "jQuery": "undefined",
+  "Barba": "undefined",
+  "swup": "undefined",
+  "lottie": "undefined",
+  "rive": "undefined",
+  "Spline": "undefined"
+ },
+ "threeVer": null,
+ "framerNodes": 0,
+ "webflowIx": 0,
+ "links": [
+  "#MainContent",
+  "/collections/new-in",
+  "/search",
+  "/account",
+  "/apps/wishlist-1",
+  "/cart",
+  "/collections/classic",
+  "/products/uwk-uc1",
+  "/products/uwk-uc2",
+  "/products/uwk-uc3",
+  "/products/uwk-uc4",
+  "/collections/limited-editions",
+  "/pages/collaborations",
+  "/collections/toolwatch",
+  "/products/uwk-ut1",
+  "/products/uwk-ut1-gmt",
+  "/products/uwk-ut4",
+  "/products/uwk-ut4-gmt",
+  "/pages/made-to-order",
+  "/pages/hand-engraving",
+  "/collections/watches",
+  "/collections/straps",
+  "/collections/leather-straps",
+  "/collections/rubber-straps",
+  "/collections/fabric-straps",
+  "/collections/hardware",
+  "/collections/lifestyle",
+  "/collections/accessories",
+  "/pages/unimatic-gift-guide",
+  "/products/gift-card",
+  "#/pages/our-world",
+  "/pages/about",
+  "/pages/our-world",
+  "/pages/collaboration-and-partnership",
+  "/pages/amici-di-unimatic",
+  "/pages/guida",
+  "/pages/our-lines",
+  "/blogs/news",
+  "/pages/press",
+  "/collections/archive",
+  "/pages/milan-flagship",
+  "/pages/store-locator",
+  "/pages/contact",
+  "/",
+  "/collections/last-drop",
+  "/products/uwk-u1-aeg",
+  "/products/uwk-u1-aeb",
+  "/products/uwk-u1-gmt-aeg",
+  "/products/uwk-u1-gmt-aeb",
+  "/products/uwk-u3-aeg",
+  "/products/uwk-u3-aeb",
+  "/products/uwk-u4-aeg",
+  "/products/uwk-u4-aeb",
+  "/products/uwk-u4-gmt-aeg",
+  "/products/uwk-u4-gmt-aeb",
+  "#",
+  "https://support.unimaticwatches.com/support/solutions/folders/77000330207?_gl=1*1begb2x*_gcl_au*MzQxMzI3MDI5LjE3ODczMDA4Mzk.",
+  "https://www.unimaticwatches.com/apps/product-registration?form=product-registration-warranty",
+  "https://unimatic-watches.myshopify.com/apps/product-registration?form=repair-service-request",
+  "https://unimatic-watches.myshopify.com/apps/product-registration?form=exchange-request",
+  "https://unimatic-watches.myshopify.com/apps/product-registration?form=return-request",
+  "https://www.instagram.com/unimaticwatches/",
+  "https://www.facebook.com/unimaticwatches/",
+  "/pages/sales-terms",
+  "/pages/imprint",
+  "/pages/disclaimer",
+  "/pages/cookie-policy",
+  "/policies/privacy-policy",
+  "/pages/data-sharing-opt-out"
+ ],
+ "canvases": [],
+ "io": [
+  {
+   "t": 2279,
+   "rootMargin": null,
+   "threshold": 0.5,
+   "targets": [
+    "article.product-card",
+    "article.product-card",
+    "article.product-card",
+    "article.product-card",
+    "article.product-card",
+    "article.product-card",
+    "article.product-card",
+    "article.product-card",
+    "article.product-card",
+    "article.product-card"
+   ]
+  },
+  {
+   "t": 4011,
+   "rootMargin": null,
+   "threshold": 0.1,
+   "targets": [
+    "div.needsclick.kl-private-reset-css-Xuajs1"
+   ]
+  }
+ ],
+ "listeners": {
+  "click @ document": 8,
+  "mouseover @ document": 1,
+  "keydown @ document": 5,
+  "visibilitychange @ window": 7,
+  "keydown @ window": 1,
+  "click @ window": 2,
+  "scroll @ window": 4,
+  "resize @ window": 3,
+  "click @ button.nav-pill__link.t-mono": 5,
+  "pointerdown @ document": 3,
+  "click @ dialog.header__drawer": 1,
+  "click @ button.header__mobile-pill.nav-pill.nav-pill--sm": 1,
+  "pointerenter @ document": 1,
+  "pointerleave @ document": 1,
+  "click @ button.slider__ctrl.slider__ctrl--boxed.t-eyebrow": 2,
+  "scroll @ div.slider__track": 1,
+  "visibilitychange @ document": 12,
+  "click @ cart-drawer-component": 1,
+  "click @ a.product-card__media": 10,
+  "mouseenter @ article.product-card": 10,
+  "mouseleave @ article.product-card": 10,
+  "click @ a.product-card__name": 10,
+  "click @ a.product-card__swatch": 10,
+  "mousemove @ document": 1,
+  "scroll @ document": 1,
+  "click @ button": 1
+ },
+ "animateCalls": 0,
+ "contexts": [
+  {
+   "t": 1915,
+   "type": "2d",
+   "w": 200,
+   "h": 50,
+   "el": "canvas",
+   "attrs": "{}"
+  }
+ ],
+ "draws": 0,
+ "raf": 22,
+ "viewTransitions": 0,
+ "audio": 0,
+ "media": [],
+ "errors": [],
+ "tweensAtLoad": 0,
+ "fonts": [
+  "Helvetica Neue 400 normal loaded",
+  "Helvetica Neue 700 normal loaded",
+  "JetBrains Mono 400 normal loaded",
+  "JetBrains Mono 700 normal unloaded",
+  "IBM Plex Mono 100 italic unloaded",
+  "IBM Plex Mono 100 italic unloaded",
+  "IBM Plex Mono 100 italic unloaded",
+  "IBM Plex Mono 100 italic unloaded",
+  "IBM Plex Mono 100 italic unloaded",
+  "IBM Plex Mono 200 italic unloaded",
+  "IBM Plex Mono 200 italic unloaded",
+  "IBM Plex Mono 200 italic unloaded",
+  "IBM Plex Mono 200 italic unloaded",
+  "IBM Plex Mono 200 italic unloaded",
+  "IBM Plex Mono 300 italic unloaded",
+  "IBM Plex Mono 300 italic unloaded",
+  "IBM Plex Mono 300 italic unloaded",
+  "IBM Plex Mono 300 italic unloaded",
+  "IBM Plex Mono 300 italic unloaded",
+  "IBM Plex Mono 400 italic unloaded",
+  "IBM Plex Mono 400 italic unloaded",
+  "IBM Plex Mono 400 italic unloaded",
+  "IBM Plex Mono 400 italic unloaded",
+  "IBM Plex Mono 400 italic unloaded",
+  "IBM Plex Mono 500 italic unloaded",
+  "IBM Plex Mono 500 italic unloaded",
+  "IBM Plex Mono 500 italic unloaded",
+  "IBM Plex Mono 500 italic unloaded",
+  "IBM Plex Mono 500 italic unloaded",
+  "IBM Plex Mono 600 italic unloaded",
+  "IBM Plex Mono 600 italic unloaded",
+  "IBM Plex Mono 600 italic unloaded",
+  "IBM Plex Mono 600 italic unloaded",
+  "IBM Plex Mono 600 italic unloaded",
+  "IBM Plex Mono 700 italic unloaded",
+  "IBM Plex Mono 700 italic unloaded",
+  "IBM Plex Mono 700 italic unloaded",
+  "IBM Plex Mono 700 italic unloaded",
+  "IBM Plex Mono 700 italic unloaded",
+  "IBM Plex Mono 100 normal unloaded",
+  "IBM Plex Mono 100 normal unloaded",
+  "IBM Plex Mono 100 normal unloaded",
+  "IBM Plex Mono 100 normal unloaded",
+  "IBM Plex Mono 100 normal unloaded",
+  "IBM Plex Mono 200 normal unloaded",
+  "IBM Plex Mono 200 normal unloaded",
+  "IBM Plex Mono 200 normal unloaded",
+  "IBM Plex Mono 200 normal unloaded",
+  "IBM Plex Mono 200 normal unloaded",
+  "IBM Plex Mono 300 normal unloaded",
+  "IBM Plex Mono 300 normal unloaded",
+  "IBM Plex Mono 300 normal unloaded",
+  "IBM Plex Mono 300 normal unloaded",
+  "IBM Plex Mono 300 normal unloaded",
+  "IBM Plex Mono 400 normal unloaded",
+  "IBM Plex Mono 400 normal unloaded",
+  "IBM Plex Mono 400 normal unloaded",
+  "IBM Plex Mono 400 normal unloaded",
+  "IBM Plex Mono 400 normal unloaded",
+  "IBM Plex Mono 500 normal unloaded",
+  "IBM Plex Mono 500 normal unloaded",
+  "IBM Plex Mono 500 normal unloaded",
+  "IBM Plex Mono 500 normal unloaded",
+  "IBM Plex Mono 500 normal unloaded",
+  "IBM Plex Mono 600 normal unloaded",
+  "IBM Plex Mono 600 normal unloaded",
+  "IBM Plex Mono 600 normal unloaded",
+  "IBM Plex Mono 600 normal unloaded",
+  "IBM Plex Mono 600 normal unloaded",
+  "IBM Plex Mono 700 normal unloaded",
+  "IBM Plex Mono 700 normal unloaded",
+  "IBM Plex Mono 700 normal unloaded",
+  "IBM Plex Mono 700 normal unloaded",
+  "IBM Plex Mono 700 normal unloaded",
+  "JetBrains Mono 400 normal unloaded",
+  "JetBrains Mono 400 normal unloaded",
+  "JetBrains Mono 400 normal unloaded",
+  "JetBrains Mono 400 normal unloaded",
+  "JetBrains Mono 400 normal unloaded",
+  "JetBrains Mono 400 normal loaded"
+ ],
+ "meta": [
+  "icon = https://www.unimaticwatches.com/cdn/shop/files/Favicon.png?crop=center&height=32&v=1787554580&width=32",
+  "description = Discover the New Impronte Collection, a\u00a0series of ten limited-edition\u00a0references developed across the Modello Uno, Modello Tre and Modello Q",
+  "og:site_name = UNIMATIC Watches",
+  "og:url = https://www.unimaticwatches.com/pages/impronte-collection",
+  "og:title = Impronte Collection",
+  "og:type = website",
+  "og:description = Discover the New Impronte Collection, a\u00a0series of ten limited-edition\u00a0references developed across the Modello Uno, Modello Tre and Modello Q",
+  "og:image = http://www.unimaticwatches.com/cdn/shop/files/Sharing.png?v=1787562530&width=1080",
+  "og:image:secure_url = https://www.unimaticwatches.com/cdn/shop/files/Sharing.png?v=1787562530&width=1080",
+  "og:image:width = 1080",
+  "og:image:height = 608"
+ ],
+ "scripts": [
+  "https://www.googletagmanager.com/gtag/js?id=GT-T94DHK93&cx=c&gtm=4e69p1h1",
+  "https://www.unimaticwatches.com/cdn/s/trekkie.storefront.f1ba865b3fecd812ad617f74ac079261075e9edb.min.js",
+  "https://www.unimaticwatches.com/cdn/shop/t/4/assets/card-swatch.js?v=72831181901141921031788300549",
+  "https://www.unimaticwatches.com/cdn/shop/t/4/assets/wishlist.js?v=148377874843648511981789655313",
+  "https://www.unimaticwatches.com/apps/wlm/js/wlm-1.1.js?v=3.1",
+  "https://www.unimaticwatches.com/checkouts/internal/preloads.js?locale=en-IT&default_configuration_id=10752655690",
+  "https://shop.app/checkouts/internal/preloads.js?locale=en-IT&default_configuration_id=10752655690&shop_id=104415822154",
+  "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+  "https://www.unimaticwatches.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+  "https://www.unimaticwatches.com/cdn/shopifycloud/storefront/assets/shopify_pay/storefront-616277c7.js?v=20250812",
+  "https://cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+  "https://www.unimaticwatches.com/cdn/shopifycloud/privacy-banner/storefront-banner.js",
+  "https://cdn.shopify.com/extensions/01a0c411-07b1-7271-9d7c-6ed52cf404ae/wishlist-engine-264/assets/wishlist-engine-app.js",
+  "https://cdn.shopify.com/extensions/01a0e77f-c761-7da5-b325-965823aaaa66/powerful-form-builder-356/assets/globo.formbuilder.index.js",
+  "https://static.klaviyo.com/onsite/js/QUMGP6/klaviyo.js?company_id=QUMGP6",
+  "https://www.unimaticwatches.com/cdn/wpm/ba5bf51cfwabd6c495p49b74ff1maa529d2bm.js",
+  "https://www.unimaticwatches.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js",
+  "https://www.unimaticwatches.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+  "https://static-tracking.klaviyo.com/onsite/js/fender_analytics.afed75cbdca9e.js?cb=2",
+  "https://static-tracking.klaviyo.com/onsite/js/static.22dfffd569857.js?cb=2",
+  "https://static.klaviyo.com/onsite/js/runtime.ac6b2476b26ac.js?cb=2",
+  "https://static.klaviyo.com/onsite/js/vendors~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~in_app_forms~telemetry~static~.88d9527e36308.js?cb=2",
+  "https://static.klaviyo.com/onsite/js/event_adapter.6ddb33fa4a95c.js?cb=2",
+  "https://static-tracking.klaviyo.com/onsite/js/telemetry.2a720fdfab71c.js?cb=2",
+  "https://static.klaviyo.com/onsite/js/vendors~signup_forms~product_recommendations~in_app_forms~reviews~atlas.c9ce13ff54216.js?cb=2",
+  "https://static.klaviyo.com/onsite/js/vendors~signup_forms~in_app_forms.2575e509ded36.js?cb=2",
+  "https://static.klaviyo.com/onsite/js/default~signup_forms~in_app_forms.5049b78368393.js?cb=2",
+  "https://static.klaviyo.com/onsite/js/signup_forms.f42d716dd3960.js?cb=2",
+  "https://static.klaviyo.com/onsite/js/vendors~reviews.2c09809ec988c.js?cb=2",
+  "https://static.klaviyo.com/onsite/js/reviews.cc2daac505616.js?cb=2",
+  "https://static-tracking.klaviyo.com/onsite/js/post_identification_sync.6795377d279ad.js?cb=2",
+  "https://www.unimaticwatches.com/web-pixels@a5bf51cfwabd6c495p49b74ff1maa529d2b/app/web-pixel-5541822794@a3321ca85cf5aaf6b57585fcd8d67b3a~2/pixel.modern.js",
+  "https://www.unimaticwatches.com/cdn/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js",
+  "https://www.unimaticwatches.com/cdn/shop/t/4/assets/header.js?v=167895268978408542131788157910",
+  "https://www.unimaticwatches.com/cdn/shop/t/4/assets/promo-slider.js?v=70645351525103674911788248149",
+  "https://www.unimaticwatches.com/cdn/shop/t/4/assets/slider.js?v=123981774271841444671788157918",
+  "https://www.unimaticwatches.com/cdn/shop/t/4/assets/country-select.js?v=101028196717063812901788157908",
+  "https://www.unimaticwatches.com/cdn/shop/t/4/assets/widgets.js?v=52917165623074315491788157922",
+  "https://www.unimaticwatches.com/cdn/shop/t/4/assets/widgets.js?v=52917165623074315491788157922",
+  "https://www.unimaticwatches.com/cdn/shop/t/4/assets/cart.js?v=141138936914273137151788157906",
+  "https://www.unimaticwatches.com/cdn/shop/t/4/assets/drawer.js?v=95592826770327573521788450414",
+  "https://cdn.shopify.com/extensions/01a0e83c-88a3-702e-8442-82641270f3fe/bestpush-110/assets/restock-sdk-loader.js?v=1790602660",
+  "https://cdn.shopify.com/storefront/standard-actions.js",
+  "https://www.googletagmanager.com/gtag/js?id=G-LMQ67HDZSV",
+  "https://www.googletagmanager.com/gtag/js?id=GT-T94DHK93"
+ ],
+ "styles": [
+  "https://www.unimaticwatches.com/cdn/shop/t/4/assets/base.css?v=65050722819555864611788899517",
+  "https://www.unimaticwatches.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+  "https://www.unimaticwatches.com/cdn/shop/t/4/compiled_assets/styles.css?v=176367437974545924321790347826",
+  "https://cdn.shopify.com/extensions/01a0c411-07b1-7271-9d7c-6ed52cf404ae/wishlist-engine-264/assets/wishlist-engine.css",
+  "https://static.klaviyo.com/onsite/js/4014.b5fec642c6440.css"
+ ],
+ "resources": [
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/assets/base.css?v=65050722819555864611788899517",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/portable-wallets/latest/accelerated-checkout-backwards-compat.css",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/assets/helvetica-neue-400.woff2?v=30899727453127000591787430346",
+   "t": "link",
+   "kb": 45
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/compiled_assets/styles.css?v=176367437974545924321790347826",
+   "t": "link",
+   "kb": 21
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/assets/jetbrains-mono-400.woff2?v=98998593012946245701783731043",
+   "t": "link",
+   "kb": 21
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/assets/helvetica-neue-700.woff2?v=177921881455835790011787430347",
+   "t": "link",
+   "kb": 46
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/assets/utilities.js?v=143033914588516549241788157920",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/assets/component.js?v=93847820418110431311788157907",
+   "t": "other",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/assets/card-swatch.js?v=72831181901141921031788300549",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/assets/wishlist.js?v=148377874843648511981789655313",
+   "t": "script",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/apps/wlm/js/wlm-1.1.js?v=3.1",
+   "t": "script",
+   "kb": 32
+  },
+  {
+   "u": "https://www.unimaticwatches.com/checkouts/internal/preloads.js?locale=en-IT&default_configuration_id=10752655690",
+   "t": "script",
+   "kb": 4
+  },
+  {
+   "u": "https://shop.app/checkouts/internal/preloads.js?locale=en-IT&default_configuration_id=10752655690&shop_id=104415822154",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.en.esm.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/storefront/assets/storefront/load_feature-1bd60354.js",
+   "t": "script",
+   "kb": 4
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/storefront/assets/shopify_pay/storefront-616277c7.js?v=20250812",
+   "t": "script",
+   "kb": 23
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/storefront/assets/storefront/origin_trials-318ab40a.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://cdn.shopify.com/extensions/01a0c411-07b1-7271-9d7c-6ed52cf404ae/wishlist-engine-264/assets/wishlist-engine.css",
+   "t": "link",
+   "kb": 3
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/privacy-banner/storefront-banner.js",
+   "t": "script",
+   "kb": 26
+  },
+  {
+   "u": "https://cdn.shopify.com/extensions/01a0c411-07b1-7271-9d7c-6ed52cf404ae/wishlist-engine-264/assets/wishlist-engine-app.js",
+   "t": "script",
+   "kb": 15
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/QUMGP6/klaviyo.js?company_id=QUMGP6",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://cdn.shopify.com/extensions/01a0e77f-c761-7da5-b325-965823aaaa66/powerful-form-builder-356/assets/globo.formbuilder.index.js",
+   "t": "script",
+   "kb": 9
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/assets/header.js?v=167895268978408542131788157910",
+   "t": "script",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/perf-kit/shopify-perf-kit-3.9.4.min.js",
+   "t": "script",
+   "kb": 26
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/16-9_U1-GMT-AEB_U1-GMT-AEG_StillLife.jpg?v=1787651909&width=1600",
+   "t": "img",
+   "kb": 110
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/assets/promo-slider.js?v=70645351525103674911788248149",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/assets/slider.js?v=123981774271841444671788157918",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/assets/widgets.js?v=52917165623074315491788157922",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/assets/country-select.js?v=101028196717063812901788157908",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/assets/cart.js?v=141138936914273137151788157906",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/logo-unimatic.png?v=1783377056&width=400",
+   "t": "img",
+   "kb": 4
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/assets/drawer.js?v=95592826770327573521788450414",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://cdn.shopify.com/extensions/01a0e83c-88a3-702e-8442-82641270f3fe/bestpush-110/assets/restock-sdk-loader.js?v=1790602660",
+   "t": "script",
+   "kb": 2
+  },
+  {
+   "u": "https://cdn.shopify.com/storefront/standard-actions.js",
+   "t": "script",
+   "kb": 5
+  },
+  {
+   "u": "https://www.unimaticwatches.com/.well-known/shopify/monorail/unstable/produce_batch",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/wpm/ba5bf51cfwabd6c495p49b74ff1maa529d2bm.js",
+   "t": "script",
+   "kb": 80
+  },
+  {
+   "u": "https://www.unimaticwatches.com/.well-known/shopify/monorail/unstable/produce_batch",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/s/trekkie.storefront.f1ba865b3fecd812ad617f74ac079261075e9edb.min.js",
+   "t": "script",
+   "kb": 35
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/storefront/assets/shop_events_listener-4e26a9ce.js",
+   "t": "script",
+   "kb": 4
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/client.init-shop-cart-sync_qD1N2oUp.en.esm.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.document_DMcRsBXN.esm.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.init_CrpOyFVD.esm.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.register_yvE45-Yc.esm.js",
+   "t": "script",
+   "kb": 21
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.tslib-es6_CHHZATl5.esm.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.networkErrorMessages_DIkDbO6W.esm.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.defineInitFunction_CIjOjzsO.esm.js",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/client.shop-cart-sync_MsVPp61x.en.esm.js",
+   "t": "script",
+   "kb": 3
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.window_CAbVMZox.esm.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.casing_U_9x-Om3.esm.js",
+   "t": "script",
+   "kb": 5
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.utils_CY1J4tRu.esm.js",
+   "t": "script",
+   "kb": 3
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.v4_D2VNBPfk.esm.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.useUserRecognitionSignal_C-8KJJ0d.esm.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.hooks_BsRBdm67.esm.js",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.storage_DQF5v-OM.esm.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.authorize_WtTR8Xbh.esm.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.useEventListener_DeqHvX7l.esm.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/chunk.validators_09U1U9sZ.esm.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/U1-AEG-Hero.png?v=1785834515&width=450",
+   "t": "img",
+   "kb": 17
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/U1-AEB-Hero.png?v=1785834514&width=450",
+   "t": "img",
+   "kb": 18
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/Wristshot_U1-AEG_1200x1200_a22bdd66-0938-4700-93fa-b2b5832408fa.jpg?v=1789397477&width=450",
+   "t": "img",
+   "kb": 42
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/Wristshot_U1-AEB_1200x1200_bfdbb24b-3de6-47f4-951d-23f2598070f5.jpg?v=1789397507&width=450",
+   "t": "img",
+   "kb": 36
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/U1-GMT-AEG-Hero.png?v=1785834559&width=450",
+   "t": "img",
+   "kb": 18
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/U1-GMT-AEG.jpg?v=1787762224&width=450",
+   "t": "img",
+   "kb": 44
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/U1-GMT-AEB-Hero.png?v=1785834558&width=450",
+   "t": "img",
+   "kb": 18
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/Wristshot_U1-GMT-AEB_1200x1200_16001955-b06a-4c92-88fc-cf57e00e534c.jpg?v=1789397514&width=450",
+   "t": "img",
+   "kb": 36
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/U3-AEG-Hero.png?v=1785834702&width=450",
+   "t": "img",
+   "kb": 18
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/Wristshot_U3-AEG_1200x1200_74bfe800-72f9-4305-b36e-b48df5f7c07b.jpg?v=1789397522&width=450",
+   "t": "img",
+   "kb": 37
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/U3-AEB-Hero.png?v=1785834700&width=450",
+   "t": "img",
+   "kb": 19
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/U3-AEB-SITO.jpg?v=1789401825&width=450",
+   "t": "img",
+   "kb": 32
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/U4-AEG-Hero.png?v=1785834734&width=450",
+   "t": "img",
+   "kb": 16
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/Wristshot_U4-AEG_1200x1200_a31f0741-322f-4967-b152-c97dadd4c18a.jpg?v=1789397457&width=450",
+   "t": "img",
+   "kb": 46
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/U4-AEB-Hero.png?v=1785834732&width=450",
+   "t": "img",
+   "kb": 16
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/Wristshot_U4-AEB_1200x1200_50427740-9f9d-4ff0-908f-ca15bff1c661.jpg?v=1789397500&width=450",
+   "t": "img",
+   "kb": 41
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/U4-GMT-AEG-Hero.png?v=1785834741&width=450",
+   "t": "img",
+   "kb": 17
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/Wristshot_U4-GMT-AEG_1200x1200_68d1b169-3429-4260-bb98-a7d7eb11ebd8.jpg?v=1789397494&width=450",
+   "t": "img",
+   "kb": 44
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/16_9_U3-AEB_Macro-copia.jpg?v=1787651908&width=1440",
+   "t": "img",
+   "kb": 68
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/Detail-U1-AEB.jpg?v=1787600714&width=982",
+   "t": "img",
+   "kb": 53
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/Detail-U3-AEG.jpg?v=1787600712&width=982",
+   "t": "img",
+   "kb": 49
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/files/Details-Glass-wide.jpg?v=1787600712&width=982",
+   "t": "img",
+   "kb": 23
+  },
+  {
+   "u": "https://shop.app/pay/session?v=1&token=3c318788-fbbf-492b-99c2-639e4dead6d4&shop_id=104415822154",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://monorail-edge.shopifysvc.com/v1/produce",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://static-tracking.klaviyo.com/onsite/js/fender_analytics.afed75cbdca9e.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static-tracking.klaviyo.com/onsite/js/static.22dfffd569857.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/runtime.ac6b2476b26ac.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/sharedUtils.6bd0e71dd516d.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/vendors~signup_forms~fender_analytics~post_identification_sync~web_personalization~client_identity~server_side_cookies~reviews~atlas~in_app_forms~telemetry~static~.88d9527e36308.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/event_adapter.6ddb33fa4a95c.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/vendors~signup_forms~in_app_forms~telemetry~client_identity~onsite-personalization~onsite-triggering-v2~.4326feb44f2d6.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static-tracking.klaviyo.com/onsite/js/telemetry.2a720fdfab71c.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/vendors~signup_forms~product_recommendations~in_app_forms~reviews~atlas.c9ce13ff54216.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/vendors~signup_forms~in_app_forms.2575e509ded36.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/default~signup_forms~in_app_forms.5049b78368393.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/signup_forms.f42d716dd3960.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/vendors~reviews.2c09809ec988c.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static-tracking.klaviyo.com/onsite/js/post_identification_sync.6795377d279ad.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/reviews.cc2daac505616.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://livewishlist.scriptengine.net/api/apps-config",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shop/t/4/assets/morph.js?v=92771089344703927911788157911",
+   "t": "script",
+   "kb": 3
+  },
+  {
+   "u": "https://www.unimaticwatches.com/api/collect",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/web-pixels@a5bf51cfwabd6c495p49b74ff1maa529d2b/app/web-pixel-5541822794@a3321ca85cf5aaf6b57585fcd8d67b3a~2/pixel.modern.js",
+   "t": "script",
+   "kb": 5
+  },
+  {
+   "u": "https://www.unimaticwatches.com/web-pixels@a5bf51cfwabd6c495p49b74ff1maa529d2b/app/web-pixel-5541691722@96420dbe9ea96c426a1b7f364f977719~2/pixel.modern.js",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/web-pixels@a5bf51cfwabd6c495p49b74ff1maa529d2b/custom/web-pixel-shopify-custom-pixel@0530/sandbox/modern/pages/impronte-collection",
+   "t": "iframe",
+   "kb": 1
+  },
+  {
+   "u": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/.well-known/shopify/monorail/unstable/produce_batch",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/.well-known/shopify/monorail/unstable/produce_batch",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/.well-known/shopify/monorail/unstable/produce_batch",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/.well-known/shopify/monorail/unstable/produce_batch",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/.well-known/shopify/monorail/unstable/produce_batch",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/shopify_pay/accelerated_checkout",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://shop.app/pay/hop?analytics_trace_id=f8bdcc36-1fa6-42aa-b42a-9621072c8cd3&target_origin=https%3A%2F%2Fwww.unimaticwatches.com&client_handle=unimatic-watches.myshopify.com",
+   "t": "iframe",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/vendors~onsite-back-in-stock~ClientStore~~Render~.9c910c51a1025.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/3117.048d2c9956720.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/consent-tracking-api/v0.1/consent-tracking-api.js",
+   "t": "script",
+   "kb": 7
+  },
+  {
+   "u": "https://fast.a.klaviyo.com/custom-fonts/api/v1/company-fonts/onsite?company_id=QUMGP6",
+   "t": "xmlhttprequest",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/onsite-triggering-v2.71789d2ddb7ec.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://api.open-meteo.com/v1/forecast?latitude=45.4642&longitude=9.19&current_weather=true",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://a.klaviyo.com/forms/api/v3/geo-ip",
+   "t": "xmlhttprequest",
+   "kb": 0
+  },
+  {
+   "u": "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=JetBrains+Mono:ital,wght@0,400&display=swap",
+   "t": "css",
+   "kb": 2
+  },
+  {
+   "u": "https://static-forms.klaviyo.com/forms/api/v7/QUMGP6/full-forms",
+   "t": "xmlhttprequest",
+   "kb": 0
+  },
+  {
+   "u": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://otlp-http-production.shopifysvc.com/v1/logs",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/services/login_with_shop/buyer/finalize",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/.well-known/shopify/monorail/unstable/produce_batch",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/.well-known/shopify/monorail/unstable/produce_batch",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/vendors~ClientStore~~Render.0597ebde24a35.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/default~onsite-back-in-stock~ClientStore~~Render.733fea5000e98.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/default~back-in-stock-dynamic-button-handler~ClientStore~~Render.142f8706d7e6a.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/default~ClientStore~~Render.2a7c4fa736b89.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/ClientStore.fd94f7d8d97f1.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://otlp-http-production.shopifysvc.com/v1/logs",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/4014.b5fec642c6440.css",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/styles.3bab524737109.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/vendors~onsite-personalization~Render.a161bd9872e71.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/vendors~Render~customerHubRoot.1bc7b7ded1c56.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/vendors~Render.cd763b88d1b2d.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/default~in_app_forms~onsite-personalization~Render.a6d249a9edd5e.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://static.klaviyo.com/onsite/js/Render.89fabc2dd7f17.js?cb=2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://www.googletagmanager.com/gtag/js?id=G-LMQ67HDZSV",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://www.googletagmanager.com/gtag/js?id=GT-T94DHK93",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/.well-known/shopify/monorail/unstable/produce_batch",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/.well-known/shopify/monorail/unstable/produce_batch",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://www.googletagmanager.com/gtag/js?id=GT-T94DHK93&cx=c&gtm=4e69p1h1",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://www.googleadservices.com/pagead/conversion/826365461/?random=1790699630038&cv=11&fst=1790699630038&fmt=7&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je69p1h1v879376293za200zd879376293xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121280971&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.unimaticwatches.com%2Fpages%2Fimpronte-collection&rcb=17&label=u4x9CNf7ou4cEJWshYoD&capi=1&gtm_ee=1&evnid=sh-ee03f2f7-2235-4589-E194-93EE2847B055&excid=shp.3c318788-fbbf-492b-99c2-639e4dead6d4&tiba=Impronte%20Collection%20%E2%80%93%20UNIMATIC%20Watches&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=32086328.1790699630&ec_mode=c&oid=GG_1326941367.1790699630&oidsrc=3&ecsid2=1617066237.1790699630&_tu=ABI&gcl_ctr=1~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fpages%2Fimpronte-collection&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5",
+   "t": "fetch",
+   "kb": 2
+  },
+  {
+   "u": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=1&auid=32086328.1790699630&dt=Impronte%20Collection%20%E2%80%93%20UNIMATIC%20Watches&tid=AW-826365461&en=page_view&dl=https%3A%2F%2Fwww.unimaticwatches.com%2Fpages%2Fimpronte-collection&scrsrc=www.googletagmanager.com&rnd=523459039.1790699630&navt=n&npa=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&_tu=AAI&gtm=45je69p1h1v879376293za208zd879376293xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121280971&tft=1790699630056&tfd=4533&tids=AW-826365461&fmt=8",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://ad.doubleclick.net/ccm/s/collect?auid=32086328.1790699630&gtm=45je69p1h1v879376293za208zd879376293xecxf1&fmt=8",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://www.googleadservices.com/ccm/conversion/826365461/?random=1790699630038&cv=11&fst=1790699630038&fmt=3&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je69p1h1v879376293za200zd879376293xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121280971&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.unimaticwatches.com%2Fpages%2Fimpronte-collection&rcb=17&label=u4x9CNf7ou4cEJWshYoD&capi=1&gtm_ee=1&evnid=sh-ee03f2f7-2235-4589-E194-93EE2847B055&excid=shp.3c318788-fbbf-492b-99c2-639e4dead6d4&tiba=Impronte%20Collection%20%E2%80%93%20UNIMATIC%20Watches&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=32086328.1790699630&ec_mode=c&oid=GG_1326941367.1790699630&oidsrc=3&ecsid2=1617066237.1790699630&_tu=ABI&gcl_ctr=1~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fpages%2Fimpronte-collection&category=acrcp_v1_512&em=tv.1&emd=tvd.1",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://www.google.com/measurement/conversion?random=1790699630038&cv=11&tid=G-LMQ67HDZSV&fst=1790699630038&fmt=8&en=page_view&gtm=45je69p1h1v879376293za200zd879376293xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121280971&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.unimaticwatches.com%2Fpages%2Fimpronte-collection&gacid=426735137.1790699630&evnid=sh-ee03f2f7-2235-4589-E194-93EE2847B055&excid=shp.3c318788-fbbf-492b-99c2-639e4dead6d4&hn=www.googleadservices.com&frm=0&tiba=Impronte%20Collection%20%E2%80%93%20UNIMATIC%20Watches&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&rdp=0&npa=0&pscdl=noapi&auid=32086328.1790699630&capi=1&gtm_ee=1&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&_tu=AAI&rcb=17",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://analytics.google.com/g/collect?v=2&tid=G-LMQ67HDZSV&gtm=45je69p1h1v879376293za200zd879376293xf1&_p=1790699629741&_gaz=1&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&ecid=1633660200&_eu=EAAAAGAC&_prs=ok&are=1&cid=426735137.1790699630&ec_mode=c&excid=shp.3c318788-fbbf-492b-99c2-639e4dead6d4&frm=0&ir=1&pscdl=noapi&rcb=17&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us%40posix&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121280971&dp=%2Fpages%2Fimpronte-collection&dt=Impronte%20Collection%20%E2%80%93%20UNIMATIC%20Watches&dl=https%3A%2F%2Fwww.unimaticwatches.com%2Fpages%2Fimpronte-collection&sid=1790699630&sct=1&seg=0&_tu=AAI&en=page_view&_fv=1&_nsi=1&_ss=1&_c=1&_ee=1&edid=dNzYwYj&ep.shopify_event_name=page_viewed&evnid=sh-ee03f2f7-2235-4589-E194-93EE2847B055&tfd=4548",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-LMQ67HDZSV&cid=426735137.1790699630&gtm=45je69p1h1v879376293za200zd879376293xf1&rcb=17&aip=1&dma=0&gcs=G111&gcd=13t3t3t3t5l1&npa=0&frm=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121280971",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/web-pixels@a5bf51cfwabd6c495p49b74ff1maa529d2b/web-pixel-5687837002@b97ec512e3ef1a4453f7ff9f6d7a9c08/sandbox/worker.modern.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/web-pixels@a5bf51cfwabd6c495p49b74ff1maa529d2b/web-pixel-5503811914@d22b5691c62682d22357c5bcbea63a2b/sandbox/worker.modern.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/web-pixels@a5bf51cfwabd6c495p49b74ff1maa529d2b/web-pixel-5473796426@c63c5b72c8d77be5f2d27d14c081da38/sandbox/worker.modern.js",
+   "t": "other",
+   "kb": 1
+  },
+  {
+   "u": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-YRTE9PXHCB&gtm=45Pe69s0v9262928791za200zb879376293zd879376293xf1&_p=1790699629741&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&are=1&cid=426735137.1790699630&excid=shp.3c318788-fbbf-492b-99c2-639e4dead6d4&frm=0&pscdl=noapi&rcb=7&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B141.0.7390.37%7CNot%253FA_Brand%3B8.0.0.0%7CChromium%3B141.0.7390.37&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=en-us%40posix&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121280971&dp=%2Fpages%2Fimpronte-collection&dt=Impronte%20Collection%20%E2%80%93%20UNIMATIC%20Watches&dl=https%3A%2F%2Fwww.unimaticwatches.com%2Fpages%2Fimpronte-collection&sid=1790699630&sct=1&seg=0&_tu=AAI&en=page_view&_fv=1&_ss=1&_ee=1&edid=dNzYwYj&ep.shopify_event_name=page_viewed&evnid=sh-ee03f2f7-2235-4589-E194-93EE2847B055&tfd=4739",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/.well-known/shopify/monorail/unstable/produce_batch",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/.well-known/shopify/monorail/unstable/produce_batch",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/826365461/?random=1511466399&cv=11&fst=1790699630038&fmt=8&bg=ffffff&guid=ON&async=1&en=page_view&gtm=45je69p1h1v879376293za200zd879376293xecxf1&gcs=G111&gcd=13t3t3t3t5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121246026~121246034~121280971&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.unimaticwatches.com%2Fpages%2Fimpronte-collection&rcb=17&label=u4x9CNf7ou4cEJWshYoD&capi=1&gtm_ee=1&evnid=sh-ee03f2f7-2235-4589-E194-93EE2847B055&excid=shp.3c318788-fbbf-492b-99c2-639e4dead6d4&tiba=Impronte%20Collection%20%E2%80%93%20UNIMATIC%20Watches&frm=0&did=dN2ZkMj%2CdNTU0Yz%2CdYmNjMT%2CdNzYwYj&gdid=dN2ZkMj.dNTU0Yz.dYmNjMT&edid=dNzYwYj&hn=www.googleadservices.com&rdp=0&npa=0&pscdl=noapi&auid=32086328.1790699630&ec_mode=c&oidsrc=3&ecsid2=1617066237.1790699630&_tu=ABI&gcl_ctr=1~0~0~0&data=event%3Dpage_view%3Bshopify_event_name%3Dpage_viewed%3Bpage_path%3D%2Fpages%2Fimpronte-collection&category=acrcp_v1_512&em=tv.1&emd=tvd.1&ept=5&ct_cookie_present=false&eoid=CkgKEQjww-3VBhCW8O-hsOqm2tcBEjMAVexNPcny-f4qsYadS3BVJh-vNorYsNuMG9cMypmpYW7kLktle3TAZ3AG-zZC6bc3KWrw_wcB&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQII1-ixAgi0xrECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCOLqsQII6O6xAgiS67ECCMnjsQIIl9SxAgjJ27ECCM3msQIIjuexAgiP57ECCKbdsQIIsN6xAgiA27ECCM3hsQJKGW5vdC1ldmVudC1zb3VyY2UsIHRyaWdnZXJaAwoBAWIDCgED&cerd=ChiCsL4tlOS-Lcjsvi317L4t1-2-LZ3ptzg&fsk=ChAI8MPt1QYQkJmg-6CZ0pYpEiwAUu48VDjHLjAThNkOBOfuBIZUQaveb18mPyJbsjmJhkohVodOAaJ_K2Ip6BoC9xM&pscrd=IhMI4MP4-puUlwMVOcXSBB1QSxDaOiBodHRwczovL3d3dy51bmltYXRpY3dhdGNoZXMuY29tL0JXQ2hFSThNUHQxUVlRb1BmNHBJYnJfb0RNQVJJc0FORnFpM3lFcWhYaHQwampSVk43bWJ2c0MxQ0hWaDRuV3lBNHItN0VRMGRXSDJNOWVyQ2JmeFFQMEtRegwICWIICAAQABgAIAA",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/polyfills.QSVzdYsv.js",
+   "t": "link",
+   "kb": 18
+  },
+  {
+   "u": "https://www.unimaticwatches.com/.well-known/shopify/monorail/unstable/produce_batch",
+   "t": "beacon",
+   "kb": 0
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/app.Ct1TLWkJ.js",
+   "t": "link",
+   "kb": 8
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/esnext-vendor.7EcvH7tF.js",
+   "t": "link",
+   "kb": 42
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/context-browser.DjOjoCNf.js",
+   "t": "link",
+   "kb": 71
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/utilities-previous.DaWdZv41.js",
+   "t": "link",
+   "kb": 90
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/PayButton-helpers.9yu2zn7p.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/graphql-PaymentSessionMutation.B3_YfTkY.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/helpers-setAddressErrors.B3hJ_U3b.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/addresses-is-address-empty.DrXkHBCJ.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/redemption-constants.5qb5alFL.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/redemption-promotions.DtPDNosX.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/shared-receipt-mapper-load-recovery.CPm4XdBV.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/shared-receipt-eager-mappers.DSfUwlCk.js",
+   "t": "link",
+   "kb": 3
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/shared-report-graphql-error.-Y73rRX8.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/shop-pay-normalizeBuyerDetails.BAk0CUr4.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/helpers-derivations.Rg3VPX07.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/helpers-credit-card-disabled.Cac4kHb5.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/hooks-useShopPayNewSignupLoginExperiment.ceEqQvD9.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/hydrate.__QOXNN3.js",
+   "t": "link",
+   "kb": 207
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/shared-negotiation-input-redeemable.BsA2r1RZ.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/shared-permissions.C4V3dAGa.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/hooks-useShopPayExternalAppContext.CTzvOb12.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/locale-en.CZosULTV.js",
+   "t": "link",
+   "kb": 27
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/OnePage.XChBotRy.js",
+   "t": "link",
+   "kb": 47
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/components-VatNumberValidationField.DnCJuJe5.js",
+   "t": "link",
+   "kb": 31
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/localization-index.rdUcb1vZ.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/useShopPayButtonClassName.Bn_3pQjZ.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/hooks-useShowShopPayOptin.CLF6CU-_.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/AddressPresenter.zJFSKPKQ.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/hooks-useShouldRevealCustomization.DhUDNial.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/hooks-useForceShopPayUrl.BPNVWppI.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/ChangeCompanyLocationLink.Bi6EWUEI.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/BillingAddressForm.De198WU3.js",
+   "t": "link",
+   "kb": 19
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/components-RedirectionNotice.module.CYPkGrdi.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/amazon-pay-useAmazonPayPaymentLine.D7yPfUN6.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/PhoneField.D9H64wAv.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/hooks-useSuppressShopPayModalOnLoad.DhsBcoYZ.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/Popover.B6N0nnm4.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/business-customer-constants.pAwkBDMX.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/Choice.BebUeKaz.js",
+   "t": "link",
+   "kb": 4
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/utilities-publishMessage.DNsouRpe.js",
+   "t": "link",
+   "kb": 2
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/Checkbox.Cq3GQL_K.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/ImpressionEventCapture.ColLGHUw.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/ShopPayLogo.Cb-NORex.js",
+   "t": "link",
+   "kb": 3
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/hooks-useWalletsTimeout.B2TOCvw2.js",
+   "t": "link",
+   "kb": 3
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/Page.B9xqKwKk.js",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://www.unimaticwatches.com/cdn/shopifycloud/checkout-web/assets/c1/hooks-useWalletsMonorailTrack.ChGbeXsS.js",
+   "t": "link",
+   "kb": 2
+  }
+ ],
+ "console": [
+  "log: %c Powerful Contact Form Builder %c\n%c\u2728 Top 1 Form App for Shopify (2026)\n\ud83c\udf0d Trusted by 50,000+ global merchants\n\ud83e\udde9 Build stunning, fully customizable contact forms in minutes\n\u26a1 Capture leads, feedback ",
+  "error: Failed to load resource: the server responded with a status of 429 (Too Many Requests)",
+  "error: Refused to execute script from 'https://www.unimaticwatches.com/web-pixels@a5bf51cfwabd6c495p49b74ff1maa529d2b/app/web-pixel-5541691722@96420dbe9ea96c426a1b7f364f977719~2/pixel.modern.js' because its ",
+  "info: k-web-pixel-version 2"
+ ],
+ "url": "https://www.unimaticwatches.com/pages/impronte-collection"
+}

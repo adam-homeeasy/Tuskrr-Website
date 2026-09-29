@@ -1,0 +1,24 @@
+[xray] probe: height 900 canvases 0 tweens at load 0
+[xray] probe done in 9 s
+[xray] code: saved 0 scripts
+[xray] code done in 13 s
+[xray] bundle: modules saved 0
+[xray] bundle done in 0 s
+[xray] download failed data:; not enough values to unpack (expected 2, got 1)
+[xray] assets: 0 files, 0 fonts left out
+[xray] assets done in 35 s
+[xray] map desktop-1440 height 900 sections 2 shots 1
+[xray] map done in 15 s
+[xray] STAGE FAILED: phone: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'trim')
+    at eval (eval at evaluate (:290:30), <anonymous>:12:248)
+    at UtilityScript.evaluate (<anonymous>:297:18)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+[xray] phone done in 15 s
+[xray] STAGE FAILED: motion: Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[xray] motion done in 1 s
+[xray] three: no canvases, skipped
+[xray] three done in 0 s
+[xray] STAGE FAILED: pointer: Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[xray] pointer done in 13 s
+[xray] STAGE FAILED: states: Page.evaluate: Execution context was destroyed, most likely because of a navigation
+[xray] states done in 9 s

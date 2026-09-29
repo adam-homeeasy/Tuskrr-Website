@@ -1,0 +1,151 @@
+{
+ "cursorFollowers": [
+  {
+   "sel": "div.cursor-takeover_cursor__Y7RJr",
+   "x": 1000,
+   "y": 300,
+   "w": 0,
+   "blend": "normal",
+   "opacity": "1"
+  },
+  {
+   "sel": "div.cursor-takeover_body__SkEsL",
+   "x": 1000,
+   "y": 300,
+   "w": 120,
+   "blend": "normal",
+   "opacity": "1"
+  },
+  {
+   "sel": "span",
+   "x": 1000,
+   "y": 303,
+   "w": 80,
+   "blend": "normal",
+   "opacity": "1"
+  },
+  {
+   "sel": "span",
+   "x": 1000,
+   "y": 346,
+   "w": 80,
+   "blend": "normal",
+   "opacity": "1"
+  },
+  {
+   "sel": "span.video-player_cursor__subtitle__TQ6DF",
+   "x": 1000,
+   "y": 387,
+   "w": 120,
+   "blend": "normal",
+   "opacity": "1"
+  }
+ ],
+ "videoMarks": {
+  "loaded": 8.3,
+  "circle": 12.0,
+  "flick": 13.6,
+  "scroll": 20.2
+ },
+ "hovers": [
+  {
+   "i": 0,
+   "sel": "button.menu_menu__close__5_Kf_",
+   "text": "",
+   "top": 45,
+   "changes": []
+  },
+  {
+   "i": 1,
+   "sel": "a",
+   "text": "Visit the Site",
+   "top": 652,
+   "changes": []
+  },
+  {
+   "i": 2,
+   "sel": "div.carousel_cursor__uEXLJ",
+   "text": "DRAG\nDRAG\nDRAG",
+   "top": 379,
+   "changes": []
+  },
+  {
+   "i": 3,
+   "sel": "a.header_logo__cyQLT",
+   "text": "",
+   "top": 52,
+   "changes": []
+  },
+  {
+   "i": 4,
+   "sel": "button.header_menu__SGhy8",
+   "text": "",
+   "top": 50,
+   "changes": [
+    {
+     "sel": "circle",
+     "changes": {
+      "transform": [
+       "none",
+       "matrix(1, 0, 0, 1, -2, 0)"
+      ]
+     }
+    },
+    {
+     "sel": "circle",
+     "changes": {
+      "transform": [
+       "none",
+       "matrix(1, 0, 0, 1, 2, 0)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "sel": "a.button-pill_container__aFzFU",
+   "text": "",
+   "top": 1278,
+   "changes": []
+  },
+  {
+   "i": 6,
+   "sel": "button",
+   "text": "",
+   "top": 1283,
+   "changes": []
+  },
+  {
+   "i": 7,
+   "sel": "button.overlay_close__NBGnT",
+   "text": "",
+   "top": 21,
+   "changes": []
+  },
+  {
+   "i": 8,
+   "sel": "button.button-pill_container__aFzFU",
+   "text": "ACCEPT COOKIES",
+   "top": 855,
+   "changes": [
+    {
+     "sel": "button.button-pill_container__aFzFU",
+     "changes": {
+      "color": [
+       "rgb(255, 255, 255)",
+       "rgb(37, 36, 34)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "sel": "button.pop-up_close___tRsb",
+   "text": "",
+   "top": 841,
+   "changes": []
+  }
+ ]
+}

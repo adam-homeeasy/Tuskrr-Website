@@ -1,0 +1,67 @@
+{
+ "title": "Robot Challenge Screen",
+ "generator": null,
+ "htmlClass": "",
+ "bodyClass": "",
+ "height": 900,
+ "globals": {
+  "gsap": "undefined",
+  "ScrollTrigger": "undefined",
+  "Lenis": "undefined",
+  "lenis": "undefined",
+  "lenisVersion": "undefined",
+  "__THREE__": "undefined",
+  "THREE": "undefined",
+  "Webflow": "undefined",
+  "Framer": "undefined",
+  "__framer_importFromPackage": "undefined",
+  "__NEXT_DATA__": "undefined",
+  "__next_f": "undefined",
+  "__NUXT__": "undefined",
+  "Shopify": "undefined",
+  "wixBiSession": "undefined",
+  "Squarespace": "undefined",
+  "jQuery": "undefined",
+  "Barba": "undefined",
+  "swup": "undefined",
+  "lottie": "undefined",
+  "rive": "undefined",
+  "Spline": "undefined"
+ },
+ "threeVer": null,
+ "framerNodes": 0,
+ "webflowIx": 0,
+ "links": [],
+ "canvases": [],
+ "io": [],
+ "listeners": {},
+ "animateCalls": 0,
+ "contexts": [],
+ "draws": 0,
+ "raf": 0,
+ "viewTransitions": 0,
+ "audio": 0,
+ "media": [],
+ "errors": [],
+ "tweensAtLoad": 0,
+ "fonts": [],
+ "meta": [
+  "icon = data:;"
+ ],
+ "scripts": [],
+ "styles": [],
+ "resources": [
+  {
+   "u": "https://d1rozh26tys225.cloudfront.net/robot-suspicion.svg",
+   "t": "img",
+   "kb": 0
+  },
+  {
+   "u": "https://d1rozh26tys225.cloudfront.net/loader.svg",
+   "t": "img",
+   "kb": 0
+  }
+ ],
+ "console": [],
+ "url": "https://offform.net/"
+}

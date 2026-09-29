@@ -1,0 +1,2061 @@
+{
+ "title": "Spring/Summer | Copenhagen based digital first Design & Brand Agency",
+ "generator": "SEOmatic",
+ "htmlClass": "",
+ "bodyClass": "",
+ "height": 4187,
+ "globals": {
+  "gsap": "undefined",
+  "ScrollTrigger": "undefined",
+  "Lenis": "undefined",
+  "lenis": "undefined",
+  "lenisVersion": "undefined",
+  "__THREE__": "string",
+  "THREE": "undefined",
+  "Webflow": "undefined",
+  "Framer": "undefined",
+  "__framer_importFromPackage": "undefined",
+  "__NEXT_DATA__": "undefined",
+  "__next_f": "undefined",
+  "__NUXT__": "object",
+  "Shopify": "undefined",
+  "wixBiSession": "undefined",
+  "Squarespace": "undefined",
+  "jQuery": "undefined",
+  "Barba": "undefined",
+  "swup": "undefined",
+  "lottie": "undefined",
+  "rive": "undefined",
+  "Spline": "undefined"
+ },
+ "threeVer": "149",
+ "framerNodes": 0,
+ "webflowIx": 0,
+ "links": [
+  "javascript:TogglePage(this, 'coiPage-3');",
+  "https://cookieinformation.com/cookie-and-privacy-policy/",
+  "https://www.cloudflare.com/privacypolicy/",
+  "https://policies.google.com/technologies/partner-sites?hl=en",
+  "https://www.leadfeeder.com/privacy/",
+  "https://www.klaviyo.com/legal/privacy/privacy-notice",
+  "https://www.leadfamly.com/about/privacy-policy/",
+  "https://www.facebook.com/privacy/explanation",
+  "https://www.linkedin.com/legal/privacy-policy",
+  "https://cookieinformation.com/",
+  "https://tools.google.com/dlpage/gaoptout",
+  "https://support.microsoft.com/en-us/help/17442/windows-internet-explorer-delete-manage-cookies#ie=ie-11",
+  "https://support.microsoft.com/en-us/help/4027947/microsoft-edge-delete-cookies",
+  "https://support.mozilla.org/en-US/kb/delete-cookies-remove-info-websites-stored",
+  "https://support.google.com/chrome/answer/95647?hl=en",
+  "https://help.opera.com/en/latest/web-preferences/#cookies",
+  "https://support.apple.com/en-us/HT201265",
+  "https://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager07.html",
+  "https://support.apple.com/en-us/HT1677",
+  "https://timeread.hubpages.com/hub/How-to-delete-internet-cookies-on-your-Droid-or-any-Android-device",
+  "https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DAndroid&hl=en",
+  "javascript:TogglePage(this, 'coiPage-1')",
+  "/",
+  "/page/ecommerce",
+  "/page/websites",
+  "/page/brand",
+  "/page/apps",
+  "/category/shopify",
+  "/category/sanity-cms",
+  "/category/craft-cms",
+  "/category/webflow",
+  "/category/wordpress",
+  "/category/native-app",
+  "/category/e-commerce",
+  "/category/fashion-lifestyle",
+  "/polene",
+  "/category/all",
+  "/category/art-culture",
+  "/category/hospitality-gastronomy",
+  "/category/consumer-technology",
+  "/category/professional-services",
+  "/category/investment-finance",
+  "/category/websites",
+  "/category/apps",
+  "/category/brand-identity",
+  "/implement-consulting-group-2023",
+  "/page/approach",
+  "/page/culture",
+  "/page/join-us",
+  "/page/awards",
+  "https://www.linkedin.com/company/spring-summer",
+  "https://www.instagram.com/sprngsmmr",
+  "https://www.facebook.com/sprngsmmr",
+  "https://x.com/SprngSmmr",
+  "/nationalmuseet",
+  "mailto:contact@springsummer.dk",
+  "tel:+4532162222",
+  "https://springsummer.dk/nationalmuseet",
+  "https://springsummer.dk/curin",
+  "https://springsummer.dk/langelands-efterskole",
+  "/langelands-efterskole",
+  "/hempel-foundation",
+  "/susanne-kaufmann",
+  "/support-greenland",
+  "/norr11",
+  "/nitex",
+  "/curin",
+  "/perez-art-museum-miami",
+  "/the-footprint-firm",
+  "/orca-labs",
+  "/soren-rose-studio",
+  "/hans-just-identity",
+  "/satius",
+  "/american-express",
+  "/cofoco",
+  "/rudolph-care",
+  "/ws-audiology",
+  "/frilandsmuseet",
+  "https://www.google.dk/maps/place/Spring%2FSummer/@55.6790651,12.5785516,17z/data=!3m1!4b1!4m6!3m5!1s0x465253116ebad495:0xd6ff34251a252364!8m2!3d55.6790621!4d12.5811265!16s%2Fg%2F1pzvqx6sy?entry=ttu",
+  "https://facebook.com/sprngsmmr",
+  "https://instagram.com/sprngsmmr",
+  "https://linkedin.com/company/spring-summer",
+  "/page/privacy-policy"
+ ],
+ "canvases": [],
+ "io": [
+  {
+   "t": 3208,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3209,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3211,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3211,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen.media"
+   ]
+  },
+  {
+   "t": 3212,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen.desktop"
+   ]
+  },
+  {
+   "t": 3212,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen.mobile"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen.media"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3315,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3316,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3316,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3316,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3316,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3316,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3316,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3316,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3316,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "span.svg.is-seen.media-logo"
+   ]
+  },
+  {
+   "t": 3316,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen.desktop"
+   ]
+  },
+  {
+   "t": 3316,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen.mobile"
+   ]
+  },
+  {
+   "t": 3316,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.media"
+   ]
+  },
+  {
+   "t": 3316,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.media"
+   ]
+  },
+  {
+   "t": 3316,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3317,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3317,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3317,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3317,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3317,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3318,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3318,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3318,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3318,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3318,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3319,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3319,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3319,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3319,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3320,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3320,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3320,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3320,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3321,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3321,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3325,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3325,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3325,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3326,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3326,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3326,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3327,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3327,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3327,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3327,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3327,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3327,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3328,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3328,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3328,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3328,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3329,
+   "rootMargin": "800px 0px",
+   "threshold": 0.25,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3375,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3376,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3376,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3376,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3376,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.mux-video-wrapper.is-seen"
+   ]
+  },
+  {
+   "t": 3376,
+   "rootMargin": "50px 0px",
+   "threshold": 0.1,
+   "targets": [
+    "div.image-container.loaded"
+   ]
+  },
+  {
+   "t": 3630,
+   "rootMargin": null,
+   "threshold": null,
+   "targets": [
+    "a.router-link-active.router-link-exact-active.home-link",
+    "a.first-level-link",
+    "a.first-level-link",
+    "a.first-level-link",
+    "a.first-level-link",
+    "a.sub-level-link",
+    "a.sub-level-link",
+    "a.sub-level-link",
+    "a.sub-level-link",
+    "a.sub-level-link",
+    "a.sub-level-link",
+    "a.background.is-hoverable",
+    "a.first-level-link",
+    "a.first-level-link",
+    "a.first-level-link",
+    "a.first-level-link",
+    "a.first-level-link",
+    "a.first-level-link",
+    "a.first-level-link",
+    "a.sub-level-link",
+    "a.sub-level-link",
+    "a.sub-level-link",
+    "a.sub-level-link",
+    "a.background.is-hoverable",
+    "a.first-level-link",
+    "a.first-level-link",
+    "a.first-level-link",
+    "a.first-level-link",
+    "a.sub-level-link",
+    "a.sub-level-link",
+    "a.sub-level-link",
+    "a.sub-level-link",
+    "a.background.is-hoverable",
+    "a.ff-mono.ts-body-s",
+    "a.ff-mono.ts-body-s",
+    "a.ts-cta",
+    "a",
+    "a",
+    "a",
+    "a"
+   ]
+  }
+ ],
+ "listeners": {
+  "click @ document": 3,
+  "resize @ window": 57,
+  "scroll @ window": 12,
+  "visibilitychange @ document": 6,
+  "pointerdown @ window": 1,
+  "pointermove @ window": 1,
+  "visibilitychange @ window": 3,
+  "keydown @ window": 2,
+  "click @ window": 2,
+  "click @ div#coiOverlay": 2,
+  "click @ button#updateButton.coi-banner__decline": 2,
+  "keydown @ div#coiPage-1.coi-banner__page": 1,
+  "click @ div.backdrop": 2,
+  "click @ a.router-link-active.router-link-exact-active.home-link": 2,
+  "click @ button.mobile-menu-trigger.ts-cta": 2,
+  "click @ button#accordion-trigger-656531.menu-link.ts-body-s": 2,
+  "click @ a.first-level-link": 30,
+  "click @ a.sub-level-link": 20,
+  "mouseover @ div.background-foreground": 37,
+  "mouseleave @ div.background-foreground": 37,
+  "click @ a.background.is-hoverable": 6,
+  "mouseenter @ li#dropdown-trigger-656531.dropdown-menu": 1,
+  "mouseleave @ li#dropdown-trigger-656531.dropdown-menu": 1,
+  "keydown @ li#dropdown-trigger-656531.dropdown-menu": 1,
+  "click @ button#accordion-trigger-656847.menu-link.ts-body-s": 2,
+  "mouseenter @ li#dropdown-trigger-656847.dropdown-menu": 1,
+  "mouseleave @ li#dropdown-trigger-656847.dropdown-menu": 1,
+  "keydown @ li#dropdown-trigger-656847.dropdown-menu": 1,
+  "click @ button#accordion-trigger-656366.menu-link.ts-body-s": 2,
+  "mouseenter @ li#dropdown-trigger-656366.dropdown-menu": 1,
+  "mouseleave @ li#dropdown-trigger-656366.dropdown-menu": 1,
+  "keydown @ li#dropdown-trigger-656366.dropdown-menu": 1,
+  "click @ a.ts-cta": 2,
+  "click @ a": 306,
+  "click @ a.ff-mono.ts-body-s": 2,
+  "click @ a.social-link": 2,
+  "click @ li.social-link": 2,
+  "click @ p": 2,
+  "mousemove @ window": 1,
+  "mouseleave @ document": 1,
+  "touchmove @ body": 1,
+  "wheel @ body": 1,
+  "click @ button": 6,
+  "touchstart @ document": 1,
+  "touchstart @ div.swiper.module-carousel.swiper-initialized": 1,
+  "pointerdown @ div.swiper.module-carousel.swiper-initialized": 1,
+  "touchmove @ document": 1,
+  "pointermove @ document": 1,
+  "pointerleave @ document": 1,
+  "click @ div.swiper.module-carousel.swiper-initialized": 2,
+  "click @ div.swiper-button-next": 2,
+  "click @ div.swiper-button-prev": 2,
+  "mouseenter @ div.swiper.module-carousel.swiper-initialized": 1,
+  "mouseleave @ div.swiper.module-carousel.swiper-initialized": 1,
+  "wheel @ div.swiper.module-carousel.swiper-initialized": 1,
+  "resize @ ShadowRoot": 7,
+  "keydown @ body": 1,
+  "pointerdown @ body": 1,
+  "pointermove @ body": 1
+ },
+ "animateCalls": 0,
+ "contexts": [],
+ "draws": 0,
+ "raf": 1821,
+ "viewTransitions": 0,
+ "audio": 0,
+ "media": [
+  {
+   "t": 3618,
+   "el": "video",
+   "src": "blob:https://springsummer.dk/31877706-07b8-41e7-956a-88ce5ded8997",
+   "loop": true,
+   "muted": true
+  },
+  {
+   "t": 3619,
+   "el": "video",
+   "src": "blob:https://springsummer.dk/31877706-07b8-41e7-956a-88ce5ded8997",
+   "loop": true,
+   "muted": true
+  },
+  {
+   "t": 3619,
+   "el": "video",
+   "src": "blob:https://springsummer.dk/a3a8213f-7842-485d-8a67-06360da39df5",
+   "loop": true,
+   "muted": true
+  },
+  {
+   "t": 3620,
+   "el": "video",
+   "src": "blob:https://springsummer.dk/a3a8213f-7842-485d-8a67-06360da39df5",
+   "loop": true,
+   "muted": true
+  },
+  {
+   "t": 3620,
+   "el": "video",
+   "src": "blob:https://springsummer.dk/cd7e5bb8-1f7a-4ea2-9b9d-2809a4cb1e40",
+   "loop": true,
+   "muted": true
+  },
+  {
+   "t": 3620,
+   "el": "video",
+   "src": "blob:https://springsummer.dk/cd7e5bb8-1f7a-4ea2-9b9d-2809a4cb1e40",
+   "loop": true,
+   "muted": true
+  },
+  {
+   "t": 3622,
+   "el": "video",
+   "src": "blob:https://springsummer.dk/d2c3ea55-b8f3-4be2-9aff-ef7dac66d9e1",
+   "loop": true,
+   "muted": true
+  },
+  {
+   "t": 3622,
+   "el": "video",
+   "src": "blob:https://springsummer.dk/d2c3ea55-b8f3-4be2-9aff-ef7dac66d9e1",
+   "loop": true,
+   "muted": true
+  },
+  {
+   "t": 7515,
+   "el": "video",
+   "src": "blob:https://springsummer.dk/d14d0491-de23-4773-9ee2-df5432d444c9",
+   "loop": true,
+   "muted": true
+  },
+  {
+   "t": 7516,
+   "el": "video",
+   "src": "blob:https://springsummer.dk/d14d0491-de23-4773-9ee2-df5432d444c9",
+   "loop": true,
+   "muted": true
+  },
+  {
+   "t": 7516,
+   "el": "video",
+   "src": "blob:https://springsummer.dk/1142a18e-aec8-4891-b61a-0ab0c3e0fbad",
+   "loop": true,
+   "muted": true
+  },
+  {
+   "t": 7516,
+   "el": "video",
+   "src": "blob:https://springsummer.dk/1142a18e-aec8-4891-b61a-0ab0c3e0fbad",
+   "loop": true,
+   "muted": true
+  },
+  {
+   "t": 11622,
+   "el": "video",
+   "src": "blob:https://springsummer.dk/be52f9bd-a2fd-42c5-ad97-80119627e5f8",
+   "loop": true,
+   "muted": true
+  },
+  {
+   "t": 11622,
+   "el": "video",
+   "src": "blob:https://springsummer.dk/be52f9bd-a2fd-42c5-ad97-80119627e5f8",
+   "loop": true,
+   "muted": true
+  },
+  {
+   "t": 11883,
+   "el": "video",
+   "src": "blob:https://springsummer.dk/be52f9bd-a2fd-42c5-ad97-80119627e5f8",
+   "loop": true,
+   "muted": true
+  }
+ ],
+ "errors": [],
+ "tweensAtLoad": 28,
+ "fonts": [
+  "Grotesk normal normal loaded",
+  "Montreal normal normal loaded",
+  "Supply normal normal loaded",
+  "Noto normal normal unloaded",
+  "swiper-icons 400 normal unloaded"
+ ],
+ "meta": [
+  "generator = SEOmatic",
+  "description = Strategic digital experiences & brand identities from Copenhagen, Scandinavian design meets innovative technology.",
+  "og:locale = en_US",
+  "og:site_name = Spring/Summer",
+  "og:type = website",
+  "og:url = https://springsummer.dk/",
+  "og:title = Spring/Summer | Copenhagen based digital first Design & Brand Agency",
+  "og:description = Spring/Summer is a digital-first design agency delivering exceptional e-commerce solutions, visual identities, apps, and tailored strategies",
+  "og:image = https://live.springsummer.dk/media/uploads/_1200x630_fit_center-center_82_none/Meta.jpg?mtime=1692642799",
+  "og:image:width = 1120",
+  "og:image:height = 630",
+  "og:image:alt = Snapshots of key kages of the site",
+  "theme-color = #ffffff",
+  "icon = https://springsummer.dk/favicon.svg"
+ ],
+ "scripts": [
+  "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__en.js",
+  "https://policy.app.cookieinformation.com/uc.js?language=EN&gcmEnabledByConsentLibrary=false",
+  "https://www.googletagmanager.com/gtm.js?id=GTM-MF5T8XT2",
+  "https://springsummer.dk/_nuxt/ClZzfaYX.js",
+  "https://www.google.com/recaptcha/api.js?render=explicit",
+  "https://policy.app.cookieinformation.com/latest/springsummer.dk/en.js"
+ ],
+ "styles": [
+  "https://springsummer.dk/_nuxt/entry.C4SqFwkE.css",
+  "https://springsummer.dk/_nuxt/arrow-link.SVcMKg4E.css",
+  "https://springsummer.dk/_nuxt/tags.C9TxRlVY.css",
+  "https://springsummer.dk/_nuxt/clock-2.DtgNt0BX.css",
+  "https://springsummer.dk/_nuxt/page-modules.DNZbWtQt.css",
+  "https://springsummer.dk/_nuxt/headline-simple.B9kV6ZCD.css",
+  "https://springsummer.dk/_nuxt/the-footer.BE41IyYp.css",
+  "https://springsummer.dk/_nuxt/default.5g2a-YdA.css"
+ ],
+ "resources": [
+  {
+   "u": "https://springsummer.dk/_nuxt/entry.C4SqFwkE.css",
+   "t": "link",
+   "kb": 6
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/arrow-link.SVcMKg4E.css",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/tags.C9TxRlVY.css",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/clock-2.DtgNt0BX.css",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/page-modules.DNZbWtQt.css",
+   "t": "link",
+   "kb": 8
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/headline-simple.B9kV6ZCD.css",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/the-footer.BE41IyYp.css",
+   "t": "link",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/ClZzfaYX.js",
+   "t": "script",
+   "kb": 94
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/C6eUA-eI.js",
+   "t": "script",
+   "kb": 54
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/DV7xZ0xt.js",
+   "t": "script",
+   "kb": 534
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/DdIsuQ6M.js",
+   "t": "script",
+   "kb": 26
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/AKNVr6t-.js",
+   "t": "script",
+   "kb": 27
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/C25P585M.js",
+   "t": "script",
+   "kb": 44
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/CvX7_p1a.js",
+   "t": "script",
+   "kb": 163
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/Bua_wDEL.js",
+   "t": "script",
+   "kb": 7
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/DO8Bq-Ni.js",
+   "t": "script",
+   "kb": 2
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/bUcWufKz.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/BVKg0W3M.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/DKLRVkq9.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/DeWw0Gvm.js",
+   "t": "script",
+   "kb": 40
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/CdAINxto.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/Bu7HyrH3.js",
+   "t": "script",
+   "kb": 2
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/builds/meta/da0164c2-3950-45d6-99bc-a24263aed2dc.json",
+   "t": "link",
+   "kb": 0
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/C33uwWcL.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://www.googletagmanager.com/gtm.js?id=GTM-MF5T8XT2",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://springsummer.dk/fonts/PPRightGrotesk-CompactBlack.woff2",
+   "t": "css",
+   "kb": 47
+  },
+  {
+   "u": "https://springsummer.dk/fonts/PPNeueMontreal-Regular.woff2",
+   "t": "css",
+   "kb": 47
+  },
+  {
+   "u": "https://springsummer.dk/fonts/PPSupplyMono-Light.woff2",
+   "t": "css",
+   "kb": 16
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/Jesper2_2025-10-23-130205_njhw.png?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 29
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/Awward.png?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 174
+  },
+  {
+   "u": "https://policy.app.cookieinformation.com/uc.js?language=EN&gcmEnabledByConsentLibrary=false",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://policy.app.cookieinformation.com/cookie-data/springsummer.dk/cabl.json",
+   "t": "xmlhttprequest",
+   "kb": 0
+  },
+  {
+   "u": "https://policy.app.cookieinformation.com/cookiesharingiframe.html",
+   "t": "iframe",
+   "kb": 0
+  },
+  {
+   "u": "https://policy.app.cookieinformation.com/latest/springsummer.dk/en.js",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/al8qGWAM.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://o4507254373023744.ingest.de.sentry.io/api/4507254376104016/envelope/?sentry_version=7&sentry_key=9b88f28e7d25da29cf74c5e66faa4ba1&sentry_client=sentry.javascript.nuxt%2F10.14.0",
+   "t": "fetch",
+   "kb": 0
+  },
+  {
+   "u": "https://www.google.com/recaptcha/api.js?render=explicit",
+   "t": "script",
+   "kb": 0
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/default.5g2a-YdA.css",
+   "t": "link",
+   "kb": 3
+  },
+  {
+   "u": "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__en.js",
+   "t": "script",
+   "kb": 346
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/DGdLPTZA.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/_nuxt/CpKpvOhO.js",
+   "t": "script",
+   "kb": 1
+  },
+  {
+   "u": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LeLwcInAAAAADpuzsrfm9xMM7VA6Za92O5Yo9u1&co=aHR0cHM6Ly9zcHJpbmdzdW1tZXIuZGs6NDQz&hl=en&v=kemdRjWFxNjgsGdhRslyEPwU&size=invisible&badge=bottomleft&anchor-ms=20000&execute-ms=30000&cb=bya5rh6vv8tz",
+   "t": "iframe",
+   "kb": 0
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/3Z3A5679.jpg?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 96
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/Background-image04.jpg?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 40
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/IM_Cover_Final-1.jpg?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 9
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/493679795_1225973436197824_3498369389530593995_n.jpg?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 56
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/Colorful-houses-in-Qaanaaq.-Photo-by-Lone-Bj%C3%B8rn-Visit-Greenland-copy.jpg?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 52
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/boudhayan-bardhan-60tataLkJ0U-unsplash.jpg?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 315
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/NITEX-Hero-Image2_2025-08-18-064257_mvjf.jpg?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 99
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/CURIN-background-image.jpg?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 35
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/NORR11_Case-Full-image.jpg?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 17
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/Case-Full-Image_1.jpg?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 125
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/BG-Full-image-min-1.jpg?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 2
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/NUMERO_SEPT_TAUPE_GRAINE_1622-2000x2800px-1_2023-07-17-150429_smiy.jpg?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 35
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/image.jpg?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 42
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/Satius-Hero-Background-Img1.jpg?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 54
+  },
+  {
+   "u": "https://springsummer.imgix.net/uploads/cardAmexGold.png?auto=compress%2Cformat&fit=clip&q=35&w=1440",
+   "t": "img",
+   "kb": 111
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=73320",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=647958",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=648899",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=617823",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=73320",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=661302",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=647958",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=660547",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=555151",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=646810",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=647342",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=48122",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=660169",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=644929",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=102518",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=622024",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=646438",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=59211",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=648899",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=617823",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=73320",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=661302",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=647958",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=660547",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=555151",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=646810",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=647342",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=48122",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=660169",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=644929",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=102518",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=622024",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=646438",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://springsummer.dk/api/api/categories.json?entryId=59211",
+   "t": "fetch",
+   "kb": 1
+  },
+  {
+   "u": "https://image.mux.com/ZwFvfekuHYZiP1ApzuAHqQVbac501y7G3qb5WQKpyfqc/thumbnail.jpg?fit_mode=preserve",
+   "t": "video",
+   "kb": 0
+  },
+  {
+   "u": "https://stream.mux.com/ZwFvfekuHYZiP1ApzuAHqQVbac501y7G3qb5WQKpyfqc.m3u8?rendition_order=desc&min_resolution=720p&CMCD=cid%3D%22ZwFvfekuHYZiP1ApzuAHqQVbac501y7G3qb5WQKpyfqc%22%2Csid%3D%220aa98370-69ef-47d6-89af-09c1edf1bfbe%22",
+   "t": "xmlhttprequest",
+   "kb": 0
+  },
+  {
+   "u": "https://image.mux.com/4gevCmUQ016rhKuaSyyacY8nv8FJXHnW302GMy97FCMbg/thumbnail.jpg?fit_mode=preserve",
+   "t": "video",
+   "kb": 0
+  },
+  {
+   "u": "https://stream.mux.com/4gevCmUQ016rhKuaSyyacY8nv8FJXHnW302GMy97FCMbg.m3u8?rendition_order=desc&min_resolution=720p&CMCD=cid%3D%224gevCmUQ016rhKuaSyyacY8nv8FJXHnW302GMy97FCMbg%22%2Csid%3D%227f604538-f93f-4fe0-a1a0-07aeedf1bff6%22",
+   "t": "xmlhttprequest",
+   "kb": 0
+  },
+  {
+   "u": "https://image.mux.com/bIlMHdA47g01twSikCki42v2Jtmou33TzqpSI3OtJ7xs/thumbnail.jpg?fit_mode=preserve",
+   "t": "video",
+   "kb": 0
+  },
+  {
+   "u": "https://stream.mux.com/bIlMHdA47g01twSikCki42v2Jtmou33TzqpSI3OtJ7xs.m3u8?rendition_order=desc&min_resolution=720p&CMCD=cid%3D%22bIlMHdA47g01twSikCki42v2Jtmou33TzqpSI3OtJ7xs%22%2Csid%3D%22f13b981a-9b5f-422b-9b13-6d4bedf1bffb%22",
+   "t": "xmlhttprequest",
+   "kb": 0
+  },
+  {
+   "u": "https://image.mux.com/mCszlK00VPj02fJGx1T1dfn4oNwLGIZaIc4WI3q3X1XoY/thumbnail.jpg?fit_mode=preserve",
+   "t": "video",
+   "kb": 0
+  },
+  {
+   "u": "https://stream.mux.com/mCszlK00VPj02fJGx1T1dfn4oNwLGIZaIc4WI3q3X1XoY.m3u8?rendition_order=desc&min_resolution=720p&CMCD=cid%3D%22mCszlK00VPj02fJGx1T1dfn4oNwLGIZaIc4WI3q3X1XoY%22%2Csid%3D%226c13e9bd-db58-4395-b95a-53a7edf1c000%22",
+   "t": "xmlhttprequest",
+   "kb": 0
+  },
+  {
+   "u": "https://image.mux.com/z3cFuKxZrJJLK02tjsQ8ymQZzjtVZYE018sPKIWh9w8a00/thumbnail.jpg?fit_mode=preserve",
+   "t": "video",
+   "kb": 0
+  },
+  {
+   "u": "https://stream.mux.com/z3cFuKxZrJJLK02tjsQ8ymQZzjtVZYE018sPKIWh9w8a00.m3u8?rendition_order=desc&min_resolution=720p&CMCD=cid%3D%22z3cFuKxZrJJLK02tjsQ8ymQZzjtVZYE018sPKIWh9w8a00%22%2Csid%3D%22f6ccb5ca-cc3b-40b9-892a-019eedf1cf61%22",
+   "t": "xmlhttprequest",
+   "kb": 0
+  },
+  {
+   "u": "https://image.mux.com/v02TkwoKSwmHLzSbZlHOIc1aDWPwhyYTrZKzEKTx8TmY/thumbnail.jpg?fit_mode=preserve",
+   "t": "video",
+   "kb": 0
+  },
+  {
+   "u": "https://stream.mux.com/v02TkwoKSwmHLzSbZlHOIc1aDWPwhyYTrZKzEKTx8TmY.m3u8?rendition_order=desc&min_resolution=720p&CMCD=cid%3D%22v02TkwoKSwmHLzSbZlHOIc1aDWPwhyYTrZKzEKTx8TmY%22%2Csid%3D%2245a772d9-9e66-4b7d-8a20-b66aedf1cf68%22",
+   "t": "xmlhttprequest",
+   "kb": 0
+  },
+  {
+   "u": "https://image.mux.com/oM00llszqaaNjeHyyg98cvxQZh2HNExp6Y7HweeSPM6o/thumbnail.jpg?fit_mode=preserve",
+   "t": "video",
+   "kb": 0
+  },
+  {
+   "u": "https://stream.mux.com/oM00llszqaaNjeHyyg98cvxQZh2HNExp6Y7HweeSPM6o.m3u8?rendition_order=desc&min_resolution=720p&CMCD=cid%3D%22oM00llszqaaNjeHyyg98cvxQZh2HNExp6Y7HweeSPM6o%22%2Csid%3D%22cfb392ad-946e-4eb2-b56b-7b9cedf1df78%22",
+   "t": "xmlhttprequest",
+   "kb": 0
+  }
+ ],
+ "console": [
+  "log: Event listener added",
+  "error: getErrorFromHlsErrorData() {type: mediaError, details: manifestIncompatibleCodecsError, fatal: true, url: https://stream.mux.com/ZwFvfekuHYZiP1ApzuAHqQVbac5\u2026Csid%3D%220aa98370-69ef-47d6-89af-09c1edf1b",
+  "error: getErrorFromHlsErrorData() {type: mediaError, details: manifestIncompatibleCodecsError, fatal: true, url: https://stream.mux.com/4gevCmUQ016rhKuaSyyacY8nv8F\u2026Csid%3D%227f604538-f93f-4fe0-a1a0-07aeedf1b",
+  "error: requestStorageAccess: Permission denied.",
+  "error: getErrorFromHlsErrorData() {type: mediaError, details: manifestIncompatibleCodecsError, fatal: true, url: https://stream.mux.com/bIlMHdA47g01twSikCki42v2Jtm\u2026Csid%3D%22f13b981a-9b5f-422b-9b13-6d4bedf1b",
+  "error: getErrorFromHlsErrorData() {type: mediaError, details: manifestIncompatibleCodecsError, fatal: true, url: https://stream.mux.com/mCszlK00VPj02fJGx1T1dfn4oNw\u2026Csid%3D%226c13e9bd-db58-4395-b95a-53a7edf1c",
+  "error: getErrorFromHlsErrorData() {type: mediaError, details: manifestIncompatibleCodecsError, fatal: true, url: https://stream.mux.com/z3cFuKxZrJJLK02tjsQ8ymQZzjt\u2026Csid%3D%22f6ccb5ca-cc3b-40b9-892a-019eedf1c",
+  "error: getErrorFromHlsErrorData() {type: mediaError, details: manifestIncompatibleCodecsError, fatal: true, url: https://stream.mux.com/v02TkwoKSwmHLzSbZlHOIc1aDWP\u2026Csid%3D%2245a772d9-9e66-4b7d-8a20-b66aedf1c",
+  "error: getErrorFromHlsErrorData() {type: mediaError, details: manifestIncompatibleCodecsError, fatal: true, url: https://stream.mux.com/oM00llszqaaNjeHyyg98cvxQZh2\u2026Csid%3D%22cfb392ad-946e-4eb2-b56b-7b9cedf1d"
+ ],
+ "url": "https://springsummer.dk/"
+}

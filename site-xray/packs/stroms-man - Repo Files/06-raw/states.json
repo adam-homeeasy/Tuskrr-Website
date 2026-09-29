@@ -1,0 +1,101 @@
+{
+ "routes": {
+  "https://stroms.com/pages/valj-avdelning": {
+   "status": 200,
+   "title": "Str\u00f6ms Man & Woman - Tidl\u00f6sa plagg f\u00f6r herr och dam | Str\u00f6ms",
+   "height": 1666
+  },
+  "https://stroms.com/collections/nyheter-herr": {
+   "status": 200,
+   "title": "Nyheter herr \u2013 h\u00f6stens nyckelplagg och stilar | Str\u00f6ms",
+   "height": 6030
+  },
+  "https://stroms.com/collections/brown-edit-herr": {
+   "status": 500,
+   "title": "Something went wrong",
+   "height": 900
+  },
+  "https://stroms.com/collections/made-by-stroms-herr": {
+   "status": 500,
+   "title": "Something went wrong",
+   "height": 900
+  },
+  "https://stroms.com/collections/klader-herr": {
+   "status": 200,
+   "title": "Herrkl\u00e4der - K\u00f6p kl\u00e4der fr\u00e5n k\u00e4nda varum\u00e4rken online | Str\u00f6ms",
+   "height": 6098
+  },
+  "https://stroms.com/collections/accessoarer-herr": {
+   "status": 429,
+   "title": "Just a moment...",
+   "height": 900
+  },
+  "https://stroms.com/collections/skor-herr": {
+   "status": 503,
+   "title": "Something went wrong",
+   "height": 900
+  },
+  "https://stroms.com/collections/edits-herr": {
+   "status": 200,
+   "title": "Edits herr - Kurerad stil f\u00f6r den moderna mannen | Str\u00f6ms",
+   "height": 6069
+  },
+  "https://stroms.com/pages/varumarken-herr": {
+   "status": 200,
+   "title": "Varum\u00e4rken Herr",
+   "height": 3785
+  },
+  "https://stroms.com/collections/trojor-herr": {
+   "status": 200,
+   "title": "Tr\u00f6jor herr - K\u00f6p herrtr\u00f6jor online - Stickade m.m. | Str\u00f6ms",
+   "height": 6098
+  },
+  "https://stroms.com/xray-page-that-does-not-exist": {
+   "status": 404,
+   "title": "404 hittades inte",
+   "height": 1412
+  }
+ },
+ "opened": [
+  {
+   "i": 0,
+   "label": "Search",
+   "shot": "open_00_Search.png"
+  },
+  {
+   "i": 1,
+   "label": "V\u00e4xla favorit",
+   "error": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"[data"
+  },
+  {
+   "i": 2,
+   "label": "V\u00e4xla favorit",
+   "error": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"[data"
+  },
+  {
+   "i": 3,
+   "label": "V\u00e4xla favorit",
+   "error": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"[data"
+  },
+  {
+   "i": 4,
+   "label": "V\u00e4xla favorit",
+   "error": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"[data"
+  },
+  {
+   "i": 5,
+   "label": "V\u00e4xla favorit",
+   "error": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"[data"
+  },
+  {
+   "i": 6,
+   "label": "V\u00e4xla favorit",
+   "error": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"[data"
+  },
+  {
+   "i": 7,
+   "label": "V\u00e4xla favorit",
+   "error": "Locator.click: Timeout 4000ms exceeded.\nCall log:\n  - waiting for locator(\"[data"
+  }
+ ]
+}

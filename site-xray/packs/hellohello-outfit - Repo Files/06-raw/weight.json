@@ -1,0 +1,46 @@
+{
+ "note": "uncompressed sizes; fps is cloud software rendering",
+ "byType": {
+  "font": {
+   "files": 3,
+   "kb": 104
+  },
+  "image": {
+   "files": 23,
+   "kb": 106
+  },
+  "script": {
+   "files": 21,
+   "kb": 1007
+  },
+  "document": {
+   "files": 1,
+   "kb": 342
+  },
+  "fetch": {
+   "files": 29,
+   "kb": 2
+  }
+ },
+ "biggest": [
+  [
+   "https://outfit.hellohello.is/",
+   "document",
+   342
+  ],
+  [
+   "https://outfit.hellohello.is/_next/static/chunks/b6c772e00f0f005f.js",
+   "script",
+   218
+  ]
+ ],
+ "timing": {
+  "domContentLoadedMs": 8121,
+  "loadMs": 8129,
+  "paints": [
+   "first-paint:400",
+   "first-contentful-paint:400"
+  ]
+ },
+ "fpsAtTopCloud": 61
+}

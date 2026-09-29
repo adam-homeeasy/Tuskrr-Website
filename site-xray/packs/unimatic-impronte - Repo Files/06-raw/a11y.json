@@ -1,0 +1,79 @@
+{
+ "darkBodyBg": "rgb(246, 246, 246)",
+ "prefersDarkRules": false,
+ "imgs": 28,
+ "noAlt": 0,
+ "emptyAlt": 1,
+ "srOnly": 2,
+ "ariaHidden": 17,
+ "skipLink": true,
+ "lang": "en",
+ "landmarks": "header:1 nav:8 main:1 footer:1",
+ "headings": [
+  "H1 Every object carries the memory of how it was made. Pressure",
+  "H2 Meet the collection",
+  "H2 The collection explores relief and surface through raised be",
+  "H3 Watches",
+  "H3 Brand",
+  "H3 Service",
+  "H3 Social"
+ ],
+ "focus": {
+  "el": "a.nav-pill__link.t-mono",
+  "outline": "rgb(0, 0, 0) solid 2px",
+  "outlineOffset": "2px",
+  "boxShadow": "rgb(246, 246, 246) 0px 0px 0px 4px"
+ },
+ "contrastPairs": [
+  {
+   "text": "#000000",
+   "bg": "#292929",
+   "ratio": 1.44
+  },
+  {
+   "text": "#000000",
+   "bg": "#dddedf",
+   "ratio": 15.59
+  },
+  {
+   "text": "#000000",
+   "bg": "#ffffff",
+   "ratio": 21.0
+  },
+  {
+   "text": "#222222",
+   "bg": "#000000",
+   "ratio": 1.32
+  },
+  {
+   "text": "#222222",
+   "bg": "#292929",
+   "ratio": 1.09
+  },
+  {
+   "text": "#222222",
+   "bg": "#dddedf",
+   "ratio": 11.81
+  },
+  {
+   "text": "#222222",
+   "bg": "#ffffff",
+   "ratio": 15.91
+  },
+  {
+   "text": "#ffffff",
+   "bg": "#000000",
+   "ratio": 21.0
+  },
+  {
+   "text": "#ffffff",
+   "bg": "#292929",
+   "ratio": 14.55
+  },
+  {
+   "text": "#ffffff",
+   "bg": "#dddedf",
+   "ratio": 1.35
+  }
+ ]
+}

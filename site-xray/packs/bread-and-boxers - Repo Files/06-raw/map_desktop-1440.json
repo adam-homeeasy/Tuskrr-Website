@@ -1,0 +1,357 @@
+{
+ "w": 1440,
+ "h": 900,
+ "height": 900,
+ "sections": [],
+ "tokens": {
+  "colors": [
+   {
+    "k": "text rgb(20, 20, 20)",
+    "n": 537,
+    "ex": [
+     "a#CybotCookiebotDialogNavDeclaration.CybotCookiebotDialogNavItemLink",
+     "a#CybotCookiebotDialogNavAdSettings.CybotCookiebotDialogNavItemLink",
+     "a#CybotCookiebotDialogNavAbout.CybotCookiebotDialogNavItemLink"
+    ]
+   },
+   {
+    "k": "border 1px rgb(214, 214, 214)",
+    "n": 175,
+    "ex": [
+     "li.CybotCookiebotDialogDetailBodyContentCookieGroup",
+     "div.CybotCookiebotDialogDetailBodyContentCookieInfo",
+     "div.CybotCookiebotDialogDetailBodyContentCookieInfoFooter"
+    ]
+   },
+   {
+    "k": "bg rgba(0, 0, 0, 0.05)",
+    "n": 73,
+    "ex": [
+     "div.CybotCookiebotDialogDetailBodyContentCookieInfo",
+     "div.CybotCookiebotDialogDetailBodyContentCookieInfo",
+     "div.CybotCookiebotDialogDetailBodyContentCookieInfo"
+    ]
+   },
+   {
+    "k": "bg rgb(214, 214, 214)",
+    "n": 32,
+    "ex": [
+     "span.CybotCookiebotDialogDetailBulkConsentCount",
+     "div.CybotCookiebotDialogDetailBodyContentCookieInfoCount.CybotCookiebo",
+     "div.CybotCookiebotDialogDetailBodyContentCookieInfoCount.CybotCookiebo"
+    ]
+   },
+   {
+    "k": "text rgb(0, 0, 0)",
+    "n": 19,
+    "ex": [
+     "a#CybotCookiebotDialogNavDetails.CybotCookiebotDialogNavItemLink.Cybot",
+     "a#CybotCookiebotDialogDsrFormUrl",
+     "a.CybotCookiebotDialogDetailBodyContentCookieLink"
+    ]
+   },
+   {
+    "k": "bg rgb(0, 0, 0)",
+    "n": 9,
+    "ex": [
+     "span.CybotCookiebotDialogBodyLevelButtonSlider",
+     "span.CybotCookiebotDialogBodyLevelButtonSlider",
+     "span.CybotCookiebotDialogBodyLevelButtonSlider"
+    ]
+   },
+   {
+    "k": "border 1px rgba(0, 0, 0, 0)",
+    "n": 8,
+    "ex": [
+     "button#CybotCookiebotDialogDetailBodyContentCookieContainerNecessary.C",
+     "button#CybotCookiebotDialogDetailBodyContentCookieContainerPreference.",
+     "button#CybotCookiebotDialogDetailBodyContentCookieContainerStatistics."
+    ]
+   },
+   {
+    "k": "grad linear-gradient(to top, rgb(255, 255, 255), color(srgb 1 1 1 / 0.8), color(srgb 0 0 0 / 0))",
+    "n": 4,
+    "ex": [
+     "div.CybotCookiebotFader",
+     "div.CybotCookiebotFader.CybotCookiebotDialogActive",
+     "div.CybotCookiebotFader"
+    ]
+   },
+   {
+    "k": "bg rgb(255, 255, 255)",
+    "n": 3,
+    "ex": [
+     "div#CybotCookiebotDialog.CybotCookiebotDialogActive",
+     "button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection.",
+     "button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll.CybotCook"
+    ]
+   },
+   {
+    "k": "border 2px rgb(190, 190, 190)",
+    "n": 2,
+    "ex": [
+     "button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection.",
+     "div.CybotCookiebotDialogArrow"
+    ]
+   },
+   {
+    "k": "grad linear-gradient(to right, rgb(255, 255, 255), color(srgb 1 1 1 / 0.8), color(srgb 0 0 0 / 0))",
+    "n": 1,
+    "ex": [
+     "div.CybotCookiebotFader.CybotCookiebotFaderLeft"
+    ]
+   },
+   {
+    "k": "grad linear-gradient(to left, rgb(255, 255, 255), color(srgb 1 1 1 / 0.8), color(srgb 0 0 0 / 0))",
+    "n": 1,
+    "ex": [
+     "div.CybotCookiebotFader.CybotCookiebotFaderRight"
+    ]
+   },
+   {
+    "k": "border 3px rgba(0, 0, 0, 0)",
+    "n": 1,
+    "ex": [
+     "a#CybotCookiebotDialogNavDetails.CybotCookiebotDialogNavItemLink.Cybot"
+    ]
+   },
+   {
+    "k": "bg rgb(20, 20, 20)",
+    "n": 1,
+    "ex": [
+     "span.CybotCookiebotDialogBodyLevelButtonSlider"
+    ]
+   },
+   {
+    "k": "text rgb(190, 190, 190)",
+    "n": 1,
+    "ex": [
+     "button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection."
+    ]
+   },
+   {
+    "k": "border 2px rgb(0, 0, 0)",
+    "n": 1,
+    "ex": [
+     "button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll.CybotCook"
+    ]
+   },
+   {
+    "k": "text rgb(15, 15, 14)",
+    "n": 1,
+    "ex": [
+     "noscript"
+    ]
+   }
+  ],
+  "type": [
+   {
+    "k": "sans-serif | 300 |  | 15px | 24px | 0.1px | ",
+    "n": 160,
+    "ex": [
+     "span#CybotCookiebotDialogBodyLevelButtonsSelectPaneLegend.visuallyhidd \"Consent Selection\"",
+     "a#CybotCookiebotDialogBodyEdgeMoreDetailsLink \"Show details\"",
+     "div.CybotCookiebotDialogSROnly \"Details\""
+    ]
+   },
+   {
+    "k": "sans-serif | 400 |  | 15px | 24px | 0.1px | ",
+    "n": 146,
+    "ex": [
+     "b \"Maximum Storage Duration\"",
+     "b \"Type\"",
+     "b \"Maximum Storage Duration\""
+    ]
+   },
+   {
+    "k": "sans-serif | 700 |  | 15px | 24px | 0.1px | ",
+    "n": 103,
+    "ex": [
+     "strong.CybotCookiebotDialogBodyLevelButtonDescription \"Necessary\"",
+     "strong.CybotCookiebotDialogBodyLevelButtonDescription \"Preferences\"",
+     "strong.CybotCookiebotDialogBodyLevelButtonDescription \"Statistics\""
+    ]
+   },
+   {
+    "k": "sans-serif | 300 |  | 15px | 24px | 0.3px | ",
+    "n": 77,
+    "ex": [
+     "span.CybotCookiebotDialogDetailBodyContentCookieInfoDescription \"Used to distribute traffic to \"",
+     "span.CybotCookiebotDialogDetailBodyContentCookieInfoDescription \"Registers which server-cluster\"",
+     "span.CybotCookiebotDialogDetailBodyContentCookieInfoDescription \"Used to distribute traffic to \""
+    ]
+   },
+   {
+    "k": "sans-serif | 700 |  | 12px | 14.4px | 0.25px | ",
+    "n": 32,
+    "ex": [
+     "span.CybotCookiebotDialogDetailBulkConsentCount \"15\"",
+     "div.CybotCookiebotDialogDetailBodyContentCookieInfoCount.CybotCookiebo \"3\"",
+     "div.CybotCookiebotDialogDetailBodyContentCookieInfoCount.CybotCookiebo \"1\""
+    ]
+   },
+   {
+    "k": "sans-serif | 600 |  | 15px | 24px | 0.1px | ",
+    "n": 24,
+    "ex": [
+     "a#CybotCookiebotDialogNavDeclaration.CybotCookiebotDialogNavItemLink \"Consent\"",
+     "a#CybotCookiebotDialogNavDetails.CybotCookiebotDialogNavItemLink.Cybot \"Details\"",
+     "a#CybotCookiebotDialogNavAdSettings.CybotCookiebotDialogNavItemLink \"[#IABV2SETTINGS#]\""
+    ]
+   },
+   {
+    "k": "sans-serif | 700 |  | 15px | 22.5px | 0.1px | ",
+    "n": 8,
+    "ex": [
+     "span#CybotCookiebotDialogBodyLevelButtonNecessaryInlineLabel \"Necessary\"",
+     "span#CybotCookiebotDialogBodyLevelButtonPreferencesInlineLabel \"Preferences\"",
+     "span#CybotCookiebotDialogBodyLevelButtonStatisticsInlineLabel \"Statistics\""
+    ]
+   },
+   {
+    "k": "sans-serif | 300 |  | 15px | 24px | 0.5px | ",
+    "n": 3,
+    "ex": [
+     "div#CybotCookiebotDialogBodyContentText \"We use cookies to personalise \"",
+     "div#CybotCookiebotDialogGpcIcon \"[#GPC_BANNER_ICON#]\"",
+     "div.CybotCookiebotDialogGpcText \"[#GPC_TOAST_TEXT#]\""
+    ]
+   },
+   {
+    "k": "sans-serif | 600 |  | 15px | 24px | 0.25px | ",
+    "n": 2,
+    "ex": [
+     "div#CybotCookiebotDialogBodyContentTitle.CybotCookiebotDialogBodyConte \"This website uses cookies\"",
+     "div.CybotCookiebotDialogBodyContentHeading \"[#IABV2_TITLE#]\""
+    ]
+   },
+   {
+    "k": "sans-serif | 600 |  | 15px | 24px | 0.5px | ",
+    "n": 1,
+    "ex": [
+     "a#CybotCookiebotDialogDsrFormUrl \"[#DSR_FORM_URL_TEXT#]\""
+    ]
+   },
+   {
+    "k": "sans-serif | 600 |  | 15px | 24px | 0.3px | ",
+    "n": 1,
+    "ex": [
+     "a \"Cookiebot\""
+    ]
+   },
+   {
+    "k": "helvetica-lt-pro | 300 |  | 14px | 20px | normal | ",
+    "n": 1,
+    "ex": [
+     "noscript \"<iframe src=\"https://gtm.bread\""
+    ]
+   }
+  ],
+  "radii": [
+   {
+    "k": "15px",
+    "n": 73,
+    "ex": [
+     "div.CybotCookiebotDialogDetailBodyContentCookieInfo",
+     "div.CybotCookiebotDialogDetailBodyContentCookieInfo",
+     "div.CybotCookiebotDialogDetailBodyContentCookieInfo"
+    ]
+   },
+   {
+    "k": "60px",
+    "n": 32,
+    "ex": [
+     "span.CybotCookiebotDialogDetailBulkConsentCount",
+     "div.CybotCookiebotDialogDetailBodyContentCookieInfoCount.CybotCookiebo",
+     "div.CybotCookiebotDialogDetailBodyContentCookieInfoCount.CybotCookiebo"
+    ]
+   },
+   {
+    "k": "7.5px",
+    "n": 26,
+    "ex": [
+     "li.CybotCookiebotDialogDetailBodyContentCookieGroup",
+     "li.CybotCookiebotDialogDetailBodyContentCookieGroup",
+     "li.CybotCookiebotDialogDetailBodyContentCookieGroup"
+    ]
+   },
+   {
+    "k": "32px",
+    "n": 9,
+    "ex": [
+     "span.CybotCookiebotDialogBodyLevelButtonSlider",
+     "span.CybotCookiebotDialogBodyLevelButtonSlider",
+     "span.CybotCookiebotDialogBodyLevelButtonSlider"
+    ]
+   },
+   {
+    "k": "3.75px",
+    "n": 2,
+    "ex": [
+     "button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection.",
+     "button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll.CybotCook"
+    ]
+   },
+   {
+    "k": "8px",
+    "n": 1,
+    "ex": [
+     "div#CybotCookiebotDialog.CybotCookiebotDialogActive"
+    ]
+   }
+  ],
+  "shadows": [
+   {
+    "k": "rgba(0, 0, 0, 0.3) 0px 32px 68px 0px",
+    "n": 1,
+    "ex": [
+     "div#CybotCookiebotDialog.CybotCookiebotDialogActive"
+    ]
+   }
+  ],
+  "blends": [],
+  "filters": [],
+  "vars": {},
+  "faces": [
+   "\"Heldane Display\" 400 url(\"./HeldaneDisplay-Regular.l31tX7OL.woff2\") format(\"woff2\")"
+  ],
+  "media": [
+   "(min-width: 640px)",
+   "(min-width: 768px)",
+   "(min-width: 1024px)",
+   "(min-width: 1280px)",
+   "(min-width: 1536px)",
+   "screen and (max-width: 1024px)",
+   "(prefers-reduced-motion: reduce)",
+   "not all and (min-width: 1024px)",
+   "not all and (min-width: 768px)",
+   "(prefers-color-scheme: dark)",
+   "screen and (max-width: 768px)",
+   "screen and (min-width: 768px)"
+  ],
+  "keyframes": [
+   "pulse: 50%{opacity: 0.5;}",
+   "spin: 100%{transform: rotate(1turn);}",
+   "spin: 100%{transform: rotate(1turn);}",
+   "fadeOut: 0%{opacity: 1;} 100%{opacity: 0;}",
+   "fadeInDown: 0%{opacity: 0; transform: translate3d(0px, -100%, 0px);} 100%{opacity: 1; transform: none;}",
+   "fadeInUp: 0%{opacity: 0; transform: translate3d(0px, 100%, 0px);} 100%{opacity: 1; transform: none;}",
+   "runningText-bdfa9d99: 0%{transform: translateZ(0px);} 100%{transform: translate3d(-100%, 0px, 0px);}"
+  ]
+ },
+ "stops": [
+  0
+ ],
+ "pixelRhythm": [
+  {
+   "scrollY": 0,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#404040|#ffffff",
+    "#404040|#000000",
+    "#404040|#bababa",
+    "#404040|#ffffff",
+    "#404040|#3c3c3c"
+   ]
+  }
+ ]
+}

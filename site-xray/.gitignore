@@ -1,3 +1,13 @@
-# X-Ray packs are large and reference-only; commit deliberately (git add -f) once reviewed
-packs/
 __pycache__/
+# Keep the teardowns, data files and contact sheets. Leave out the bulky third-party material,
+# which run-all.sh regenerates and which is reference-only.
+packs/*/03-assets/
+packs/*/04-code/
+packs/*/05-screens/desktop-1440/
+packs/*/05-screens/phone-390/
+packs/*/05-screens/video/
+packs/*/05-screens/states/
+packs/*/06-raw/frames/
+packs/*/06-raw/video_tmp/
+packs/*/06-raw/shaders/
+packs/_parallel.log

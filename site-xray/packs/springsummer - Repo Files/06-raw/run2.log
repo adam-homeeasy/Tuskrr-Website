@@ -1,0 +1,8 @@
+[xray] map desktop-1440 height 4997 sections 5 shots 15
+[xray] map done in 52 s
+[xray] map phone-390 height 16039 sections 6 shots 23
+[xray] phone done in 55 s
+[xray] sheets: 4
+[xray] sheets done in 2 s
+[xray] build: effects 31 (gsap 4 , sampled 27 )
+[xray] build done in 0 s

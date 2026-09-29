@@ -1,0 +1,70 @@
+{
+ "gsapFound": true,
+ "loadSequence": {
+  "scrollY": 0,
+  "candidates": 11,
+  "moving": []
+ },
+ "scrollStops": [
+  {
+   "scrollY": 0,
+   "candidates": 58,
+   "moving": [],
+   "requestedY": 0
+  },
+  {
+   "scrollY": 450,
+   "candidates": 58,
+   "moving": [],
+   "requestedY": 450
+  },
+  {
+   "scrollY": 900,
+   "candidates": 59,
+   "moving": [],
+   "requestedY": 900
+  },
+  {
+   "scrollY": 1350,
+   "candidates": 63,
+   "moving": [],
+   "requestedY": 1350
+  },
+  {
+   "scrollY": 1800,
+   "candidates": 47,
+   "moving": [],
+   "requestedY": 1800
+  },
+  {
+   "scrollY": 2250,
+   "candidates": 41,
+   "moving": [],
+   "requestedY": 2250
+  },
+  {
+   "scrollY": 2700,
+   "candidates": 38,
+   "moving": [],
+   "requestedY": 2700
+  },
+  {
+   "scrollY": 3150,
+   "candidates": 29,
+   "moving": [],
+   "requestedY": 3150
+  },
+  {
+   "scrollY": 3161,
+   "candidates": 29,
+   "moving": [],
+   "requestedY": 3600
+  },
+  {
+   "scrollY": 3161,
+   "candidates": 29,
+   "moving": [],
+   "requestedY": 4050
+  }
+ ]
+}

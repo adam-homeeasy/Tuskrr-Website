@@ -1,0 +1,118 @@
+{
+ "note": "uncompressed sizes; fps is cloud software rendering",
+ "byType": {
+  "stylesheet": {
+   "files": 12,
+   "kb": 56
+  },
+  "document": {
+   "files": 3,
+   "kb": 628
+  },
+  "script": {
+   "files": 30,
+   "kb": 3804
+  },
+  "font": {
+   "files": 4,
+   "kb": 148
+  },
+  "image": {
+   "files": 25,
+   "kb": 2586
+  },
+  "other": {
+   "files": 2,
+   "kb": 346
+  },
+  "fetch": {
+   "files": 38,
+   "kb": 47
+  },
+  "xhr": {
+   "files": 8,
+   "kb": 6
+  }
+ },
+ "biggest": [
+  [
+   "https://springsummer.dk/_nuxt/DV7xZ0xt.js",
+   "script",
+   1953
+  ],
+  [
+   "https://springsummer.dk/",
+   "document",
+   565
+  ],
+  [
+   "https://springsummer.dk/_nuxt/CvX7_p1a.js",
+   "script",
+   555
+  ],
+  [
+   "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__en.js",
+   "script",
+   346
+  ],
+  [
+   "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__en.js",
+   "script",
+   346
+  ],
+  [
+   "https://www.gstatic.com/recaptcha/releases/kemdRjWFxNjgsGdhRslyEPwU/recaptcha__en.js",
+   "other",
+   346
+  ],
+  [
+   "https://springsummer.imgix.net/uploads/boudhayan-bardhan-60tataLkJ0U-unsplash.jpg",
+   "image",
+   314
+  ],
+  [
+   "https://image.mux.com/mCszlK00VPj02fJGx1T1dfn4oNwLGIZaIc4WI3q3X1XoY/thumbnail.jpg",
+   "image",
+   277
+  ],
+  [
+   "https://image.mux.com/z3cFuKxZrJJLK02tjsQ8ymQZzjtVZYE018sPKIWh9w8a00/thumbnail.jpg",
+   "image",
+   262
+  ],
+  [
+   "https://image.mux.com/bIlMHdA47g01twSikCki42v2Jtmou33TzqpSI3OtJ7xs/thumbnail.jpg",
+   "image",
+   192
+  ],
+  [
+   "https://springsummer.imgix.net/uploads/Awward.png",
+   "image",
+   173
+  ],
+  [
+   "https://www.googletagmanager.com/gtm.js",
+   "script",
+   163
+  ],
+  [
+   "https://image.mux.com/ZwFvfekuHYZiP1ApzuAHqQVbac501y7G3qb5WQKpyfqc/thumbnail.jpg",
+   "image",
+   158
+  ],
+  [
+   "https://image.mux.com/v02TkwoKSwmHLzSbZlHOIc1aDWPwhyYTrZKzEKTx8TmY/thumbnail.jpg",
+   "image",
+   152
+  ]
+ ],
+ "timing": {
+  "domContentLoadedMs": 1736,
+  "loadMs": 3579,
+  "paints": [
+   "first-paint:1240",
+   "first-contentful-paint:3352"
+  ]
+ },
+ "fpsAtTopCloud": 6
+}

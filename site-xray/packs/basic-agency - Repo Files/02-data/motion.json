@@ -1,0 +1,1618 @@
+{
+ "site": "https://www.basicagency.com/",
+ "viewport": "1440x900",
+ "gsapFound": false,
+ "effects": [
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "on load",
+   "element": "a.header_logo__cyQLT",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "header_fade-in__2m0kh",
+     "dur": 500,
+     "ease": "linear",
+     "delay": 500
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": 7.99,
+     "to": 0,
+     "startMs": 1,
+     "durationMs": 383,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.217,
+       0.298,
+       0.478,
+       0.921
+      ],
+      "rmsError": 0.0144,
+      "nearestNamed": "css ease-out",
+      "nearestRms": 0.0221
+     }
+    },
+    "opacity": {
+     "from": 0.201,
+     "to": 1,
+     "startMs": 1,
+     "durationMs": 383,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.217,
+       0.298,
+       0.478,
+       0.921
+      ],
+      "rmsError": 0.0144,
+      "nearestNamed": "css ease-out",
+      "nearestRms": 0.0221
+     }
+    }
+   },
+   "id": "fx001"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "on load",
+   "element": "li",
+   "sampleText": "WORK",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "header_fade-in__2m0kh",
+     "dur": 500,
+     "ease": "linear",
+     "delay": 630
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": 0,
+     "to": 0,
+     "startMs": 1,
+     "durationMs": 515,
+     "accuracyMs": 17,
+     "settled": true,
+     "note": "loop, still running, or too few frames to fit"
+    },
+    "opacity": {
+     "from": 0,
+     "to": 1,
+     "startMs": 18,
+     "durationMs": 498,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.225,
+       -0.028,
+       0.604,
+       1.049
+      ],
+      "rmsError": 0.0184,
+      "nearestNamed": "power2.inOut",
+      "nearestRms": 0.0677
+     }
+    }
+   },
+   "id": "fx002"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "on load",
+   "element": "button.header_menu__SGhy8",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "header_fade-in__2m0kh",
+     "dur": 500,
+     "ease": "linear",
+     "delay": 880
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": 0,
+     "to": 0,
+     "startMs": 263,
+     "durationMs": 501,
+     "accuracyMs": 17,
+     "settled": true,
+     "note": "loop, still running, or too few frames to fit"
+    },
+    "opacity": {
+     "from": 0,
+     "to": 1,
+     "startMs": 289,
+     "durationMs": 475,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.27,
+       0.014,
+       0.338,
+       0.86
+      ],
+      "rmsError": 0.0299,
+      "nearestNamed": "css ease-out",
+      "nearestRms": 0.0642
+     }
+    }
+   },
+   "id": "fx003"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "on load",
+   "element": "div.intro-asset-wrapper_mask__DfCcu",
+   "sampleText": "WATCH REEL WATCH REEL WATCH REEL BASIC/D",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "intro-asset-wrapper_slide-down__ox7YO",
+     "dur": 1000,
+     "ease": "linear",
+     "delay": 500
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": 890.83,
+     "to": 0,
+     "startMs": 1,
+     "durationMs": 1336,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.524,
+       0.158,
+       0.0,
+       1.204
+      ],
+      "rmsError": 0.0209,
+      "nearestNamed": "css ease",
+      "nearestRms": 0.1145
+     }
+    }
+   },
+   "id": "fx004"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "on load",
+   "element": "div.intro-asset-wrapper_children___BE9p",
+   "sampleText": "WATCH REEL WATCH REEL WATCH REEL BASIC/D",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "intro-asset-wrapper_slide-up__zPcTm",
+     "dur": 1000,
+     "ease": "linear",
+     "delay": 500
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -890.83,
+     "to": 0,
+     "startMs": 1,
+     "durationMs": 1336,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.524,
+       0.158,
+       0.0,
+       1.204
+      ],
+      "rmsError": 0.0209,
+      "nearestNamed": "css ease",
+      "nearestRms": 0.1145
+     }
+    },
+    "scale": {
+     "from": 1.2474,
+     "to": 1,
+     "startMs": 1,
+     "durationMs": 1336,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.524,
+       0.158,
+       0.0,
+       1.204
+      ],
+      "rmsError": 0.0209,
+      "nearestNamed": "css ease",
+      "nearestRms": 0.1145
+     }
+    }
+   },
+   "id": "fx005"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "on load",
+   "element": "div.video-player_hitBox__gn1kO",
+   "sampleText": "WATCH REEL WATCH REEL WATCH REEL BASIC/D",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "video-player_fade-in__WZu4j",
+     "dur": 250,
+     "ease": "linear",
+     "delay": 1000
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0,
+     "to": 1,
+     "startMs": 384,
+     "durationMs": 271,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       1.0,
+       1.243,
+       1.0,
+       0.543
+      ],
+      "rmsError": 0.0227,
+      "nearestNamed": "linear",
+      "nearestRms": 0.0607
+     }
+    }
+   },
+   "id": "fx006"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "on load",
+   "element": "footer.footer_footer__qrE1a",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "footer_fade-in__8704a",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 500
+    }
+   ],
+   "properties": {
+    "opacity": {
+     "from": 0.027,
+     "to": 1,
+     "startMs": 1,
+     "durationMs": 515,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.622,
+       0.215,
+       0.266,
+       0.953
+      ],
+      "rmsError": 0.0166,
+      "nearestNamed": "power3.inOut",
+      "nearestRms": 0.0787
+     }
+    }
+   },
+   "id": "fx007"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "on load",
+   "element": "div.logo-takeover_logo-takeover__mask__EM6PT",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "logo-takeover_translate-up-100__GK6Rc",
+     "dur": 500,
+     "ease": "linear",
+     "delay": 250
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -229.87,
+     "to": -237.06,
+     "startMs": 1,
+     "durationMs": 131,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.331,
+       0.882,
+       1.0,
+       1.046
+      ],
+      "rmsError": 0.0137,
+      "nearestNamed": "power2.out",
+      "nearestRms": 0.0231
+     }
+    }
+   },
+   "id": "fx008"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "on load",
+   "element": "div.logo-takeover_logo-takeover__logo__abXQf",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "logo-takeover_translate-down-100__SN9Bt",
+     "dur": 500,
+     "ease": "linear",
+     "delay": 250
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": 229.87,
+     "to": 237.06,
+     "startMs": 1,
+     "durationMs": 131,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.331,
+       0.882,
+       1.0,
+       1.046
+      ],
+      "rmsError": 0.0137,
+      "nearestNamed": "power2.out",
+      "nearestRms": 0.0231
+     }
+    }
+   },
+   "id": "fx009"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 0",
+   "element": "div.header_background__FXKff",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "opacity": {
+     "from": 0.013,
+     "to": 0,
+     "startMs": 13,
+     "durationMs": 55,
+     "accuracyMs": 17,
+     "settled": true,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx010"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 450",
+   "element": "section.home-intro_container__df_t_",
+   "sampleText": "WATCH REEL WATCH REEL WATCH REEL BASIC/D",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "y": {
+     "from": -159,
+     "to": -450,
+     "startMs": 0,
+     "durationMs": 667,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.254,
+       0.901,
+       0.515,
+       0.983
+      ],
+      "rmsError": 0.0024,
+      "nearestNamed": "power3.out",
+      "nearestRms": 0.0214
+     }
+    }
+   },
+   "id": "fx011"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 900",
+   "element": "div.header_background__FXKff",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "opacity": {
+     "from": 0,
+     "to": 1,
+     "startMs": 29,
+     "durationMs": 617,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.718,
+       0.029,
+       0.284,
+       0.973
+      ],
+      "rmsError": 0.0014,
+      "nearestNamed": "power3.inOut",
+      "nearestRms": 0.0195
+     }
+    }
+   },
+   "id": "fx012"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 900",
+   "element": "section.home-intro_container__df_t_",
+   "sampleText": "WATCH REEL WATCH REEL WATCH REEL BASIC/D",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "y": {
+     "from": -634,
+     "to": -900,
+     "startMs": 12,
+     "durationMs": 651,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.247,
+       0.821,
+       0.442,
+       0.99
+      ],
+      "rmsError": 0.0037,
+      "nearestNamed": "power3.out",
+      "nearestRms": 0.0191
+     }
+    }
+   },
+   "id": "fx013"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 900",
+   "element": "section.home-overview_container__fy0XZ",
+   "sampleText": "BASIC/DEPT\u00ae is a global branding and dig",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -634,
+     "to": -900,
+     "startMs": 12,
+     "durationMs": 651,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.247,
+       0.821,
+       0.442,
+       0.99
+      ],
+      "rmsError": 0.0037,
+      "nearestNamed": "power3.out",
+      "nearestRms": 0.0191
+     }
+    }
+   },
+   "id": "fx014"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 1350",
+   "element": "section.home-intro_container__df_t_",
+   "sampleText": "WATCH REEL WATCH REEL WATCH REEL BASIC/D",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "y": {
+     "from": -1084,
+     "to": -1350,
+     "startMs": 6,
+     "durationMs": 714,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.255,
+       1.009,
+       0.542,
+       0.976
+      ],
+      "rmsError": 0.0025,
+      "nearestNamed": "power4.out",
+      "nearestRms": 0.0218
+     }
+    }
+   },
+   "id": "fx015"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 1350",
+   "element": "section.home-overview_container__fy0XZ",
+   "sampleText": "BASIC/DEPT\u00ae is a global branding and dig",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -1084,
+     "to": -1350,
+     "startMs": 6,
+     "durationMs": 714,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.255,
+       1.009,
+       0.542,
+       0.976
+      ],
+      "rmsError": 0.0025,
+      "nearestNamed": "power4.out",
+      "nearestRms": 0.0218
+     }
+    }
+   },
+   "id": "fx016"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 1350",
+   "element": "section.home-case-studies_container__Oupmp",
+   "sampleText": "PATAGONIA AN ECOMMERCE EXPERIENCE DRIVEN",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -1098,
+     "to": -1350,
+     "startMs": 6,
+     "durationMs": 714,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.194,
+       0.518,
+       0.221,
+       1.029
+      ],
+      "rmsError": 0.0066,
+      "nearestNamed": "power3.out",
+      "nearestRms": 0.0329
+     }
+    }
+   },
+   "id": "fx017"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 1800",
+   "element": "section.home-overview_container__fy0XZ",
+   "sampleText": "BASIC/DEPT\u00ae is a global branding and dig",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -1509,
+     "to": -1800,
+     "startMs": 1,
+     "durationMs": 1591,
+     "accuracyMs": 41,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx018"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 1800",
+   "element": "section.home-case-studies_container__Oupmp",
+   "sampleText": "PATAGONIA AN ECOMMERCE EXPERIENCE DRIVEN",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -1509,
+     "to": -1800,
+     "startMs": 1,
+     "durationMs": 1591,
+     "accuracyMs": 41,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx019"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 2250",
+   "element": "section.home-overview_container__fy0XZ",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -1902,
+     "to": -1998,
+     "startMs": 3,
+     "durationMs": 107,
+     "accuracyMs": 21,
+     "settled": true,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx020"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 2250",
+   "element": "section.home-case-studies_container__Oupmp",
+   "sampleText": "PATAGONIA AN ECOMMERCE EXPERIENCE DRIVEN",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -1902,
+     "to": -2250,
+     "startMs": 3,
+     "durationMs": 1362,
+     "accuracyMs": 21,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.009,
+       0.281,
+       0.559,
+       1.097
+      ],
+      "rmsError": 0.0213,
+      "nearestNamed": "power3.out",
+      "nearestRms": 0.0524
+     }
+    }
+   },
+   "id": "fx021"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 2250",
+   "element": "section.home-clients_container__NBR2A",
+   "sampleText": "00 /05 \u25cf FEATURED ENGAGEMENTS GOOGLE Our",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -1918,
+     "to": -2250,
+     "startMs": 3,
+     "durationMs": 1362,
+     "accuracyMs": 21,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.059,
+       0.293,
+       0.558,
+       1.095
+      ],
+      "rmsError": 0.0225,
+      "nearestNamed": "power2.out",
+      "nearestRms": 0.0432
+     }
+    }
+   },
+   "id": "fx022"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 2700",
+   "element": "section.home-case-studies_container__Oupmp",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -2409,
+     "to": -2639,
+     "startMs": 11,
+     "durationMs": 251,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.0,
+       -0.027,
+       0.354,
+       0.729
+      ],
+      "rmsError": 0.0016,
+      "nearestNamed": "css ease-out",
+      "nearestRms": 0.0244
+     }
+    }
+   },
+   "id": "fx023"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 2700",
+   "element": "section.home-clients_container__NBR2A",
+   "sampleText": "00 /05 \u25cf FEATURED ENGAGEMENTS GOOGLE Our",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -2409,
+     "to": -2700,
+     "startMs": 11,
+     "durationMs": 685,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.273,
+       1.028,
+       0.612,
+       0.973
+      ],
+      "rmsError": 0.0017,
+      "nearestNamed": "power3.out",
+      "nearestRms": 0.0291
+     }
+    }
+   },
+   "id": "fx024"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 3150",
+   "element": "section.home-clients_container__NBR2A",
+   "sampleText": "00 /05 \u25cf FEATURED ENGAGEMENTS GOOGLE Our",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -2884,
+     "to": -3150,
+     "startMs": 6,
+     "durationMs": 685,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.255,
+       0.975,
+       0.545,
+       0.987
+      ],
+      "rmsError": 0.0026,
+      "nearestNamed": "power4.out",
+      "nearestRms": 0.0285
+     }
+    }
+   },
+   "id": "fx025"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 3150",
+   "element": "section.home-spotlight_container__w673I",
+   "sampleText": "BASIC/DEPT\u00ae HELPS BRANDS \u25cf CONNECT W/ CU",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -2955,
+     "to": -3150,
+     "startMs": 54,
+     "durationMs": 637,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.177,
+       0.486,
+       0.247,
+       1.03
+      ],
+      "rmsError": 0.004,
+      "nearestNamed": "power3.out",
+      "nearestRms": 0.0235
+     }
+    }
+   },
+   "id": "fx026"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 3600",
+   "element": "section.home-clients_container__NBR2A",
+   "sampleText": "00 /05 \u25cf FEATURED ENGAGEMENTS GOOGLE Our",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -3309,
+     "to": -3600,
+     "startMs": 6,
+     "durationMs": 1348,
+     "accuracyMs": 28,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.101,
+       0.599,
+       0.0,
+       0.763
+      ],
+      "rmsError": 0.0311,
+      "nearestNamed": "power4.out",
+      "nearestRms": 0.077
+     }
+    }
+   },
+   "id": "fx027"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 3600",
+   "element": "section.home-spotlight_container__w673I",
+   "sampleText": "BASIC/DEPT\u00ae HELPS BRANDS \u25cf CONNECT W/ CU",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -3309,
+     "to": -3600,
+     "startMs": 6,
+     "durationMs": 1348,
+     "accuracyMs": 28,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.101,
+       0.599,
+       0.0,
+       0.763
+      ],
+      "rmsError": 0.0311,
+      "nearestNamed": "power4.out",
+      "nearestRms": 0.077
+     }
+    }
+   },
+   "id": "fx028"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 4050",
+   "element": "section.home-spotlight_container__w673I",
+   "sampleText": "BASIC/DEPT\u00ae HELPS BRANDS \u25cf CONNECT W/ CU",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -3702,
+     "to": -4050,
+     "startMs": 14,
+     "durationMs": 926,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.098,
+       0.031,
+       0.116,
+       1.06
+      ],
+      "rmsError": 0.0103,
+      "nearestNamed": "power3.out",
+      "nearestRms": 0.0154
+     }
+    }
+   },
+   "id": "fx029"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 4050",
+   "element": "section.home-news_container__nFRIM",
+   "sampleText": "FEATURED NEWS VIEW ALL FOUR NOMINATIONS ",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -3704,
+     "to": -4050,
+     "startMs": 14,
+     "durationMs": 926,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.097,
+       0.008,
+       0.11,
+       1.062
+      ],
+      "rmsError": 0.0104,
+      "nearestNamed": "power3.out",
+      "nearestRms": 0.0156
+     }
+    }
+   },
+   "id": "fx030"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 4500",
+   "element": "section.home-spotlight_container__w673I",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -4209,
+     "to": -4423,
+     "startMs": 8,
+     "durationMs": 265,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.0,
+       -0.5,
+       0.141,
+       0.798
+      ],
+      "rmsError": 0.0079,
+      "nearestNamed": "css ease-out",
+      "nearestRms": 0.0272
+     }
+    }
+   },
+   "id": "fx031"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 4500",
+   "element": "section.home-news_container__nFRIM",
+   "sampleText": "FEATURED NEWS VIEW ALL FOUR NOMINATIONS ",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -4209,
+     "to": -4500,
+     "startMs": 8,
+     "durationMs": 1000,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.138,
+       0.383,
+       0.029,
+       1.014
+      ],
+      "rmsError": 0.0094,
+      "nearestNamed": "power4.out",
+      "nearestRms": 0.0282
+     }
+    }
+   },
+   "id": "fx032"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 4950",
+   "element": "section.home-news_container__nFRIM",
+   "sampleText": "FEATURED NEWS VIEW ALL FOUR NOMINATIONS ",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -4659,
+     "to": -4948,
+     "startMs": 1,
+     "durationMs": 1580,
+     "accuracyMs": 41,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx033"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 5400",
+   "element": "section.home-news_container__nFRIM",
+   "sampleText": "FEATURED NEWS VIEW ALL FOUR NOMINATIONS ",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -5080,
+     "to": -5400,
+     "startMs": 0,
+     "durationMs": 1400,
+     "accuracyMs": 29,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.0,
+       -0.139,
+       0.191,
+       0.966
+      ],
+      "rmsError": 0.0058,
+      "nearestNamed": "power2.out",
+      "nearestRms": 0.037
+     }
+    }
+   },
+   "id": "fx034"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 5850",
+   "element": "section.home-news_container__nFRIM",
+   "sampleText": "FEATURED NEWS VIEW ALL FOUR NOMINATIONS ",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -5559,
+     "to": -5850,
+     "startMs": 0,
+     "durationMs": 1579,
+     "accuracyMs": 40,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx035"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 6300",
+   "element": "section.home-news_container__nFRIM",
+   "sampleText": "FEATURED NEWS VIEW ALL FOUR NOMINATIONS ",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -5952,
+     "to": -6293,
+     "startMs": 33,
+     "durationMs": 1587,
+     "accuracyMs": 48,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx036"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 6750",
+   "element": "section.home-news_container__nFRIM",
+   "sampleText": "FEATURED NEWS VIEW ALL FOUR NOMINATIONS ",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -6364,
+     "to": -6747,
+     "startMs": 16,
+     "durationMs": 1591,
+     "accuracyMs": 46,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx037"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 7200",
+   "element": "section.home-news_container__nFRIM",
+   "sampleText": "FEATURED NEWS VIEW ALL FOUR NOMINATIONS ",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -6850,
+     "to": -7200,
+     "startMs": 10,
+     "durationMs": 1362,
+     "accuracyMs": 27,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.262,
+       1.052,
+       0.744,
+       0.965
+      ],
+      "rmsError": 0.0056,
+      "nearestNamed": "power3.out",
+      "nearestRms": 0.0204
+     }
+    }
+   },
+   "id": "fx038"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 7650",
+   "element": "section.home-news_container__nFRIM",
+   "sampleText": "FEATURED NEWS VIEW ALL FOUR NOMINATIONS ",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -7331,
+     "to": -7649,
+     "startMs": 0,
+     "durationMs": 1537,
+     "accuracyMs": 40,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx039"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 8100",
+   "element": "section.home-news_container__nFRIM",
+   "sampleText": "FEATURED NEWS VIEW ALL FOUR NOMINATIONS ",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -7751,
+     "to": -8096,
+     "startMs": 10,
+     "durationMs": 1609,
+     "accuracyMs": 46,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx040"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 8550",
+   "element": "section.home-news_container__nFRIM",
+   "sampleText": "FEATURED NEWS VIEW ALL FOUR NOMINATIONS ",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -8199,
+     "to": -8533,
+     "startMs": 26,
+     "durationMs": 1598,
+     "accuracyMs": 61,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx041"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 8550",
+   "element": "footer.footer_footer__qrE1a",
+   "sampleText": "We collaborate with ambitious brands and",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "footer_fade-in__8704a",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 500
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -8293,
+     "to": -8533,
+     "startMs": 238,
+     "durationMs": 1386,
+     "accuracyMs": 61,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx042"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 9000",
+   "element": "section.home-news_container__nFRIM",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "fade-in",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -8639,
+     "to": -8969,
+     "startMs": 25,
+     "durationMs": 609,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.478,
+       0.694,
+       0.598,
+       0.827
+      ],
+      "rmsError": 0.0092,
+      "nearestNamed": "css ease-out",
+      "nearestRms": 0.0242
+     }
+    }
+   },
+   "id": "fx043"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 9000",
+   "element": "footer.footer_footer__qrE1a",
+   "sampleText": "We collaborate with ambitious brands and",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "footer_fade-in__8704a",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 500
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -8639,
+     "to": -9000,
+     "startMs": 25,
+     "durationMs": 925,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.232,
+       0.459,
+       0.457,
+       1.017
+      ],
+      "rmsError": 0.0072,
+      "nearestNamed": "power2.out",
+      "nearestRms": 0.0266
+     }
+    }
+   },
+   "id": "fx044"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 9093",
+   "element": "footer.footer_footer__qrE1a",
+   "sampleText": "We collaborate with ambitious brands and",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "footer_fade-in__8704a",
+     "dur": 650,
+     "ease": "linear",
+     "delay": 500
+    }
+   ],
+   "properties": {
+    "y": {
+     "from": -9033,
+     "to": -9093,
+     "startMs": 11,
+     "durationMs": 568,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.358,
+       1.149,
+       0.907,
+       0.931
+      ],
+      "rmsError": 0.0049,
+      "nearestNamed": "power3.out",
+      "nearestRms": 0.0244
+     }
+    }
+   },
+   "id": "fx045"
+  }
+ ]
+}

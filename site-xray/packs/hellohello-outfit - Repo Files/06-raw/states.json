@@ -1,0 +1,60 @@
+{
+ "routes": {
+  "https://outfit.hellohello.is/bag": {
+   "status": 200,
+   "title": "Your Bag | OUTFIT\u00ae",
+   "height": 1105
+  },
+  "https://outfit.hellohello.is/shipping-and-return": {
+   "status": 200,
+   "title": "Shipping & Return Policy | OUTFIT\u00ae",
+   "height": 3077
+  },
+  "https://outfit.hellohello.is/product/off-by-design": {
+   "status": 200,
+   "title": "Off by Design | OUTFIT\u00ae",
+   "height": 3111
+  },
+  "https://outfit.hellohello.is/product/kerned-confidence-1": {
+   "status": 200,
+   "title": "Kerned Confidence | OUTFIT\u00ae",
+   "height": 4177
+  },
+  "https://outfit.hellohello.is/product/specimen-no-hh01": {
+   "status": 200,
+   "title": "Specimen No. HH01 | OUTFIT\u00ae",
+   "height": 3111
+  },
+  "https://outfit.hellohello.is/product/grid-system-go": {
+   "status": 200,
+   "title": "Grid System Go | OUTFIT\u00ae",
+   "height": 4177
+  },
+  "https://outfit.hellohello.is/product/neutral-grotesk": {
+   "status": 200,
+   "title": "Neutral Grotesk | OUTFIT\u00ae",
+   "height": 3111
+  },
+  "https://outfit.hellohello.is/product/red-dot-not-award-1": {
+   "status": 200,
+   "title": "Red Dot Not Award | OUTFIT\u00ae",
+   "height": 3111
+  },
+  "https://outfit.hellohello.is/product/gridlocked": {
+   "status": 200,
+   "title": "Gridlocked | OUTFIT\u00ae",
+   "height": 3111
+  },
+  "https://outfit.hellohello.is/product/hello-week-001": {
+   "status": 200,
+   "title": "Hello Week 001 | OUTFIT\u00ae",
+   "height": 3111
+  },
+  "https://outfit.hellohello.is/xray-page-that-does-not-exist": {
+   "status": 200,
+   "title": "OUTFIT\u00ae by ++hellohello",
+   "height": 900
+  }
+ },
+ "opened": []
+}

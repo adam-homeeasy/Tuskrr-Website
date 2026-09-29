@@ -1,0 +1,176 @@
+{
+ "cursorFollowers": [],
+ "videoMarks": {
+  "loaded": 8.4,
+  "circle": 11.9,
+  "flick": 13.6,
+  "scroll": 19.0
+ },
+ "hovers": [
+  {
+   "i": 0,
+   "sel": "a.nav-pill__link.t-mono",
+   "text": "NEW IN",
+   "top": 27,
+   "changes": []
+  },
+  {
+   "i": 1,
+   "sel": "button.nav-pill__link.t-mono",
+   "text": "WATCHES",
+   "top": 27,
+   "changes": []
+  },
+  {
+   "i": 2,
+   "sel": "a.header__cart.nav-pill__link.t-mono",
+   "text": "CART",
+   "top": 27,
+   "changes": [
+    {
+     "sel": "a.header__cart.nav-pill__link.t-mono",
+     "changes": {
+      "opacity": [
+       "1",
+       "0.6"
+      ]
+     }
+    },
+    {
+     "sel": "span.accent-dot",
+     "changes": {
+      "opacity": [
+       "0.680779",
+       "0.252307"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "sel": "a.slider__ctrl.slider__ctrl--boxed.t-eyebrow",
+   "text": "VIEW ALL",
+   "top": 557,
+   "changes": [
+    {
+     "sel": "a.slider__ctrl.slider__ctrl--boxed.t-eyebrow",
+     "changes": {
+      "color": [
+       "rgb(0, 0, 0)",
+       "rgb(255, 255, 255)"
+      ],
+      "bg": [
+       "rgba(0, 0, 0, 0)",
+       "rgb(0, 0, 0)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "sel": "button.slider__ctrl.slider__ctrl--boxed.t-eyebrow",
+   "text": "PREV",
+   "top": 557,
+   "changes": []
+  },
+  {
+   "i": 5,
+   "sel": "article.product-card",
+   "text": "41.5MM\nAUTOMATIC\nModello Uno U",
+   "top": 625,
+   "changes": [
+    {
+     "sel": "img.product-card__img",
+     "changes": {
+      "opacity": [
+       "1",
+       "0"
+      ]
+     }
+    },
+    {
+     "sel": "img.product-card__img.product-card__img--hover",
+     "changes": {
+      "opacity": [
+       "0",
+       "1"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "sel": "a.product-card__media",
+   "text": "41.5MM\nAUTOMATIC",
+   "top": 625,
+   "changes": [
+    {
+     "sel": "img.product-card__img",
+     "changes": {
+      "opacity": [
+       "1",
+       "0"
+      ]
+     }
+    },
+    {
+     "sel": "img.product-card__img.product-card__img--hover",
+     "changes": {
+      "opacity": [
+       "0",
+       "1"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "sel": "a.product-card__name",
+   "text": "Modello Uno U1-AEG",
+   "top": 1125,
+   "changes": []
+  },
+  {
+   "i": 8,
+   "sel": "a.product-card__swatch",
+   "text": "",
+   "top": 1188,
+   "changes": []
+  },
+  {
+   "i": 9,
+   "sel": "button.needsclick.go923694139.go4033861592",
+   "text": "Join the newsletter and get th",
+   "top": 5285,
+   "changes": [
+    {
+     "sel": "button.needsclick.go923694139.go4033861592",
+     "changes": {
+      "bg": [
+       "rgba(0, 0, 0, 0.7)",
+       "rgb(0, 0, 0)"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "i": 10,
+   "sel": "a",
+   "text": "Classic",
+   "top": 5466,
+   "changes": []
+  },
+  {
+   "i": 11,
+   "sel": "a.logo-blend",
+   "text": "",
+   "top": 25,
+   "changes": []
+  }
+ ]
+}

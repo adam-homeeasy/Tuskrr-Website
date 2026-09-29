@@ -1,0 +1,212 @@
+{
+ "cursorFollowers": [],
+ "videoMarks": {
+  "loaded": 9.1,
+  "circle": 12.3,
+  "flick": 13.9,
+  "scroll": 19.4
+ },
+ "hovers": [
+  {
+   "i": 0,
+   "sel": "a.skipToContent.u-p4",
+   "text": "Hoppa till inneh\u00e5ll",
+   "top": -36,
+   "changes": []
+  },
+  {
+   "i": 1,
+   "sel": "a.hoverLinks.u-p2.header-main-links",
+   "text": "Man",
+   "top": 44,
+   "changes": []
+  },
+  {
+   "i": 2,
+   "sel": "button.header-search-btn.u-p2.hot-spot-mini",
+   "text": "",
+   "top": 44,
+   "changes": []
+  },
+  {
+   "i": 3,
+   "sel": "a.header__link-item.fav-icon__wrapper",
+   "text": "",
+   "top": 43,
+   "changes": []
+  },
+  {
+   "i": 4,
+   "sel": "a.header-acc-btn.hot-spot-mini.u-s2",
+   "text": "",
+   "top": 44,
+   "changes": []
+  },
+  {
+   "i": 5,
+   "sel": "a.u-p3.header-cart-btn.hot-spot-mini",
+   "text": "",
+   "top": 44,
+   "changes": []
+  },
+  {
+   "i": 6,
+   "sel": "a.collection-showcase__item-link",
+   "text": "",
+   "top": 78,
+   "changes": []
+  },
+  {
+   "i": 7,
+   "sel": "a.Button.Button--TertiaryOnDark.adjustment",
+   "text": "SHOPPA NU",
+   "top": 403,
+   "changes": []
+  },
+  {
+   "i": 8,
+   "sel": "a.custom-image-gallery__link",
+   "text": "",
+   "top": 762,
+   "changes": []
+  },
+  {
+   "i": 9,
+   "sel": "a.pc__wrapper-link",
+   "text": "NYHET\nBARBOUR\nClassic Bedale V",
+   "top": 2003,
+   "changes": [
+    {
+     "sel": "div.pc__color-wrapper",
+     "changes": {
+      "opacity": [
+       "0",
+       "1"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "i": 10,
+   "sel": "button.u-pb1.pc__swiper-button--prev.swiperButton",
+   "text": "",
+   "top": 2212,
+   "changes": [
+    {
+     "sel": "button.u-pb1.pc__swiper-button--prev.swiperButton",
+     "changes": {
+      "opacity": [
+       "0",
+       "1"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "i": 11,
+   "sel": "button.u-pb1.pc__swiper-button--next.swiperButton",
+   "text": "",
+   "top": 2212,
+   "changes": [
+    {
+     "sel": "button.u-pb1.pc__swiper-button--next.swiperButton",
+     "changes": {
+      "opacity": [
+       "0.00598072",
+       "1"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "i": 12,
+   "sel": "button.product-card__favorites-container.toggle-favorites.hot-spot",
+   "text": "",
+   "top": 2013,
+   "changes": [
+    {
+     "sel": "button.product-card__favorites-container.toggle-favorites.hot-spot",
+     "changes": {
+      "opacity": [
+       "0.00599525",
+       "1"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "i": 13,
+   "sel": "div.swiperButton.swiperButtonPrevious.not_mobile",
+   "text": "",
+   "top": 2504,
+   "changes": []
+  },
+  {
+   "i": 14,
+   "sel": "div.swiperButton.swiperButtonNext.not_mobile",
+   "text": "",
+   "top": 2504,
+   "changes": []
+  },
+  {
+   "i": 15,
+   "sel": "a.Button.Button--TertiaryOnLight.adjustment",
+   "text": "SE HELA KOLLEKTIONEN",
+   "top": 3540,
+   "changes": []
+  },
+  {
+   "i": 16,
+   "sel": "button.Dropdown--Button.custom__dropdown-button",
+   "text": "OM OSS",
+   "top": 5526,
+   "changes": []
+  },
+  {
+   "i": 17,
+   "sel": "a.u-p2.hover-link.link-underline",
+   "text": "Om Str\u00f6ms",
+   "top": 5584,
+   "changes": []
+  },
+  {
+   "i": 18,
+   "sel": "button.newsletter__subscribe-button.u-p1.disabled",
+   "text": "Skicka",
+   "top": 5883,
+   "changes": []
+  },
+  {
+   "i": 19,
+   "sel": "a.u-p4.link-underline",
+   "text": "FACEBOOK",
+   "top": 5902,
+   "changes": []
+  },
+  {
+   "i": 20,
+   "sel": "button.RevolutionSelectbox--Button.localization-sel__btn",
+   "text": "Sverige",
+   "top": 6010,
+   "changes": []
+  },
+  {
+   "i": 21,
+   "sel": "a.footer-bottom--link.u-p4.link-underline",
+   "text": "ALLM\u00c4NNA VILLKOR",
+   "top": 6012,
+   "changes": []
+  },
+  {
+   "i": 22,
+   "sel": "a.u-p4",
+   "text": "COPYRIGHT \u00a9 2026 STR\u00d6MS MAN & ",
+   "top": 6012,
+   "changes": []
+  }
+ ]
+}

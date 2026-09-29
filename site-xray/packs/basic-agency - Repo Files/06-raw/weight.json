@@ -1,0 +1,158 @@
+{
+ "note": "uncompressed sizes; fps is cloud software rendering",
+ "byType": {
+  "document": {
+   "files": 1,
+   "kb": 180
+  },
+  "image": {
+   "files": 26,
+   "kb": 634
+  },
+  "stylesheet": {
+   "files": 4,
+   "kb": 275
+  },
+  "media": {
+   "files": 4,
+   "kb": 34372
+  },
+  "script": {
+   "files": 31,
+   "kb": 2194
+  },
+  "font": {
+   "files": 3,
+   "kb": 86
+  },
+  "fetch": {
+   "files": 38,
+   "kb": 10494
+  },
+  "other": {
+   "files": 9,
+   "kb": 1
+  }
+ },
+ "biggest": [
+  [
+   "tps://cdn.sanity.io/files/8nn8fua5/production/4c749533161fc77c899a376ec6cd6da38973772f.mp4",
+   "media",
+   24212
+  ],
+  [
+   "tps://cdn.sanity.io/files/8nn8fua5/production/c6fb986a862cbe643c40cbdd0318ebc495efb187.mp4",
+   "media",
+   7302
+  ],
+  [
+   "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/careers.json",
+   "fetch",
+   2618
+  ],
+  [
+   "tps://cdn.sanity.io/files/8nn8fua5/production/e4a840ba8dfeded08ac4d0ba6e930be56fc68e3b.mp4",
+   "media",
+   2122
+  ],
+  [
+   "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/blog.json",
+   "fetch",
+   1344
+  ],
+  [
+   "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/thinking.json",
+   "fetch",
+   1142
+  ],
+  [
+   "ttps://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/thinking/category/applied.json",
+   "fetch",
+   1142
+  ],
+  [
+   "s://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/thinking/category/brandbeats.json",
+   "fetch",
+   1142
+  ],
+  [
+   "https://acsbapp.com/apps/app/dist/js/app.js",
+   "script",
+   873
+  ],
+  [
+   "tps://cdn.sanity.io/files/8nn8fua5/production/9dc5a490bd877e8685f2089209db192188dd21e7.mp4",
+   "media",
+   736
+  ],
+  [
+   "cagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/case-studies/patagonia-ecommerce-website.json",
+   "fetch",
+   299
+  ],
+  [
+   "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/about.json",
+   "fetch",
+   250
+  ],
+  [
+   "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/services.json",
+   "fetch",
+   247
+  ],
+  [
+   "https://www.basicagency.com/_next/data/NBY3Z3Gi3bNyTGvp9UtAu/case-studies/wilson.json",
+   "fetch",
+   240
+  ],
+  [
+   "https://www.basicagency.com/_next/static/chunks/pages/_app-914905e04b225f99.js",
+   "script",
+   212
+  ],
+  [
+   "https://www.basicagency.com/_next/static/chunks/framework-2f1a8e17e74f15d6.js",
+   "script",
+   185
+  ],
+  [
+   "https://www.googletagmanager.com/gtag/js",
+   "script",
+   181
+  ],
+  [
+   "https://www.basicagency.com/",
+   "document",
+   180
+  ],
+  [
+   "https://www.googletagmanager.com/gtm.js",
+   "script",
+   160
+  ],
+  [
+   "https://www.basicagency.com/_next/static/css/81c1c90410e66ab0.css",
+   "stylesheet",
+   152
+  ],
+  [
+   "https://www.basicagency.com/_next/static/css/81c1c90410e66ab0.css",
+   "fetch",
+   152
+  ],
+  [
+   "https://www.googletagmanager.com/gtag/js",
+   "script",
+   149
+  ]
+ ],
+ "timing": {
+  "domContentLoadedMs": 992,
+  "loadMs": 993,
+  "paints": [
+   "first-paint:776",
+   "first-contentful-paint:776"
+  ]
+ },
+ "fpsAtTopCloud": 61
+}

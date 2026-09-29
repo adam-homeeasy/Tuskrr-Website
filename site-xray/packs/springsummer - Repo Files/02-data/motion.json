@@ -1,0 +1,746 @@
+{
+ "site": "https://springsummer.dk/",
+ "viewport": "1440x900",
+ "gsapFound": true,
+ "effects": [
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "",
+   "heading": "",
+   "element": "div.overlay-wipe",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "y": "100vh"
+   },
+   "durationS": 1.538,
+   "delayS": 0,
+   "ease": "fn:function(T){var b=l[T*f|0]||l[f-1];return b.nx<T&&(b=b.n),b.y+(T-b.x)/b.cx*b.cy}",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx001"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "",
+   "heading": "",
+   "element": "div.loader",
+   "sampleText": "Creating .xnduwhqpno-cls-1 { fill: #fff;",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "y": "100vh"
+   },
+   "durationS": 1.053,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx002"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "",
+   "heading": "",
+   "element": "div.loader",
+   "sampleText": "Creating .xnduwhqpno-cls-1 { fill: #fff;",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "opacity": 0
+   },
+   "durationS": 0.6,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx003"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "div#__nuxt",
+   "heading": "Areas of expertise",
+   "element": "div.page.index",
+   "sampleText": "Spring/Summer is a Copenhagen based stra",
+   "targets": 1,
+   "kind": "from",
+   "from": {
+    "y": "-10vh"
+   },
+   "to": "(element natural state)",
+   "durationS": 2,
+   "delayS": 0,
+   "ease": "fn:function(T){var b=l[T*f|0]||l[f-1];return b.nx<T&&(b=b.n),b.y+(T-b.x)/b.cx*b.cy}",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx004"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "on load",
+   "element": "div.layout.ts-h1-overwrite",
+   "sampleText": "CREATING FLAGSHIP STORES WEBSITES BRAND ",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "opacity": {
+     "from": 0,
+     "to": 1,
+     "startMs": 1712,
+     "durationMs": 55,
+     "accuracyMs": 17,
+     "settled": true,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx005"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "on load",
+   "element": "div.loader",
+   "sampleText": "CREATING FLAGSHIP STORES WEBSITES BRAND ",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "y": {
+     "from": -450,
+     "to": 324.76,
+     "startMs": 3758,
+     "durationMs": 854,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    },
+    "opacity": {
+     "from": 1,
+     "to": 0,
+     "startMs": 3775,
+     "durationMs": 837,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx006"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "on load",
+   "element": "div.lines",
+   "sampleText": "FLAGSHIP STORES",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "opacity": {
+     "from": 0,
+     "to": 0,
+     "startMs": 1712,
+     "durationMs": 403,
+     "accuracyMs": 17,
+     "settled": true,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx007"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "on load",
+   "element": "div.lines",
+   "sampleText": "LASTING IMPRESSIONS",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "opacity": {
+     "from": 0,
+     "to": 1,
+     "startMs": 3442,
+     "durationMs": 17,
+     "accuracyMs": 17,
+     "settled": true,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx008"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "on load",
+   "element": "span.border-icon.is-inverted.cursor-media",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "scale": {
+     "from": 1,
+     "to": 0,
+     "startMs": 831,
+     "durationMs": 251,
+     "accuracyMs": 17,
+     "settled": true,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx009"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "on load",
+   "element": "div.module-overlayed-item.align-v-top.placement-8",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "y": {
+     "from": -18,
+     "to": -87.25,
+     "startMs": 1113,
+     "durationMs": 569,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       1.0,
+       0.092,
+       1.0,
+       -0.379
+      ],
+      "rmsError": 0.0078,
+      "nearestNamed": "power4.in",
+      "nearestRms": 0.2091
+     }
+    }
+   },
+   "id": "fx010"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "on load",
+   "element": "div.module-media.align-h-right.cols-md-3",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "opacity": {
+     "from": 0,
+     "to": 1,
+     "startMs": 1192,
+     "durationMs": 424,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.094,
+       0.55,
+       0.0,
+       0.414
+      ],
+      "rmsError": 0.0472,
+      "nearestNamed": "power4.out",
+      "nearestRms": 0.1094
+     }
+    }
+   },
+   "id": "fx011"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 0",
+   "element": "div.module-media.align-h-right.cols-md-3",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "y": {
+     "from": 134.66,
+     "to": 21.34,
+     "startMs": 1001,
+     "durationMs": 601,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx012"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 0",
+   "element": "div.swiper-slide.swiper-slide-prev.module-carousel__slide",
+   "sampleText": "Nationalmuseet Designing a digital prese",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "opacity": {
+     "from": 0.187,
+     "to": 0,
+     "startMs": 304,
+     "durationMs": 318,
+     "accuracyMs": 17,
+     "settled": true,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx013"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 450",
+   "element": "div.module-media.align-h-right.cols-md-3",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "y": {
+     "from": 24.62,
+     "to": 33.73,
+     "startMs": 1,
+     "durationMs": 962,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.154,
+       1.055,
+       0.479,
+       0.975
+      ],
+      "rmsError": 0.0029,
+      "nearestNamed": "expo.out",
+      "nearestRms": 0.0327
+     }
+    }
+   },
+   "id": "fx014"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 450",
+   "element": "div.swiper-wrapper",
+   "sampleText": "Langelands Efterskole A Living Digital U",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "CSSTransition",
+     "dur": 1300,
+     "ease": "ease",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "x": {
+     "from": -2890,
+     "to": -2897.84,
+     "startMs": 1579,
+     "durationMs": 33,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx015"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 900",
+   "element": "div.module-media.align-h-right.cols-md-3",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "y": {
+     "from": 33.73,
+     "to": 41.37,
+     "startMs": 150,
+     "durationMs": 1603,
+     "accuracyMs": 288,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx016"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 900",
+   "element": "div.swiper-wrapper",
+   "sampleText": "Langelands Efterskole A Living Digital U",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "x": {
+     "from": -3165.77,
+     "to": -3468,
+     "startMs": 150,
+     "durationMs": 1315,
+     "accuracyMs": 288,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx017"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 900",
+   "element": "div.swiper-slide.module-carousel__slide",
+   "sampleText": "Nationalmuseet Designing a digital prese",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "opacity": {
+     "from": 0.256,
+     "to": 0.3,
+     "startMs": 150,
+     "durationMs": 409,
+     "accuracyMs": 288,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx018"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 900",
+   "element": "div.swiper-slide.swiper-slide-prev.module-carousel__slide",
+   "sampleText": "Implement Online Headquarters Websites P",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "opacity": {
+     "from": 1,
+     "to": 0,
+     "startMs": 559,
+     "durationMs": 906,
+     "accuracyMs": 288,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx019"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 900",
+   "element": "div.swiper-slide.swiper-slide-next.module-carousel__slide",
+   "sampleText": "NORR11 Online Flagship Store E-Commerce ",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "opacity": {
+     "from": 0.897,
+     "to": 1,
+     "startMs": 150,
+     "durationMs": 409,
+     "accuracyMs": 288,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx020"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 1350",
+   "element": "div.module-media.align-h-right.cols-md-3",
+   "sampleText": "",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "y": {
+     "from": 43.92,
+     "to": 95.83,
+     "startMs": 503,
+     "durationMs": 1105,
+     "accuracyMs": 17,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx021"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "fitted",
+   "when": "after scrolling to 2250",
+   "element": "div.swiper-wrapper",
+   "sampleText": "Langelands Efterskole A Living Digital U",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "x": {
+     "from": -3712.25,
+     "to": -4046,
+     "startMs": 220,
+     "durationMs": 969,
+     "accuracyMs": 17,
+     "settled": true,
+     "ease": {
+      "cubicBezier": [
+       0.141,
+       0.379,
+       0.367,
+       1.0
+      ],
+      "rmsError": 0.0012,
+      "nearestNamed": "power3.out",
+      "nearestRms": 0.0179
+     }
+    }
+   },
+   "id": "fx022"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 2250",
+   "element": "div.swiper-slide.module-carousel__slide",
+   "sampleText": "Implement Online Headquarters Websites P",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "opacity": {
+     "from": 0.23,
+     "to": 0.3,
+     "startMs": 220,
+     "durationMs": 184,
+     "accuracyMs": 17,
+     "settled": true,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx023"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 2250",
+   "element": "div.swiper-slide.swiper-slide-next.module-carousel__slide",
+   "sampleText": "Nitex Brand, Storytelling and Business I",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "opacity": {
+     "from": 0.838,
+     "to": 1,
+     "startMs": 220,
+     "durationMs": 184,
+     "accuracyMs": 17,
+     "settled": true,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx024"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 3600",
+   "element": "div.sweep.title-bar",
+   "sampleText": "CAN WE HELP YOU?",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "sweep",
+     "dur": 4884.125,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "x": {
+     "from": -40.02,
+     "to": -73.66,
+     "startMs": 359,
+     "durationMs": 1280,
+     "accuracyMs": 374,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx025"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 4050",
+   "element": "div.widget-element",
+   "sampleText": "Our Seasonal Newsletter Sign up for our ",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "y": {
+     "from": 118.59,
+     "to": 117.43,
+     "startMs": 541,
+     "durationMs": 1297,
+     "accuracyMs": 443,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx026"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 4050",
+   "element": "div.sweep.title-bar",
+   "sampleText": "CAN WE HELP YOU?",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "sweep",
+     "dur": 4884.125,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "x": {
+     "from": -82.4,
+     "to": -81.79,
+     "startMs": 541,
+     "durationMs": 1297,
+     "accuracyMs": 443,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx027"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 4097",
+   "element": "div.widget-element",
+   "sampleText": "Our Seasonal Newsletter Sign up for our ",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "y": {
+     "from": 117.69,
+     "to": 118.63,
+     "startMs": 678,
+     "durationMs": 1055,
+     "accuracyMs": 222,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx028"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 4097",
+   "element": "div.sweep.title-bar",
+   "sampleText": "CAN WE HELP YOU?",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "sweep",
+     "dur": 4884.125,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "x": {
+     "from": -72.39,
+     "to": -40.55,
+     "startMs": 522,
+     "durationMs": 1211,
+     "accuracyMs": 222,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx029"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 4097",
+   "element": "div.widget-element",
+   "sampleText": "Our Seasonal Newsletter Sign up for our ",
+   "framerName": null,
+   "cssAnimations": [],
+   "properties": {
+    "y": {
+     "from": 118.77,
+     "to": 119.41,
+     "startMs": 66,
+     "durationMs": 1872,
+     "accuracyMs": 215,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx030"
+  },
+  {
+   "source": "frame sampling",
+   "evidence": "inferred",
+   "when": "after scrolling to 4097",
+   "element": "div.sweep.title-bar",
+   "sampleText": "CAN WE HELP YOU?",
+   "framerName": null,
+   "cssAnimations": [
+    {
+     "name": "sweep",
+     "dur": 4884.125,
+     "ease": "linear",
+     "delay": 0
+    }
+   ],
+   "properties": {
+    "x": {
+     "from": -36.08,
+     "to": -0.82,
+     "startMs": 66,
+     "durationMs": 1872,
+     "accuracyMs": 215,
+     "settled": false,
+     "note": "loop, still running, or too few frames to fit"
+    }
+   },
+   "id": "fx031"
+  }
+ ]
+}

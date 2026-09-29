@@ -174,3 +174,104 @@ are samples; the rules-based finder stands in for asset F5.
 Headless Chromium notes: full-page screenshots drop embedded images (use
 viewport shots); a CSS `filter: blur()` band under an image layer rendered a
 dark box, so light bands are plain gradients.
+
+---
+
+# HANDOVER FOR THE NEXT THREAD (written 29 Sep 2026)
+
+Read this section first. It supersedes the "next task" section higher up.
+
+## What the user just said, and what it means
+
+After the eight direction sites were built, the user said: **"Not impressive at all. These are nothing like the ref sites."**
+They were right, and the cause is known: the eight sites in `brand-world/sites/` were built from
+each reference's shipped CSS and written descriptions, because the cloud browser could not open any
+HTTPS page at the time. So they borrow structure and pacing but not the look, type, layout or motion of the
+references. The user then asked for a full X-Ray of the eight references. That is now mostly done (below).
+
+**Do not rebuild anything until the user says go.** When they do, build from the teardowns in
+`site-xray/packs/*/01-teardown/`, not from memory or from the older `brand-world/references/DNA.md`.
+
+## What exists (all pushed to branch `claude/compassionate-volta-4pumrj`)
+
+| Thing | Where | State |
+|---|---|---|
+| Brand foundation + The Entrance | `brand-world/START-HERE.html`, `the-entrance.html` | Done earlier |
+| Direction library (8 directions) | `brand-world/website-directions.html` | Done; passes proof |
+| Assets and requirements (35 sets) | `brand-world/asset-requirements.html` | Done; passes proof |
+| Eight prototype sites with stock media | `brand-world/sites/*.html`, index at `sites/index.html` | Built, pass proof, **rejected by the user as not like the refs** |
+| Older reference numbers (from code only) | `brand-world/references/DNA.md`, `*/source.json` | Superseded by X-Ray for 5 sites |
+| **X-Ray teardowns** | `site-xray/packs/<site> - Repo Files/01-teardown/` | See table |
+| X-Ray scripts and runners | `site-xray/scripts/`, `site-xray/run-all.sh`, `run-parallel.sh` | Working, several bugs fixed |
+
+Only the light parts of each pack are committed (teardowns, `02-data`, `06-raw` JSON, contact sheets in
+`05-screens/sheets`). Assets, code bundles, full screenshots and video are gitignored; regenerate with
+`site-xray/run-all.sh` on a machine that can open the sites.
+
+## X-Ray status per reference
+
+| Reference (direction) | Teardown | What it found |
+|---|---|---|
+| hellohello OUTFIT (06 The Small Store) | **Written** | Giant red `#ff0001` OUTFIT wordmark on cream `#ede4dd`; Next 16, GSAP 3.14, Lenis 1.3, Motion 12. 4.4 s preloader: six tilted photos pop in, 000 to 100 counter, clip-path wipe. Hero letters rise in random order, 5 px rule draws (scaleX 0 to 1, 1.6 s expo.out), title 2.4 s expo.out from y 32. Product tiles: cover slides off, photo un-zooms from 1.4. Cyan `mix-blend-mode: difference` nav. Neue Haas Grotesk Text Pro (paid). |
+| BASIC/DEPT (01 The Reel) | **Written** | No GSAP/Lenis. Custom eased smooth scroll (easeOutQuint over 60 frames, sections moved by transform), whole-page colour flip bright/dark/bright on a 650 ms transition, pink DRAG and white WATCH REEL cursor discs (lerp 0.15 and 0.25), CSS hero curtain, animated film grain. Next 16.2, Sanity, Scto Grotesk A (paid). Videos would not paint in cloud Chromium. |
+| Spring/Summer (05 Six Readings) | **Written** (gaps filled after re-capture) | Nuxt/Vue 3.5, GSAP 3.13, Swiper, Mux. Row theme swap at viewport midpoint (0.4 s ease-out), word-cycling loader into a curtain wipe (nine words at 0.2 s, 2 s drop on cubic-bezier(.5,0,0,1)), 386 px WE WON headline, glass sidebar widgets with scroll lag (lerp 0.1). Page 4,997 px. |
+| Ströms (04 The Outfitter) | **Written** | Shopify theme "coi", about 45 web components, Swiper, instant.page, CSS View Transitions (0.2 s). Zero-gap editorial photo grid (24:10, 5:4, 1:1, 4:5), 1.05 zoom on hover over 0.4 s, product card that hides detail until hover, shoppable lookbook, 50 px sticky header with hairline draw, 3-level mega menu, scroll fade-ins 425 ms linear at IO 0.15. Akzidenz-Grotesk Pro (paid). |
+| UNIMATIC Impronte (07 Pressed In) | **Written** | Custom Shopify theme, native scroll, CSS sticky, 220 ms transitions. Frosted glass panels (white 60%, blur 15/30/60 px), stacking Highlights cards by CSS sticky only, dark photo band with sticky glass caption, packshot to wrist-shot hover swap, Helvetica Neue (paid) + JetBrains Mono. Note: the filmstrip/ticker/parallax tokens exist in CSS but belong to product pages, not this page. |
+| Bread & Boxers (08 Everyday Kit) | **Not done** | Partial pack only (probe, code, phone-390 map). On desktop the page stays 900 px tall and will not scroll in the cloud browser (Cookiebot dialog with unrendered `[#...#]` text, hydration mismatch, body overflow hidden). See its README. Needs a real browser. |
+| OFFFORM (03 The Roster) | **Blocked** | SiteGround robot challenge (`sg-captcha: challenge`). Not worked around. Only code-read values exist. See its `not-verified.md`. Needs the user's own browser. |
+| Brunello Cucinelli AI (02 The Host) | **Blocked** | Akamai "Access Denied" (HTTP 403) even from curl. No pack. Only public write-ups exist (makemepulse case study, press): over 30 interface blocks, three intent "receptors", contextual prompt bar, frosted glass, sketches. Needs the user's own browser. |
+
+Every teardown ends with a section "Why this reference matters for a leather-bag store" (5 bullets), and
+`recipes.md` has code sketches with the real numbers plus free lookalike fonts for each paid font.
+
+## Suggested next steps (ask the user first; do not start unprompted)
+
+1. Ask which direction(s) to rebuild first. Suggest starting with one where the teardown is complete and the
+   look is distinctive (hellohello OUTFIT is the richest; BASIC/DEPT and Spring/Summer next).
+2. Rebuild that one site **from its teardown**: copy layout, type scale, colours and every measured
+   duration, ease and stagger; then swap in Tuskrr content and one theme (The Entrance or Linear Wilderness,
+   never merged). Do not use the reference's images, copy or fonts. Substitute free lookalike fonts from recipes.md.
+3. Get the three missing references captured in the user's own browser (see scripts below), or agree to
+   drop them.
+4. Keep using licensed stock (Coverr, Mixkit, Burst) labelled as stand-ins. Run `brand-world/src/proof.mjs`
+   with `PROOF_ANY_EASE=1` on anything built.
+
+## Rules that still hold
+
+- Do not merge The Entrance and Linear Wilderness. Use they/them. No em or en dashes in copy.
+- Never claim things Tuskrr has not confirmed (no "hand pressed", "no small print", discounts, awards).
+  Confirmed: genuine leather, 3-year warranty, cash on delivery, initials on custom order ready in 2 weeks,
+  price band Rs 5,000 to 7,000. Prices, laptop sizes, returns policy and the people on The Roster are samples.
+- Label every image "Supplied render", "Stock stand-in" or "Drawn stand-in". Bags are the supplied renders;
+  never show a stock bag as Tuskrr's.
+- Reference sites are studied for structure and motion only. No images, fonts, copy or code reused.
+
+## Environment notes for a fresh container (things that cost time this session)
+
+- **Restarts wipe installed packages.** Reinstall: `pip install playwright==1.56.0 pillow numpy scipy imageio-ffmpeg`
+  (1.56.0 matches the preinstalled Chromium 1194; 1.56.1 does not exist on pip). Node Playwright is global at
+  `/opt/node22/lib/node_modules/playwright` (use `createRequire`).
+- **Chromium does not trust the session proxy's certificate by default** (its NSS store at `/root/.pki/nssdb`
+  is empty), so every HTTPS page fails with `ERR_CERT_AUTHORITY_INVALID`. Bypass flags such as
+  `--ignore-certificate-errors-spki-list` are blocked by the permission system and must not be used. What
+  the user approved this session ("1") was adding the proxy's own CA to the NSS store:
+  `apt-get update && apt-get install -y libnss3-tools`, then
+  `certutil -d sql:/root/.pki/nssdb -A -t "C,," -n ccr-agent-proxy -i /root/.ccr/agent-proxy-ca.crt`.
+  **Ask the user again in a new session before repeating it.** The CA file is regenerated on each container start.
+- **Never `pkill -f` or `pgrep -f` with a pattern that appears in your own command** (it matches and kills the
+  shell, exit 144). Find the PID with `ps -eo pid,args | grep ... | grep -v grep | grep -v "bash -c"`.
+- Full-page screenshots in headless Chromium drop embedded images; use viewport shots to review pages.
+- A capture stage that waits for the page to scroll can hang forever on a page that never scrolls; the
+  wheel loop in `xray.py` is now bounded.
+- Cookie banners: `xray.py` clicks the most restrictive option (Deny, necessary only), opening Cookiebot's
+  "Customize" panel first because it hides Deny; it never accepts all.
+- X-Ray runs take 5 to 15 minutes per site for these lighter pages (25 to 45 for 3D-heavy ones) and can run
+  three at a time on 4 cores: `site-xray/run-parallel.sh 3`. Brunello and OFFFORM are excluded from it.
+
+## Things I would flag to the next thread
+
+- The teardowns were written by helper agents from the packs; they carry evidence labels (measured, source
+  read, fitted, inferred) and a `not-verified.md` each. Spot-check numbers before relying on them for a build.
+- hellohello's hover diffs came back empty for all targets, so its hover values are source read, not measured.
+- BASIC/DEPT's real page height (about 10,308 px) is arithmetic because its videos would not paint.
+- Stale `06-raw/failures.txt` in the springsummer pack lists the map failure that was later fixed by re-running.

@@ -1,0 +1,309 @@
+{
+ "pageHeight1440": 6154,
+ "sections1440": [
+  {
+   "sel": "header.search-drawer__header",
+   "id": "",
+   "framer": null,
+   "top": 0,
+   "h": 0,
+   "bg": "rgb(253, 252, 251)",
+   "pos": "relative",
+   "pad": "0px 40px",
+   "heading": ""
+  },
+  {
+   "sel": "div#shopify-section-template--28564945600896__section_collection_showcase_4Mr8Cr.shopify-section",
+   "id": "shopify-section-template--28564945600896__section_collection_showcase_4Mr8Cr",
+   "framer": null,
+   "top": 78,
+   "h": 600,
+   "bg": "rgba(0, 0, 0, 0)",
+   "pos": "static",
+   "pad": "0px",
+   "heading": ""
+  },
+  {
+   "sel": "section#shopify-section-template--28564945600896__section_custom_image_gallery_yzC7X6.shopify-section",
+   "id": "shopify-section-template--28564945600896__section_custom_image_gallery_yzC7X6",
+   "framer": null,
+   "top": 738,
+   "h": 594,
+   "bg": "rgba(0, 0, 0, 0)",
+   "pos": "static",
+   "pad": "0px",
+   "heading": ""
+  },
+  {
+   "sel": "section#shopify-section-template--28564945600896__section_custom_image_gallery_qtybRC.shopify-section",
+   "id": "shopify-section-template--28564945600896__section_custom_image_gallery_qtybRC",
+   "framer": null,
+   "top": 1332,
+   "h": 586,
+   "bg": "rgba(0, 0, 0, 0)",
+   "pos": "static",
+   "pad": "0px",
+   "heading": ""
+  },
+  {
+   "sel": "div#shopify-section-template--28564945600896__section_product_carousel_FReMYg.shopify-section",
+   "id": "shopify-section-template--28564945600896__section_product_carousel_FReMYg",
+   "framer": null,
+   "top": 1977,
+   "h": 577,
+   "bg": "rgba(0, 0, 0, 0)",
+   "pos": "static",
+   "pad": "0px",
+   "heading": ""
+  },
+  {
+   "sel": "div#shopify-section-template--28564945600896__section_collection_showcase_zyyM7b.shopify-section",
+   "id": "shopify-section-template--28564945600896__section_collection_showcase_zyyM7b",
+   "framer": null,
+   "top": 2634,
+   "h": 720,
+   "bg": "rgba(0, 0, 0, 0)",
+   "pos": "static",
+   "pad": "0px",
+   "heading": ""
+  },
+  {
+   "sel": "div#shopify-section-template--28564945600896__section_lookbook_apU3NF.shopify-section",
+   "id": "shopify-section-template--28564945600896__section_lookbook_apU3NF",
+   "framer": null,
+   "top": 3434,
+   "h": 880,
+   "bg": "rgba(0, 0, 0, 0)",
+   "pos": "static",
+   "pad": "0px",
+   "heading": "Made by Str\u00f6ms"
+  },
+  {
+   "sel": "div#shopify-section-template--28564945600896__section_collection_showcase_A63KwB.shopify-section",
+   "id": "shopify-section-template--28564945600896__section_collection_showcase_A63KwB",
+   "framer": null,
+   "top": 4314,
+   "h": 450,
+   "bg": "rgba(0, 0, 0, 0)",
+   "pos": "static",
+   "pad": "0px",
+   "heading": ""
+  },
+  {
+   "sel": "div#shopify-section-template--28564945600896__section_collection_showcase_cjGgJT.shopify-section",
+   "id": "shopify-section-template--28564945600896__section_collection_showcase_cjGgJT",
+   "framer": null,
+   "top": 4862,
+   "h": 600,
+   "bg": "rgba(0, 0, 0, 0)",
+   "pos": "static",
+   "pad": "0px",
+   "heading": ""
+  },
+  {
+   "sel": "footer.footer.colorGroup--primary.animatedContent",
+   "id": "",
+   "framer": null,
+   "top": 5462,
+   "h": 692,
+   "bg": "rgba(0, 0, 0, 0)",
+   "pos": "static",
+   "pad": "0px",
+   "heading": ""
+  }
+ ],
+ "pixelRhythm1440": [
+  {
+   "scrollY": 0,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#735c2b|#a78951",
+    "#7c632e|#826732",
+    "#67542b|#665023",
+    "#3c3017|#6f5b30",
+    "#715f50|#fdfcfb"
+   ]
+  },
+  {
+   "scrollY": 300,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#6e5a2a|#685427",
+    "#534420|#765d2f",
+    "#fdfcfb|#fdfcfb",
+    "#927767|#fdfcfb",
+    "#a18f81|#fdfcfb"
+   ]
+  },
+  {
+   "scrollY": 600,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#fdfcfb|#fdfcfb",
+    "#675645|#fdfcfb",
+    "#907565|#fdfcfb",
+    "#ae9a8c|#fdfcfb",
+    "#18201b|#fdfcfb"
+   ]
+  },
+  {
+   "scrollY": 900,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#8f7462|#fdfcfb",
+    "#a18679|#fdfcfb",
+    "#101c18|#fdfcfb",
+    "#1b221a|#fdfcfb",
+    "#a5816b|#fdfcfb"
+   ]
+  },
+  {
+   "scrollY": 1200,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#ab998a|#fdfcfb",
+    "#18221c|#fdfcfb",
+    "#363427|#fdfcfb",
+    "#8d6750|#fdfcfb",
+    "#f5f5f5|#fdfcfb"
+   ]
+  },
+  {
+   "scrollY": 1500,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#171f18|#fdfcfb",
+    "#9f8169|#fdfcfb",
+    "#fdfcfb|#fdfcfb",
+    "#f5f5f5|#fdfcfb",
+    "#f5f5f5|#fdfcfb"
+   ]
+  },
+  {
+   "scrollY": 1800,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#a48a7a|#fdfcfb",
+    "#f5f5f5|#fdfcfb",
+    "#f5f5f5|#fdfcfb",
+    "#fdfcfb|#fdfcfb",
+    "#ffffff|#ffffff"
+   ]
+  },
+  {
+   "scrollY": 2100,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#f5f5f5|#fdfcfb",
+    "#f5f5f5|#fdfcfb",
+    "#fdfcfb|#fdfcfb",
+    "#302418|#c8d4de",
+    "#4f3220|#c2c8cb"
+   ]
+  },
+  {
+   "scrollY": 2400,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb",
+    "#382716|#cfd9e1",
+    "#3d2b1b|#c1c2bf",
+    "#443223|#b1afae"
+   ]
+  },
+  {
+   "scrollY": 2700,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#4e3823|#ccd8e1",
+    "#67452d|#c9d0d9",
+    "#2e1d0e|#b0b4b7",
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb"
+   ]
+  },
+  {
+   "scrollY": 3000,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#563c25|#bfbfbd",
+    "#4a3624|#b4b1b2",
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb"
+   ]
+  },
+  {
+   "scrollY": 3300,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb"
+   ]
+  },
+  {
+   "scrollY": 3600,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb",
+    "#2f251e|#bdb4b3"
+   ]
+  },
+  {
+   "scrollY": 3900,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb",
+    "#2b231b|#c7beba",
+    "#3b3022|#b3adab",
+    "#fdfcfb|#fdfcfb"
+   ]
+  },
+  {
+   "scrollY": 4200,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#fdfcfb|#fdfcfb",
+    "#28201c|#c3bbb7",
+    "#3a2c20|#afa9a4",
+    "#9e4224|#4f3c2e",
+    "#e8b47c|#8f5232"
+   ]
+  },
+  {
+   "scrollY": 4500,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#3a2b22|#b0aca6",
+    "#382b21|#aea5a4",
+    "#b47f4c|#6d4531",
+    "#b67f49|#0f0a0a",
+    "#554838|#35251b"
+   ]
+  },
+  {
+   "scrollY": 4800,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#7e3b20|#564431",
+    "#bc865d|#cd8862",
+    "#a05a35|#170d0b",
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb"
+   ]
+  },
+  {
+   "scrollY": 5100,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#a76632|#150e0e",
+    "#67442b|#130a09",
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb"
+   ]
+  },
+  {
+   "scrollY": 5254,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#6e4f3a|#2e211a",
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb",
+    "#fdfcfb|#fdfcfb"
+   ]
+  }
+ ],
+ "lenis": null,
+ "triggers": []
+}

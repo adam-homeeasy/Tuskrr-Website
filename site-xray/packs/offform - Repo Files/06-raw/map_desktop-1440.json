@@ -1,0 +1,102 @@
+{
+ "w": 1440,
+ "h": 900,
+ "height": 900,
+ "sections": [
+  {
+   "sel": "section",
+   "id": "",
+   "framer": null,
+   "top": 43,
+   "h": 621,
+   "bg": "rgba(0, 0, 0, 0)",
+   "pos": "static",
+   "pad": "0px",
+   "heading": "offform.net"
+  },
+  {
+   "sel": "footer",
+   "id": "",
+   "framer": null,
+   "top": 855,
+   "h": 45,
+   "bg": "rgb(255, 255, 255)",
+   "pos": "fixed",
+   "pad": "0px",
+   "heading": ""
+  }
+ ],
+ "tokens": {
+  "colors": [
+   {
+    "k": "text rgb(54, 54, 54)",
+    "n": 3,
+    "ex": [
+     "h1",
+     "p",
+     "p"
+    ]
+   },
+   {
+    "k": "bg rgb(255, 255, 255)",
+    "n": 1,
+    "ex": [
+     "footer"
+    ]
+   },
+   {
+    "k": "border 1px rgb(183, 183, 183)",
+    "n": 1,
+    "ex": [
+     "footer"
+    ]
+   }
+  ],
+  "type": [
+   {
+    "k": "Arial | 700 |  | 36px | 46px | normal | ",
+    "n": 1,
+    "ex": [
+     "h1 \"offform.net\""
+    ]
+   },
+   {
+    "k": "Arial | 400 |  | 18px | 28px | normal | ",
+    "n": 1,
+    "ex": [
+     "p \"Checking the site connection s\""
+    ]
+   },
+   {
+    "k": "Arial | 400 |  | 14px | 24px | normal | ",
+    "n": 1,
+    "ex": [
+     "p \"This page requires cookies to \""
+    ]
+   }
+  ],
+  "radii": [],
+  "shadows": [],
+  "blends": [],
+  "filters": [],
+  "vars": {},
+  "faces": [],
+  "media": [],
+  "keyframes": []
+ },
+ "stops": [
+  0
+ ],
+ "pixelRhythm": [
+  {
+   "scrollY": 0,
+   "edge|centre at 10/25/50/75/97% of viewport": [
+    "#ffffff|#dfecfc",
+    "#ffffff|#ffffff",
+    "#ffffff|#ffffff",
+    "#ffffff|#ffffff",
+    "#ffffff|#ffffff"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+[xray] probe: height 6154 canvases 0 tweens at load 0
+[xray] probe done in 16 s
+[xray] code: saved 33 scripts
+[xray] code done in 31 s
+[xray] bundle: modules saved 0
+[xray] bundle done in 0 s
+[xray] assets: 93 files, 2 fonts left out
+[xray] assets done in 60 s
+[xray] map desktop-1440 height 6154 sections 10 shots 19
+[xray] map done in 45 s
+[xray] map phone-390 height 8214 sections 10 shots 12
+[xray] phone done in 28 s
+[xray] motion: gsap tweens 0 triggers 0 | sampled moving elements 0 + load 2
+[xray] motion done in 43 s
+[xray] three: no canvases, skipped
+[xray] three done in 0 s
+[xray] pointer: cursor followers 0 hover targets 23 with changes 4
+[xray] pointer done in 79 s
+[xray] download failed https://stroms.com/xray-page-that-does-not-exist HTTP Error 404: Not Found
+[xray] states: opened 8 routes 11
+[xray] states done in 167 s
+[xray] responsive: no layout change found across widths
+[xray] responsive done in 134 s
+[xray] a11y: images without alt 0 contrast pairs 22
+[xray] a11y done in 14 s
+[xray] weight: {'document': 83, 'stylesheet': 40, 'script': 1133, 'font': 75, 'ping': 0, 'image': 5135, 'fetch': 15, 'other': 747, 'xhr': 0} fps 61
+[xray] weight done in 20 s
+[xray] sheets: 4
+[xray] sheets done in 3 s
+[xray] build: effects 2 (gsap 0 , sampled 2 )
+[xray] build done in 0 s

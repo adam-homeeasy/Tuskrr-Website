@@ -1,0 +1,137 @@
+{
+ "darkBodyBg": "rgba(0, 0, 0, 0)",
+ "prefersDarkRules": false,
+ "imgs": 138,
+ "noAlt": 0,
+ "emptyAlt": 93,
+ "srOnly": 0,
+ "ariaHidden": 196,
+ "skipLink": true,
+ "lang": "sv",
+ "landmarks": "header:1 nav:0 main:1 footer:1",
+ "headings": [
+  "H3 0 artiklar",
+  "H3 F\u00f6reslagna s\u00f6kningar",
+  "H3 Senaste s\u00f6kningar",
+  "H3 F\u00f6reslagna s\u00f6kningar",
+  "H2 Made by Str\u00f6ms"
+ ],
+ "focus": {
+  "el": "a",
+  "outline": "rgb(30, 36, 42) auto 1px",
+  "outlineOffset": "1px",
+  "boxShadow": "none"
+ },
+ "contrastPairs": [
+  {
+   "text": "#231f20",
+   "bg": "#efe9e3",
+   "ratio": 13.53
+  },
+  {
+   "text": "#231f20",
+   "bg": "#fdfcfb",
+   "ratio": 15.91
+  },
+  {
+   "text": "#231f20",
+   "bg": "#000000",
+   "ratio": 1.29
+  },
+  {
+   "text": "#231f20",
+   "bg": "#007aff",
+   "ratio": 4.06
+  },
+  {
+   "text": "#6c645c",
+   "bg": "#efe9e3",
+   "ratio": 4.82
+  },
+  {
+   "text": "#6c645c",
+   "bg": "#fdfcfb",
+   "ratio": 5.67
+  },
+  {
+   "text": "#6c645c",
+   "bg": "#000000",
+   "ratio": 3.62
+  },
+  {
+   "text": "#6c645c",
+   "bg": "#007aff",
+   "ratio": 1.45
+  },
+  {
+   "text": "#fdfcfb",
+   "bg": "#efe9e3",
+   "ratio": 1.18
+  },
+  {
+   "text": "#fdfcfb",
+   "bg": "#000000",
+   "ratio": 20.49
+  },
+  {
+   "text": "#fdfcfb",
+   "bg": "#007aff",
+   "ratio": 3.92
+  },
+  {
+   "text": "#a39c94",
+   "bg": "#efe9e3",
+   "ratio": 2.25
+  },
+  {
+   "text": "#a39c94",
+   "bg": "#fdfcfb",
+   "ratio": 2.65
+  },
+  {
+   "text": "#a39c94",
+   "bg": "#000000",
+   "ratio": 7.74
+  },
+  {
+   "text": "#a39c94",
+   "bg": "#007aff",
+   "ratio": 1.48
+  },
+  {
+   "text": "#000000",
+   "bg": "#efe9e3",
+   "ratio": 17.43
+  },
+  {
+   "text": "#000000",
+   "bg": "#fdfcfb",
+   "ratio": 20.49
+  },
+  {
+   "text": "#000000",
+   "bg": "#007aff",
+   "ratio": 5.23
+  },
+  {
+   "text": "#0000ee",
+   "bg": "#efe9e3",
+   "ratio": 7.8
+  },
+  {
+   "text": "#0000ee",
+   "bg": "#fdfcfb",
+   "ratio": 9.17
+  },
+  {
+   "text": "#0000ee",
+   "bg": "#000000",
+   "ratio": 2.23
+  },
+  {
+   "text": "#0000ee",
+   "bg": "#007aff",
+   "ratio": 2.34
+  }
+ ]
+}

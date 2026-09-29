@@ -1,0 +1,669 @@
+{
+ "site": "https://outfit.hellohello.is/",
+ "viewport": "1440x900",
+ "gsapFound": true,
+ "effects": [
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "main#page",
+   "heading": "OUTFIT",
+   "element": "a.group.block.is-inview",
+   "sampleText": "Neutral Grotesk $30.00 APPAREL",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {},
+   "durationS": 0.5,
+   "delayS": 0,
+   "ease": "fn:function(t){return 1-Math.pow(1-t,r)}",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx001"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "",
+   "heading": "",
+   "element": "img.absolute.aspect-[9/12].w-[30vw]",
+   "sampleText": "",
+   "targets": 6,
+   "kind": "fromTo",
+   "from": {
+    "scale": 0,
+    "rotate": 0
+   },
+   "to": {
+    "scale": 1,
+    "rotate": "fn:()=>r.default.utils.random(-20,20)",
+    "force3D": true
+   },
+   "durationS": 1.6,
+   "delayS": 0,
+   "ease": "power3.out",
+   "stagger": "{\"each\":0.2,\"from\":\"start\"}",
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx002"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "",
+   "heading": "",
+   "element": "path",
+   "sampleText": "",
+   "targets": 7,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 110
+   },
+   "to": {
+    "yPercent": 0,
+    "force3D": true
+   },
+   "durationS": 1.8,
+   "delayS": 0,
+   "ease": "power3.out",
+   "stagger": "{\"each\":0.2,\"from\":\"random\"}",
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx003"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "",
+   "heading": "",
+   "element": "span.dark:text-red.text-cream.block",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "innerText": "100",
+    "modifiers": "{}",
+    "force3D": true
+   },
+   "durationS": 3,
+   "delayS": 0,
+   "ease": "circ.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx004"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "",
+   "heading": "",
+   "element": "span.dark:text-red.text-cream.block",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "yPercent": -100,
+    "autoAlpha": 0,
+    "force3D": true
+   },
+   "durationS": 1,
+   "delayS": 0,
+   "ease": "circ.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx005"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "",
+   "heading": "",
+   "element": "path",
+   "sampleText": "",
+   "targets": 7,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "yPercent": -120,
+    "force3D": true
+   },
+   "durationS": 1.68,
+   "delayS": 0,
+   "ease": "expo.inOut",
+   "stagger": "{\"each\":0.08,\"from\":\"random\"}",
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx006"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "",
+   "heading": "",
+   "element": "img.absolute.aspect-[9/12].w-[30vw]",
+   "sampleText": "",
+   "targets": 6,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "scale": 0,
+    "rotate": "fn:()=>r.default.utils.random(-20,20)",
+    "force3D": true
+   },
+   "durationS": 1.1,
+   "delayS": 0,
+   "ease": "expo.inOut",
+   "stagger": "{\"each\":0.1,\"from\":\"end\"}",
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx007"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "",
+   "heading": "",
+   "element": "div.dark:bg-cream.text-cream.fixed",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "clipPath": "inset(0% 0% 100% 0%)",
+    "force3D": true
+   },
+   "durationS": 1.4,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx008"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "div#theme-switcher.fixed.top-[2.56rem].right-6",
+   "heading": "div#theme-switcher.fixed.top-[2.56rem].right-6",
+   "element": "span.absolute.top-0.left-0",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "x": 51,
+    "y": 7,
+    "backgroundColor": "#ede4dd",
+    "border": "none"
+   },
+   "durationS": 0.3,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx009"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "",
+   "heading": "",
+   "element": "a.link-hover.block.w-fit",
+   "sampleText": "",
+   "targets": 3,
+   "kind": "fromTo",
+   "from": {
+    "y": 0,
+    "autoAlpha": 1
+   },
+   "to": {
+    "y": -80,
+    "autoAlpha": 0
+   },
+   "durationS": 0.3,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": "{\"each\":0.05}",
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx010"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "",
+   "heading": "",
+   "element": "div.menu-footer.grid.grid-cols-8",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "autoAlpha": 1,
+    "y": 0
+   },
+   "to": {
+    "autoAlpha": 0,
+    "y": 80
+   },
+   "durationS": 0.2,
+   "delayS": 0,
+   "ease": "power2.inOut",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx011"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "",
+   "heading": "",
+   "element": "div.fixed.inset-0.z-[2]",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "clipPath": "polygon(0% 100%, 100% 100%, 100% 0%, 0% 0%)"
+   },
+   "to": {
+    "clipPath": "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)"
+   },
+   "durationS": 0.4,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx012"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "",
+   "heading": "",
+   "element": "span.absolute.top-0.left-0",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "x": 206,
+    "y": 30,
+    "backgroundColor": "#ede4dd",
+    "border": "1px solid #ede4dd"
+   },
+   "durationS": 0.3,
+   "delayS": 0,
+   "ease": "power2.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx013"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "main#page",
+   "heading": "OUTFIT",
+   "element": "path",
+   "sampleText": "",
+   "targets": 7,
+   "kind": "fromTo",
+   "from": {
+    "yPercent": 110
+   },
+   "to": {
+    "yPercent": 0
+   },
+   "durationS": 1.76,
+   "delayS": 0,
+   "ease": "power4.out",
+   "stagger": "{\"each\":0.06,\"from\":\"random\"}",
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx014"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "div#hero-line.mb-6.h-[5px].w-full",
+   "heading": "div#hero-line.mb-6.h-[5px].w-full",
+   "element": "div#hero-line.mb-6.h-[5px].w-full",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "scaleX": 0
+   },
+   "to": {
+    "scaleX": 1
+   },
+   "durationS": 1.6,
+   "delayS": 0,
+   "ease": "expo.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx015"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "h1#hero-title.uppercase",
+   "heading": "h1#hero-title.uppercase",
+   "element": "h1#hero-title.uppercase",
+   "sampleText": "OUTFIT",
+   "targets": 6,
+   "kind": "fromTo",
+   "from": {
+    "autoAlpha": 0,
+    "y": 32
+   },
+   "to": {
+    "autoAlpha": 1,
+    "y": 0
+   },
+   "durationS": 2.4,
+   "delayS": 0,
+   "ease": "expo.out",
+   "stagger": "{\"each\":0.2,\"from\":\"start\"}",
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx016"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "h2#hero-subtitle.mb-4.uppercase",
+   "heading": "h2#hero-subtitle.mb-4.uppercase",
+   "element": "h2#hero-subtitle.mb-4.uppercase",
+   "sampleText": "WHY",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "autoAlpha": 0,
+    "y": 32
+   },
+   "to": {
+    "autoAlpha": 1,
+    "y": 0
+   },
+   "durationS": 1.4,
+   "delayS": 0,
+   "ease": "expo.out",
+   "stagger": 0,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx017"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "a#hero-link.link-hover.max-w-fit.uppercase",
+   "heading": "a#hero-link.link-hover.max-w-fit.uppercase",
+   "element": "a#hero-link.link-hover.max-w-fit.uppercase",
+   "sampleText": "VISIT ++ WEBSITE",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "autoAlpha": 0,
+    "y": 32
+   },
+   "to": {
+    "autoAlpha": 1,
+    "y": 0
+   },
+   "durationS": 1.4,
+   "delayS": 0,
+   "ease": "expo.out",
+   "stagger": 0,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx018"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "a#hero-shipping-returns-link.link-hover.max-w-fit.uppercase",
+   "heading": "a#hero-shipping-returns-link.link-hover.max-w-fit.uppercase",
+   "element": "a#hero-shipping-returns-link.link-hover.max-w-fit.uppercase",
+   "sampleText": "SHIPPING & RETURNS",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "autoAlpha": 0,
+    "y": 32
+   },
+   "to": {
+    "autoAlpha": 1,
+    "y": 0
+   },
+   "durationS": 1.4,
+   "delayS": 0,
+   "ease": "expo.out",
+   "stagger": 0,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx019"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "div#hero-copyright.col-span-5.flex.justify-end",
+   "heading": "div#hero-copyright.col-span-5.flex.justify-end",
+   "element": "div#hero-copyright.col-span-5.flex.justify-end",
+   "sampleText": "\u00a9 2026",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "autoAlpha": 0,
+    "y": 32
+   },
+   "to": {
+    "autoAlpha": 1,
+    "y": 0
+   },
+   "durationS": 1.4,
+   "delayS": 0,
+   "ease": "expo.out",
+   "stagger": 0,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx020"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "div#hero-shipping-returns-link-mobile.col-span-8.inline-block.md:hidden",
+   "heading": "div#hero-shipping-returns-link-mobile.col-span-8.inline-block.md:hidden",
+   "element": "div#hero-shipping-returns-link-mobile.col-span-8.inline-block.md:hidden",
+   "sampleText": "Shipping & Returns",
+   "targets": 1,
+   "kind": "fromTo",
+   "from": {
+    "autoAlpha": 0,
+    "y": 32
+   },
+   "to": {
+    "autoAlpha": 1,
+    "y": 0
+   },
+   "durationS": 1.4,
+   "delayS": 0,
+   "ease": "expo.out",
+   "stagger": 0,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx021"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "",
+   "heading": "",
+   "element": "div.line",
+   "sampleText": "Created by the ++hellohello team, this s",
+   "targets": 3,
+   "kind": "fromTo",
+   "from": {
+    "autoAlpha": 0,
+    "yPercent": 100
+   },
+   "to": {
+    "autoAlpha": 1,
+    "yPercent": 0
+   },
+   "durationS": 2.1,
+   "delayS": 0,
+   "ease": "expo.out",
+   "stagger": 0.15,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx022"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "section.mb-34.grid.grid-cols-2",
+   "heading": "section.mb-34.grid.grid-cols-2",
+   "element": "a.group.block",
+   "sampleText": "Off by Design $36.50 APPAREL",
+   "targets": 4,
+   "kind": "fromTo",
+   "from": {
+    "autoAlpha": 0,
+    "y": "75%"
+   },
+   "to": {
+    "autoAlpha": 1,
+    "y": "0%"
+   },
+   "durationS": 1.44,
+   "delayS": 0.6,
+   "ease": "expo.out",
+   "stagger": "{\"each\":0.08}",
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx023"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "section.mb-34.grid.grid-cols-2",
+   "heading": "section.mb-34.grid.grid-cols-2",
+   "element": "div.absolute.inset-0.h-full",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "x": "100%"
+   },
+   "durationS": 0.8,
+   "delayS": 0,
+   "ease": "expo.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx024"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "section.mb-34.grid.grid-cols-2",
+   "heading": "section.mb-34.grid.grid-cols-2",
+   "element": "img.w-full.aspect-large.h-full",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "from",
+   "from": {
+    "scale": 1.4,
+    "x": "-50%"
+   },
+   "to": "(element natural state)",
+   "durationS": 0.8,
+   "delayS": 0,
+   "ease": "expo.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx025"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "main#page",
+   "heading": "OUTFIT",
+   "element": "div.absolute.inset-0.h-full",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "to",
+   "from": null,
+   "to": {
+    "x": "100%"
+   },
+   "durationS": 0.8,
+   "delayS": 0,
+   "ease": "expo.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx026"
+  },
+  {
+   "source": "gsap",
+   "evidence": "measured",
+   "section": "main#page",
+   "heading": "OUTFIT",
+   "element": "img.h-auto.w-full",
+   "sampleText": "",
+   "targets": 1,
+   "kind": "from",
+   "from": {
+    "scale": 1.4,
+    "x": "-50%"
+   },
+   "to": "(element natural state)",
+   "durationS": 0.8,
+   "delayS": 0,
+   "ease": "expo.out",
+   "stagger": null,
+   "repeat": null,
+   "yoyo": null,
+   "trigger": "load, state change or parent timeline",
+   "id": "fx027"
+  }
+ ]
+}

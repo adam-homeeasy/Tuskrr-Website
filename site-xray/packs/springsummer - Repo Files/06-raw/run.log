@@ -1,0 +1,56 @@
+[xray] probe: height 4187 canvases 0 tweens at load 28
+[xray] probe done in 16 s
+[xray] code: saved 19 scripts
+[xray] code done in 24 s
+[xray] bundle: modules saved 0
+[xray] bundle done in 0 s
+[xray] download failed https://springsummer.dk/_assets/_videos/catThumb.png HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/arrow-old-2.svg HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/arrow-old.svg HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/arrow.svg HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/cc.svg HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/dots.svg HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/email.svg HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/eye.svg HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/globe.svg HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/hand.svg HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/horizontal-arrow.svg HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/pause.svg HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/play.svg HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/plus.svg HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/star.svg HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/tick.svg HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/volume_off.svg HTTP Error 404: Not Found
+[xray] download failed https://springsummer.dk/assets/icons/volume_on.svg HTTP Error 404: Not Found
+[xray] assets: 28 files, 4 fonts left out
+[xray] assets done in 414 s
+[xray] STAGE FAILED: map: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'trim')
+    at eval (eval at evaluate (:290:30), <anonymous>:12:248)
+    at UtilityScript.evaluate (<anonymous>:297:18)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+[xray] map done in 13 s
+[xray] STAGE FAILED: phone: Page.evaluate: TypeError: Cannot read properties of undefined (reading 'trim')
+    at eval (eval at evaluate (:290:30), <anonymous>:12:248)
+    at UtilityScript.evaluate (<anonymous>:297:18)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+[xray] phone done in 12 s
+[xray] motion: gsap tweens 28 triggers 0 | sampled moving elements 38 + load 23
+[xray] motion done in 58 s
+[xray] three: compiled programs 0 custom kept 0
+[xray] three: renderers 0 material shaders 0
+[xray] three done in 36 s
+[xray] pointer: cursor followers 11 hover targets 17 with changes 0
+[xray] pointer done in 82 s
+[xray] download failed https://springsummer.dk/xray-page-that-does-not-exist HTTP Error 404: Not Found
+[xray] states: opened 6 routes 11
+[xray] states done in 147 s
+[xray] responsive: no layout change found across widths
+[xray] responsive done in 185 s
+[xray] a11y: images without alt 0 contrast pairs 0
+[xray] a11y done in 11 s
+[xray] weight: {'stylesheet': 56, 'document': 628, 'script': 3804, 'font': 148, 'image': 2586, 'other': 346, 'fetch': 47, 'xhr': 6} fps 6
+[xray] weight done in 17 s
+[xray] sheets: 1
+[xray] sheets done in 1 s
+[xray] build: effects 31 (gsap 4 , sampled 27 )
+[xray] build done in 0 s
