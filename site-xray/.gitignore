@@ -1,2 +1,2 @@
 # X-Ray packs are large and reference-only; commit deliberately (git add -f) once reviewed
-site-xray/packs/
+packs/
