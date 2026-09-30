@@ -1,3 +1,156 @@
+# Tuskrr: FULL HANDOVER (latest: 30 Sep 2026)
+
+Read this top section first, then everything below it. Nothing from earlier
+handovers has been removed: the older sections follow unchanged under
+"Earlier handover notes (unchanged)".
+
+## 0. Where to find everything
+
+- Repo: `adam-homeeasy/Tuskrr-Website`.
+- **The complete, current work is on branch `claude/vibrant-lovelace-qjy2sa`**
+  (same commits as `claude/compassionate-volta-4pumrj`, head `e9562d7`, plus this handover).
+- Other branches: `claude/ecstatic-cerf-eqi4ii` (older handover, brand rounds 1 and 2),
+  `claude/relaxed-heisenberg-swbygv`, `main` (does not have the brand world, directions,
+  sites or X-Ray work: 344 files and about 131,000 lines are ahead of `main`). No PR has been opened.
+
+## 1. Timeline of every thread so far
+
+1. **Brand round 1** (`1d5ff74`): three landscape worlds under the idea Linear Wilderness:
+   A Field Survey (contour map), B Quiet Architecture (vertical channels, carbon and concrete, gold S),
+   C High Ground (dusk ridgelines).
+2. **Brand round 2** (`2744842`): foundation page on the ICP and the tagline "Arrive like you mean it."
+   plus three city-first options: A The Entrance, B Monday to Monday, C Sharp Lines, Wild Heart.
+3. **Merge** (`bb939da`): The Entrance with Linear Wilderness merged in. **Rejected by the user.** Rule since then: never merge themes.
+4. **User uploads** (`3da647d`, `3998f24`, `6a6a3ad`): product names PDF, WhatsApp images and zip, and the
+   drinkstill.nz X-Ray pack at the repo root (folders `01-teardown` to `06-raw`, `README.md`).
+5. **Reference-sites session, 28 Sep** (`2ba3c44`): direction library (8 directions, one per reference) and
+   asset requirements (35 sets). Numbers read from shipped CSS only, because the cloud browser could not open HTTPS.
+6. **Eight prototype sites** (`c4065ad`, `eb8fc7f`, `0b59c5a`), one per direction, with labelled stock.
+   **Rejected by the user: "Not impressive at all. These are nothing like the ref sites."**
+7. **X-Ray session, 29 Sep** (`df23849` to `e9562d7`): X-Ray scripts, runners, fixes; teardowns for five references.
+8. **This session, 30 Sep**: user asked to use the teardowns and "build one website, just one of the ref websites",
+   but to check the direction first. I asked two questions (which reference, which theme). **The user answered
+   "Dont build. STOP" to both.** Nothing was built or changed. I pushed the branch so the work is on
+   `claude/vibrant-lovelace-qjy2sa`, then wrote this handover on request.
+
+## 2. Current status in one line
+
+**Nothing is being built. Waiting for the user to name ONE reference and ONE theme and say go.**
+
+## 3. The open decision (ask exactly this, do not guess)
+
+A. Which reference to rebuild as the single Tuskrr site. Only five have complete teardowns:
+
+| # | Reference | URL | Direction | Paired theme in the direction library |
+|---|---|---|---|---|
+| 06 | ++hellohello OUTFIT (richest teardown, recommended) | https://outfit.hellohello.is/ | The Small Store | Linear Wilderness, Field Survey |
+| 01 | BASIC/DEPT | https://www.basicagency.com/ | The Reel | The Entrance |
+| 05 | Spring/Summer | https://springsummer.dk/ | Six Readings | Linear Wilderness, Quiet Architecture |
+| 04 | Ströms, Man | https://stroms.com/pages/man | The Outfitter | The Entrance |
+| 07 | UNIMATIC Impronte | https://www.unimaticwatches.com/pages/impronte-collection | Pressed In | Linear Wilderness, Field Survey |
+
+Not available (no teardown): 08 Bread & Boxers (https://breadandboxers.com/se, partial pack, page will not
+scroll in cloud browser), 03 OFFFORM (https://offform.net/, SiteGround captcha), 02 Brunello Cucinelli AI
+(https://shop.brunellocucinelli.com/en-gb/ai, Akamai 403). These need the user's own browser.
+Also unresolved: whether drinkstill.nz (root pack) counts as a ninth reference.
+
+B. Which theme: the direction's paired theme, The Entrance, or Linear Wilderness (and if so which world:
+Field Survey, Quiet Architecture or High Ground). Never merged.
+
+## 4. Theme palettes and type (from `brand-world/src/directions-data.mjs`)
+
+- **Field Survey**: Survey Paper #ECE8DF, Sheet #F6F3EC, Field Ink #1B1C1A, Slate #2E4A4D, Cognac #8A4722,
+  Bearing Gold #8F6412, Contour #C9C1AF. Type: Archivo Condensed, Archivo, IBM Plex Mono.
+- **Quiet Architecture**: Carbon #121212, Graphite #1E1E1E, Concrete #D8D6D1, Bone #ECEAE6, Stone #9C988F,
+  Brass #C9A24A, Brass Deep #7A5F1E. Type: Instrument Sans Condensed, Instrument Sans.
+- **High Ground**: Bark #221610, Bark Light #2E1E16, Sand #EBDDC7, Dry Grass #B9A68C, Terracotta #D0603F,
+  Ember #E39A5B, Terracotta Deep #A2432A. Type: Instrument Serif, Hanken Grotesk.
+- **The Entrance**: see `brand-world/src/worlds.mjs` and `the-entrance.html` (round 2 option A as in `2744842`).
+- Fonts in repo (`brand-world/assets/fonts`, all OFL): Archivo var, Hanken Grotesk var, Instrument Sans var,
+  Instrument Serif 400 and italic, IBM Plex Mono 400 and 500.
+
+## 5. How the build must be done when the user says go
+
+1. Read that reference's `site-xray/packs/<site> - Repo Files/01-teardown/teardown.md`, `recipes.md`,
+   `not-verified.md` and the JSON in `02-data/` (tokens, motion, scroll-map, interactions-and-responsive).
+   Look at `05-screens/sheets/*.png` contact sheets. Spot-check numbers (teardowns were written by helper agents).
+2. Copy the reference's layout, type scale, spacing, colour logic and every measured duration, ease, stagger.
+   Do not reuse its images, copy, code or paid fonts; use the free lookalikes named in `recipes.md`.
+3. Swap in Tuskrr content (six bags, tagline, facts below) and one theme only.
+4. Media: supplied renders for bags (`brand-world/assets/img/*.jpg`, cutouts `brand-world/sites/media/cut-*.webp`);
+   licensed stock (Coverr, Mixkit, Burst; clips already in `brand-world/sites/media/`, credits in `credits.json`)
+   for mood only, never as a Tuskrr bag. Label every frame "Supplied render", "Stock stand-in" or "Drawn stand-in".
+5. Proof: `PROOF_ANY_EASE=1 PROOF_FILES=<file> node brand-world/src/proof.mjs` (contrast on real pixels,
+   overflow at 9 widths, 44 px taps, motion states, no dashes). Check viewport screenshots, not full-page.
+6. One self-contained HTML file. End with the "Not final" list.
+
+## 6. Teardown headlines per reference (full detail is in each pack)
+
+- **hellohello OUTFIT**: red #ff0001 OUTFIT wordmark on cream #ede4dd; Next 16, GSAP 3.14, Lenis 1.3, Motion 12;
+  4.4 s preloader (six tilted photos, 000 to 100 counter, clip-path wipe); hero letters rise in random order;
+  5 px rule scaleX 0 to 1 over 1.6 s expo.out; title 2.4 s expo.out from y 32; tiles: cover slides off, photo
+  un-zooms from 1.4; cyan mix-blend-mode difference nav; Neue Haas Grotesk Text Pro (paid). Hover values are
+  source read, not measured.
+- **BASIC/DEPT**: no GSAP/Lenis; custom smooth scroll (easeOutQuint over 60 frames, transform); page colour
+  flips bright/dark/bright on 650 ms; pink DRAG and white WATCH REEL cursor discs (lerp 0.15, 0.25); CSS hero
+  curtain; animated grain; Next 16.2, Sanity; Scto Grotesk A (paid). Videos did not paint; page height about
+  10,308 px is arithmetic.
+- **Spring/Summer**: Nuxt/Vue 3.5, GSAP 3.13, Swiper, Mux; row theme swap at viewport midpoint (0.4 s ease-out);
+  loader cycles nine words at 0.2 s then 2 s curtain drop on cubic-bezier(.5,0,0,1); 386 px WE WON headline;
+  glass sidebar widgets lagging scroll (lerp 0.1); page 4,997 px. Stale `06-raw/failures.txt` (fixed by re-run).
+- **Ströms**: Shopify theme "coi", about 45 web components, Swiper, instant.page, View Transitions 0.2 s;
+  zero-gap photo grid (24:10, 5:4, 1:1, 4:5); hover zoom 1.05 over 0.4 s; card hides detail until hover;
+  shoppable lookbook; 50 px sticky header with hairline draw; 3-level mega menu; fade-ins 425 ms linear at IO 0.15;
+  Akzidenz-Grotesk Pro (paid).
+- **UNIMATIC Impronte**: custom Shopify, native scroll, CSS sticky, 220 ms transitions; frosted glass (white 60%,
+  blur 15/30/60 px); stacking Highlights cards by CSS sticky only; dark photo band with sticky glass caption;
+  packshot to wrist-shot hover swap; Helvetica Neue (paid) + JetBrains Mono. Filmstrip/ticker/parallax tokens
+  belong to product pages, not this page.
+
+## 7. Client facts (locked) and honesty rules
+
+Tuskrr: leather work and everyday bags. Tagline "Arrive like you mean it." (IP India search pending).
+Idea: Linear Wilderness. ICP: early-career climber 24 to 34, metro India (Bengaluru, Mumbai, Delhi NCR, Pune,
+Hyderabad). Gift givers and corporate gifting (STRATA, CONTOUR). Price Rs 5,000 to 7,000. India first, direct
+online (Instagram-led, phone) and gifting. Confirmed: genuine leather, 3-year warranty, cash on delivery,
+initials embossing on custom order ready in 2 weeks (price not given). No Diwali page. Samples only: prices,
+laptop sizes, returns, roster people. Never claim: hand pressed, no small print, discounts, awards, reviews.
+Products in order: RIDGE, TRAVERSE, STRATA, CREST, AXIS, CONTOUR (lines in section below).
+Style: they/them, unisex, no em or en dashes in copy, taps at least 44 px, no horizontal scroll.
+
+## 8. Complete file inventory (tracked)
+
+- Root: `README.md` (drinkstill.nz pack readme), `01-teardown/` to `06-raw/` (drinkstill.nz pack; `03-assets`
+  holds STILL's images, can.glb, CC0 HDRI; reference only, keep repo private), `Tuskrr Product Names copy.pdf`,
+  five `WhatsApp Image 2026-09-28 at 2.04.37 to 2.04.41 PM.jpeg`, `WhatsApp Unknown 2026-09-28 at 3.09.58 PM.zip`
+  (11 more WhatsApp images, 2.04.41 to 2.04.46 PM).
+- `brand-world/`: `HANDOVER.md` (this), `README.md`, `HOW TO OPEN.txt`, `START-HERE.html`, `the-entrance.html`,
+  `website-directions.html`, `asset-requirements.html`; `assets/fonts` (7 files), `assets/img` (12 files: 6 product renders,
+  monogram/wordmark JPEGs black and white, transparent logo PNGs); `references/` (`DNA.md`, `README.md`,
+  `measure.mjs`, `read-source.py`, `source.json` for all 8 references; superseded by X-Ray for 5);
+  `src/` (`build.mjs`, `directions-data.mjs`, `directions.mjs`, `extract-logos.mjs`, `proof.mjs`, `sections.mjs`,
+  `shared.mjs`, `start-here.mjs`, `the-entrance.mjs`, `worlds.mjs`).
+- `brand-world/sites/`: the eight rejected prototypes `01-the-reel.html` to `08-everyday-kit.html`, `index.html`;
+  `media/` (30 stock clips as mp4 with posters and stills, 5 `p-*.jpg` photos, 6 `cut-*.webp`, `credits.json`);
+  `src/` (`build-sites.mjs`, `index-page.mjs`, `kit.mjs`, `s01-reel.mjs` to `s08-kit.mjs`, `media.py`,
+  `cutout.py`, `stock-search.py`).
+- `site-xray/`: `.gitignore`, `run-all.sh`, `run-parallel.sh`, `scripts/` (`xray.py`, `inject.js`,
+  `dump_motion.js`, `dump_three.js`, `sample_motion.js`), `packs/` for basic-agency, hellohello-outfit,
+  springsummer, stroms-man, unimatic-impronte (each: README, 01-teardown x3, 02-data, 05-screens/sheets, 06-raw),
+  offform (README, not-verified, 06-raw), bread-and-boxers (README, 06-raw). Heavy assets are gitignored;
+  regenerate with `site-xray/run-all.sh` or `run-parallel.sh 3`.
+
+## 9. Environment (fresh container)
+
+Node 22; Playwright global at `/opt/node22/lib/node_modules/playwright` (use `createRequire`); Chromium at
+`/opt/pw-browsers`. Python: `pip install playwright==1.56.0 pillow numpy scipy imageio-ffmpeg`.
+Chromium HTTPS needs the proxy CA in NSS (ask the user first each session; command below). Never use
+certificate-bypass flags. Never `pkill -f` a pattern present in your own command. Full details below.
+
+---
+
+# Earlier handover notes (unchanged)
+
 # Tuskrr: handover for the next session
 
 The next job is to **work with reference websites the user will provide**. Read
