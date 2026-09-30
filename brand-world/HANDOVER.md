@@ -10,7 +10,7 @@ handovers has been removed: the older sections follow unchanged under
 - **The complete, current work is on branch `claude/vibrant-lovelace-qjy2sa`**
   (same commits as `claude/compassionate-volta-4pumrj`, head `e9562d7`, plus this handover).
 - Other branches: `claude/ecstatic-cerf-eqi4ii` (older handover, brand rounds 1 and 2),
-  `claude/relaxed-heisenberg-swbygv`, `main` (does not have the brand world, directions,
+  `claude/relaxed-heisenberg-swbygv` (a drinkstill-based Tuskrr site, see section 10a), `main` (does not have the brand world, directions,
   sites or X-Ray work: 344 files and about 131,000 lines are ahead of `main`). No PR has been opened.
 
 ## 1. Timeline of every thread so far
@@ -146,6 +146,55 @@ Node 22; Playwright global at `/opt/node22/lib/node_modules/playwright` (use `cr
 `/opt/pw-browsers`. Python: `pip install playwright==1.56.0 pillow numpy scipy imageio-ffmpeg`.
 Chromium HTTPS needs the proxy CA in NSS (ask the user first each session; command below). Never use
 certificate-bypass flags. Never `pkill -f` a pattern present in your own command. Full details below.
+
+## 10. Work on OTHER branches (missing from earlier handovers, read this)
+
+### 10a. A Tuskrr site already built on the drinkstill.nz teardown (branch `claude/relaxed-heisenberg-swbygv`)
+
+Built 28 Sep 2026 in a separate session, from the root drinkstill.nz pack. Never mentioned in the other
+handovers, never merged, and the user has not reviewed it on record. Commits:
+- `db2210a` Build the Tuskrr site on the drinkstill.nz teardown: one-page site in `site/`, porting STILL's
+  mechanics and rhythm to The Entrance: preloader to hero wordmark handoff, cursor lens over the wordmark,
+  pinned and snapping stages for the six bags, the four promises, "a day in five entrances", scroll-speed
+  marquees, gift rows with a cursor-following preview, cards, bag drawer, notify form. Every motion value from
+  `01-teardown`; `site/SPEC.md` maps each STILL zone to its Tuskrr counterpart and lists what changed. Copy in
+  `site/src/content.mjs`, built to `index.html` and `404.html` by `site/src/build.mjs`. Bags cut from the
+  supplied photos, wordmark and monogram traced to SVG (`site/src/tools/cutouts.py`, `trace-logo.py`), OFL fonts,
+  GSAP, ScrollTrigger, SplitText and Lenis vendored in `site/vendor/` (no outside requests). Below 768 px: swipe
+  carousels, no pins. Reduced motion honoured. No STILL asset, font or copy used.
+- `73d5e8a` Single-file build `site/tuskrr.html` (everything inlined, each image embedded once).
+- `4d9f2d5` Two more palettes of the same page, each its own page and single file:
+  B Quiet Architecture (`architecture.html`, `tuskrr-architecture.html`: graphite, carbon, bone type, stone,
+  brass only accent) and C The Entrance (`entrance.html`, `tuskrr-entrance.html`: room and night, bone, smoke,
+  cognac, brass, warm threshold light). Bone direction is `index.html` / `tuskrr.html`. Stylesheet runs on theme
+  tokens via `data-theme`; contrast fixed for dark grounds.
+- View it: `git checkout origin/claude/relaxed-heisenberg-swbygv -- site/` or open `site/tuskrr*.html` on that branch.
+- Open question for the user: does this drinkstill-based build count, and was it seen and rejected with the others?
+
+### 10b. Older handover on `claude/ecstatic-cerf-eqi4ii`
+
+Identical to the earlier notes below except one line: "**Do not act until the user says go.** Last instruction:
+'Don't do anything.'" That rule still stands, and today the user again said "Dont build. STOP".
+
+## 11. Leftover teardowns still required (3 of 8, plus one question)
+
+None can be done from the cloud container; they need a normal browser on the user's own machine (or the user's
+OK to try again here). For each, the command is
+`python3 site-xray/scripts/xray.py all "<url>" "site-xray/packs/<slug> - Repo Files"`
+(or `site-xray/run-all.sh` for all), then write `01-teardown/teardown.md`, `recipes.md`, `not-verified.md` per
+the `site-xray` skill, same 11 sections as the other five (Header, Summary, Page map, Colours, Type, Components,
+Motion by section, 3D, Responsive, Accessibility/meta, Page weight), ending with "Why this reference matters for
+a leather-bag store" and free lookalike fonts.
+
+| Reference | Direction | What exists | What blocks it | Known from code only (unverified) |
+|---|---|---|---|---|
+| Bread & Boxers, https://breadandboxers.com/se | 08 Everyday Kit (High Ground) | Partial pack: probe, code, bundle, phone-390 map (5,411 px, 8 screenshots), part of assets. No teardown | Desktop stays 900 px and will not scroll: Cookiebot dialog with unrendered `[#...#]` text, hydration mismatch, body overflow hidden | `brand-world/references/bread-and-boxers/source.json` |
+| OFFFORM, https://offform.net/ | 03 The Roster (The Entrance) | `not-verified.md` only | SiteGround robot challenge (`sg-captcha: challenge`), not worked around | WordPress, jQuery, Lenis, 15 canvases; hero `clip-path inset(0 0 100% 0)` to `inset(0)` 0.65 s cubic-bezier(0.76,0,0.24,1); UI 0.35 s cubic-bezier(0.22,1,0.36,1); stagger 0.04 s; ground #0b0b0b; accent #ff4fd8; 9 and 10 px uppercase mono |
+| Brunello Cucinelli AI, https://shop.brunellocucinelli.com/en-gb/ai | 02 The Host (The Entrance) | No pack at all | Akamai "Access Denied" 403, even from curl | Public write-ups only (makemepulse case study, press): over 30 interface blocks, three intent "receptors", contextual prompt bar, frosted glass, sketches. Direction uses the house motion contract |
+| drinkstill.nz (root pack) | none yet | Full pack at repo root, already used by 10a | Nothing | Question: is it the ninth reference? |
+
+Also still to verify in the five finished packs: hellohello hover values (source read), BASIC/DEPT real page
+height and video frames (videos would not paint), stale `failures.txt` in springsummer.
 
 ---
 
